@@ -152,30 +152,31 @@ function renderOverview(container, d) {
 
   container.innerHTML = `
     <div class="dashboard-grid stagger-children">
-      <!-- High impact diagnostics -->
-      <div class="card stat-card col-span-3 card-accent-purple animate-scale-in">
-        <div class="stat-icon purple">📊</div>
-        <span class="stat-label">Total Jobs Scanned</span>
-        <span class="stat-value gradient">${d.stats.total_jobs.toLocaleString()}</span>
-        <span class="stat-change positive">5,347 JDs</span>
-      </div>
-      <div class="card stat-card col-span-3 card-accent-cyan animate-scale-in">
-        <div class="stat-icon cyan">🏢</div>
-        <span class="stat-label">Hiring Networks</span>
-        <span class="stat-value">${d.stats.unique_companies.toLocaleString()}</span>
-        <span class="stat-change positive">Active Firms</span>
-      </div>
-      <div class="card stat-card col-span-3 card-accent-warm animate-scale-in">
-        <div class="stat-icon pink">💰</div>
-        <span class="stat-label">Average LPA Benchmark</span>
-        <span class="stat-value">₹${d.stats.avg_salary}L</span>
-        <span class="stat-change positive">Market Trend Avg</span>
-      </div>
-      <div class="card stat-card col-span-3 card-accent-cyan animate-scale-in">
-        <div class="stat-icon gold">⚡</div>
-        <span class="stat-label">Specialist Skill Gap</span>
-        <span class="stat-value">${d.skill_frequency[0].skill}</span>
-        <span class="stat-change positive">Top Market Skill</span>
+      <!-- Premium Hero Banner -->
+      <div class="card col-span-12 flex-between animate-scale-in" style="
+        background: linear-gradient(135deg, rgba(168, 85, 247, 0.12) 0%, rgba(6, 182, 212, 0.04) 100%);
+        border: 1px solid rgba(168, 85, 247, 0.3);
+        box-shadow: 0 0 40px rgba(168, 85, 247, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        padding: 2.5rem;
+        border-radius: var(--radius-xl);
+        margin-bottom: 0.5rem;
+      ">
+        <div>
+          <div class="badge badge-primary text-mono mb-3" style="font-size: 0.75rem;">LIVE MARKET TELEMETRY</div>
+          <h2 style="font-size: clamp(2rem, 3vw, 2.8rem); font-weight: 800; line-height: 1.1; margin-bottom: 1rem;">
+            Analyzing <span class="text-gradient">${d.stats.total_jobs.toLocaleString()}</span> roles across <br>
+            <span style="color:var(--accent-secondary);">${d.stats.unique_companies.toLocaleString()}</span> hiring networks.
+          </h2>
+          <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 500px;">
+            The engine is currently tracking ${d.stats.unique_skills} distinct tech competencies. Top market gap identified: <strong>${d.skill_frequency[0].skill}</strong>.
+          </p>
+        </div>
+        
+        <div style="text-align: right; border-left: 1px solid var(--border-light); padding-left: 3rem;">
+          <div class="stat-label mb-2">CURRENT MARKET AVERAGE</div>
+          <div class="stat-value gradient" style="font-size: 4rem; line-height: 1;">₹${(d.stats.avg_salary).toFixed(1)}L</div>
+          <div class="badge badge-live mt-3" style="padding: 0.4rem 1rem;">Updated 2024 Market Sync</div>
+        </div>
       </div>
 
       <!-- High quality graphs -->
