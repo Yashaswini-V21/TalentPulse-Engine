@@ -1,0 +1,393 @@
+skill_pair,co_occurrences,avg_salary,salary_source
+Python + Statistics,3,23.67,disclosed_only
+Databricks + Power BI,7,22.75,all_including_estimated
+Machine Learning + Statistics,3,22.33,disclosed_only
+Data Modeling + Databricks,5,21.54,all_including_estimated
+NLP + SAS,8,21.51,all_including_estimated
+Git + SAS,9,20.99,all_including_estimated
+Azure + NLP,9,20.59,all_including_estimated
+Data Modeling + Kafka,7,20.41,all_including_estimated
+Airflow + Snowflake,7,20.25,all_including_estimated
+R + Scala,10,20.14,all_including_estimated
+Databricks + Snowflake,5,20.07,all_including_estimated
+GCP + Kafka,6,19.83,all_including_estimated
+NLP + Spark,30,19.81,all_including_estimated
+Docker + Java,13,19.74,all_including_estimated
+Java + Snowflake,11,19.68,all_including_estimated
+NLP + R,21,19.64,all_including_estimated
+Azure + Excel,6,19.35,all_including_estimated
+ETL + MongoDB,5,19.31,all_including_estimated
+Spark + TensorFlow,16,19.21,all_including_estimated
+ETL + NLP,9,19.14,all_including_estimated
+Databricks + ETL,27,19.12,all_including_estimated
+Azure + Statistics,5,19.11,all_including_estimated
+Agile + MongoDB,9,19.07,all_including_estimated
+Python + Snowflake,29,19.03,all_including_estimated
+Azure + Tableau,19,18.99,all_including_estimated
+Snowflake + Spark,21,18.99,all_including_estimated
+APIs + Kafka,11,18.91,all_including_estimated
+Airflow + Databricks,7,18.85,all_including_estimated
+AWS + Data Modeling,29,18.84,all_including_estimated
+Git + Tableau,6,18.81,all_including_estimated
+Docker + ETL,6,18.76,all_including_estimated
+Azure + Data Visualization,6,18.7,all_including_estimated
+Azure + Databricks,97,18.7,all_including_estimated
+NoSQL + Statistics,6,18.64,all_including_estimated
+Databricks + Java,11,18.61,all_including_estimated
+SQL + TensorFlow,8,18.54,all_including_estimated
+Git + Statistics,11,18.53,all_including_estimated
+Databricks + Spark,59,18.51,all_including_estimated
+Machine Learning + Python,4,18.5,disclosed_only
+Azure + Machine Learning,53,18.4,all_including_estimated
+Azure + Java,70,18.39,all_including_estimated
+Data Modeling + Snowflake,9,18.39,all_including_estimated
+Docker + GCP,10,18.36,all_including_estimated
+GCP + MongoDB,5,18.35,all_including_estimated
+SQL + Snowflake,35,18.33,all_including_estimated
+Azure + Snowflake,17,18.32,all_including_estimated
+Azure + GCP,34,18.29,all_including_estimated
+ETL + Scala,35,18.2,all_including_estimated
+Agile + GCP,24,18.2,all_including_estimated
+Machine Learning + Spark,193,18.13,all_including_estimated
+APIs + Scala,8,18.08,all_including_estimated
+GCP + Java,36,18.08,all_including_estimated
+Azure + Data Modeling,28,18.07,all_including_estimated
+Java + NLP,12,18.0,all_including_estimated
+AWS + Snowflake,30,18.0,all_including_estimated
+Azure + Power BI,32,17.99,all_including_estimated
+AWS + GCP,34,17.94,all_including_estimated
+R + Spark,63,17.93,all_including_estimated
+Databricks + SQL,51,17.92,all_including_estimated
+C++ + Spark,14,17.91,all_including_estimated
+GCP + NLP,7,17.89,all_including_estimated
+Kafka + Scala,42,17.69,all_including_estimated
+Airflow + Docker,7,17.68,all_including_estimated
+Agile + Azure,32,17.68,all_including_estimated
+Java + Power BI,10,17.67,all_including_estimated
+ETL + Java,57,17.65,all_including_estimated
+C++ + R,7,17.65,all_including_estimated
+ETL + GCP,25,17.64,all_including_estimated
+GCP + R,6,17.62,all_including_estimated
+Databricks + Scala,13,17.62,all_including_estimated
+NLP + Statistics,14,17.6,all_including_estimated
+Agile + Machine Learning,61,17.58,all_including_estimated
+ETL + Snowflake,21,17.57,all_including_estimated
+Git + Kafka,8,17.55,all_including_estimated
+Communication + Statistics,8,17.54,all_including_estimated
+AWS + NLP,10,17.51,all_including_estimated
+APIs + Spark,29,17.51,all_including_estimated
+ETL + NoSQL,31,17.48,all_including_estimated
+NoSQL + NumPy,5,17.47,all_including_estimated
+Azure + ETL,96,17.46,all_including_estimated
+Agile + Scala,26,17.43,all_including_estimated
+Azure + TensorFlow,8,17.42,all_including_estimated
+Azure + R,21,17.4,all_including_estimated
+R + TensorFlow,10,17.37,all_including_estimated
+Azure + SQL,207,17.34,all_including_estimated
+Agile + Kafka,8,17.32,all_including_estimated
+Java + Machine Learning,94,17.32,all_including_estimated
+AWS + Git,26,17.31,all_including_estimated
+Azure + Docker,16,17.3,all_including_estimated
+NoSQL + TensorFlow,6,17.27,all_including_estimated
+Data Modeling + SAS,7,17.27,all_including_estimated
+Airflow + Data Modeling,8,17.27,all_including_estimated
+ETL + Spark,184,17.26,all_including_estimated
+Docker + Kafka,6,17.25,all_including_estimated
+Azure + Spark,242,17.24,all_including_estimated
+NLP + SQL,19,17.22,all_including_estimated
+Data Visualization + Statistics,11,17.21,all_including_estimated
+ETL + Kafka,28,17.19,all_including_estimated
+Java + Kafka,41,17.18,all_including_estimated
+Git + R,8,17.18,all_including_estimated
+Agile + NoSQL,41,17.18,all_including_estimated
+Databricks + Python,44,17.17,all_including_estimated
+Airflow + Azure,13,17.17,all_including_estimated
+Kafka + NoSQL,24,17.14,all_including_estimated
+Machine Learning + NLP,4,17.12,disclosed_only
+Power BI + Scala,7,17.12,all_including_estimated
+Databricks + Kafka,8,17.1,all_including_estimated
+Docker + SQL,20,17.08,all_including_estimated
+NumPy + Spark,8,17.08,all_including_estimated
+Data Visualization + ETL,15,17.07,all_including_estimated
+GCP + NoSQL,21,17.06,all_including_estimated
+Power BI + Spark,49,17.06,all_including_estimated
+Machine Learning + NoSQL,58,17.06,all_including_estimated
+Java + Scala,121,17.05,all_including_estimated
+Git + Java,12,17.05,all_including_estimated
+GCP + Python,79,17.04,all_including_estimated
+Kafka + Spark,133,17.04,all_including_estimated
+Machine Learning + Scala,36,17.02,all_including_estimated
+AWS + Databricks,12,17.01,all_including_estimated
+NLP + Pandas,6,16.99,all_including_estimated
+NLP + Python,67,16.98,all_including_estimated
+AWS + Machine Learning,77,16.96,all_including_estimated
+C++ + Java,25,16.96,all_including_estimated
+AWS + ETL,73,16.96,all_including_estimated
+Data Modeling + Python,64,16.94,all_including_estimated
+C++ + Data Modeling,5,16.93,all_including_estimated
+Azure + Scala,51,16.91,all_including_estimated
+NoSQL + Spark,129,16.89,all_including_estimated
+Kafka + SQL,96,16.86,all_including_estimated
+Airflow + Kafka,17,16.84,all_including_estimated
+GCP + Spark,65,16.8,all_including_estimated
+Java + Spark,317,16.79,all_including_estimated
+Docker + NoSQL,10,16.76,all_including_estimated
+NoSQL + SQL,270,16.76,all_including_estimated
+Azure + Python,214,16.76,all_including_estimated
+Java + R,23,16.74,all_including_estimated
+AWS + Spark,309,16.72,all_including_estimated
+SAS + Spark,14,16.72,all_including_estimated
+Java + Python,349,16.7,all_including_estimated
+Python + Spark,667,16.69,all_including_estimated
+ETL + Python,158,16.67,all_including_estimated
+AWS + Scala,64,16.67,all_including_estimated
+C++ + SQL,23,16.63,all_including_estimated
+Data Modeling + Spark,78,16.62,all_including_estimated
+Scala + Spark,276,16.59,all_including_estimated
+AWS + Java,128,16.57,all_including_estimated
+Machine Learning + R,120,16.56,all_including_estimated
+Spark + Statistics,37,16.54,all_including_estimated
+AWS + Airflow,46,16.54,all_including_estimated
+AWS + Azure,128,16.53,all_including_estimated
+GCP + SQL,101,16.52,all_including_estimated
+Airflow + Python,58,16.52,all_including_estimated
+Airflow + Scala,22,16.52,all_including_estimated
+Azure + NoSQL,32,16.51,all_including_estimated
+R + Statistics,3,16.5,disclosed_only
+Airflow + NoSQL,9,16.49,all_including_estimated
+ETL + SQL,238,16.49,all_including_estimated
+Airflow + Spark,63,16.48,all_including_estimated
+Data Modeling + R,22,16.48,all_including_estimated
+NLP + TensorFlow,19,16.48,all_including_estimated
+AWS + Kafka,39,16.48,all_including_estimated
+Machine Learning + Python,421,16.47,all_including_estimated
+APIs + Java,27,16.47,all_including_estimated
+Communication + NoSQL,16,16.47,all_including_estimated
+Data Visualization + NoSQL,5,16.46,all_including_estimated
+SQL + Spark,641,16.46,all_including_estimated
+AWS + NoSQL,67,16.45,all_including_estimated
+NoSQL + R,11,16.43,all_including_estimated
+Kafka + MongoDB,9,16.42,all_including_estimated
+Java + SQL,221,16.4,all_including_estimated
+Machine Learning + TensorFlow,49,16.4,all_including_estimated
+Git + Machine Learning,46,16.4,all_including_estimated
+Python + Scala,148,16.39,all_including_estimated
+R + SAS,46,16.38,all_including_estimated
+Airflow + Java,22,16.38,all_including_estimated
+SQL + Scala,163,16.36,all_including_estimated
+Data Visualization + Spark,31,16.36,all_including_estimated
+Data Modeling + Machine Learning,47,16.35,all_including_estimated
+Azure + Kafka,32,16.34,all_including_estimated
+Statistics + TensorFlow,6,16.34,all_including_estimated
+AWS + Docker,27,16.31,all_including_estimated
+Machine Learning + Tableau,44,16.29,all_including_estimated
+MongoDB + SQL,57,16.27,all_including_estimated
+NoSQL + Scala,40,16.25,all_including_estimated
+Machine Learning + NLP,104,16.23,all_including_estimated
+Communication + Snowflake,8,16.23,all_including_estimated
+C++ + Scala,10,16.22,all_including_estimated
+AWS + Python,353,16.2,all_including_estimated
+MongoDB + Spark,29,16.2,all_including_estimated
+Python + SAS,60,16.19,all_including_estimated
+Data Modeling + NoSQL,22,16.19,all_including_estimated
+Airflow + Machine Learning,9,16.19,all_including_estimated
+MATLAB + Machine Learning,19,16.18,all_including_estimated
+AWS + R,15,16.17,all_including_estimated
+Agile + Spark,87,16.17,all_including_estimated
+Data Modeling + SQL,133,16.16,all_including_estimated
+Python + TensorFlow,46,16.15,all_including_estimated
+NLP + Power BI,5,16.15,all_including_estimated
+AWS + SQL,247,16.14,all_including_estimated
+APIs + R,6,16.13,all_including_estimated
+Git + Spark,43,16.12,all_including_estimated
+Communication + Machine Learning,35,16.1,all_including_estimated
+Java + Tableau,22,16.1,all_including_estimated
+Git + NLP,6,16.06,all_including_estimated
+NumPy + SQL,12,16.06,all_including_estimated
+Data Visualization + Scala,12,16.05,all_including_estimated
+ETL + Git,12,16.03,all_including_estimated
+Data Modeling + ETL,56,16.02,all_including_estimated
+Data Visualization + SAS,9,16.01,all_including_estimated
+Java + NoSQL,61,16.0,all_including_estimated
+R + SQL,4,16.0,disclosed_only
+Spark + Tableau,71,16.0,all_including_estimated
+Machine Learning + SQL,197,16.0,all_including_estimated
+Git + Scala,14,15.99,all_including_estimated
+Agile + C++,5,15.99,all_including_estimated
+Data Visualization + NLP,8,15.98,all_including_estimated
+Data Modeling + Statistics,10,15.98,all_including_estimated
+Machine Learning + SAS,39,15.98,all_including_estimated
+Communication + Spark,80,15.97,all_including_estimated
+Data Modeling + Java,17,15.97,all_including_estimated
+NumPy + Pandas,21,15.92,all_including_estimated
+GCP + Git,29,15.92,all_including_estimated
+Agile + Data Modeling,47,15.91,all_including_estimated
+Kafka + Python,64,15.89,all_including_estimated
+Agile + Python,73,15.84,all_including_estimated
+Pandas + Spark,15,15.81,all_including_estimated
+Agile + ETL,52,15.81,all_including_estimated
+Docker + Python,44,15.77,all_including_estimated
+Data Visualization + Power BI,39,15.76,all_including_estimated
+ETL + Power BI,26,15.7,all_including_estimated
+Communication + Data Modeling,12,15.69,all_including_estimated
+AWS + Tableau,36,15.68,all_including_estimated
+Data Visualization + Java,12,15.67,all_including_estimated
+APIs + Agile,13,15.67,all_including_estimated
+Airflow + Git,5,15.63,all_including_estimated
+NLP + NumPy,7,15.63,all_including_estimated
+Agile + Tableau,12,15.61,all_including_estimated
+Machine Learning + Statistics,137,15.61,all_including_estimated
+Java + TensorFlow,5,15.59,all_including_estimated
+Docker + Machine Learning,11,15.59,all_including_estimated
+MATLAB + R,6,15.59,all_including_estimated
+APIs + NoSQL,8,15.58,all_including_estimated
+Airflow + SQL,60,15.57,all_including_estimated
+Scala + Tableau,6,15.55,all_including_estimated
+ETL + R,13,15.55,all_including_estimated
+NoSQL + Tableau,11,15.55,all_including_estimated
+Agile + Communication,47,15.54,all_including_estimated
+Agile + SQL,136,15.53,all_including_estimated
+Pandas + TensorFlow,10,15.5,all_including_estimated
+Machine Learning + Pandas,16,15.49,all_including_estimated
+Python + R,174,15.46,all_including_estimated
+Communication + Scala,16,15.43,all_including_estimated
+Databricks + NoSQL,6,15.39,all_including_estimated
+Communication + Java,18,15.36,all_including_estimated
+AWS + Power BI,11,15.35,all_including_estimated
+Machine Learning + SAS,3,15.33,disclosed_only
+Machine Learning + R,3,15.33,disclosed_only
+Looker + Tableau,5,15.33,all_including_estimated
+AWS + Agile,23,15.33,all_including_estimated
+R + SAS,3,15.33,disclosed_only
+Docker + Spark,19,15.32,all_including_estimated
+MATLAB + Python,14,15.31,all_including_estimated
+MATLAB + Statistics,6,15.31,all_including_estimated
+AWS + Pandas,9,15.31,all_including_estimated
+APIs + ETL,19,15.28,all_including_estimated
+AWS + Data Visualization,6,15.27,all_including_estimated
+Azure + Communication,34,15.25,all_including_estimated
+MongoDB + NoSQL,80,15.22,all_including_estimated
+Python + SQL,688,15.19,all_including_estimated
+NoSQL + Python,100,15.18,all_including_estimated
+C++ + Machine Learning,42,15.16,all_including_estimated
+ETL + Machine Learning,29,15.14,all_including_estimated
+Data Visualization + SQL,71,15.13,all_including_estimated
+Git + Python,65,15.12,all_including_estimated
+Azure + Pandas,6,15.1,all_including_estimated
+Azure + MongoDB,6,15.06,all_including_estimated
+MongoDB + Scala,10,15.05,all_including_estimated
+Communication + Docker,6,15.05,all_including_estimated
+Data Modeling + Power BI,17,15.03,all_including_estimated
+NumPy + TensorFlow,10,15.02,all_including_estimated
+GCP + Scala,11,15.0,all_including_estimated
+Python + R,3,15.0,disclosed_only
+APIs + Excel,5,14.97,all_including_estimated
+Airflow + ETL,22,14.96,all_including_estimated
+Data Visualization + R,27,14.96,all_including_estimated
+Communication + Tableau,24,14.96,all_including_estimated
+APIs + Communication,14,14.94,all_including_estimated
+SAS + SQL,69,14.93,all_including_estimated
+NumPy + Python,29,14.93,all_including_estimated
+ETL + Tableau,30,14.89,all_including_estimated
+Data Modeling + GCP,14,14.88,all_including_estimated
+C++ + Python,39,14.82,all_including_estimated
+Communication + Git,19,14.8,all_including_estimated
+Agile + Java,32,14.79,all_including_estimated
+R + SQL,112,14.79,all_including_estimated
+Communication + Databricks,8,14.79,all_including_estimated
+Communication + ETL,49,14.79,all_including_estimated
+Machine Learning + Scikit-learn,5,14.76,all_including_estimated
+Communication + GCP,16,14.76,all_including_estimated
+APIs + Docker,7,14.75,all_including_estimated
+Communication + R,21,14.73,all_including_estimated
+MATLAB + SQL,6,14.72,all_including_estimated
+Power BI + SQL,90,14.72,all_including_estimated
+Python + Tableau,142,14.68,all_including_estimated
+APIs + Python,50,14.65,all_including_estimated
+Agile + R,5,14.62,all_including_estimated
+Azure + Git,14,14.61,all_including_estimated
+R + Statistics,62,14.61,all_including_estimated
+Agile + Git,36,14.6,all_including_estimated
+GCP + Machine Learning,31,14.59,all_including_estimated
+APIs + SQL,46,14.58,all_including_estimated
+Pandas + SQL,18,14.57,all_including_estimated
+Communication + Power BI,21,14.55,all_including_estimated
+Excel + Spark,11,14.54,all_including_estimated
+Scala + Statistics,10,14.54,all_including_estimated
+Communication + Python,104,14.53,all_including_estimated
+Communication + Kafka,8,14.53,all_including_estimated
+Data Modeling + MATLAB,7,14.52,all_including_estimated
+Data Visualization + Tableau,49,14.5,all_including_estimated
+Python + Statistics,102,14.5,all_including_estimated
+Kafka + Tableau,8,14.45,all_including_estimated
+AWS + Communication,31,14.44,all_including_estimated
+APIs + Machine Learning,8,14.43,all_including_estimated
+Data Modeling + Scala,16,14.41,all_including_estimated
+SAS + Tableau,16,14.4,all_including_estimated
+R + Tableau,56,14.39,all_including_estimated
+SQL + Tableau,130,14.38,all_including_estimated
+Pandas + Python,37,14.35,all_including_estimated
+Communication + SQL,125,14.35,all_including_estimated
+Agile + Excel,9,14.35,all_including_estimated
+Python + Scikit-learn,5,14.34,all_including_estimated
+Data Modeling + Tableau,23,14.27,all_including_estimated
+Machine Learning + NumPy,17,14.25,all_including_estimated
+Data Visualization + Machine Learning,42,14.25,all_including_estimated
+APIs + Tableau,7,14.25,all_including_estimated
+Machine Learning + Power BI,30,14.23,all_including_estimated
+Airflow + GCP,8,14.21,all_including_estimated
+Python + SQL,3,14.17,disclosed_only
+Git + NoSQL,12,14.16,all_including_estimated
+AWS + MongoDB,15,14.14,all_including_estimated
+SAS + Statistics,41,14.14,all_including_estimated
+Java + MongoDB,14,14.13,all_including_estimated
+APIs + Azure,10,14.12,all_including_estimated
+Data Visualization + Python,46,14.1,all_including_estimated
+Git + MongoDB,5,14.09,all_including_estimated
+Excel + Power BI,24,14.07,all_including_estimated
+Data Modeling + Data Visualization,23,14.0,all_including_estimated
+Git + SQL,69,13.99,all_including_estimated
+Power BI + Tableau,106,13.98,all_including_estimated
+Airflow + Communication,11,13.94,all_including_estimated
+C++ + Communication,6,13.89,all_including_estimated
+ETL + Statistics,10,13.7,all_including_estimated
+Power BI + Python,84,13.68,all_including_estimated
+SQL + Statistics,71,13.67,all_including_estimated
+SQL + Spark,3,13.67,disclosed_only
+Data Visualization + Excel,21,13.64,all_including_estimated
+GCP + Statistics,9,13.55,all_including_estimated
+Plotly + Tableau,9,13.54,all_including_estimated
+Excel + Git,11,13.46,all_including_estimated
+Excel + Machine Learning,12,13.37,all_including_estimated
+Excel + Tableau,44,13.29,all_including_estimated
+Statistics + Tableau,18,13.24,all_including_estimated
+Excel + SAS,22,13.22,all_including_estimated
+Data Modeling + Git,15,13.21,all_including_estimated
+Communication + SAS,10,13.2,all_including_estimated
+Data Visualization + Git,15,13.06,all_including_estimated
+Power BI + R,35,13.01,all_including_estimated
+Excel + Statistics,18,12.86,all_including_estimated
+GCP + Tableau,16,12.77,all_including_estimated
+ETL + SAS,13,12.75,all_including_estimated
+Communication + Pandas,7,12.7,all_including_estimated
+Data Modeling + Excel,9,12.7,all_including_estimated
+Data Visualization + GCP,7,12.67,all_including_estimated
+Agile + Data Visualization,7,12.67,all_including_estimated
+APIs + AWS,13,12.6,all_including_estimated
+Machine Learning + MongoDB,8,12.4,all_including_estimated
+MongoDB + Python,28,12.37,all_including_estimated
+Power BI + SAS,8,12.33,all_including_estimated
+Plotly + Power BI,5,12.31,all_including_estimated
+Excel + GCP,5,12.29,all_including_estimated
+APIs + Git,5,12.2,all_including_estimated
+ETL + Excel,9,12.09,all_including_estimated
+Agile + Power BI,5,12.08,all_including_estimated
+Excel + SQL,99,12.04,all_including_estimated
+Power BI + Statistics,14,11.75,all_including_estimated
+Excel + R,26,11.46,all_including_estimated
+Excel + Python,55,11.35,all_including_estimated
+Communication + Data Visualization,13,11.32,all_including_estimated
+A/B Testing + Statistics,8,10.58,all_including_estimated
+Communication + Excel,46,10.15,all_including_estimated
+Plotly + SQL,12,9.96,all_including_estimated
+Excel + Plotly,15,9.72,all_including_estimated

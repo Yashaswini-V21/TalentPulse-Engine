@@ -1,0 +1,81 @@
+tier,skill,count,pct_in_tier
+Startup/Other,SQL,1472,33.1
+Startup/Other,Python,1415,31.8
+Startup/Other,Spark,1206,27.1
+Startup/Other,Machine Learning,816,18.3
+Startup/Other,AWS,551,12.4
+Startup/Other,Java,508,11.4
+Startup/Other,Azure,465,10.4
+Startup/Other,ETL,447,10.0
+Startup/Other,Agile,389,8.7
+Startup/Other,Scala,305,6.9
+Startup/Other,NoSQL,280,6.3
+Startup/Other,Communication,277,6.2
+Startup/Other,Data Modeling,269,6.0
+Startup/Other,Tableau,259,5.8
+Startup/Other,R,241,5.4
+Startup/Other,Statistics,230,5.2
+Startup/Other,Excel,230,5.2
+Startup/Other,Power BI,198,4.4
+Startup/Other,Git,194,4.4
+Startup/Other,GCP,187,4.2
+Product,Machine Learning,111,33.2
+Product,Python,93,27.8
+Product,Spark,84,25.1
+Product,SQL,79,23.7
+Product,Java,41,12.3
+Product,Agile,31,9.3
+Product,Scala,27,8.1
+Product,Excel,27,8.1
+Product,Tableau,23,6.9
+Product,Azure,20,6.0
+Product,NoSQL,20,6.0
+Product,Statistics,19,5.7
+Product,C++,18,5.4
+Product,Data Modeling,18,5.4
+Product,SAS,17,5.1
+Product,R,16,4.8
+Product,AWS,16,4.8
+Product,GCP,15,4.5
+Product,Power BI,15,4.5
+Product,Communication,14,4.2
+MNC/IT Services,Python,90,35.7
+MNC/IT Services,SQL,83,32.9
+MNC/IT Services,Spark,74,29.4
+MNC/IT Services,Java,61,24.2
+MNC/IT Services,ETL,38,15.1
+MNC/IT Services,Machine Learning,30,11.9
+MNC/IT Services,AWS,30,11.9
+MNC/IT Services,Agile,30,11.9
+MNC/IT Services,Azure,20,7.9
+MNC/IT Services,Data Modeling,19,7.5
+MNC/IT Services,Scala,18,7.1
+MNC/IT Services,Communication,17,6.7
+MNC/IT Services,GCP,16,6.3
+MNC/IT Services,Tableau,15,6.0
+MNC/IT Services,APIs,12,4.8
+MNC/IT Services,Power BI,10,4.0
+MNC/IT Services,Git,10,4.0
+MNC/IT Services,NLP,9,3.6
+MNC/IT Services,NoSQL,8,3.2
+MNC/IT Services,R,7,2.8
+Consulting,SQL,67,21.6
+Consulting,Python,64,20.6
+Consulting,Spark,55,17.7
+Consulting,Machine Learning,39,12.6
+Consulting,ETL,30,9.7
+Consulting,Azure,29,9.4
+Consulting,Agile,29,9.4
+Consulting,Excel,26,8.4
+Consulting,Data Visualization,26,8.4
+Consulting,Tableau,26,8.4
+Consulting,Communication,25,8.1
+Consulting,Power BI,22,7.1
+Consulting,AWS,20,6.5
+Consulting,GCP,19,6.1
+Consulting,Data Modeling,19,6.1
+Consulting,SAS,18,5.8
+Consulting,APIs,17,5.5
+Consulting,R,15,4.8
+Consulting,Git,15,4.8
+Consulting,Java,13,4.2

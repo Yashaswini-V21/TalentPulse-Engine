@@ -1,0 +1,6 @@
+exp_band,job_count,min_salary,max_salary,avg_salary,median_salary,pct_of_total,salary_source
+0-1 yr (Fresher),1,3.0,3.0,3.0,3.0,3.0,disclosed_only
+1-3 yrs (Junior),5,2.5,11.0,6.5,5.0,15.2,disclosed_only
+3-5 yrs (Mid),4,3.25,11.5,7.81,8.25,12.1,disclosed_only
+5-8 yrs (Senior),10,5.5,16.5,11.48,10.25,30.3,disclosed_only
+8+ yrs (Lead),13,11.5,50.0,22.5,20.0,39.4,disclosed_only

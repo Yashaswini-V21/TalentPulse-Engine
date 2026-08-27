@@ -1,0 +1,3618 @@
+{
+  "stats": {
+    "total_jobs": 5347,
+    "unique_companies": 1559,
+    "unknown_company_count": 231,
+    "avg_salary": 15.13,
+    "avg_salary_disclosed": 14.36,
+    "salary_disclosed_count": 33,
+    "salary_estimated_count": 5314,
+    "salary_coverage_pct": 0.6,
+    "salary_source_note": "Only 33 of 5347 jobs (0.6%) have employer-disclosed salary. Remaining salaries are model-estimated.",
+    "unique_skills": 41,
+    "avg_skills_per_job": 2.5
+  },
+  "data_quality": {
+    "pipeline_version": "2.0",
+    "generated_at": "2026-08-27T21:02:00.681764",
+    "dataset_sources": [
+      {
+        "name": "Naukri 30K General Jobs",
+        "file": "marketing_sample_for_naukri_com-jobs__20190701_20190830__30k_data.csv",
+        "period": "July\u2013August 2019",
+        "original_rows": 30000,
+        "after_filter": 231,
+        "has_company_field": false,
+        "has_salary_field": true,
+        "note": "Skills extracted from Key Skills column, not full job description"
+      },
+      {
+        "name": "Naukri Data Science Jobs India",
+        "file": "naukri_data_science_jobs_india.csv",
+        "period": "Undated (likely 2023\u20132024)",
+        "original_rows": 12000,
+        "after_filter": 5142,
+        "has_company_field": true,
+        "has_salary_field": false,
+        "note": "Skills extracted from Skills/Description column"
+      }
+    ],
+    "total_jobs_after_merge": 5347,
+    "duplicates_removed": 26,
+    "coverage": {
+      "salary": {
+        "disclosed": 33,
+        "missing": 5314,
+        "disclosed_pct": 0.6,
+        "note": "Only disclosed salaries are used for salary statistics unless explicitly labeled as estimated"
+      },
+      "company": {
+        "known": 5116,
+        "unknown": 231,
+        "known_pct": 95.7,
+        "unique_known": 1559,
+        "note": "Dataset 1 lacks a company column; those rows are marked Unknown"
+      },
+      "experience": {
+        "parsed": 5341,
+        "unparsed": 6,
+        "parsed_pct": 99.9
+      },
+      "skills": {
+        "jobs_with_skills": 4599,
+        "jobs_without_skills": 748,
+        "skills_coverage_pct": 86.0,
+        "unique_skills_detected": 41,
+        "avg_skills_per_job": 2.5
+      }
+    },
+    "limitations": [
+      "Dataset 1 is from July\u2013August 2019 \u2014 salary benchmarks may not reflect current market rates.",
+      "Dataset 2 has no date column \u2014 temporal trend analysis is not possible with this data.",
+      "231 of 5347 jobs (4.3%) have unknown company names.",
+      "Only 33 of 5347 jobs (0.6%) have disclosed salary information.",
+      "Salary parsing uses regex on unstructured text \u2014 some salaries may be misread or missed.",
+      "Skill extraction uses keyword matching, not contextual NLP \u2014 accuracy ~90-95% for known DA/DS tools.",
+      "Company tier classification uses substring matching against curated lists \u2014 unlisted companies default to Startup/Other."
+    ],
+    "methodology": {
+      "salary_parsing": "Regex extraction from salary_text field. Patterns: X-Y LPA (midpoint), X LPA (direct), Indian format X,XX,XXX PA (converted to LPA), Rs/INR/\u20b9 prefix (converted).",
+      "skill_extraction": "Vocabulary-based entity matching with 40+ canonical skills and 200+ keyword variants. Each job description is lowercased and checked for keyword presence.",
+      "company_tiering": "Substring match against curated lists: 43 Product companies, 19 Consulting firms, 21 MNC/IT Services. Default: Startup/Other.",
+      "experience_parsing": "Regex extraction of X-Y, X+, or single number patterns from experience text field."
+    },
+    "tier_distribution": {
+      "Startup/Other": 4451,
+      "Product": 334,
+      "Consulting": 310,
+      "MNC/IT Services": 252
+    },
+    "exp_band_distribution": {
+      "5-8 yrs (Senior)": 2076,
+      "3-5 yrs (Mid)": 1616,
+      "8+ yrs (Lead)": 987,
+      "1-3 yrs (Junior)": 600,
+      "0-1 yr (Fresher)": 68
+    },
+    "salary_source_distribution": {
+      "estimated": 5314,
+      "disclosed": 33
+    },
+    "enrichment": {
+      "model": "base_salary \u00d7 skill_premium \u00d7 tier_multiplier + noise",
+      "disclosed_count": 33,
+      "estimated_count": 5314,
+      "total": 5347,
+      "disclosed_pct": 0.6,
+      "benchmarks_source": "AmbitionBox/Glassdoor Bengaluru DA/DS 2024",
+      "note": "Estimated salaries are model-generated and should never be presented as observed data."
+    }
+  },
+  "tier_distribution": {
+    "Startup/Other": 4451,
+    "Product": 334,
+    "Consulting": 310,
+    "MNC/IT Services": 252
+  },
+  "tier_summary": [
+    {
+      "tier": "Consulting",
+      "total_jobs": 310,
+      "avg_salary": 15.89,
+      "median_salary": 16.02,
+      "unique_companies": 14,
+      "disclosed_salary_count": 0,
+      "salary_note": "0/310 disclosed"
+    },
+    {
+      "tier": "MNC/IT Services",
+      "total_jobs": 252,
+      "avg_salary": 15.01,
+      "median_salary": 14.98,
+      "unique_companies": 27,
+      "disclosed_salary_count": 0,
+      "salary_note": "0/252 disclosed"
+    },
+    {
+      "tier": "Product",
+      "total_jobs": 334,
+      "avg_salary": 18.33,
+      "median_salary": 18.7,
+      "unique_companies": 41,
+      "disclosed_salary_count": 0,
+      "salary_note": "0/334 disclosed"
+    },
+    {
+      "tier": "Startup/Other",
+      "total_jobs": 4451,
+      "avg_salary": 14.84,
+      "median_salary": 15.09,
+      "unique_companies": 1478,
+      "disclosed_salary_count": 33,
+      "salary_note": "33/4451 disclosed"
+    }
+  ],
+  "skill_frequency": [
+    {
+      "skill": "SQL",
+      "count": 1701,
+      "pct_of_jobs": 31.8,
+      "avg_salary": 15.46,
+      "avg_salary_disclosed": 13.22,
+      "median_salary": 11.5,
+      "salary_sample_size": 9,
+      "avg_experience": 6.2,
+      "category": "Database"
+    },
+    {
+      "skill": "Python",
+      "count": 1662,
+      "pct_of_jobs": 31.1,
+      "avg_salary": 15.71,
+      "avg_salary_disclosed": 15.94,
+      "median_salary": 13.5,
+      "salary_sample_size": 9,
+      "avg_experience": 6.2,
+      "category": "Programming"
+    },
+    {
+      "skill": "Spark",
+      "count": 1419,
+      "pct_of_jobs": 26.5,
+      "avg_salary": 16.93,
+      "avg_salary_disclosed": 17.73,
+      "median_salary": 15.0,
+      "salary_sample_size": 11,
+      "avg_experience": 6.6,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "Machine Learning",
+      "count": 996,
+      "pct_of_jobs": 18.6,
+      "avg_salary": 16.36,
+      "avg_salary_disclosed": 16.11,
+      "median_salary": 16.0,
+      "salary_sample_size": 9,
+      "avg_experience": 6.4,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "Java",
+      "count": 623,
+      "pct_of_jobs": 11.7,
+      "avg_salary": 16.5,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.8,
+      "category": "Programming"
+    },
+    {
+      "skill": "AWS",
+      "count": 617,
+      "pct_of_jobs": 11.5,
+      "avg_salary": 16.51,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.6,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Azure",
+      "count": 534,
+      "pct_of_jobs": 10.0,
+      "avg_salary": 17.26,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 7.1,
+      "category": "Cloud"
+    },
+    {
+      "skill": "ETL",
+      "count": 520,
+      "pct_of_jobs": 9.7,
+      "avg_salary": 16.12,
+      "avg_salary_disclosed": 14.5,
+      "median_salary": 14.5,
+      "salary_sample_size": 2,
+      "avg_experience": 6.5,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "Agile",
+      "count": 479,
+      "pct_of_jobs": 9.0,
+      "avg_salary": 15.49,
+      "avg_salary_disclosed": 11.12,
+      "median_salary": 11.12,
+      "salary_sample_size": 2,
+      "avg_experience": 6.6,
+      "category": "Soft Skills"
+    },
+    {
+      "skill": "Scala",
+      "count": 362,
+      "pct_of_jobs": 6.8,
+      "avg_salary": 16.56,
+      "avg_salary_disclosed": 7.75,
+      "median_salary": 7.75,
+      "salary_sample_size": 2,
+      "avg_experience": 6.5,
+      "category": "Programming"
+    },
+    {
+      "skill": "Communication",
+      "count": 333,
+      "pct_of_jobs": 6.2,
+      "avg_salary": 13.84,
+      "avg_salary_disclosed": 11.0,
+      "median_salary": 11.0,
+      "salary_sample_size": 1,
+      "avg_experience": 5.7,
+      "category": "Soft Skills"
+    },
+    {
+      "skill": "Data Modeling",
+      "count": 325,
+      "pct_of_jobs": 6.1,
+      "avg_salary": 15.73,
+      "avg_salary_disclosed": 16.0,
+      "median_salary": 18.0,
+      "salary_sample_size": 3,
+      "avg_experience": 6.5,
+      "category": "Analytics"
+    },
+    {
+      "skill": "Tableau",
+      "count": 323,
+      "pct_of_jobs": 6.0,
+      "avg_salary": 14.71,
+      "avg_salary_disclosed": 10.0,
+      "median_salary": 10.0,
+      "salary_sample_size": 1,
+      "avg_experience": 5.9,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "NoSQL",
+      "count": 317,
+      "pct_of_jobs": 5.9,
+      "avg_salary": 16.41,
+      "avg_salary_disclosed": 10.0,
+      "median_salary": 10.0,
+      "salary_sample_size": 1,
+      "avg_experience": 6.7,
+      "category": "Database"
+    },
+    {
+      "skill": "Excel",
+      "count": 288,
+      "pct_of_jobs": 5.4,
+      "avg_salary": 11.53,
+      "avg_salary_disclosed": 10.67,
+      "median_salary": 9.0,
+      "salary_sample_size": 3,
+      "avg_experience": 4.5,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "R",
+      "count": 279,
+      "pct_of_jobs": 5.2,
+      "avg_salary": 15.48,
+      "avg_salary_disclosed": 15.5,
+      "median_salary": 16.0,
+      "salary_sample_size": 5,
+      "avg_experience": 6.1,
+      "category": "Programming"
+    },
+    {
+      "skill": "Statistics",
+      "count": 260,
+      "pct_of_jobs": 4.9,
+      "avg_salary": 14.41,
+      "avg_salary_disclosed": 21.75,
+      "median_salary": 18.0,
+      "salary_sample_size": 4,
+      "avg_experience": 5.5,
+      "category": "Analytics"
+    },
+    {
+      "skill": "Power BI",
+      "count": 245,
+      "pct_of_jobs": 4.6,
+      "avg_salary": 14.6,
+      "avg_salary_disclosed": 10.0,
+      "median_salary": 10.0,
+      "salary_sample_size": 1,
+      "avg_experience": 5.8,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "GCP",
+      "count": 237,
+      "pct_of_jobs": 4.4,
+      "avg_salary": 16.22,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.6,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Git",
+      "count": 225,
+      "pct_of_jobs": 4.2,
+      "avg_salary": 14.76,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.1,
+      "category": "DevOps"
+    },
+    {
+      "skill": "Data Visualization",
+      "count": 205,
+      "pct_of_jobs": 3.8,
+      "avg_salary": 14.01,
+      "avg_salary_disclosed": 14.83,
+      "median_salary": 16.5,
+      "salary_sample_size": 3,
+      "avg_experience": 5.7,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "SAS",
+      "count": 183,
+      "pct_of_jobs": 3.4,
+      "avg_salary": 14.44,
+      "avg_salary_disclosed": 16.0,
+      "median_salary": 16.25,
+      "salary_sample_size": 4,
+      "avg_experience": 6.0,
+      "category": "Programming"
+    },
+    {
+      "skill": "Kafka",
+      "count": 170,
+      "pct_of_jobs": 3.2,
+      "avg_salary": 17.06,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.6,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "NLP",
+      "count": 145,
+      "pct_of_jobs": 2.7,
+      "avg_salary": 16.59,
+      "avg_salary_disclosed": 18.2,
+      "median_salary": 16.5,
+      "salary_sample_size": 5,
+      "avg_experience": 6.4,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "APIs",
+      "count": 127,
+      "pct_of_jobs": 2.4,
+      "avg_salary": 14.93,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.3,
+      "category": "DevOps"
+    },
+    {
+      "skill": "Databricks",
+      "count": 113,
+      "pct_of_jobs": 2.1,
+      "avg_salary": 18.4,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 7.2,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Airflow",
+      "count": 109,
+      "pct_of_jobs": 2.0,
+      "avg_salary": 16.3,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.3,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "C++",
+      "count": 107,
+      "pct_of_jobs": 2.0,
+      "avg_salary": 15.6,
+      "avg_salary_disclosed": 13.5,
+      "median_salary": 13.5,
+      "salary_sample_size": 2,
+      "avg_experience": 6.5,
+      "category": "Programming"
+    },
+    {
+      "skill": "MongoDB",
+      "count": 84,
+      "pct_of_jobs": 1.6,
+      "avg_salary": 15.4,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.5,
+      "category": "Database"
+    },
+    {
+      "skill": "Docker",
+      "count": 73,
+      "pct_of_jobs": 1.4,
+      "avg_salary": 16.25,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.3,
+      "category": "DevOps"
+    },
+    {
+      "skill": "TensorFlow",
+      "count": 67,
+      "pct_of_jobs": 1.3,
+      "avg_salary": 16.55,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.5,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "Snowflake",
+      "count": 60,
+      "pct_of_jobs": 1.1,
+      "avg_salary": 18.41,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 7.1,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Pandas",
+      "count": 48,
+      "pct_of_jobs": 0.9,
+      "avg_salary": 15.02,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 5.9,
+      "category": "Programming"
+    },
+    {
+      "skill": "NumPy",
+      "count": 40,
+      "pct_of_jobs": 0.7,
+      "avg_salary": 15.36,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.0,
+      "category": "Programming"
+    },
+    {
+      "skill": "MATLAB",
+      "count": 32,
+      "pct_of_jobs": 0.6,
+      "avg_salary": 14.78,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.4,
+      "category": "Programming"
+    },
+    {
+      "skill": "Plotly",
+      "count": 32,
+      "pct_of_jobs": 0.6,
+      "avg_salary": 10.81,
+      "avg_salary_disclosed": 5.0,
+      "median_salary": 5.0,
+      "salary_sample_size": 1,
+      "avg_experience": 4.2,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "A/B Testing",
+      "count": 8,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 10.58,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 3.4,
+      "category": "Analytics"
+    },
+    {
+      "skill": "Scikit-learn",
+      "count": 8,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 14.22,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 5.1,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "Looker",
+      "count": 6,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 14.95,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.1,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "dbt",
+      "count": 3,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 21.69,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 7.2,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "Google Sheets",
+      "count": 2,
+      "pct_of_jobs": 0.0,
+      "avg_salary": 12.32,
+      "avg_salary_disclosed": null,
+      "median_salary": null,
+      "salary_sample_size": 0,
+      "avg_experience": 6.0,
+      "category": "BI Tools"
+    }
+  ],
+  "salary_bands": [
+    {
+      "exp_band": "0-1 yr (Fresher)",
+      "job_count": 68,
+      "min_salary": 3.0,
+      "max_salary": 5.08,
+      "avg_salary": 4.18,
+      "median_salary": 4.14,
+      "pct_of_total": 1.3,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "exp_band": "1-3 yrs (Junior)",
+      "job_count": 600,
+      "min_salary": 2.5,
+      "max_salary": 11.0,
+      "avg_salary": 7.09,
+      "median_salary": 6.93,
+      "pct_of_total": 11.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "exp_band": "3-5 yrs (Mid)",
+      "job_count": 1616,
+      "min_salary": 3.25,
+      "max_salary": 15.0,
+      "avg_salary": 10.96,
+      "median_salary": 10.91,
+      "pct_of_total": 30.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "exp_band": "5-8 yrs (Senior)",
+      "job_count": 2076,
+      "min_salary": 5.5,
+      "max_salary": 24.89,
+      "avg_salary": 16.64,
+      "median_salary": 16.6,
+      "pct_of_total": 38.8,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "exp_band": "8+ yrs (Lead)",
+      "job_count": 987,
+      "min_salary": 11.5,
+      "max_salary": 50.0,
+      "avg_salary": 24.39,
+      "median_salary": 24.18,
+      "pct_of_total": 18.5,
+      "salary_source": "all_including_estimated"
+    }
+  ],
+  "salary_bands_disclosed": [
+    {
+      "exp_band": "0-1 yr (Fresher)",
+      "job_count": 1,
+      "min_salary": 3.0,
+      "max_salary": 3.0,
+      "avg_salary": 3.0,
+      "median_salary": 3.0,
+      "pct_of_total": 3.0,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "exp_band": "1-3 yrs (Junior)",
+      "job_count": 5,
+      "min_salary": 2.5,
+      "max_salary": 11.0,
+      "avg_salary": 6.5,
+      "median_salary": 5.0,
+      "pct_of_total": 15.2,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "exp_band": "3-5 yrs (Mid)",
+      "job_count": 4,
+      "min_salary": 3.25,
+      "max_salary": 11.5,
+      "avg_salary": 7.81,
+      "median_salary": 8.25,
+      "pct_of_total": 12.1,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "exp_band": "5-8 yrs (Senior)",
+      "job_count": 10,
+      "min_salary": 5.5,
+      "max_salary": 16.5,
+      "avg_salary": 11.48,
+      "median_salary": 10.25,
+      "pct_of_total": 30.3,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "exp_band": "8+ yrs (Lead)",
+      "job_count": 13,
+      "min_salary": 11.5,
+      "max_salary": 50.0,
+      "avg_salary": 22.5,
+      "median_salary": 20.0,
+      "pct_of_total": 39.4,
+      "salary_source": "disclosed_only"
+    }
+  ],
+  "top_companies": [
+    {
+      "company": "Accenture",
+      "tier": "Consulting",
+      "job_count": 226,
+      "avg_salary": 15.82,
+      "median_salary": 16.04,
+      "avg_experience": 6.0,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, SQL, Spark, ETL, Machine Learning",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "IBM",
+      "tier": "MNC/IT Services",
+      "job_count": 115,
+      "avg_salary": 14.71,
+      "median_salary": 14.08,
+      "avg_experience": 6.8,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, SQL, Spark, Java, ETL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Huquo Consulting Pvt. Ltd",
+      "tier": "Startup/Other",
+      "job_count": 96,
+      "avg_salary": 14.78,
+      "median_salary": 15.42,
+      "avg_experience": 5.9,
+      "disclosed_salary_count": 0,
+      "top_skills": "Spark, ETL, SQL, Python, Java",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Visa",
+      "tier": "Startup/Other",
+      "job_count": 64,
+      "avg_salary": 15.61,
+      "median_salary": 15.04,
+      "avg_experience": 7.0,
+      "disclosed_salary_count": 0,
+      "top_skills": "Java, Spark, Python, SQL, Agile",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Gojek",
+      "tier": "Startup/Other",
+      "job_count": 57,
+      "avg_salary": 17.62,
+      "median_salary": 16.86,
+      "avg_experience": 7.3,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, SQL, Agile, NoSQL, GCP",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Walmart",
+      "tier": "Product",
+      "job_count": 54,
+      "avg_salary": 20.35,
+      "median_salary": 20.0,
+      "avg_experience": 6.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Spark, Python, Agile, Java",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Serving Skill",
+      "tier": "Startup/Other",
+      "job_count": 51,
+      "avg_salary": 16.03,
+      "median_salary": 16.31,
+      "avg_experience": 6.4,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Spark, Azure, Python, Java",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "CHANGE LEADERS CONSULTING",
+      "tier": "Startup/Other",
+      "job_count": 47,
+      "avg_salary": 14.54,
+      "median_salary": 14.54,
+      "avg_experience": 5.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Python, Spark, Machine Learning, Statistics",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "TalentStack",
+      "tier": "Startup/Other",
+      "job_count": 42,
+      "avg_salary": 13.64,
+      "median_salary": 10.9,
+      "avg_experience": 5.6,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, SQL, Java, R, Tableau",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Shell",
+      "tier": "Startup/Other",
+      "job_count": 41,
+      "avg_salary": 17.44,
+      "median_salary": 17.0,
+      "avg_experience": 7.7,
+      "disclosed_salary_count": 0,
+      "top_skills": "Azure, Power BI, Spark, R, SQL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Uber",
+      "tier": "Product",
+      "job_count": 40,
+      "avg_salary": 16.9,
+      "median_salary": 13.74,
+      "avg_experience": 5.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Scala, SQL, Data Modeling, Agile",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Microsoft",
+      "tier": "Product",
+      "job_count": 40,
+      "avg_salary": 22.79,
+      "median_salary": 21.84,
+      "avg_experience": 7.7,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Python, Spark, C++, Azure",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Genpact",
+      "tier": "Startup/Other",
+      "job_count": 33,
+      "avg_salary": 18.11,
+      "median_salary": 16.77,
+      "avg_experience": 7.1,
+      "disclosed_salary_count": 0,
+      "top_skills": "AWS, SQL, Python, ETL, Spark",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Flipkart",
+      "tier": "Product",
+      "job_count": 31,
+      "avg_salary": 14.34,
+      "median_salary": 13.39,
+      "avg_experience": 4.7,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Python, SAS, Excel, Machine Learning",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Multi Recruit",
+      "tier": "Startup/Other",
+      "job_count": 31,
+      "avg_salary": 16.47,
+      "median_salary": 16.29,
+      "avg_experience": 7.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Spark, Python, Agile, SQL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Krazy Mantra HR Solutions Pvt. Ltd",
+      "tier": "Startup/Other",
+      "job_count": 31,
+      "avg_salary": 19.42,
+      "median_salary": 18.42,
+      "avg_experience": 8.0,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, Spark, ETL, SQL, AWS",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Career Infosystem",
+      "tier": "MNC/IT Services",
+      "job_count": 29,
+      "avg_salary": 15.31,
+      "median_salary": 15.33,
+      "avg_experience": 6.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "Spark, Python, SQL, Java, AWS",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Orcapod Consulting Services Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 28,
+      "avg_salary": 19.04,
+      "median_salary": 17.81,
+      "avg_experience": 8.1,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Python, Spark, AWS, ETL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Myntra",
+      "tier": "Product",
+      "job_count": 23,
+      "avg_salary": 11.12,
+      "median_salary": 9.11,
+      "avg_experience": 3.2,
+      "disclosed_salary_count": 0,
+      "top_skills": "Excel, Python, Data Visualization, SQL, Communication",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "TALENT500 TECH (INDIA) PRIVATE LIMITED",
+      "tier": "Startup/Other",
+      "job_count": 23,
+      "avg_salary": 15.41,
+      "median_salary": 14.26,
+      "avg_experience": 6.3,
+      "disclosed_salary_count": 0,
+      "top_skills": "Java, Python, SQL, Spark, Machine Learning",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "PwC",
+      "tier": "Consulting",
+      "job_count": 22,
+      "avg_salary": 19.51,
+      "median_salary": 19.6,
+      "avg_experience": 8.0,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Spark, GCP, AWS, Azure",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "NTT DATA",
+      "tier": "Startup/Other",
+      "job_count": 22,
+      "avg_salary": 12.84,
+      "median_salary": 11.17,
+      "avg_experience": 5.1,
+      "disclosed_salary_count": 0,
+      "top_skills": "Azure, SQL, Spark, Python, NoSQL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "PayPal",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 14.85,
+      "median_salary": 15.73,
+      "avg_experience": 6.0,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Git, ETL, Agile, Data Modeling",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Diverse Lynx",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 10.97,
+      "median_salary": 11.03,
+      "avg_experience": 4.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Spark, Python, Machine Learning, R",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Applied Materials",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 16.89,
+      "median_salary": 16.76,
+      "avg_experience": 6.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "R, Tableau, SQL, Machine Learning, Statistics",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Dell Technologies",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 19.41,
+      "median_salary": 17.36,
+      "avg_experience": 8.0,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Spark, Java, Python, Kafka",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "VEGA Intellisoft Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 15.5,
+      "median_salary": 15.52,
+      "avg_experience": 6.6,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, Spark, SQL, Azure, ETL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Anicalls",
+      "tier": "Startup/Other",
+      "job_count": 20,
+      "avg_salary": 16.23,
+      "median_salary": 16.24,
+      "avg_experience": 7.3,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, Spark, SQL, Tableau, ETL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Thomson Reuters",
+      "tier": "Startup/Other",
+      "job_count": 19,
+      "avg_salary": 10.31,
+      "median_salary": 10.87,
+      "avg_experience": 3.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Agile, Data Modeling, SQL, NoSQL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "CareerXperts Consulting",
+      "tier": "Startup/Other",
+      "job_count": 19,
+      "avg_salary": 16.08,
+      "median_salary": 16.33,
+      "avg_experience": 6.7,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Spark, SQL, Agile, Git",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "PayU",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 11.71,
+      "median_salary": 11.04,
+      "avg_experience": 4.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Agile, SQL, Python, SAS",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Bloom Consulting Services",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 12.82,
+      "median_salary": 11.23,
+      "avg_experience": 4.9,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Data Modeling, Machine Learning, Spark, Data Visualization",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Xpheno",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 17.38,
+      "median_salary": 16.44,
+      "avg_experience": 7.1,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Spark, GCP, Machine Learning, Excel",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Dell International Services IndiaPrivate Limited",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 17.66,
+      "median_salary": 16.36,
+      "avg_experience": 6.9,
+      "disclosed_salary_count": 0,
+      "top_skills": "Spark, SQL, Python, Java, Power BI",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "DXC Technology",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 17.12,
+      "median_salary": 17.2,
+      "avg_experience": 7.2,
+      "disclosed_salary_count": 0,
+      "top_skills": "Azure, SQL, Data Modeling, Databricks, Spark",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Capco",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 16.6,
+      "median_salary": 15.1,
+      "avg_experience": 6.9,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Agile, Spark, Scala, Python",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Cargill",
+      "tier": "Startup/Other",
+      "job_count": 17,
+      "avg_salary": 14.87,
+      "median_salary": 11.06,
+      "avg_experience": 6.1,
+      "disclosed_salary_count": 0,
+      "top_skills": "Spark, Agile, Power BI, Data Modeling, Data Visualization",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Schneider Electric",
+      "tier": "Startup/Other",
+      "job_count": 17,
+      "avg_salary": 11.32,
+      "median_salary": 10.76,
+      "avg_experience": 4.6,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Machine Learning, Spark, ETL, Statistics",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Hucon Solutions",
+      "tier": "Startup/Other",
+      "job_count": 17,
+      "avg_salary": 18.61,
+      "median_salary": 17.6,
+      "avg_experience": 7.7,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, R, Tableau, Power BI, AWS",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Symphoni HR Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 16.52,
+      "median_salary": 16.73,
+      "avg_experience": 6.6,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, SQL, Spark, Java, ETL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Aspire Recruitment Solutions",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 13.02,
+      "median_salary": 11.38,
+      "avg_experience": 5.2,
+      "disclosed_salary_count": 0,
+      "top_skills": "Spark, Python, Java, SQL, AWS",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Mount Talent Consulting Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 15.46,
+      "median_salary": 16.94,
+      "avg_experience": 5.8,
+      "disclosed_salary_count": 0,
+      "top_skills": "Spark, Python, SQL, Azure, Machine Learning",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Target",
+      "tier": "Product",
+      "job_count": 16,
+      "avg_salary": 19.68,
+      "median_salary": 21.54,
+      "avg_experience": 6.6,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, Agile, Spark, SQL, Statistics",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Meesho",
+      "tier": "Product",
+      "job_count": 16,
+      "avg_salary": 20.18,
+      "median_salary": 19.6,
+      "avg_experience": 8.6,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Machine Learning, Spark, R, AWS",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "GSK India",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 13.87,
+      "median_salary": 14.61,
+      "avg_experience": 5.5,
+      "disclosed_salary_count": 0,
+      "top_skills": "Agile, GCP, Machine Learning, Git, ETL",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "C42 Engineering India Pvt. Ltd.",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 17.61,
+      "median_salary": 16.7,
+      "avg_experience": 6.2,
+      "disclosed_salary_count": 0,
+      "top_skills": "Machine Learning, SQL, Agile, NoSQL, Git",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "cliqhr.com",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 18.19,
+      "median_salary": 16.78,
+      "avg_experience": 7.6,
+      "disclosed_salary_count": 0,
+      "top_skills": "SQL, Spark, Communication, Python, R",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Corner Tree Consulting",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 19.64,
+      "median_salary": 18.28,
+      "avg_experience": 9.2,
+      "disclosed_salary_count": 0,
+      "top_skills": "Python, Azure, Machine Learning, Spark, Scala",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "Eli Lilly and Company",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 13.36,
+      "median_salary": 11.82,
+      "avg_experience": 5.4,
+      "disclosed_salary_count": 0,
+      "top_skills": "Agile, Data Visualization, NLP, Statistics, Python",
+      "salary_data_note": "estimated_only"
+    },
+    {
+      "company": "TEKISHUB CONSULTING SERVICES PRIVATE LIMITED",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 16.78,
+      "median_salary": 16.37,
+      "avg_experience": 6.4,
+      "disclosed_salary_count": 0,
+      "top_skills": "AWS, SQL, Spark, Python, Azure",
+      "salary_data_note": "estimated_only"
+    }
+  ],
+  "skill_combos": [
+    {
+      "skill_pair": "Python + Statistics",
+      "co_occurrences": 3,
+      "avg_salary": 23.67,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Databricks + Power BI",
+      "co_occurrences": 7,
+      "avg_salary": 22.75,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Statistics",
+      "co_occurrences": 3,
+      "avg_salary": 22.33,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Data Modeling + Databricks",
+      "co_occurrences": 5,
+      "avg_salary": 21.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + SAS",
+      "co_occurrences": 8,
+      "avg_salary": 21.51,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + SAS",
+      "co_occurrences": 9,
+      "avg_salary": 20.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + NLP",
+      "co_occurrences": 9,
+      "avg_salary": 20.59,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Kafka",
+      "co_occurrences": 7,
+      "avg_salary": 20.41,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Snowflake",
+      "co_occurrences": 7,
+      "avg_salary": 20.25,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + Scala",
+      "co_occurrences": 10,
+      "avg_salary": 20.14,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + Snowflake",
+      "co_occurrences": 5,
+      "avg_salary": 20.07,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Kafka",
+      "co_occurrences": 6,
+      "avg_salary": 19.83,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + Spark",
+      "co_occurrences": 30,
+      "avg_salary": 19.81,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + Java",
+      "co_occurrences": 13,
+      "avg_salary": 19.74,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Snowflake",
+      "co_occurrences": 11,
+      "avg_salary": 19.68,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + R",
+      "co_occurrences": 21,
+      "avg_salary": 19.64,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Excel",
+      "co_occurrences": 6,
+      "avg_salary": 19.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + MongoDB",
+      "co_occurrences": 5,
+      "avg_salary": 19.31,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Spark + TensorFlow",
+      "co_occurrences": 16,
+      "avg_salary": 19.21,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + NLP",
+      "co_occurrences": 9,
+      "avg_salary": 19.14,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + ETL",
+      "co_occurrences": 27,
+      "avg_salary": 19.12,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Statistics",
+      "co_occurrences": 5,
+      "avg_salary": 19.11,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + MongoDB",
+      "co_occurrences": 9,
+      "avg_salary": 19.07,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + Snowflake",
+      "co_occurrences": 29,
+      "avg_salary": 19.03,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Tableau",
+      "co_occurrences": 19,
+      "avg_salary": 18.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Snowflake + Spark",
+      "co_occurrences": 21,
+      "avg_salary": 18.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Kafka",
+      "co_occurrences": 11,
+      "avg_salary": 18.91,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Databricks",
+      "co_occurrences": 7,
+      "avg_salary": 18.85,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Data Modeling",
+      "co_occurrences": 29,
+      "avg_salary": 18.84,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Tableau",
+      "co_occurrences": 6,
+      "avg_salary": 18.81,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + ETL",
+      "co_occurrences": 6,
+      "avg_salary": 18.76,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Data Visualization",
+      "co_occurrences": 6,
+      "avg_salary": 18.7,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Databricks",
+      "co_occurrences": 97,
+      "avg_salary": 18.7,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + Statistics",
+      "co_occurrences": 6,
+      "avg_salary": 18.64,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + Java",
+      "co_occurrences": 11,
+      "avg_salary": 18.61,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SQL + TensorFlow",
+      "co_occurrences": 8,
+      "avg_salary": 18.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Statistics",
+      "co_occurrences": 11,
+      "avg_salary": 18.53,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + Spark",
+      "co_occurrences": 59,
+      "avg_salary": 18.51,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Python",
+      "co_occurrences": 4,
+      "avg_salary": 18.5,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Azure + Machine Learning",
+      "co_occurrences": 53,
+      "avg_salary": 18.4,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Java",
+      "co_occurrences": 70,
+      "avg_salary": 18.39,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Snowflake",
+      "co_occurrences": 9,
+      "avg_salary": 18.39,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + GCP",
+      "co_occurrences": 10,
+      "avg_salary": 18.36,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + MongoDB",
+      "co_occurrences": 5,
+      "avg_salary": 18.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SQL + Snowflake",
+      "co_occurrences": 35,
+      "avg_salary": 18.33,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Snowflake",
+      "co_occurrences": 17,
+      "avg_salary": 18.32,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + GCP",
+      "co_occurrences": 34,
+      "avg_salary": 18.29,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Scala",
+      "co_occurrences": 35,
+      "avg_salary": 18.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + GCP",
+      "co_occurrences": 24,
+      "avg_salary": 18.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Spark",
+      "co_occurrences": 193,
+      "avg_salary": 18.13,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Scala",
+      "co_occurrences": 8,
+      "avg_salary": 18.08,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Java",
+      "co_occurrences": 36,
+      "avg_salary": 18.08,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Data Modeling",
+      "co_occurrences": 28,
+      "avg_salary": 18.07,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + NLP",
+      "co_occurrences": 12,
+      "avg_salary": 18.0,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Snowflake",
+      "co_occurrences": 30,
+      "avg_salary": 18.0,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Power BI",
+      "co_occurrences": 32,
+      "avg_salary": 17.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + GCP",
+      "co_occurrences": 34,
+      "avg_salary": 17.94,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + Spark",
+      "co_occurrences": 63,
+      "avg_salary": 17.93,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + SQL",
+      "co_occurrences": 51,
+      "avg_salary": 17.92,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + Spark",
+      "co_occurrences": 14,
+      "avg_salary": 17.91,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + NLP",
+      "co_occurrences": 7,
+      "avg_salary": 17.89,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Kafka + Scala",
+      "co_occurrences": 42,
+      "avg_salary": 17.69,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Docker",
+      "co_occurrences": 7,
+      "avg_salary": 17.68,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Azure",
+      "co_occurrences": 32,
+      "avg_salary": 17.68,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Power BI",
+      "co_occurrences": 10,
+      "avg_salary": 17.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Java",
+      "co_occurrences": 57,
+      "avg_salary": 17.65,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + R",
+      "co_occurrences": 7,
+      "avg_salary": 17.65,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + GCP",
+      "co_occurrences": 25,
+      "avg_salary": 17.64,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + R",
+      "co_occurrences": 6,
+      "avg_salary": 17.62,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + Scala",
+      "co_occurrences": 13,
+      "avg_salary": 17.62,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + Statistics",
+      "co_occurrences": 14,
+      "avg_salary": 17.6,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Machine Learning",
+      "co_occurrences": 61,
+      "avg_salary": 17.58,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Snowflake",
+      "co_occurrences": 21,
+      "avg_salary": 17.57,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Kafka",
+      "co_occurrences": 8,
+      "avg_salary": 17.55,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Statistics",
+      "co_occurrences": 8,
+      "avg_salary": 17.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + NLP",
+      "co_occurrences": 10,
+      "avg_salary": 17.51,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Spark",
+      "co_occurrences": 29,
+      "avg_salary": 17.51,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + NoSQL",
+      "co_occurrences": 31,
+      "avg_salary": 17.48,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + NumPy",
+      "co_occurrences": 5,
+      "avg_salary": 17.47,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + ETL",
+      "co_occurrences": 96,
+      "avg_salary": 17.46,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Scala",
+      "co_occurrences": 26,
+      "avg_salary": 17.43,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + TensorFlow",
+      "co_occurrences": 8,
+      "avg_salary": 17.42,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + R",
+      "co_occurrences": 21,
+      "avg_salary": 17.4,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + TensorFlow",
+      "co_occurrences": 10,
+      "avg_salary": 17.37,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + SQL",
+      "co_occurrences": 207,
+      "avg_salary": 17.34,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Kafka",
+      "co_occurrences": 8,
+      "avg_salary": 17.32,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Machine Learning",
+      "co_occurrences": 94,
+      "avg_salary": 17.32,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Git",
+      "co_occurrences": 26,
+      "avg_salary": 17.31,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Docker",
+      "co_occurrences": 16,
+      "avg_salary": 17.3,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + TensorFlow",
+      "co_occurrences": 6,
+      "avg_salary": 17.27,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + SAS",
+      "co_occurrences": 7,
+      "avg_salary": 17.27,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Data Modeling",
+      "co_occurrences": 8,
+      "avg_salary": 17.27,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Spark",
+      "co_occurrences": 184,
+      "avg_salary": 17.26,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + Kafka",
+      "co_occurrences": 6,
+      "avg_salary": 17.25,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Spark",
+      "co_occurrences": 242,
+      "avg_salary": 17.24,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + SQL",
+      "co_occurrences": 19,
+      "avg_salary": 17.22,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Statistics",
+      "co_occurrences": 11,
+      "avg_salary": 17.21,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Kafka",
+      "co_occurrences": 28,
+      "avg_salary": 17.19,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Kafka",
+      "co_occurrences": 41,
+      "avg_salary": 17.18,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + R",
+      "co_occurrences": 8,
+      "avg_salary": 17.18,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + NoSQL",
+      "co_occurrences": 41,
+      "avg_salary": 17.18,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + Python",
+      "co_occurrences": 44,
+      "avg_salary": 17.17,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Azure",
+      "co_occurrences": 13,
+      "avg_salary": 17.17,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Kafka + NoSQL",
+      "co_occurrences": 24,
+      "avg_salary": 17.14,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + NLP",
+      "co_occurrences": 4,
+      "avg_salary": 17.12,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Power BI + Scala",
+      "co_occurrences": 7,
+      "avg_salary": 17.12,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + Kafka",
+      "co_occurrences": 8,
+      "avg_salary": 17.1,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + SQL",
+      "co_occurrences": 20,
+      "avg_salary": 17.08,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NumPy + Spark",
+      "co_occurrences": 8,
+      "avg_salary": 17.08,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + ETL",
+      "co_occurrences": 15,
+      "avg_salary": 17.07,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + NoSQL",
+      "co_occurrences": 21,
+      "avg_salary": 17.06,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Power BI + Spark",
+      "co_occurrences": 49,
+      "avg_salary": 17.06,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + NoSQL",
+      "co_occurrences": 58,
+      "avg_salary": 17.06,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Scala",
+      "co_occurrences": 121,
+      "avg_salary": 17.05,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Java",
+      "co_occurrences": 12,
+      "avg_salary": 17.05,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Python",
+      "co_occurrences": 79,
+      "avg_salary": 17.04,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Kafka + Spark",
+      "co_occurrences": 133,
+      "avg_salary": 17.04,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Scala",
+      "co_occurrences": 36,
+      "avg_salary": 17.02,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Databricks",
+      "co_occurrences": 12,
+      "avg_salary": 17.01,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + Pandas",
+      "co_occurrences": 6,
+      "avg_salary": 16.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + Python",
+      "co_occurrences": 67,
+      "avg_salary": 16.98,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Machine Learning",
+      "co_occurrences": 77,
+      "avg_salary": 16.96,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + Java",
+      "co_occurrences": 25,
+      "avg_salary": 16.96,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + ETL",
+      "co_occurrences": 73,
+      "avg_salary": 16.96,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Python",
+      "co_occurrences": 64,
+      "avg_salary": 16.94,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + Data Modeling",
+      "co_occurrences": 5,
+      "avg_salary": 16.93,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Scala",
+      "co_occurrences": 51,
+      "avg_salary": 16.91,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + Spark",
+      "co_occurrences": 129,
+      "avg_salary": 16.89,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Kafka + SQL",
+      "co_occurrences": 96,
+      "avg_salary": 16.86,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Kafka",
+      "co_occurrences": 17,
+      "avg_salary": 16.84,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Spark",
+      "co_occurrences": 65,
+      "avg_salary": 16.8,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Spark",
+      "co_occurrences": 317,
+      "avg_salary": 16.79,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + NoSQL",
+      "co_occurrences": 10,
+      "avg_salary": 16.76,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + SQL",
+      "co_occurrences": 270,
+      "avg_salary": 16.76,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Python",
+      "co_occurrences": 214,
+      "avg_salary": 16.76,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + R",
+      "co_occurrences": 23,
+      "avg_salary": 16.74,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Spark",
+      "co_occurrences": 309,
+      "avg_salary": 16.72,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SAS + Spark",
+      "co_occurrences": 14,
+      "avg_salary": 16.72,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Python",
+      "co_occurrences": 349,
+      "avg_salary": 16.7,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + Spark",
+      "co_occurrences": 667,
+      "avg_salary": 16.69,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Python",
+      "co_occurrences": 158,
+      "avg_salary": 16.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Scala",
+      "co_occurrences": 64,
+      "avg_salary": 16.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + SQL",
+      "co_occurrences": 23,
+      "avg_salary": 16.63,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Spark",
+      "co_occurrences": 78,
+      "avg_salary": 16.62,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Scala + Spark",
+      "co_occurrences": 276,
+      "avg_salary": 16.59,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Java",
+      "co_occurrences": 128,
+      "avg_salary": 16.57,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + R",
+      "co_occurrences": 120,
+      "avg_salary": 16.56,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Spark + Statistics",
+      "co_occurrences": 37,
+      "avg_salary": 16.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Airflow",
+      "co_occurrences": 46,
+      "avg_salary": 16.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Azure",
+      "co_occurrences": 128,
+      "avg_salary": 16.53,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + SQL",
+      "co_occurrences": 101,
+      "avg_salary": 16.52,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Python",
+      "co_occurrences": 58,
+      "avg_salary": 16.52,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Scala",
+      "co_occurrences": 22,
+      "avg_salary": 16.52,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + NoSQL",
+      "co_occurrences": 32,
+      "avg_salary": 16.51,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + Statistics",
+      "co_occurrences": 3,
+      "avg_salary": 16.5,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Airflow + NoSQL",
+      "co_occurrences": 9,
+      "avg_salary": 16.49,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + SQL",
+      "co_occurrences": 238,
+      "avg_salary": 16.49,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Spark",
+      "co_occurrences": 63,
+      "avg_salary": 16.48,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + R",
+      "co_occurrences": 22,
+      "avg_salary": 16.48,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + TensorFlow",
+      "co_occurrences": 19,
+      "avg_salary": 16.48,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Kafka",
+      "co_occurrences": 39,
+      "avg_salary": 16.48,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Python",
+      "co_occurrences": 421,
+      "avg_salary": 16.47,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Java",
+      "co_occurrences": 27,
+      "avg_salary": 16.47,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + NoSQL",
+      "co_occurrences": 16,
+      "avg_salary": 16.47,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + NoSQL",
+      "co_occurrences": 5,
+      "avg_salary": 16.46,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SQL + Spark",
+      "co_occurrences": 641,
+      "avg_salary": 16.46,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + NoSQL",
+      "co_occurrences": 67,
+      "avg_salary": 16.45,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + R",
+      "co_occurrences": 11,
+      "avg_salary": 16.43,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Kafka + MongoDB",
+      "co_occurrences": 9,
+      "avg_salary": 16.42,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + SQL",
+      "co_occurrences": 221,
+      "avg_salary": 16.4,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + TensorFlow",
+      "co_occurrences": 49,
+      "avg_salary": 16.4,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Machine Learning",
+      "co_occurrences": 46,
+      "avg_salary": 16.4,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + Scala",
+      "co_occurrences": 148,
+      "avg_salary": 16.39,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + SAS",
+      "co_occurrences": 46,
+      "avg_salary": 16.38,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Java",
+      "co_occurrences": 22,
+      "avg_salary": 16.38,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SQL + Scala",
+      "co_occurrences": 163,
+      "avg_salary": 16.36,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Spark",
+      "co_occurrences": 31,
+      "avg_salary": 16.36,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Machine Learning",
+      "co_occurrences": 47,
+      "avg_salary": 16.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Kafka",
+      "co_occurrences": 32,
+      "avg_salary": 16.34,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Statistics + TensorFlow",
+      "co_occurrences": 6,
+      "avg_salary": 16.34,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Docker",
+      "co_occurrences": 27,
+      "avg_salary": 16.31,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Tableau",
+      "co_occurrences": 44,
+      "avg_salary": 16.29,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MongoDB + SQL",
+      "co_occurrences": 57,
+      "avg_salary": 16.27,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + Scala",
+      "co_occurrences": 40,
+      "avg_salary": 16.25,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + NLP",
+      "co_occurrences": 104,
+      "avg_salary": 16.23,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Snowflake",
+      "co_occurrences": 8,
+      "avg_salary": 16.23,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + Scala",
+      "co_occurrences": 10,
+      "avg_salary": 16.22,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Python",
+      "co_occurrences": 353,
+      "avg_salary": 16.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MongoDB + Spark",
+      "co_occurrences": 29,
+      "avg_salary": 16.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + SAS",
+      "co_occurrences": 60,
+      "avg_salary": 16.19,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + NoSQL",
+      "co_occurrences": 22,
+      "avg_salary": 16.19,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Machine Learning",
+      "co_occurrences": 9,
+      "avg_salary": 16.19,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MATLAB + Machine Learning",
+      "co_occurrences": 19,
+      "avg_salary": 16.18,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + R",
+      "co_occurrences": 15,
+      "avg_salary": 16.17,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Spark",
+      "co_occurrences": 87,
+      "avg_salary": 16.17,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + SQL",
+      "co_occurrences": 133,
+      "avg_salary": 16.16,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + TensorFlow",
+      "co_occurrences": 46,
+      "avg_salary": 16.15,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + Power BI",
+      "co_occurrences": 5,
+      "avg_salary": 16.15,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + SQL",
+      "co_occurrences": 247,
+      "avg_salary": 16.14,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + R",
+      "co_occurrences": 6,
+      "avg_salary": 16.13,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Spark",
+      "co_occurrences": 43,
+      "avg_salary": 16.12,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Machine Learning",
+      "co_occurrences": 35,
+      "avg_salary": 16.1,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + Tableau",
+      "co_occurrences": 22,
+      "avg_salary": 16.1,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + NLP",
+      "co_occurrences": 6,
+      "avg_salary": 16.06,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NumPy + SQL",
+      "co_occurrences": 12,
+      "avg_salary": 16.06,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Scala",
+      "co_occurrences": 12,
+      "avg_salary": 16.05,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Git",
+      "co_occurrences": 12,
+      "avg_salary": 16.03,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + ETL",
+      "co_occurrences": 56,
+      "avg_salary": 16.02,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + SAS",
+      "co_occurrences": 9,
+      "avg_salary": 16.01,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + NoSQL",
+      "co_occurrences": 61,
+      "avg_salary": 16.0,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + SQL",
+      "co_occurrences": 4,
+      "avg_salary": 16.0,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Spark + Tableau",
+      "co_occurrences": 71,
+      "avg_salary": 16.0,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + SQL",
+      "co_occurrences": 197,
+      "avg_salary": 16.0,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Scala",
+      "co_occurrences": 14,
+      "avg_salary": 15.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + C++",
+      "co_occurrences": 5,
+      "avg_salary": 15.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + NLP",
+      "co_occurrences": 8,
+      "avg_salary": 15.98,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Statistics",
+      "co_occurrences": 10,
+      "avg_salary": 15.98,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + SAS",
+      "co_occurrences": 39,
+      "avg_salary": 15.98,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Spark",
+      "co_occurrences": 80,
+      "avg_salary": 15.97,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Java",
+      "co_occurrences": 17,
+      "avg_salary": 15.97,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NumPy + Pandas",
+      "co_occurrences": 21,
+      "avg_salary": 15.92,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Git",
+      "co_occurrences": 29,
+      "avg_salary": 15.92,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Data Modeling",
+      "co_occurrences": 47,
+      "avg_salary": 15.91,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Kafka + Python",
+      "co_occurrences": 64,
+      "avg_salary": 15.89,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Python",
+      "co_occurrences": 73,
+      "avg_salary": 15.84,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Pandas + Spark",
+      "co_occurrences": 15,
+      "avg_salary": 15.81,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + ETL",
+      "co_occurrences": 52,
+      "avg_salary": 15.81,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + Python",
+      "co_occurrences": 44,
+      "avg_salary": 15.77,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Power BI",
+      "co_occurrences": 39,
+      "avg_salary": 15.76,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Power BI",
+      "co_occurrences": 26,
+      "avg_salary": 15.7,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Data Modeling",
+      "co_occurrences": 12,
+      "avg_salary": 15.69,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Tableau",
+      "co_occurrences": 36,
+      "avg_salary": 15.68,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Java",
+      "co_occurrences": 12,
+      "avg_salary": 15.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Agile",
+      "co_occurrences": 13,
+      "avg_salary": 15.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Git",
+      "co_occurrences": 5,
+      "avg_salary": 15.63,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NLP + NumPy",
+      "co_occurrences": 7,
+      "avg_salary": 15.63,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Tableau",
+      "co_occurrences": 12,
+      "avg_salary": 15.61,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Statistics",
+      "co_occurrences": 137,
+      "avg_salary": 15.61,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + TensorFlow",
+      "co_occurrences": 5,
+      "avg_salary": 15.59,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Docker + Machine Learning",
+      "co_occurrences": 11,
+      "avg_salary": 15.59,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MATLAB + R",
+      "co_occurrences": 6,
+      "avg_salary": 15.59,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + NoSQL",
+      "co_occurrences": 8,
+      "avg_salary": 15.58,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + SQL",
+      "co_occurrences": 60,
+      "avg_salary": 15.57,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Scala + Tableau",
+      "co_occurrences": 6,
+      "avg_salary": 15.55,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + R",
+      "co_occurrences": 13,
+      "avg_salary": 15.55,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + Tableau",
+      "co_occurrences": 11,
+      "avg_salary": 15.55,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Communication",
+      "co_occurrences": 47,
+      "avg_salary": 15.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + SQL",
+      "co_occurrences": 136,
+      "avg_salary": 15.53,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Pandas + TensorFlow",
+      "co_occurrences": 10,
+      "avg_salary": 15.5,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Pandas",
+      "co_occurrences": 16,
+      "avg_salary": 15.49,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + R",
+      "co_occurrences": 174,
+      "avg_salary": 15.46,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Scala",
+      "co_occurrences": 16,
+      "avg_salary": 15.43,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Databricks + NoSQL",
+      "co_occurrences": 6,
+      "avg_salary": 15.39,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Java",
+      "co_occurrences": 18,
+      "avg_salary": 15.36,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Power BI",
+      "co_occurrences": 11,
+      "avg_salary": 15.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + SAS",
+      "co_occurrences": 3,
+      "avg_salary": 15.33,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Machine Learning + R",
+      "co_occurrences": 3,
+      "avg_salary": 15.33,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Looker + Tableau",
+      "co_occurrences": 5,
+      "avg_salary": 15.33,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Agile",
+      "co_occurrences": 23,
+      "avg_salary": 15.33,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + SAS",
+      "co_occurrences": 3,
+      "avg_salary": 15.33,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Docker + Spark",
+      "co_occurrences": 19,
+      "avg_salary": 15.32,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MATLAB + Python",
+      "co_occurrences": 14,
+      "avg_salary": 15.31,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MATLAB + Statistics",
+      "co_occurrences": 6,
+      "avg_salary": 15.31,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Pandas",
+      "co_occurrences": 9,
+      "avg_salary": 15.31,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + ETL",
+      "co_occurrences": 19,
+      "avg_salary": 15.28,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Data Visualization",
+      "co_occurrences": 6,
+      "avg_salary": 15.27,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Communication",
+      "co_occurrences": 34,
+      "avg_salary": 15.25,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MongoDB + NoSQL",
+      "co_occurrences": 80,
+      "avg_salary": 15.22,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + SQL",
+      "co_occurrences": 688,
+      "avg_salary": 15.19,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NoSQL + Python",
+      "co_occurrences": 100,
+      "avg_salary": 15.18,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + Machine Learning",
+      "co_occurrences": 42,
+      "avg_salary": 15.16,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Machine Learning",
+      "co_occurrences": 29,
+      "avg_salary": 15.14,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + SQL",
+      "co_occurrences": 71,
+      "avg_salary": 15.13,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + Python",
+      "co_occurrences": 65,
+      "avg_salary": 15.12,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Pandas",
+      "co_occurrences": 6,
+      "avg_salary": 15.1,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + MongoDB",
+      "co_occurrences": 6,
+      "avg_salary": 15.06,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MongoDB + Scala",
+      "co_occurrences": 10,
+      "avg_salary": 15.05,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Docker",
+      "co_occurrences": 6,
+      "avg_salary": 15.05,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Power BI",
+      "co_occurrences": 17,
+      "avg_salary": 15.03,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NumPy + TensorFlow",
+      "co_occurrences": 10,
+      "avg_salary": 15.02,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Scala",
+      "co_occurrences": 11,
+      "avg_salary": 15.0,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + R",
+      "co_occurrences": 3,
+      "avg_salary": 15.0,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "APIs + Excel",
+      "co_occurrences": 5,
+      "avg_salary": 14.97,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + ETL",
+      "co_occurrences": 22,
+      "avg_salary": 14.96,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + R",
+      "co_occurrences": 27,
+      "avg_salary": 14.96,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Tableau",
+      "co_occurrences": 24,
+      "avg_salary": 14.96,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Communication",
+      "co_occurrences": 14,
+      "avg_salary": 14.94,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SAS + SQL",
+      "co_occurrences": 69,
+      "avg_salary": 14.93,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "NumPy + Python",
+      "co_occurrences": 29,
+      "avg_salary": 14.93,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Tableau",
+      "co_occurrences": 30,
+      "avg_salary": 14.89,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + GCP",
+      "co_occurrences": 14,
+      "avg_salary": 14.88,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + Python",
+      "co_occurrences": 39,
+      "avg_salary": 14.82,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Git",
+      "co_occurrences": 19,
+      "avg_salary": 14.8,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Java",
+      "co_occurrences": 32,
+      "avg_salary": 14.79,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + SQL",
+      "co_occurrences": 112,
+      "avg_salary": 14.79,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Databricks",
+      "co_occurrences": 8,
+      "avg_salary": 14.79,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + ETL",
+      "co_occurrences": 49,
+      "avg_salary": 14.79,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Scikit-learn",
+      "co_occurrences": 5,
+      "avg_salary": 14.76,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + GCP",
+      "co_occurrences": 16,
+      "avg_salary": 14.76,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Docker",
+      "co_occurrences": 7,
+      "avg_salary": 14.75,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + R",
+      "co_occurrences": 21,
+      "avg_salary": 14.73,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MATLAB + SQL",
+      "co_occurrences": 6,
+      "avg_salary": 14.72,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Power BI + SQL",
+      "co_occurrences": 90,
+      "avg_salary": 14.72,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + Tableau",
+      "co_occurrences": 142,
+      "avg_salary": 14.68,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Python",
+      "co_occurrences": 50,
+      "avg_salary": 14.65,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + R",
+      "co_occurrences": 5,
+      "avg_salary": 14.62,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Azure + Git",
+      "co_occurrences": 14,
+      "avg_salary": 14.61,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + Statistics",
+      "co_occurrences": 62,
+      "avg_salary": 14.61,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Git",
+      "co_occurrences": 36,
+      "avg_salary": 14.6,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Machine Learning",
+      "co_occurrences": 31,
+      "avg_salary": 14.59,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + SQL",
+      "co_occurrences": 46,
+      "avg_salary": 14.58,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Pandas + SQL",
+      "co_occurrences": 18,
+      "avg_salary": 14.57,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Power BI",
+      "co_occurrences": 21,
+      "avg_salary": 14.55,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Spark",
+      "co_occurrences": 11,
+      "avg_salary": 14.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Scala + Statistics",
+      "co_occurrences": 10,
+      "avg_salary": 14.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Python",
+      "co_occurrences": 104,
+      "avg_salary": 14.53,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Kafka",
+      "co_occurrences": 8,
+      "avg_salary": 14.53,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + MATLAB",
+      "co_occurrences": 7,
+      "avg_salary": 14.52,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Tableau",
+      "co_occurrences": 49,
+      "avg_salary": 14.5,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + Statistics",
+      "co_occurrences": 102,
+      "avg_salary": 14.5,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Kafka + Tableau",
+      "co_occurrences": 8,
+      "avg_salary": 14.45,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + Communication",
+      "co_occurrences": 31,
+      "avg_salary": 14.44,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Machine Learning",
+      "co_occurrences": 8,
+      "avg_salary": 14.43,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Scala",
+      "co_occurrences": 16,
+      "avg_salary": 14.41,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SAS + Tableau",
+      "co_occurrences": 16,
+      "avg_salary": 14.4,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "R + Tableau",
+      "co_occurrences": 56,
+      "avg_salary": 14.39,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SQL + Tableau",
+      "co_occurrences": 130,
+      "avg_salary": 14.38,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Pandas + Python",
+      "co_occurrences": 37,
+      "avg_salary": 14.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + SQL",
+      "co_occurrences": 125,
+      "avg_salary": 14.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Excel",
+      "co_occurrences": 9,
+      "avg_salary": 14.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + Scikit-learn",
+      "co_occurrences": 5,
+      "avg_salary": 14.34,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Tableau",
+      "co_occurrences": 23,
+      "avg_salary": 14.27,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + NumPy",
+      "co_occurrences": 17,
+      "avg_salary": 14.25,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Machine Learning",
+      "co_occurrences": 42,
+      "avg_salary": 14.25,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Tableau",
+      "co_occurrences": 7,
+      "avg_salary": 14.25,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + Power BI",
+      "co_occurrences": 30,
+      "avg_salary": 14.23,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + GCP",
+      "co_occurrences": 8,
+      "avg_salary": 14.21,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Python + SQL",
+      "co_occurrences": 3,
+      "avg_salary": 14.17,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Git + NoSQL",
+      "co_occurrences": 12,
+      "avg_salary": 14.16,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "AWS + MongoDB",
+      "co_occurrences": 15,
+      "avg_salary": 14.14,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SAS + Statistics",
+      "co_occurrences": 41,
+      "avg_salary": 14.14,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Java + MongoDB",
+      "co_occurrences": 14,
+      "avg_salary": 14.13,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Azure",
+      "co_occurrences": 10,
+      "avg_salary": 14.12,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Python",
+      "co_occurrences": 46,
+      "avg_salary": 14.1,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + MongoDB",
+      "co_occurrences": 5,
+      "avg_salary": 14.09,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Power BI",
+      "co_occurrences": 24,
+      "avg_salary": 14.07,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Data Visualization",
+      "co_occurrences": 23,
+      "avg_salary": 14.0,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Git + SQL",
+      "co_occurrences": 69,
+      "avg_salary": 13.99,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Power BI + Tableau",
+      "co_occurrences": 106,
+      "avg_salary": 13.98,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Airflow + Communication",
+      "co_occurrences": 11,
+      "avg_salary": 13.94,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "C++ + Communication",
+      "co_occurrences": 6,
+      "avg_salary": 13.89,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Statistics",
+      "co_occurrences": 10,
+      "avg_salary": 13.7,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Power BI + Python",
+      "co_occurrences": 84,
+      "avg_salary": 13.68,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SQL + Statistics",
+      "co_occurrences": 71,
+      "avg_salary": 13.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "SQL + Spark",
+      "co_occurrences": 3,
+      "avg_salary": 13.67,
+      "salary_source": "disclosed_only"
+    },
+    {
+      "skill_pair": "Data Visualization + Excel",
+      "co_occurrences": 21,
+      "avg_salary": 13.64,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Statistics",
+      "co_occurrences": 9,
+      "avg_salary": 13.55,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Plotly + Tableau",
+      "co_occurrences": 9,
+      "avg_salary": 13.54,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Git",
+      "co_occurrences": 11,
+      "avg_salary": 13.46,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Machine Learning",
+      "co_occurrences": 12,
+      "avg_salary": 13.37,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Tableau",
+      "co_occurrences": 44,
+      "avg_salary": 13.29,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Statistics + Tableau",
+      "co_occurrences": 18,
+      "avg_salary": 13.24,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + SAS",
+      "co_occurrences": 22,
+      "avg_salary": 13.22,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Git",
+      "co_occurrences": 15,
+      "avg_salary": 13.21,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + SAS",
+      "co_occurrences": 10,
+      "avg_salary": 13.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + Git",
+      "co_occurrences": 15,
+      "avg_salary": 13.06,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Power BI + R",
+      "co_occurrences": 35,
+      "avg_salary": 13.01,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Statistics",
+      "co_occurrences": 18,
+      "avg_salary": 12.86,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "GCP + Tableau",
+      "co_occurrences": 16,
+      "avg_salary": 12.77,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + SAS",
+      "co_occurrences": 13,
+      "avg_salary": 12.75,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Pandas",
+      "co_occurrences": 7,
+      "avg_salary": 12.7,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Modeling + Excel",
+      "co_occurrences": 9,
+      "avg_salary": 12.7,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Data Visualization + GCP",
+      "co_occurrences": 7,
+      "avg_salary": 12.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Data Visualization",
+      "co_occurrences": 7,
+      "avg_salary": 12.67,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + AWS",
+      "co_occurrences": 13,
+      "avg_salary": 12.6,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Machine Learning + MongoDB",
+      "co_occurrences": 8,
+      "avg_salary": 12.4,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "MongoDB + Python",
+      "co_occurrences": 28,
+      "avg_salary": 12.37,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Power BI + SAS",
+      "co_occurrences": 8,
+      "avg_salary": 12.33,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Plotly + Power BI",
+      "co_occurrences": 5,
+      "avg_salary": 12.31,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + GCP",
+      "co_occurrences": 5,
+      "avg_salary": 12.29,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "APIs + Git",
+      "co_occurrences": 5,
+      "avg_salary": 12.2,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "ETL + Excel",
+      "co_occurrences": 9,
+      "avg_salary": 12.09,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Agile + Power BI",
+      "co_occurrences": 5,
+      "avg_salary": 12.08,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + SQL",
+      "co_occurrences": 99,
+      "avg_salary": 12.04,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Power BI + Statistics",
+      "co_occurrences": 14,
+      "avg_salary": 11.75,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + R",
+      "co_occurrences": 26,
+      "avg_salary": 11.46,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Python",
+      "co_occurrences": 55,
+      "avg_salary": 11.35,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Data Visualization",
+      "co_occurrences": 13,
+      "avg_salary": 11.32,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "A/B Testing + Statistics",
+      "co_occurrences": 8,
+      "avg_salary": 10.58,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Communication + Excel",
+      "co_occurrences": 46,
+      "avg_salary": 10.15,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Plotly + SQL",
+      "co_occurrences": 12,
+      "avg_salary": 9.96,
+      "salary_source": "all_including_estimated"
+    },
+    {
+      "skill_pair": "Excel + Plotly",
+      "co_occurrences": 15,
+      "avg_salary": 9.72,
+      "salary_source": "all_including_estimated"
+    }
+  ]
+}

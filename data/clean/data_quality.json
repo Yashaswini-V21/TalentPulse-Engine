@@ -1,0 +1,96 @@
+{
+  "pipeline_version": "2.0",
+  "generated_at": "2026-08-27T21:02:00.681764",
+  "dataset_sources": [
+    {
+      "name": "Naukri 30K General Jobs",
+      "file": "marketing_sample_for_naukri_com-jobs__20190701_20190830__30k_data.csv",
+      "period": "July\u2013August 2019",
+      "original_rows": 30000,
+      "after_filter": 231,
+      "has_company_field": false,
+      "has_salary_field": true,
+      "note": "Skills extracted from Key Skills column, not full job description"
+    },
+    {
+      "name": "Naukri Data Science Jobs India",
+      "file": "naukri_data_science_jobs_india.csv",
+      "period": "Undated (likely 2023\u20132024)",
+      "original_rows": 12000,
+      "after_filter": 5142,
+      "has_company_field": true,
+      "has_salary_field": false,
+      "note": "Skills extracted from Skills/Description column"
+    }
+  ],
+  "total_jobs_after_merge": 5347,
+  "duplicates_removed": 26,
+  "coverage": {
+    "salary": {
+      "disclosed": 33,
+      "missing": 5314,
+      "disclosed_pct": 0.6,
+      "note": "Only disclosed salaries are used for salary statistics unless explicitly labeled as estimated"
+    },
+    "company": {
+      "known": 5116,
+      "unknown": 231,
+      "known_pct": 95.7,
+      "unique_known": 1559,
+      "note": "Dataset 1 lacks a company column; those rows are marked Unknown"
+    },
+    "experience": {
+      "parsed": 5341,
+      "unparsed": 6,
+      "parsed_pct": 99.9
+    },
+    "skills": {
+      "jobs_with_skills": 4599,
+      "jobs_without_skills": 748,
+      "skills_coverage_pct": 86.0,
+      "unique_skills_detected": 41,
+      "avg_skills_per_job": 2.5
+    }
+  },
+  "limitations": [
+    "Dataset 1 is from July\u2013August 2019 \u2014 salary benchmarks may not reflect current market rates.",
+    "Dataset 2 has no date column \u2014 temporal trend analysis is not possible with this data.",
+    "231 of 5347 jobs (4.3%) have unknown company names.",
+    "Only 33 of 5347 jobs (0.6%) have disclosed salary information.",
+    "Salary parsing uses regex on unstructured text \u2014 some salaries may be misread or missed.",
+    "Skill extraction uses keyword matching, not contextual NLP \u2014 accuracy ~90-95% for known DA/DS tools.",
+    "Company tier classification uses substring matching against curated lists \u2014 unlisted companies default to Startup/Other."
+  ],
+  "methodology": {
+    "salary_parsing": "Regex extraction from salary_text field. Patterns: X-Y LPA (midpoint), X LPA (direct), Indian format X,XX,XXX PA (converted to LPA), Rs/INR/\u20b9 prefix (converted).",
+    "skill_extraction": "Vocabulary-based entity matching with 40+ canonical skills and 200+ keyword variants. Each job description is lowercased and checked for keyword presence.",
+    "company_tiering": "Substring match against curated lists: 43 Product companies, 19 Consulting firms, 21 MNC/IT Services. Default: Startup/Other.",
+    "experience_parsing": "Regex extraction of X-Y, X+, or single number patterns from experience text field."
+  },
+  "tier_distribution": {
+    "Startup/Other": 4451,
+    "Product": 334,
+    "Consulting": 310,
+    "MNC/IT Services": 252
+  },
+  "exp_band_distribution": {
+    "5-8 yrs (Senior)": 2076,
+    "3-5 yrs (Mid)": 1616,
+    "8+ yrs (Lead)": 987,
+    "1-3 yrs (Junior)": 600,
+    "0-1 yr (Fresher)": 68
+  },
+  "salary_source_distribution": {
+    "estimated": 5314,
+    "disclosed": 33
+  },
+  "enrichment": {
+    "model": "base_salary \u00d7 skill_premium \u00d7 tier_multiplier + noise",
+    "disclosed_count": 33,
+    "estimated_count": 5314,
+    "total": 5347,
+    "disclosed_pct": 0.6,
+    "benchmarks_source": "AmbitionBox/Glassdoor Bengaluru DA/DS 2024",
+    "note": "Estimated salaries are model-generated and should never be presented as observed data."
+  }
+}

@@ -1,0 +1,1561 @@
+company,tier,job_count,avg_salary,median_salary,avg_experience,disclosed_salary_count,top_skills,salary_data_note
+Unknown,Startup/Other,231,15.06,15.14,6.6,33,"SQL, Python, Spark, Machine Learning, SAS",disclosed
+Accenture,Consulting,226,15.82,16.04,6.0,0,"Python, SQL, Spark, ETL, Machine Learning",estimated_only
+IBM,MNC/IT Services,115,14.71,14.08,6.8,0,"Python, SQL, Spark, Java, ETL",estimated_only
+Huquo Consulting Pvt. Ltd,Startup/Other,96,14.78,15.42,5.9,0,"Spark, ETL, SQL, Python, Java",estimated_only
+Visa,Startup/Other,64,15.61,15.04,7.0,0,"Java, Spark, Python, SQL, Agile",estimated_only
+Gojek,Startup/Other,57,17.62,16.86,7.3,0,"Machine Learning, SQL, Agile, NoSQL, GCP",estimated_only
+Walmart,Product,54,20.35,20.0,6.5,0,"Machine Learning, Spark, Python, Agile, Java",estimated_only
+Serving Skill,Startup/Other,51,16.03,16.31,6.4,0,"SQL, Spark, Azure, Python, Java",estimated_only
+CHANGE LEADERS CONSULTING,Startup/Other,47,14.54,14.54,5.5,0,"SQL, Python, Spark, Machine Learning, Statistics",estimated_only
+TalentStack,Startup/Other,42,13.64,10.9,5.6,0,"Python, SQL, Java, R, Tableau",estimated_only
+Shell,Startup/Other,41,17.44,17.0,7.7,0,"Azure, Power BI, Spark, R, SQL",estimated_only
+Uber,Product,40,16.9,13.74,5.5,0,"Machine Learning, Scala, SQL, Data Modeling, Agile",estimated_only
+Microsoft,Product,40,22.79,21.84,7.7,0,"Machine Learning, Python, Spark, C++, Azure",estimated_only
+Genpact,Startup/Other,33,18.11,16.77,7.1,0,"AWS, SQL, Python, ETL, Spark",estimated_only
+Flipkart,Product,31,14.34,13.39,4.7,0,"SQL, Python, SAS, Excel, Machine Learning",estimated_only
+Multi Recruit,Startup/Other,31,16.47,16.29,7.5,0,"Machine Learning, Spark, Python, Agile, SQL",estimated_only
+Krazy Mantra HR Solutions Pvt. Ltd,Startup/Other,31,19.42,18.42,8.0,0,"Python, Spark, ETL, SQL, AWS",estimated_only
+Career Infosystem,MNC/IT Services,29,15.31,15.33,6.5,0,"Spark, Python, SQL, Java, AWS",estimated_only
+Orcapod Consulting Services Private Limited,Startup/Other,28,19.04,17.81,8.1,0,"SQL, Python, Spark, AWS, ETL",estimated_only
+Myntra,Product,23,11.12,9.11,3.2,0,"Excel, Python, Data Visualization, SQL, Communication",estimated_only
+TALENT500 TECH (INDIA) PRIVATE LIMITED,Startup/Other,23,15.41,14.26,6.3,0,"Java, Python, SQL, Spark, Machine Learning",estimated_only
+PwC,Consulting,22,19.51,19.6,8.0,0,"SQL, Spark, GCP, AWS, Azure",estimated_only
+NTT DATA,Startup/Other,22,12.84,11.17,5.1,0,"Azure, SQL, Spark, Python, NoSQL",estimated_only
+PayPal,Startup/Other,21,14.85,15.73,6.0,0,"Machine Learning, Git, ETL, Agile, Data Modeling",estimated_only
+Diverse Lynx,Startup/Other,21,10.97,11.03,4.5,0,"SQL, Spark, Python, Machine Learning, R",estimated_only
+Applied Materials,Startup/Other,21,16.89,16.76,6.5,0,"R, Tableau, SQL, Machine Learning, Statistics",estimated_only
+Dell Technologies,Startup/Other,21,19.41,17.36,8.0,0,"SQL, Spark, Java, Python, Kafka",estimated_only
+VEGA Intellisoft Private Limited,Startup/Other,21,15.5,15.52,6.6,0,"Python, Spark, SQL, Azure, ETL",estimated_only
+Anicalls,Startup/Other,20,16.23,16.24,7.3,0,"Python, Spark, SQL, Tableau, ETL",estimated_only
+Thomson Reuters,Startup/Other,19,10.31,10.87,3.5,0,"Machine Learning, Agile, Data Modeling, SQL, NoSQL",estimated_only
+CareerXperts Consulting,Startup/Other,19,16.08,16.33,6.7,0,"Machine Learning, Spark, SQL, Agile, Git",estimated_only
+PayU,Startup/Other,18,11.71,11.04,4.5,0,"Machine Learning, Agile, SQL, Python, SAS",estimated_only
+Bloom Consulting Services,Startup/Other,18,12.82,11.23,4.9,0,"SQL, Data Modeling, Machine Learning, Spark, Data Visualization",estimated_only
+Xpheno,Startup/Other,18,17.38,16.44,7.1,0,"SQL, Spark, GCP, Machine Learning, Excel",estimated_only
+Dell International Services IndiaPrivate Limited,Startup/Other,18,17.66,16.36,6.9,0,"Spark, SQL, Python, Java, Power BI",estimated_only
+DXC Technology,Startup/Other,18,17.12,17.2,7.2,0,"Azure, SQL, Data Modeling, Databricks, Spark",estimated_only
+Capco,Startup/Other,18,16.6,15.1,6.9,0,"SQL, Agile, Spark, Scala, Python",estimated_only
+Cargill,Startup/Other,17,14.87,11.06,6.1,0,"Spark, Agile, Power BI, Data Modeling, Data Visualization",estimated_only
+Schneider Electric,Startup/Other,17,11.32,10.76,4.6,0,"SQL, Machine Learning, Spark, ETL, Statistics",estimated_only
+Hucon Solutions,Startup/Other,17,18.61,17.6,7.7,0,"SQL, R, Tableau, Power BI, AWS",estimated_only
+Symphoni HR Private Limited,Startup/Other,16,16.52,16.73,6.6,0,"Python, SQL, Spark, Java, ETL",estimated_only
+Aspire Recruitment Solutions,Startup/Other,16,13.02,11.38,5.2,0,"Spark, Python, Java, SQL, AWS",estimated_only
+Mount Talent Consulting Private Limited,Startup/Other,16,15.46,16.94,5.8,0,"Spark, Python, SQL, Azure, Machine Learning",estimated_only
+Target,Product,16,19.68,21.54,6.6,0,"Machine Learning, Agile, Spark, SQL, Statistics",estimated_only
+Meesho,Product,16,20.18,19.6,8.6,0,"SQL, Machine Learning, Spark, R, AWS",estimated_only
+GSK India,Startup/Other,16,13.87,14.61,5.5,0,"Agile, GCP, Machine Learning, Git, ETL",estimated_only
+C42 Engineering India Pvt. Ltd.,Startup/Other,15,17.61,16.7,6.2,0,"Machine Learning, SQL, Agile, NoSQL, Git",estimated_only
+cliqhr.com,Startup/Other,15,18.19,16.78,7.6,0,"SQL, Spark, Communication, Python, R",estimated_only
+Corner Tree Consulting,Startup/Other,15,19.64,18.28,9.2,0,"Python, Azure, Machine Learning, Spark, Scala",estimated_only
+Eli Lilly and Company,Startup/Other,15,13.36,11.82,5.4,0,"Agile, Data Visualization, NLP, Statistics, Python",estimated_only
+TEKISHUB CONSULTING SERVICES PRIVATE LIMITED,Startup/Other,15,16.78,16.37,6.4,0,"AWS, SQL, Spark, Python, Azure",estimated_only
+Optum,Startup/Other,14,18.15,17.12,8.4,0,"SQL, Spark, ETL, Python, Machine Learning",estimated_only
+SAP India Pvt.Ltd,MNC/IT Services,14,14.36,14.9,6.9,0,"Machine Learning, Python, Java, SQL, NLP",estimated_only
+Allegis Services India Pvt. Ltd.,Startup/Other,14,14.96,15.26,6.7,0,"SQL, Python, Data Modeling, Tableau, Data Visualization",estimated_only
+Brillio,Startup/Other,14,16.64,16.66,6.6,0,"Spark, SQL, Python, Java, AWS",estimated_only
+Talpro,Startup/Other,14,16.79,16.52,6.9,0,"Spark, Java, Python, SQL, NoSQL",estimated_only
+Boston Consulting Group,Consulting,13,12.16,11.45,5.0,0,"SQL, Python, Excel, Machine Learning, Spark",estimated_only
+Ziolite,Startup/Other,13,13.69,11.64,5.5,0,"SQL, Spark, Python, AWS, NoSQL",estimated_only
+Jupiter.money,Startup/Other,13,13.15,12.06,5.5,0,"Machine Learning, Java, R, Scala, Spark",estimated_only
+IHS Markit,Startup/Other,13,12.11,10.92,4.9,0,"Python, Communication, Spark, SQL, AWS",estimated_only
+Nike India,Startup/Other,13,13.49,11.06,5.9,0,"Agile, Data Modeling, NoSQL, MongoDB, SQL",estimated_only
+Kimberly-Clark Lever Limited,Startup/Other,13,18.29,17.62,9.5,0,"Agile, Data Modeling, SQL, Machine Learning, SAS",estimated_only
+Vmware,Startup/Other,13,14.6,14.94,5.9,0,"Python, Tableau, Agile, Spark, Java",estimated_only
+Seven Consultancy (HR Solution),Startup/Other,13,13.08,13.43,5.2,0,"Spark, Machine Learning, GCP, Statistics, Data Visualization",estimated_only
+TresVista Financial,Startup/Other,13,5.19,4.11,1.3,0,"Communication, Excel, Power BI",estimated_only
+Wipro,MNC/IT Services,13,17.01,16.55,7.8,0,"SQL, Python, Java, Spark, Machine Learning",estimated_only
+cloudneeti,Startup/Other,13,14.01,11.24,5.8,0,"Tableau, SQL, Spark, Python, Machine Learning",estimated_only
+Impetus,Startup/Other,13,14.44,11.32,5.5,0,"Spark, SQL, Java, Python, AWS",estimated_only
+jupiter,Startup/Other,13,11.9,11.01,4.7,0,"Machine Learning, Java, Statistics, Scala, Excel",estimated_only
+Philips,Startup/Other,12,18.96,19.17,8.5,0,"Machine Learning, Agile, Java, SQL, Data Visualization",estimated_only
+TIGER ANALYTICS INDIA CONSULTING PRIVATE LIMITED,Consulting,12,16.87,15.27,6.0,0,"Machine Learning, Python, Tableau, Spark, Databricks",estimated_only
+Harman Connected Services Corporation India Pvt.,Startup/Other,12,16.21,15.52,6.6,0,"Agile, ETL, Data Modeling, Spark, Azure",estimated_only
+Yo HR Consultancy,Startup/Other,12,15.66,12.1,6.4,0,"Spark, Python, Machine Learning, Java, SQL",estimated_only
+Intel,Startup/Other,11,12.6,11.22,5.2,0,"Agile, Machine Learning, SQL, MATLAB, Spark",estimated_only
+Optico Solutions Pvt. Ltd.,Startup/Other,11,19.46,17.23,7.9,0,"Python, Spark, SQL, Azure, ETL",estimated_only
+Confidential,Startup/Other,11,15.05,15.65,6.5,0,"Spark, Python, SQL, Java, Machine Learning",estimated_only
+Talent Zone Consultant,Startup/Other,11,15.75,12.78,6.5,0,"Spark, Machine Learning, Python, R, Excel",estimated_only
+Databricks,Startup/Other,11,14.19,15.28,5.5,0,"Spark, AWS, Python, Azure, Machine Learning",estimated_only
+Deutsche Bank,Startup/Other,11,9.87,10.1,4.2,0,"Agile, ETL, Excel, SQL",estimated_only
+Vision Beyond Resources India Private Limited,Startup/Other,11,21.61,21.12,9.0,0,"SQL, Python, Azure, Data Modeling, AWS",estimated_only
+Siemens,Startup/Other,11,13.84,13.77,5.6,0,"Python, ETL, Agile, Machine Learning, SQL",estimated_only
+Team4Progress,Startup/Other,11,19.96,17.64,8.5,0,"Spark, SQL, Python, Scala, Kafka",estimated_only
+Moody's,Startup/Other,10,11.49,9.82,4.8,0,"Excel, APIs, Data Modeling, Python, Power BI",estimated_only
+Micron Tech,Startup/Other,10,16.41,16.05,6.0,0,"Spark, SQL, Machine Learning, Python, ETL",estimated_only
+"Rakuten, Inc.",Startup/Other,10,16.68,14.16,6.9,0,"Machine Learning, Communication, Agile, SQL, Spark",estimated_only
+SKILLVENTORY,Startup/Other,10,17.5,17.91,7.2,0,"Spark, Machine Learning, TensorFlow, Data Modeling, Tableau",estimated_only
+Snaphunt,Product,10,20.17,20.2,6.2,0,"Python, NoSQL, SQL, Java, Spark",estimated_only
+CRESCENDO GLOBAL LEADERSHIP HIRING INDIA PRIVATE L IMITED,Startup/Other,10,16.24,16.48,6.5,0,"Python, Spark, Scala, Java, Machine Learning",estimated_only
+FUTURES AND CAREERS,Startup/Other,10,18.0,17.92,6.8,0,"Spark, Python, SQL, AWS, Airflow",estimated_only
+Paytm,Product,10,18.38,18.58,6.8,0,"Machine Learning, SQL, NoSQL, Statistics, Scala",estimated_only
+UPL,Startup/Other,10,16.9,14.95,7.8,0,"Python, Machine Learning, AWS, Azure, Scala",estimated_only
+EPAM Systems,Startup/Other,10,17.9,17.16,8.1,0,"Spark, Python, SQL, Java, Agile",estimated_only
+Informatica,Startup/Other,9,19.16,21.61,7.9,0,"Java, Python, AWS, Azure, ETL",estimated_only
+Clarivate,Startup/Other,9,10.63,9.14,4.1,0,"Agile, Excel, ETL, SQL, Data Modeling",estimated_only
+referral,Startup/Other,9,12.11,9.52,4.8,0,"Machine Learning, Data Visualization, Communication, SAS, Spark",estimated_only
+Western Digital,Startup/Other,9,13.92,15.25,5.6,0,"SQL, Python, Spark, Tableau, Excel",estimated_only
+AllianceData,Startup/Other,9,11.77,10.7,4.6,0,"SAS, Agile",estimated_only
+Altisource Business Solutions Pvt Ltd,Startup/Other,9,10.46,9.69,4.3,0,"Excel, SQL, GCP, Data Visualization, Git",estimated_only
+Anlage Infotech (I) Pvt. Ltd.,Startup/Other,9,19.6,17.38,8.1,0,"AWS, Spark, Python, Scala, Agile",estimated_only
+Arrow Electronics,Startup/Other,9,9.61,10.08,3.4,0,"Power BI, SQL, Data Modeling, C++, Plotly",estimated_only
+TeamPlus Staffing Solution Pvt Ltd,Startup/Other,9,14.01,14.66,5.8,0,"Machine Learning, ETL, Agile, SQL, Python",estimated_only
+KPMG,Consulting,9,12.34,12.02,4.0,0,"Spark, ETL, Java, Azure, GCP",estimated_only
+Razorpay,Product,9,13.98,13.67,4.2,0,"Java, Spark, Python, Data Modeling, NoSQL",estimated_only
+Audax Labs,Startup/Other,9,13.45,11.49,5.8,0,"Java, Azure, AWS, Python, SQL",estimated_only
+Ericsson Global Services,Startup/Other,9,20.87,20.17,9.9,0,"Machine Learning, Python, GCP, TensorFlow, C++",estimated_only
+Luxoft,Startup/Other,9,17.2,16.34,7.5,0,"SQL, Python, Agile, Spark, ETL",estimated_only
+Benchire,Startup/Other,9,12.69,11.51,5.1,0,"SQL, NoSQL, Tableau, Python, GCP",estimated_only
+Refinitiv,Startup/Other,9,7.38,7.02,2.8,0,"NLP, Excel, APIs",estimated_only
+Morgan Stanley,Startup/Other,9,13.34,15.06,4.8,0,"ETL, Agile, Python, GCP, Java",estimated_only
+Core Edge Solutions,Startup/Other,8,15.87,16.25,6.1,0,"Python, AWS, SQL, Docker, Git",estimated_only
+HCL Technologies,MNC/IT Services,8,18.15,18.61,9.3,0,"SQL, Spark, Python, Azure, Scala",estimated_only
+CBA Services Private Limited,Startup/Other,8,15.04,15.5,6.0,0,"Agile, SQL, SAS, R",estimated_only
+Altimax Business Solutions,Startup/Other,8,16.94,17.02,6.9,0,"SQL, Spark, Scala, ETL, Azure",estimated_only
+EXL,Consulting,8,16.19,15.14,5.6,0,"Machine Learning, NLP, Python, R, Java",estimated_only
+Wells Fargo,Startup/Other,8,24.5,24.46,11.4,0,"SQL, Python, ETL, Tableau, Spark",estimated_only
+SDNA Global,Startup/Other,8,17.75,17.33,7.2,0,"Java, Spark, Scala, AWS, Git",estimated_only
+Betsol Software India Private Limited,Startup/Other,8,15.09,15.19,6.2,0,"Java, Docker, Python, AWS, SQL",estimated_only
+Parallel Wireless,Startup/Other,8,13.84,13.64,4.7,0,"Spark, Machine Learning, NoSQL, SQL, Python",estimated_only
+Juniper Networks,Startup/Other,8,15.57,15.42,7.0,0,"SAS, Agile, C++, SQL, Data Modeling",estimated_only
+ITC Infotech,Startup/Other,8,13.26,13.24,4.5,0,"ETL, SQL, Azure, Spark, SAS",estimated_only
+KWALEE INDIA PRIVATE LIMITED,Startup/Other,8,13.56,13.67,4.9,0,"Python, SQL, Statistics, TensorFlow, A/B Testing",estimated_only
+KARYA CONSULTANTS PRIVATE LIMITED,Startup/Other,8,17.32,17.94,6.8,0,"Python, Azure, Spark, Agile, Tableau",estimated_only
+AutoCAD,Startup/Other,8,9.82,9.86,3.9,0,"Python, AWS, Machine Learning, Data Visualization, SQL",estimated_only
+Reverie Language Technologies Pvt. Ltd,Startup/Other,8,7.92,6.96,2.9,0,Python,estimated_only
+TRH Consultancy Services,Startup/Other,8,20.1,19.66,11.6,0,"Python, AWS, Azure, Machine Learning, Spark",estimated_only
+TEKION,Startup/Other,8,12.99,11.9,4.4,0,"Machine Learning, Spark, Data Visualization, Git, R",estimated_only
+Sharechat,Startup/Other,8,9.64,8.5,3.7,0,"NLP, Java, Machine Learning, Statistics, SAS",estimated_only
+Hotstar,Startup/Other,7,15.12,16.33,5.6,0,"SQL, Spark, Python, Git, Tableau",estimated_only
+Concerto HealthAI,Startup/Other,7,13.66,11.01,6.4,0,"SQL, NoSQL, Excel, Agile, Machine Learning",estimated_only
+Connexions,Startup/Other,7,13.72,12.08,5.7,0,"Python, Machine Learning, SQL, AWS, Kafka",estimated_only
+Kyndryl,Startup/Other,7,14.82,12.31,6.1,0,"Python, Java, AWS, Spark, SAS",estimated_only
+Glance IT Solution,Startup/Other,7,12.47,14.72,5.3,0,"NoSQL, SQL, Spark, Python, Tableau",estimated_only
+NOTUS SERVICES PRIVATE LIMITED,Startup/Other,7,21.4,22.14,8.9,0,"SQL, Azure, AWS, Spark, ETL",estimated_only
+Quest Junction,Startup/Other,7,14.93,16.23,6.5,0,"Data Visualization, Excel, Git, SQL, Google Sheets",estimated_only
+Peopleplus Professional Services Pvt. Ltd.,Startup/Other,7,14.37,12.03,7.5,0,"SQL, Spark, Git, Azure, NoSQL",estimated_only
+Ness,Startup/Other,7,15.0,15.16,6.9,0,"Azure, Spark, Agile, Communication, SQL",estimated_only
+Zscaler Softech,Startup/Other,7,14.9,16.23,6.2,0,"Machine Learning, NoSQL, Java, Spark, SQL",estimated_only
+Encora,Startup/Other,7,15.87,16.03,6.5,0,"Python, SQL, AWS, Spark, Kafka",estimated_only
+Search Advisers Services ( GUJ ) Pvt. Ltd.,Startup/Other,7,19.12,17.28,11.4,0,"Tableau, ETL, Machine Learning, Excel, AWS",estimated_only
+Catalyst,Startup/Other,7,15.74,11.96,5.6,0,"Machine Learning, Python, NLP, Spark, Tableau",estimated_only
+DocsApp,MNC/IT Services,7,11.24,9.6,4.9,0,"SQL, AWS, Communication, Python, APIs",estimated_only
+ERM Placement Services (P) Ltd.,Startup/Other,7,16.36,17.44,7.1,0,"Azure, Python, Databricks, Spark, Scala",estimated_only
+EY,Startup/Other,7,18.11,17.64,7.9,0,"Azure, SQL, AWS, Java, Spark",estimated_only
+SKYONNTECHNOLOGIES PRIVATE LIMITED,Startup/Other,7,16.91,16.43,5.9,0,"Spark, Python, AWS, GCP, Azure",estimated_only
+Capgemini,MNC/IT Services,7,12.08,13.61,5.7,0,"Spark, Communication, SQL, ETL, NLP",estimated_only
+Amazon,Product,7,17.02,13.87,5.4,0,"Python, Tableau, SQL, Excel, Spark",estimated_only
+Silicon Valley Bank,Consulting,7,13.04,11.56,5.6,0,"Data Modeling, SAS, ETL, Machine Learning, Agile",estimated_only
+Airbnb,Startup/Other,7,18.45,21.76,8.1,0,"SQL, Java, Spark, Scala, Machine Learning",estimated_only
+Team Plus Staffing Solution Pvt Ltd,Startup/Other,6,16.1,17.1,6.5,0,"Python, Machine Learning, Spark, C++, Java",estimated_only
+Unusual Hire,Startup/Other,6,7.06,6.7,2.6,0,"Data Visualization, Communication, Machine Learning, Power BI, GCP",estimated_only
+Cytiva,Startup/Other,6,10.6,11.13,3.7,0,"Power BI, Tableau, Spark, Python, Communication",estimated_only
+Cyient,MNC/IT Services,6,20.29,21.03,9.7,0,"Machine Learning, Python, Power BI, C++, Spark",estimated_only
+Acme Services,Startup/Other,6,11.65,10.45,4.7,0,"Python, SQL, Excel, Machine Learning, R",estimated_only
+Zebra Technologies India Pvt Ltd,Startup/Other,6,15.88,15.82,5.7,0,"Spark, SQL, Machine Learning, ETL, Azure",estimated_only
+milestone internet marketing pvt ltd,Startup/Other,6,15.75,14.86,7.4,0,"Git, NoSQL, MongoDB, Azure, SQL",estimated_only
+2Coms,Startup/Other,6,19.06,18.36,6.7,0,"Spark, TensorFlow, Communication, Python, Agile",estimated_only
+Lowes Services India Private limited,Startup/Other,6,11.98,10.88,4.2,0,Scala,estimated_only
+National Geographic,Startup/Other,6,11.08,8.59,4.3,0,"Git, Tableau, Spark, Data Modeling",estimated_only
+Microland,Product,6,18.25,13.46,6.0,0,"Excel, Data Modeling, SQL, Azure, Machine Learning",estimated_only
+Becton Dickinson India Pvt Ltd,Startup/Other,6,19.79,22.62,7.8,0,"Machine Learning, Agile, Data Visualization, Power BI, Spark",estimated_only
+Prime Infosoft,Startup/Other,6,14.3,13.18,5.9,0,"Spark, Communication, Python, ETL, Java",estimated_only
+TekFortune Inc.,Startup/Other,6,14.31,14.9,5.2,0,"Spark, Scala, SQL, Kafka, Java",estimated_only
+UST,Startup/Other,6,16.62,15.3,6.5,0,"Java, SQL, Kafka, Azure, Tableau",estimated_only
+Uniphore,Startup/Other,6,13.09,12.27,4.8,0,"Machine Learning, NLP, Tableau, Excel, Communication",estimated_only
+Ally - eXecutive.com,Startup/Other,6,19.85,19.28,9.4,0,"SAS, Machine Learning, Communication, Git, Java",estimated_only
+Talent Corner HR Services Pvt Ltd,Startup/Other,6,16.34,16.93,7.3,0,"ETL, Python, Data Modeling, AWS, Azure",estimated_only
+Swiggy,Product,6,20.85,17.45,6.8,0,"Machine Learning, SQL, Python, Scala, Spark",estimated_only
+E&Y,Startup/Other,6,19.5,19.44,8.9,0,"Python, Azure, Data Modeling, SQL, Spark",estimated_only
+Servian,Startup/Other,6,10.85,11.02,4.1,0,"Python, Azure, Data Modeling, AWS, Communication",estimated_only
+Sapiens International,MNC/IT Services,6,13.73,13.02,7.1,0,"SQL, ETL, Python, Agile, Communication",estimated_only
+Envestnet,Startup/Other,6,12.03,10.96,4.8,0,"Spark, Scala, Python, Statistics, SQL",estimated_only
+RGF Professional Recruitment,Startup/Other,6,15.37,14.9,7.2,0,"Machine Learning, SQL, Statistics, Git, MongoDB",estimated_only
+ANI Technologies Pvt. Ltd.,Startup/Other,6,15.3,16.73,6.7,0,"SQL, Machine Learning, Communication, SAS, Data Modeling",estimated_only
+CommerceIQ,Startup/Other,6,10.13,9.1,3.5,0,"Machine Learning, SQL",estimated_only
+Pythian,Startup/Other,6,12.78,13.37,5.8,0,"Java, AWS, Azure, SQL, Python",estimated_only
+Master Mind Consultancy,Startup/Other,6,20.76,21.94,7.6,0,"Python, Azure, NLP, AWS, GCP",estimated_only
+Atlassian,Product,6,24.18,20.49,7.7,0,"Python, Tableau, Power BI, SQL, Java",estimated_only
+"E2open, LLC",Startup/Other,5,9.87,10.52,3.7,0,"Excel, SQL, Communication",estimated_only
+Sequoia Consulting Group,Startup/Other,5,8.53,9.4,3.8,0,"Agile, SQL, Data Modeling",estimated_only
+"SAGE IT, INC",Startup/Other,5,12.32,11.24,5.0,0,"SQL, Java, Airflow, Agile, Communication",estimated_only
+RKSV,Startup/Other,5,15.96,17.07,6.0,0,"Scala, Spark, AWS, GCP, Tableau",estimated_only
+RCPC,Startup/Other,5,16.96,11.01,7.2,0,"SQL, Spark, Python, R, Kafka",estimated_only
+Seven Consultancy,Startup/Other,5,10.23,10.95,4.1,0,"GCP, Statistics",estimated_only
+Time Analytic &amp; Shared Services Private Limited,Startup/Other,5,9.6,8.59,3.7,0,"GCP, Git, Data Modeling, SQL, Communication",estimated_only
+Xebia IT Architects,Startup/Other,5,15.62,17.37,6.2,0,"Spark, Snowflake, Kafka, Data Modeling, Python",estimated_only
+Twilio,Startup/Other,5,12.78,15.93,5.1,0,"Java, SQL, Python, Data Modeling, Spark",estimated_only
+VISA,Startup/Other,5,14.67,15.16,6.1,0,"Scala, Spark, Java, Machine Learning",estimated_only
+Adecco India Private Limited,Startup/Other,5,18.49,16.94,7.1,0,"Spark, Python, SQL, AWS, Snowflake",estimated_only
+Cerner,Startup/Other,5,14.05,14.73,5.9,0,"Data Visualization, Power BI, R, Python, Communication",estimated_only
+Twitter,Product,5,10.98,9.23,3.0,0,"Machine Learning, C++, Java, Python, Spark",estimated_only
+Truecaller,Startup/Other,5,11.11,10.59,4.2,0,"SQL, Spark, Machine Learning, Agile, GCP",estimated_only
+Tredence Analytics Solutions Private Limited,Startup/Other,5,13.37,11.43,6.3,0,"SQL, Python, Power BI, Machine Learning, ETL",estimated_only
+DAZN,Startup/Other,5,11.3,11.0,3.9,0,"Machine Learning, Statistics, ETL, SQL, Agile",estimated_only
+Squareroot Consulting Pvt Ltd.,Startup/Other,5,19.98,19.42,7.3,0,"Machine Learning, NLP, Python, Data Visualization, Scala",estimated_only
+Dev Solutions,Startup/Other,5,19.13,23.93,8.2,0,"Python, Machine Learning, SQL, Spark, R",estimated_only
+Andor Tech (India) Pvt Ltd,Startup/Other,5,13.85,10.59,4.9,0,"SQL, Spark, Scala, Python, ETL",estimated_only
+Thoucentric,Startup/Other,5,19.81,18.66,8.0,0,"Machine Learning, Python",estimated_only
+Tesco Bengaluru,Startup/Other,5,11.95,11.06,4.1,0,"SQL, Machine Learning, Communication, Python, Java",estimated_only
+PowerSchool,Startup/Other,5,14.65,15.66,5.5,0,"Data Modeling, SQL, Excel, Machine Learning, NoSQL",estimated_only
+Roposo,Startup/Other,5,13.03,12.17,5.0,0,"Spark, Machine Learning, Statistics, A/B Testing, Data Visualization",estimated_only
+FICO,Startup/Other,5,14.34,15.28,5.9,0,"Machine Learning, C++, Statistics, SQL, Python",estimated_only
+Experis IT Private Limited,Startup/Other,5,14.0,11.8,5.1,0,"SQL, Spark, Scala, Python, Java",estimated_only
+CRED,Product,5,15.93,14.1,4.5,0,"Machine Learning, Spark, Scala, Statistics, Airflow",estimated_only
+Nestor Services,Startup/Other,5,24.88,25.29,10.2,0,"SAS, R, SQL, Python, Machine Learning",estimated_only
+BizViz Technologies Pvt. Ltd.,Startup/Other,5,16.06,16.17,6.7,0,"Spark, SAS, SQL, Python",estimated_only
+Meredith Corporation,Startup/Other,5,9.44,7.29,3.3,0,"GCP, Git, Data Modeling, SQL, Communication",estimated_only
+News Technology Services,Startup/Other,5,12.79,10.04,5.4,0,Agile,estimated_only
+Novo Nordisk India,Startup/Other,5,16.89,19.19,7.0,0,"Machine Learning, Agile, R, ETL, AWS",estimated_only
+Otis,Startup/Other,5,9.71,7.68,3.3,0,"Machine Learning, Data Visualization, Power BI, Data Modeling, SAS",estimated_only
+PPD,Startup/Other,5,17.29,16.77,6.6,0,"SQL, Statistics, Data Visualization, R, Plotly",estimated_only
+ParallelStack Sytems,Startup/Other,5,11.65,12.22,4.1,0,"NoSQL, Docker, Python, C++, Kafka",estimated_only
+Balbix,Startup/Other,5,11.38,10.99,4.6,0,"Python, SQL, APIs, Java, NoSQL",estimated_only
+Oracle,MNC/IT Services,5,17.23,15.93,8.4,0,"Python, Spark, Docker, Java, Machine Learning",estimated_only
+Pegasus Knowledge Solutions India Private Limited,Startup/Other,5,14.54,13.86,6.8,0,"Data Modeling, Machine Learning, Python, SAS, SQL",estimated_only
+Athenahealth,Startup/Other,5,14.33,10.94,5.7,0,"Python, Machine Learning, Java, Tableau, Power BI",estimated_only
+QuEST Global,Startup/Other,5,18.55,17.47,8.9,0,"Azure, Python, AWS, Spark, Power BI",estimated_only
+Grant Thornton India Pvt Ltd,Startup/Other,5,7.52,7.05,3.3,0,,estimated_only
+HackerEarth,Startup/Other,5,8.63,9.95,2.8,0,"Machine Learning, SQL, Statistics, Data Visualization, NLP",estimated_only
+Intuit Inc.,Product,5,31.02,31.43,13.7,0,"SQL, Java, Spark, AWS, Scala",estimated_only
+Jobs Accuracy,Startup/Other,5,13.92,15.99,5.0,0,"R, Data Modeling, Power BI, Tableau, SQL",estimated_only
+Jobs Territory,Startup/Other,5,6.85,6.93,2.1,0,"Excel, Machine Learning, NLP, SQL, AWS",estimated_only
+Blue Yonder,Startup/Other,5,15.8,17.06,6.4,0,"Machine Learning, GCP, Git, Agile, Spark",estimated_only
+Google,Product,5,12.21,9.25,3.9,0,"C++, Python, Spark, GCP, Machine Learning",estimated_only
+Global Talent Pool,Startup/Other,5,7.93,6.36,2.8,0,"Python, Statistics, Machine Learning, Data Visualization, SAS",estimated_only
+HRDevi Talent Acquisition,Startup/Other,5,13.41,15.18,6.1,0,"SQL, MATLAB, Python, Statistics, Java",estimated_only
+Burgeon IT Services Pvt ltd,Startup/Other,5,19.58,21.27,8.0,0,"Python, Spark, R, Git, SQL",estimated_only
+Burgeon It Services Pvt Ltd,Startup/Other,5,16.67,16.54,5.9,0,"Python, TensorFlow, NLP, NumPy, Pandas",estimated_only
+Incline Infotech,Startup/Other,5,19.08,16.33,11.0,0,"SQL, AWS, Spark, Java, Snowflake",estimated_only
+Coforge,MNC/IT Services,5,16.84,16.43,6.9,0,"Spark, Scala, AWS, Java, Agile",estimated_only
+CloudThat Technologies Pvt. Ltd.,Startup/Other,5,9.97,6.57,3.6,0,"Python, AWS, Azure, Java, NoSQL",estimated_only
+AARNA HR SOLUTIONS PVT. LTD.,Startup/Other,5,10.41,10.42,4.3,0,"SQL, SAS, Plotly, Communication, Excel",estimated_only
+Zendrive Inc,Startup/Other,5,15.38,13.96,7.1,0,"AWS, Machine Learning, SQL, NoSQL, Spark",estimated_only
+ACZ Global Private Limited,Startup/Other,5,19.88,21.68,7.9,0,"Machine Learning, R, Python, SQL, Statistics",estimated_only
+epiFi Technologies,Startup/Other,5,11.13,10.56,4.2,0,"Python, AWS, SQL, Machine Learning, NLP",estimated_only
+idfc first bank,Startup/Other,5,12.76,9.25,5.3,0,"Agile, Excel",estimated_only
+kk consulting services,Startup/Other,5,16.58,16.59,6.9,0,"Machine Learning, SQL, Python, Statistics",estimated_only
+upGrad,Startup/Other,4,10.92,10.19,4.6,0,"SQL, Data Visualization, GCP, Python, Plotly",estimated_only
+iQuanti,Startup/Other,4,15.54,14.55,6.0,0,"SQL, GCP, ETL, Git, Agile",estimated_only
+iMindYourBusiness,Startup/Other,4,8.46,5.91,2.8,0,"SQL, Python, SAS, C++, Excel",estimated_only
+AMPLIFY ANALYTIX INDIA PRIVATE LIMITED,Startup/Other,4,10.0,10.53,3.9,0,"Machine Learning, Git, Tableau, Statistics, C++",estimated_only
+Concerto.ai,Startup/Other,4,19.4,21.16,8.2,0,"Python, Spark, SQL, AWS, NoSQL",estimated_only
+sybill,Startup/Other,4,13.7,13.77,4.8,0,"Python, Machine Learning",estimated_only
+skypoint cloud,Startup/Other,4,15.4,12.26,7.0,0,"Azure, SQL, NoSQL, Scala, Machine Learning",estimated_only
+Infoblox,Startup/Other,4,16.93,16.28,7.6,0,"Python, SQL, Java, Spark",estimated_only
+Infineon Technologies Pvt Ltd,Startup/Other,4,9.2,8.5,3.0,0,"Machine Learning, NLP",estimated_only
+IQVIA RDS India Pvt Ltd,Startup/Other,4,11.77,10.34,5.0,0,"SQL, Spark, SAS, GCP, Scala",estimated_only
+I Square Soft,Startup/Other,4,20.2,20.86,7.8,0,"SQL, ETL, AWS, Spark, Python",estimated_only
+Kinara Financial Private Limited,Startup/Other,4,11.96,11.32,4.2,0,"SQL, Python, Machine Learning, Git, Tableau",estimated_only
+Kaleidofin,Startup/Other,4,20.64,20.62,8.0,0,"Spark, SQL, Python, Machine Learning, Statistics",estimated_only
+HotelHub,Startup/Other,4,15.16,13.68,5.8,0,"Machine Learning, R, SQL, Python, Communication",estimated_only
+C P CAREERS PRIVATE LIMITED,Startup/Other,4,11.87,12.0,4.6,0,"Spark, SQL, Python, Azure, Scala",estimated_only
+Hortonworks Inc.,Startup/Other,4,18.73,18.43,9.1,0,"Machine Learning, Python, Spark, Azure, R",estimated_only
+Grab,Startup/Other,4,13.66,14.12,4.8,0,Spark,estimated_only
+Minions Ventures,Startup/Other,4,10.45,10.36,3.5,0,"ETL, SQL, Plotly, Tableau, Azure",estimated_only
+Maintec Technologies,Startup/Other,4,13.9,13.57,5.9,0,"SQL, ETL, APIs, Spark, Communication",estimated_only
+Leuwint,Startup/Other,4,16.46,16.57,7.5,0,"Python, Agile, ETL, Git",estimated_only
+LatentView,Consulting,4,15.93,13.88,5.9,0,"SQL, R, Python, Spark, AWS",estimated_only
+Naukri Premium - Employer Services,Startup/Other,4,18.62,17.24,7.2,0,"Spark, GCP, Python, Java, ETL",estimated_only
+Nanobi Data And Analytics Pvt Ltd,Startup/Other,4,13.29,13.66,6.1,0,"SAS, Python, Spark, Communication",estimated_only
+NVIDIA,Startup/Other,4,10.0,9.99,4.2,0,"Agile, Scala, Machine Learning, Git",estimated_only
+NTT Data,Startup/Other,4,8.77,8.86,3.2,0,"Azure, SQL, Power BI, Agile, NoSQL",estimated_only
+Beckman Coulter India Pvt Ltd,Startup/Other,4,16.68,16.8,6.6,0,"Machine Learning, Agile, Azure, Git, AWS",estimated_only
+Mphasis,MNC/IT Services,4,13.55,13.88,7.2,0,"Java, ETL, SQL",estimated_only
+Moveworks,Startup/Other,4,13.99,14.54,5.9,0,"Python, Machine Learning, SQL",estimated_only
+Nutanix India Technologies Private Limited,Startup/Other,4,11.99,11.4,5.8,0,"SAS, Java, Communication, Excel",estimated_only
+NovoTree Minds Consulting Pvt. Ltd.,Startup/Other,4,11.12,11.09,3.9,0,"Spark, SQL, Airflow, SAS, Java",estimated_only
+GLOBALFOUNDRIES,Startup/Other,4,15.39,15.58,6.6,0,"Spark, AWS, SQL, Snowflake, Power BI",estimated_only
+Fluence,Startup/Other,4,9.16,9.88,3.2,0,"Agile, Machine Learning, Git, SQL, AWS",estimated_only
+Executive Selection India,Startup/Other,4,17.02,16.8,7.0,0,"Python, Java, Spark, NoSQL, Kafka",estimated_only
+Eurofins It Solutions,Startup/Other,4,15.67,15.42,6.9,0,"SQL, Python, Machine Learning, Azure, Tableau",estimated_only
+Esper,Startup/Other,4,16.45,16.86,6.6,0,"Spark, Java, Python, GCP, Machine Learning",estimated_only
+Envestnet | Yodlee,Startup/Other,4,12.04,11.63,5.4,0,"Spark, Scala, Python, SQL, AWS",estimated_only
+Ayla Networks,Startup/Other,4,16.01,15.37,7.1,0,"Agile, Machine Learning, Java, Python, GCP",estimated_only
+Axcess Consultancy Services,Startup/Other,4,15.7,16.34,6.1,0,"Spark, Python, Java, TensorFlow, R",estimated_only
+Awake Security,Startup/Other,4,15.96,17.72,6.4,0,"Scala, SQL, Python, Spark, C++",estimated_only
+Persistent,MNC/IT Services,4,12.99,11.38,5.0,0,"AWS, Python, Spark, Azure, Machine Learning",estimated_only
+ResearchFox,Startup/Other,4,8.08,8.19,2.8,0,,estimated_only
+Randstad India Private Limited,Startup/Other,4,14.74,16.3,5.1,0,"SQL, Python, Spark, Data Visualization, Tableau",estimated_only
+Ralph Lauren,Startup/Other,4,10.54,10.52,4.1,0,Agile,estimated_only
+RYSTAD ENERGY INDIA PRIVATE LIMITED,Startup/Other,4,8.32,6.64,3.1,0,Python,estimated_only
+Sense Talent Labs,Startup/Other,4,19.27,20.44,10.0,0,"SQL, Machine Learning, GCP, Git, Data Visualization",estimated_only
+Sears Holdings,Startup/Other,4,12.3,13.4,4.8,0,"Machine Learning, GCP, NLP, Git, Statistics",estimated_only
+Scienaptic Systems,Startup/Other,4,12.42,12.58,5.2,0,"Machine Learning, Spark, AWS",estimated_only
+Enquero,Startup/Other,4,12.32,12.48,5.2,0,"SQL, Scala, Git, NoSQL, Spark",estimated_only
+CaaStle,Startup/Other,4,12.03,12.52,4.5,0,"GCP, Tableau, Machine Learning, Spark, Agile",estimated_only
+SuccessR Hrtech Pvt Ltd,Startup/Other,4,17.82,17.64,7.2,0,"Python, AWS, Java, Machine Learning, Spark",estimated_only
+Squircle IT Consulting Services Pvt Ltd,Startup/Other,4,11.61,11.04,4.6,0,"SQL, C++, Communication, ETL",estimated_only
+Sigma Aldrich,Startup/Other,4,7.87,7.28,2.8,0,"Agile, SQL, Machine Learning, Excel",estimated_only
+Siemens Gamesa Renewable Energy,Startup/Other,4,12.94,10.9,5.2,0,"MATLAB, Python, Excel, ETL, SQL",estimated_only
+Talent Placers,Startup/Other,4,16.88,16.88,8.4,0,"Agile, SQL, Communication, Machine Learning",estimated_only
+TIGI HR Solution,Startup/Other,4,20.35,19.64,7.5,0,"SQL, GCP, Python, NLP, AWS",estimated_only
+Sutherland Global Services Inc,Startup/Other,4,9.87,7.45,3.8,0,"Python, SAS, NLP, Communication, R",estimated_only
+Thoucentric Technology Pvt ltd,Startup/Other,4,14.84,15.73,6.4,0,"Python, Machine Learning, Azure, TensorFlow, AWS",estimated_only
+AgreeYa,Startup/Other,4,13.52,14.34,4.9,0,"Python, Machine Learning, AWS, Spark, Azure",estimated_only
+Telamon HR Solutions,Startup/Other,4,20.55,23.24,8.0,0,"Java, Spark, Communication",estimated_only
+Xpetize Technology Solutions Private Limited,Startup/Other,4,15.37,14.71,7.0,0,"SQL, Spark, Java, Agile, AWS",estimated_only
+"ANMUTSOLUTIONS Pvt,Ltd.",Startup/Other,4,17.3,17.64,7.0,0,"SQL, Spark, SAS, Machine Learning, Agile",estimated_only
+WAKEFIT INNOVATIONS PRIVATE LIMITED,Startup/Other,4,8.67,8.7,3.4,0,"Data Visualization, Machine Learning, Scala, SAS, Statistics",estimated_only
+Vision Excel Career Solutions,Startup/Other,4,17.24,16.9,6.5,0,"Spark, Scala, SQL, ETL, Java",estimated_only
+Virtusa,MNC/IT Services,4,14.86,14.72,6.6,0,"Communication, SQL, Python, Spark, Kafka",estimated_only
+Valuable Consulting,Startup/Other,4,17.87,17.77,6.6,0,"TensorFlow, SQL, Python, Azure, Spark",estimated_only
+Delhivery,Startup/Other,4,9.93,10.49,3.8,0,"Machine Learning, Excel, SQL, Spark",estimated_only
+DMI Innovations Pvt. Ltd,Startup/Other,4,21.23,23.6,8.2,0,"Machine Learning, Python, AWS, Excel",estimated_only
+Course5,Startup/Other,4,15.3,16.06,5.8,0,"Statistics, Power BI, GCP, AWS, Excel",estimated_only
+newscorp,Startup/Other,3,10.52,10.31,4.3,0,,estimated_only
+experionglobal,Startup/Other,3,20.14,21.29,8.8,0,"Tableau, Python, Machine Learning, AWS, SQL",estimated_only
+Bukuwarung,Startup/Other,3,9.84,9.51,4.3,0,"SQL, Data Visualization",estimated_only
+krtrimaIQ AI Solutions,Startup/Other,3,15.26,16.73,5.7,0,"Machine Learning, Python, Statistics, NumPy, Tableau",estimated_only
+mfine,Startup/Other,3,15.41,17.09,6.0,0,"Spark, Data Modeling, SQL, Machine Learning",estimated_only
+ACS Global Tech Solutions Pvt. Ltd.,Startup/Other,3,11.84,11.01,4.7,0,"SQL, Snowflake, Azure",estimated_only
+Klub,Startup/Other,3,8.2,7.65,3.0,0,"Machine Learning, R, SAS, ETL, SQL",estimated_only
+Kennametal,Product,3,24.25,22.26,8.2,0,"Machine Learning, Scala, SQL, Power BI, Spark",estimated_only
+Boeing,Startup/Other,3,20.51,22.6,10.0,0,"SQL, Azure, Java, Python, MongoDB",estimated_only
+"Bloom Consulting Services, Inc.",Startup/Other,3,20.83,18.49,7.8,0,"SQL, ETL, Spark, Python, NoSQL",estimated_only
+XpressBees,Startup/Other,3,18.56,17.87,7.2,0,"Data Modeling, SQL, ETL, Spark, Kafka",estimated_only
+JobsTV India,Startup/Other,3,21.21,19.56,9.0,0,"GCP, ETL, Snowflake, Python, Databricks",estimated_only
+Blob Infotech Pvt Ltd,Startup/Other,3,15.39,16.4,5.7,0,"SQL, Python, Spark, GCP, ETL",estimated_only
+Kelly Outsourcing and Consulting Group India Priv ate Limited,Startup/Other,3,11.9,10.72,4.2,0,"SAS, Tableau, Power BI, Spark, Machine Learning",estimated_only
+BrightTALK,Startup/Other,3,15.74,17.32,6.3,0,"Machine Learning, GCP, Communication, Spark",estimated_only
+Leading US MNC into Analytics,Startup/Other,3,11.45,11.33,4.5,0,"Machine Learning, Python, NLP, Tableau, SQL",estimated_only
+LeadSquared,Startup/Other,3,13.91,13.99,6.2,0,"Machine Learning, Python, Statistics, AWS, SQL",estimated_only
+ISG NovaSoft Technologies Limited,Startup/Other,3,10.24,9.69,4.0,0,Communication,estimated_only
+Knowledge Foundry Business Solutions Pvt. Ltd.,Startup/Other,3,17.62,18.21,6.0,0,"Python, SQL, Machine Learning, TensorFlow, ETL",estimated_only
+CGI,Startup/Other,3,12.33,11.01,5.5,0,"Python, Azure, Spark, Agile, Machine Learning",estimated_only
+CAREER MAKERS,Startup/Other,3,17.17,17.68,7.5,0,"Machine Learning, MATLAB, Data Modeling, Python, Java",estimated_only
+CARDINAL HEALTH INTERNATIONAL INDIA PRIVATE LIMITE,Startup/Other,3,15.93,15.98,7.0,0,"Machine Learning, Python, NLP, TensorFlow, GCP",estimated_only
+Maxdata Solutions,Startup/Other,3,14.73,16.31,5.7,0,"Java, Python, AWS, Spark, SQL",estimated_only
+Xactly,Startup/Other,3,16.26,16.41,7.0,0,"Tableau, Java, Scala, SQL, Agile",estimated_only
+Winfort Services Pvt ltd,Startup/Other,3,25.48,28.27,8.8,0,"GCP, Java, Spark, SQL, Python",estimated_only
+Consys consultancy services,Startup/Other,3,15.45,15.61,7.2,0,"Python, Spark, Kafka, SQL, Scala",estimated_only
+Confluent,Startup/Other,3,16.56,10.83,7.2,0,"Spark, Data Modeling, Python, Agile, Tableau",estimated_only
+Compile Inc,Startup/Other,3,9.09,6.48,3.2,0,"Python, R, Git",estimated_only
+CoinSwitch Kuber,Product,3,12.8,9.02,4.2,0,"Tableau, GCP, Python, ETL, Airflow",estimated_only
+Maveric Systems Limited,Startup/Other,3,19.06,17.35,6.7,0,"Spark, Scala, Kafka, Java, Data Modeling",estimated_only
+Mandiant,Startup/Other,3,12.88,11.99,4.7,0,"Python, Spark, C++, Communication, Machine Learning",estimated_only
+Makonis software Solutions Private Limited,Startup/Other,3,21.39,22.73,8.0,0,"Scala, Spark, AWS, Python",estimated_only
+Hevo.io,Startup/Other,3,8.95,6.73,3.7,0,"SQL, Java, Python",estimated_only
+Birlasoft,MNC/IT Services,3,18.84,17.49,7.0,0,"AWS, ETL, Spark, Scala, Communication",estimated_only
+Bioclinica,Startup/Other,3,12.39,6.8,4.0,0,ETL,estimated_only
+Vdart Digital Private Limited,Startup/Other,3,21.65,22.51,8.8,0,"Azure, Databricks, ETL",estimated_only
+VMULTIPLY SOLUTIONS,Startup/Other,3,13.39,11.77,4.7,0,"Python, Machine Learning, TensorFlow, C++",estimated_only
+AVE-Promagne,Startup/Other,3,18.4,15.51,7.7,0,"Azure, SQL, Communication, Python, GCP",estimated_only
+Big Data BizViz (BizViz Technologies Pvt. Ltd),Startup/Other,3,15.77,15.28,6.8,0,"SQL, Agile, NoSQL, SAS, Machine Learning",estimated_only
+Momentive Performance Materials Inc.,Startup/Other,3,10.83,9.49,4.7,0,"Data Modeling, SQL",estimated_only
+Mize software Solutions Pvt ltd,Startup/Other,3,18.96,15.88,8.8,0,"AWS, Machine Learning, Java, Python, Agile",estimated_only
+Mindtree,MNC/IT Services,3,15.86,15.66,7.2,0,"GCP, Docker, Python, Java",estimated_only
+NR Consulting,Startup/Other,3,9.71,11.0,3.7,0,"Spark, SQL, Python, Docker, AWS",estimated_only
+NEEMTREE INTERNET PVT LTD,Startup/Other,3,13.06,10.98,5.2,0,"SAS, Machine Learning, Data Modeling",estimated_only
+Big Data BizViz,Startup/Other,3,16.3,16.64,6.8,0,"Python, Java, Spark, SQL, Scala",estimated_only
+Bidgely Technologies Private Limited,Startup/Other,3,17.75,18.37,7.5,0,"Machine Learning, Statistics, R, A/B Testing, NoSQL",estimated_only
+Benovymed Healthcare Private Limited,Startup/Other,3,22.29,22.25,15.2,0,,estimated_only
+Motorola Solutions India Private Ltd,Product,3,15.45,15.0,5.2,0,"Spark, Data Visualization",estimated_only
+Hinduja Global,Startup/Other,3,7.68,7.87,2.5,0,"Machine Learning, NLP, Spark, Statistics, SQL",estimated_only
+GoTo,Startup/Other,3,14.51,14.44,5.3,0,"Data Modeling, SQL, C++, Python, Spark",estimated_only
+ORMAE (Operations Research Machine learning & Analytics Experts LLP),Startup/Other,3,18.77,18.11,7.7,0,"Spark, Machine Learning, NoSQL, MongoDB, Tableau",estimated_only
+Acara Solutions Inc,Startup/Other,3,17.71,20.39,13.2,0,"Data Modeling, ETL, Git, Agile, Machine Learning",estimated_only
+Career Maker,Startup/Other,3,20.47,20.11,9.0,0,"C++, ETL, Machine Learning, Python, Spark",estimated_only
+Cardinal Health,Startup/Other,3,11.74,11.16,5.0,0,Agile,estimated_only
+Data Semantics,Startup/Other,3,14.51,16.11,6.5,0,"Python, Tableau, Machine Learning, AWS, Java",estimated_only
+Wells Fargo International Solutions Private Ltd,Startup/Other,3,21.27,26.75,8.0,0,"SQL, Data Modeling, Scala, Spark, Machine Learning",estimated_only
+WPP IT,Startup/Other,3,7.63,6.53,3.7,0,Tableau,estimated_only
+Vesat Management Consultants Pvt. Ltd,Startup/Other,3,20.59,24.97,7.2,0,"ETL, Spark, SQL, Data Modeling, Agile",estimated_only
+New Era India Consultancy Pvt. Ltd.,Startup/Other,3,11.29,9.21,6.3,0,"Data Visualization, Git, SQL, Java, Agile",estimated_only
+Neuroglee Therapeutics,Startup/Other,3,9.97,6.87,3.7,0,"GCP, NoSQL, SQL, APIs, AWS",estimated_only
+Hanu Software Solutions,Startup/Other,3,23.84,23.63,15.8,0,"Azure, Machine Learning, Python, Excel, Spark",estimated_only
+HELLES TALENT SOLUTIONS PRIVATE LIMITED,Startup/Other,3,14.86,14.63,6.3,0,"SQL, Data Modeling, Tableau, Data Visualization, ETL",estimated_only
+Geek Technologies,Startup/Other,3,20.53,20.66,9.7,0,"Spark, Kafka, Scala, Java, APIs",estimated_only
+BCD Meetings & Events,Startup/Other,3,7.74,6.26,2.8,0,"Data Visualization, Machine Learning, Excel",estimated_only
+OutSystems,Startup/Other,3,20.78,18.78,7.8,0,"Spark, AWS, Airflow, Python, ETL",estimated_only
+Observe.AI,Startup/Other,3,15.5,15.33,6.5,0,"Machine Learning, NLP, Agile",estimated_only
+Growel Softech Pvt. Ltd.,Startup/Other,3,16.16,15.8,6.0,0,"SQL, GCP, Java, Python, ETL",estimated_only
+Perfect Day,Startup/Other,3,15.46,16.72,5.2,0,"Python, R, SQL, AWS",estimated_only
+Torry Harris Business Solutions,Startup/Other,3,11.78,11.29,4.5,0,"Spark, Agile, SQL, Communication, Python",estimated_only
+Tookitaki Holding PTE LTD,Startup/Other,3,7.22,7.13,2.2,0,"Machine Learning, Spark, SQL, Communication, C++",estimated_only
+Tide Software,Startup/Other,3,6.7,6.36,2.0,0,"Python, AWS, Agile",estimated_only
+Dealshare.in,Startup/Other,3,11.88,12.83,4.5,0,"Machine Learning, Power BI, SQL, Excel",estimated_only
+Acko,Startup/Other,3,8.41,9.37,3.7,0,,estimated_only
+Accolite Software India Pvt Ltd,Startup/Other,3,9.45,10.12,4.0,0,"ETL, Java, Spark, SQL, Scala",estimated_only
+Pathway Creators,Startup/Other,3,13.96,14.7,6.3,0,"ETL, SQL, Python, Machine Learning, Communication",estimated_only
+Baker Hughes,Startup/Other,3,16.7,14.75,6.2,0,"Spark, AWS, Git, Agile",estimated_only
+Global Employees,Startup/Other,3,22.31,23.25,8.8,0,"Tableau, Machine Learning, NLP, Java, Python",estimated_only
+Axtria India Private Limited,Startup/Other,3,20.27,18.13,7.5,0,"Python, Spark",estimated_only
+Premier Consultants,Startup/Other,3,14.8,16.18,6.2,0,"Statistics, SQL, SAS, Python, R",estimated_only
+Podium Systems,Startup/Other,3,17.07,21.47,7.3,0,"Data Modeling, Agile, Git, SQL, Communication",estimated_only
+GSPANN,Startup/Other,3,14.18,15.12,5.8,0,"SQL, Python, Spark, Azure, GCP",estimated_only
+Rakuten,Startup/Other,3,13.04,11.57,5.3,0,"SQL, Python, Spark, Machine Learning, Statistics",estimated_only
+FutureSoft (India),Startup/Other,3,20.05,16.96,7.3,0,"SQL, Azure, Spark, Tableau, Python",estimated_only
+Future India Services,Startup/Other,3,13.52,13.91,5.7,0,"Data Visualization, ETL, SQL, Statistics, R",estimated_only
+Quantiphi Analytics Solutions Pvt. Ltd.,Startup/Other,3,17.79,17.17,6.8,0,"ETL, SQL, Azure, Databricks",estimated_only
+Telstra,Startup/Other,3,17.14,15.55,7.7,0,"SQL, Communication, GCP, Spark, Data Modeling",estimated_only
+Devkraft Technologies,Startup/Other,3,15.09,17.11,5.8,0,"SQL, Power BI, Tableau, Python, Excel",estimated_only
+Uptycs,Startup/Other,3,12.31,10.08,6.5,0,"SQL, Agile, NoSQL, MongoDB",estimated_only
+Uberlife Consulting Private Limited,Product,3,15.95,13.09,6.0,0,"Tableau, SQL, ETL, Communication",estimated_only
+Relevance Lab Inc,Startup/Other,3,15.77,15.7,7.0,0,"Git, SQL, Agile, Python, Statistics",estimated_only
+Ethos Capital,Startup/Other,3,8.98,9.35,4.0,0,"Machine Learning, NLP, Python, Spark, Agile",estimated_only
+SecureWorks,Startup/Other,3,19.56,19.19,9.2,0,,estimated_only
+Salesforce,Product,3,19.95,25.62,7.8,0,"SQL, C++, Machine Learning, Agile",estimated_only
+FireEye CyberSecurity Pvt Ltd,Startup/Other,3,10.47,8.23,4.3,0,"Python, Spark, C++, Azure, AWS",estimated_only
+Fiddich,Startup/Other,3,14.22,16.15,5.8,0,"Data Modeling, Machine Learning, MATLAB",estimated_only
+FabHotel Aay Kay Model Town,Startup/Other,3,8.51,6.9,2.7,0,"Spark, Git, Agile",estimated_only
+Societe Generale,Startup/Other,3,17.79,16.97,7.0,0,"Machine Learning, NoSQL, NumPy, Java, R",estimated_only
+Slice,Startup/Other,3,13.07,15.86,5.2,0,"SQL, MongoDB, NoSQL, Data Visualization, Python",estimated_only
+Signify,Startup/Other,3,19.06,16.17,7.5,0,"Machine Learning, Statistics, Data Modeling",estimated_only
+Shiras HR Advisory & Services,Startup/Other,3,16.61,17.7,5.5,0,"Data Visualization, Power BI, Statistics, Spark, AWS",estimated_only
+Tactica Business solutions,Startup/Other,3,23.62,22.86,13.3,0,"Azure, Python, SQL, Databricks, ETL",estimated_only
+Altimetrik,Startup/Other,3,18.98,18.13,7.0,0,"Python, C++, Agile, Spark, AWS",estimated_only
+Alphonso Inc.,Startup/Other,3,15.59,11.4,6.2,0,"Machine Learning, Spark, Statistics, Git",estimated_only
+Edge Executive Search Pvt. Ltd.,Startup/Other,3,15.04,17.31,6.3,0,"Machine Learning, Python, NLP, Git, SQL",estimated_only
+EDU ANGELS INDIA PVT LTD,Startup/Other,3,12.55,11.17,5.3,0,"SQL, Python, Spark, AWS, Azure",estimated_only
+AirSeva,Startup/Other,3,20.72,21.08,10.5,0,"C++, Java, Agile",estimated_only
+Aeries Technology Group,Startup/Other,3,19.74,17.56,7.3,0,"Azure, Java, Python, Spark",estimated_only
+Advito,Startup/Other,3,8.71,9.49,4.2,0,"Data Visualization, Machine Learning, Excel",estimated_only
+Shell Info Technologies Private Limited,Startup/Other,3,22.81,21.14,8.2,0,"Spark, SQL, Java, Python, AWS",estimated_only
+Exabeam,Startup/Other,3,13.49,8.93,6.0,0,"Machine Learning, Communication, APIs, GCP",estimated_only
+EverForce LLC,Startup/Other,3,15.22,16.85,5.7,0,"SQL, Python, Machine Learning, AWS",estimated_only
+Educational Initiatives,Startup/Other,3,7.53,7.73,2.8,0,"SQL, Spark, Excel, Azure, NoSQL",estimated_only
+Aon Hewitt,Startup/Other,3,13.41,16.37,5.0,0,ETL,estimated_only
+Solarwinds India Pvt Ltd,Product,3,18.39,20.09,5.8,0,"GCP, Azure, Docker, AWS",estimated_only
+Cardinal Drugs Ltd.,Startup/Other,3,15.17,15.44,7.3,0,"Agile, Excel",estimated_only
+TE Connectivity,Startup/Other,3,14.71,14.44,5.7,0,"Data Visualization, Tableau, Communication, R, SAS",estimated_only
+T & A Solutions,Startup/Other,3,12.85,15.84,5.2,0,"Excel, SQL, Python",estimated_only
+Syneos Health,Startup/Other,3,16.32,16.46,6.7,0,"Azure, SQL, Python, Databricks, Java",estimated_only
+Syncron International AB,Startup/Other,3,18.77,17.34,8.8,0,"Java, SQL, NoSQL, AWS, Machine Learning",estimated_only
+Symmetrical Global Search Pvt Ltd,Startup/Other,3,23.61,23.51,11.0,0,"Data Modeling, Machine Learning",estimated_only
+Swift Strategic Solutions Inc,Startup/Other,3,16.14,16.07,6.2,0,"Kafka, SQL, Python, Spark",estimated_only
+Superior Group,Startup/Other,3,21.62,23.13,10.3,0,"NLP, Statistics",estimated_only
+Sun Technology Integrators Private Limited,Startup/Other,3,15.42,15.26,5.7,0,Agile,estimated_only
+Tech Mahindra,MNC/IT Services,3,16.93,16.75,7.2,0,"Spark, Python, ETL, Azure, Scala",estimated_only
+Teamlease Servcies limited,Startup/Other,3,17.05,12.65,6.5,0,"ETL, SQL, GCP, Power BI, Java",estimated_only
+Talent21 Management Shared Services Private Limited,Startup/Other,3,16.01,16.3,6.8,0,"Data Modeling, Spark, SQL, ETL, Agile",estimated_only
+Tala,Startup/Other,3,11.0,11.15,4.7,0,"GCP, SQL, Scala, NoSQL",estimated_only
+Zilingo.com,Startup/Other,3,12.73,11.6,4.5,0,"Machine Learning, NoSQL, Spark",estimated_only
+Zetwerk Manufacturing Businesses,Startup/Other,3,16.48,21.03,9.2,0,,estimated_only
+Zeta Inc.,Startup/Other,3,19.19,17.52,6.2,0,"SQL, Agile, Spark",estimated_only
+ZeroFOX,Startup/Other,3,9.49,9.2,3.8,0,"Python, Spark, AWS",estimated_only
+Info Corporate Service,Startup/Other,3,18.04,15.81,5.8,0,"SQL, Spark, ETL, Java, Scala",estimated_only
+Infinera,Startup/Other,3,15.89,15.64,7.0,0,,estimated_only
+Inference Labs,Startup/Other,3,9.77,7.31,3.8,0,"Power BI, Tableau, SQL, Excel, R",estimated_only
+Indihire HR Consultants Private Limited,Startup/Other,3,11.06,11.42,4.7,0,"SQL, Python, Machine Learning",estimated_only
+Indegene Private Limited,Startup/Other,3,13.4,13.92,6.3,0,"SAS, Statistics, Agile",estimated_only
+Infosys,MNC/IT Services,3,15.34,15.58,5.8,0,"Java, Python, Azure, ETL, SQL",estimated_only
+Infogain,Startup/Other,3,23.11,23.7,9.3,0,"SQL, Azure, Data Modeling, Power BI, Databricks",estimated_only
+InfoCepts,Startup/Other,3,18.88,17.75,7.5,0,"Python, Azure, SQL, Kafka, Spark",estimated_only
+AECOM,Startup/Other,3,16.95,14.65,6.2,0,"Tableau, SQL, NoSQL, R",estimated_only
+AGILITY HUMAN RESOURCE MANAGEMENT SERVICES PRIVATE LIMITED,Startup/Other,3,16.37,21.4,6.7,0,"Plotly, Tableau, SQL, Agile",estimated_only
+Zoom Start India,Startup/Other,2,8.96,8.96,3.2,0,"Machine Learning, NoSQL, Java, SQL, Python",estimated_only
+zBliss Technologies,Startup/Other,2,4.44,4.44,0.8,0,"Machine Learning, Python",estimated_only
+ALLEGIS GLOBAL SOLUTION,Startup/Other,2,13.03,13.03,5.5,0,Excel,estimated_only
+AKANA SERVICES PRIVATE LIMITED,Startup/Other,2,21.06,21.06,7.2,0,"SQL, Spark, Azure, GCP, ETL",estimated_only
+AI Enterprise,Startup/Other,2,17.62,17.62,6.5,0,"Spark, R, Communication, NoSQL",estimated_only
+cartrack,Startup/Other,2,16.68,16.68,6.5,0,"Spark, Kafka, Java, Airflow, SQL",estimated_only
+Innominds Software Pvt Ltd,Startup/Other,2,11.69,11.69,4.0,0,"Data Visualization, TensorFlow, Java, Python, ETL",estimated_only
+InnovAccer,Startup/Other,2,24.18,24.18,11.0,0,"SQL, Python, NoSQL, Tableau, ETL",estimated_only
+Innova Solutions Private Limited,Startup/Other,2,16.94,16.94,6.5,0,"Spark, Scala, AWS, Python, SQL",estimated_only
+Inspiration Manpower Consultancy Pvt. Ltd.,Startup/Other,2,10.62,10.62,4.0,0,"Data Modeling, SQL, ETL",estimated_only
+Instawork,Startup/Other,2,10.0,10.0,4.2,0,"Statistics, R",estimated_only
+J2 Cloud Services,Startup/Other,2,13.1,13.1,5.5,0,"GCP, SQL",estimated_only
+Yellow Box HR Services Pvt. Ltd.,Startup/Other,2,10.24,10.24,4.2,0,Statistics,estimated_only
+Xoriant,Startup/Other,2,20.15,20.15,9.2,0,"Azure, SQL, Python, Spark, Databricks",estimated_only
+Xandr,Startup/Other,2,20.14,20.14,7.0,0,"SQL, Azure",estimated_only
+Abacus Staffing and Services Pvt Ltd.,Startup/Other,2,16.13,16.13,7.0,0,"Scala, Spark, Python, APIs",estimated_only
+Aarch Solutions,Startup/Other,2,16.56,16.56,7.5,0,"Machine Learning, C++, ETL",estimated_only
+Cleartrip,Startup/Other,2,9.02,9.02,3.2,0,"SQL, Python, Excel, Power BI, SAS",estimated_only
+Chubb,Startup/Other,2,14.66,14.66,6.8,0,"SQL, Python, Spark",estimated_only
+Idexcel Technologies Private Limited,Startup/Other,2,16.6,16.6,6.0,0,"Machine Learning, NLP, Python, AWS, Azure",estimated_only
+Ideapoke,Startup/Other,2,8.82,8.82,3.2,0,"Machine Learning, Python, Spark",estimated_only
+KRISHPAR TECHNOLOGIES PRIVATE LIMITED,Startup/Other,2,11.9,11.9,4.0,0,"Machine Learning, Python",estimated_only
+K12 Techno Services Pvt Ltd,Startup/Other,2,14.0,14.0,6.5,0,Communication,estimated_only
+K12 Techno Services,Startup/Other,2,15.36,15.36,6.5,0,"Excel, Tableau, Power BI",estimated_only
+Job Point HR & Training Consultants,Startup/Other,2,11.42,11.42,4.2,0,"Machine Learning, SQL, Python, ETL, Data Modeling",estimated_only
+BlackBuck,Startup/Other,2,10.98,10.98,4.8,0,"Machine Learning, SQL, Python, Excel",estimated_only
+Karyarth Consultancy,Startup/Other,2,10.06,10.06,4.0,0,"Azure, Python, Spark",estimated_only
+Kantar Analytics Practice,Startup/Other,2,9.38,9.38,3.0,0,"SQL, Spark, Azure, Python, R",estimated_only
+Expertiz,Startup/Other,2,11.24,11.24,4.8,0,,estimated_only
+Excellent Opportunity Placements,Startup/Other,2,13.7,13.7,5.8,0,"Data Visualization, Java, R, SQL, Python",estimated_only
+"Evertz Microsystems, Ltd",Startup/Other,2,8.43,8.43,3.8,0,"SQL, Python",estimated_only
+Srivango,Startup/Other,2,11.23,11.23,4.8,0,"ETL, Spark, SQL, Python, AWS",estimated_only
+Sopra Steria,Startup/Other,2,16.97,16.97,7.0,0,"Azure, SQL, Spark, Python, Kafka",estimated_only
+Sony Corporation of America,Startup/Other,2,12.86,12.86,5.2,0,"C++, Excel",estimated_only
+Sony,Startup/Other,2,13.02,13.02,5.8,0,"Machine Learning, Java, Python, Azure, AWS",estimated_only
+Apisero,Startup/Other,2,20.66,20.66,7.8,0,"SQL, Data Modeling, ETL, Java, Snowflake",estimated_only
+ApicalGo Consultancy,Startup/Other,2,14.07,14.07,5.0,0,"Power BI, Python, Statistics, R, SQL",estimated_only
+Ankercloud,Startup/Other,2,9.78,9.78,3.0,0,"C++, Java, Spark, Python, AWS",estimated_only
+Ericsson,Startup/Other,2,22.0,22.0,13.8,0,"GCP, C++",estimated_only
+Envestnet Yodlee,Startup/Other,2,12.82,12.82,5.8,0,"Machine Learning, Statistics, SQL",estimated_only
+Enrich and Enlight,Startup/Other,2,11.86,11.86,4.5,0,"Python, Azure, Spark, Databricks, Machine Learning",estimated_only
+Enphase Energy,Startup/Other,2,14.92,14.92,5.5,0,,estimated_only
+Empower Recruitments,Startup/Other,2,17.31,17.31,6.0,0,"ETL, Machine Learning, Spark",estimated_only
+TECHNODYSIS PRIVATE LIMITED,Startup/Other,2,12.58,12.58,6.5,0,"SQL, Git, Agile, R",estimated_only
+Sapwood Ventures Pvt. Ltd.,MNC/IT Services,2,15.92,15.92,5.8,0,"Spark, MongoDB, Kafka, Git, Python",estimated_only
+Saffron Consultancy Services(scs),Startup/Other,2,14.62,14.62,6.5,0,"SQL, Spark, GCP, Git, C++",estimated_only
+Carbynetech India,Startup/Other,2,10.58,10.58,5.0,0,"Communication, Azure, Snowflake",estimated_only
+Skill On Tap,Startup/Other,2,13.38,13.38,6.0,0,"Azure, Python, Spark, Databricks, Git",estimated_only
+Sigma Allied Services private Limited,Startup/Other,2,15.68,15.68,4.5,0,"SQL, Python, Spark, AWS, Machine Learning",estimated_only
+Alten Calsoft Labs,Startup/Other,2,16.42,16.42,7.5,0,"Python, Docker, AWS, Spark, R",estimated_only
+Allegis Group,Startup/Other,2,17.69,17.69,8.2,0,"SQL, Spark, Power BI",estimated_only
+TMD - The Modern Dimension,Startup/Other,2,17.94,17.94,6.5,0,"Machine Learning, NoSQL, Spark, Airflow, SQL",estimated_only
+EXCELVANA PVT. LTD,Startup/Other,2,17.8,17.8,7.2,0,"Scala, Spark, ETL, Java, AWS",estimated_only
+DataToBiz,Startup/Other,2,16.94,16.94,5.5,0,"ETL, Airflow, SQL, Python, Azure",estimated_only
+DataCore Software,Startup/Other,2,14.48,14.48,5.5,0,"ETL, Azure",estimated_only
+Airbus,Startup/Other,2,12.01,12.01,6.0,0,"SQL, Python, Spark",estimated_only
+Aficionado Technologies Pvt Ltd,Startup/Other,2,4.46,4.46,0.0,0,"NumPy, Machine Learning, Python",estimated_only
+Shanvi Staffing And Training Services,Startup/Other,2,11.75,11.75,3.5,0,"Data Visualization, Java, Spark, R, SQL",estimated_only
+Ashkom Media India Private Limited,Startup/Other,2,9.48,9.48,3.5,0,"SQL, Python, Spark, Machine Learning, Statistics",estimated_only
+Artifex HR,Startup/Other,2,18.79,18.79,6.2,0,"Azure, Python, Spark, AWS, NoSQL",estimated_only
+SALESFORCE,Product,2,29.06,29.06,9.5,0,"SQL, Agile, Machine Learning",estimated_only
+"Riversand Technologies, Inc.",Startup/Other,2,10.0,10.0,3.8,0,Excel,estimated_only
+RedBus,Startup/Other,2,6.7,6.7,2.5,0,"SQL, MongoDB, NoSQL, Excel",estimated_only
+Rectras Business Solutions Pvt Ltd.,Startup/Other,2,18.48,18.48,8.5,0,SAS,estimated_only
+Fractal Analytics,Consulting,2,18.8,18.8,7.0,0,"Azure, Spark, Scala, SQL, Python",estimated_only
+Forte Research Systems Private Limited,Startup/Other,2,19.14,19.14,9.5,0,"Data Modeling, Agile",estimated_only
+First Source Advisors Pvt Ltd,Startup/Other,2,14.42,14.42,5.2,0,"AWS, Azure, Spark, Java",estimated_only
+First Meridian Business Services Private Limited,Startup/Other,2,12.25,12.25,5.5,0,,estimated_only
+Ethos Life,Startup/Other,2,11.15,11.15,5.0,0,"Machine Learning, NLP, Python, Spark, Agile",estimated_only
+Artech Infosystems Pvt. Ltd.,MNC/IT Services,2,9.78,9.78,5.0,0,"GCP, NoSQL, Spark, SQL, Scala",estimated_only
+Armorblox,Startup/Other,2,7.76,7.76,2.2,0,"Machine Learning, NLP, NoSQL, Java, SQL",estimated_only
+Arena Investors LP,Startup/Other,2,6.05,6.05,2.5,0,,estimated_only
+Appscrip,Startup/Other,2,5.57,5.57,1.0,0,"Python, Kafka, SQL, Pandas, NumPy",estimated_only
+Semper Fi Solution,Startup/Other,2,16.9,16.9,7.0,0,"GCP, Kafka, Git, SQL, Java",estimated_only
+Searce Cosourcing Services Pvt Ltd,Startup/Other,2,16.72,16.72,6.0,0,"Scala, Python, AWS, Tableau, Looker",estimated_only
+Scoop Technologies Pvt Ltd,Startup/Other,2,17.34,17.34,7.2,0,"Spark, ETL, Azure, Python, Databricks",estimated_only
+SRS Infoway,Startup/Other,2,23.56,23.56,9.5,0,"Azure, Snowflake",estimated_only
+SR UTILITY SOLUTIONS INDIA PRIVATE LIMITED,Startup/Other,2,17.34,17.34,7.8,0,"GCP, Spark, Data Modeling, SQL, AWS",estimated_only
+SP Staffing Services Private Limited,Startup/Other,2,17.42,17.42,7.5,0,"GCP, Java, Spark, SQL, Python",estimated_only
+SGTC India,Startup/Other,2,10.25,10.25,4.8,0,SQL,estimated_only
+TetriQ Solutions,Startup/Other,2,17.66,17.66,6.5,0,"Agile, Spark, Communication, SQL, Python",estimated_only
+Tesco,Startup/Other,2,9.4,9.4,2.8,0,"Tableau, SQL, Python, Machine Learning, Statistics",estimated_only
+Terrabit,Startup/Other,2,14.62,14.62,5.0,0,"SQL, Scala, Spark, Python",estimated_only
+Tecknoworks Innovations India Pvt. Ltd.,Startup/Other,2,27.14,27.14,9.5,0,"Spark, Airflow, Azure, SQL, Databricks",estimated_only
+Techstar Software Development India Pvt. Ltd.,Startup/Other,2,14.35,14.35,6.0,0,"SQL, Spark, ETL, Python",estimated_only
+E2E Infoware Management Services Pvt Ltd,Startup/Other,2,7.39,7.39,3.0,0,"Machine Learning, Statistics, R, Scala, Spark",estimated_only
+Digit Insurance,Startup/Other,2,11.44,11.44,4.0,0,"TensorFlow, Python, SQL, APIs",estimated_only
+Urban Company,Product,2,15.74,15.74,5.0,0,"Machine Learning, Python, Spark, Statistics",estimated_only
+UnitedLex Corporation,Startup/Other,2,7.15,7.15,2.5,0,"MATLAB, Python",estimated_only
+UnitedLex,Startup/Other,2,10.51,10.51,3.8,0,"SQL, Python, Excel",estimated_only
+United Airlines,Startup/Other,2,14.22,14.22,6.0,0,"Python, Java, Spark, Scala, SQL",estimated_only
+TruEra,Startup/Other,2,11.84,11.84,4.0,0,"Machine Learning, Python",estimated_only
+GLOBAL UPSIDE India Pvt Ltd,Startup/Other,2,12.72,12.72,4.2,0,"Python, Machine Learning, Java, Spark, R",estimated_only
+Augusta Infotech,Startup/Other,2,18.36,18.36,6.5,0,"NoSQL, Agile, MongoDB, SQL",estimated_only
+Astha Baid,Startup/Other,2,12.62,12.62,5.2,0,"SQL, Python, Data Visualization, SAS, APIs",estimated_only
+Rapido,Product,2,18.39,18.39,5.5,0,"SQL, Machine Learning, Agile, NoSQL, GCP",estimated_only
+Ramsoft Systems Inc.,Startup/Other,2,8.91,8.91,3.2,0,Power BI,estimated_only
+RIVERSAND TECHNOLOGIES INDIA PRIVATE LIMITED,Startup/Other,2,14.36,14.36,5.8,0,"Java, Python, Spark, Azure",estimated_only
+REWARD360 GLOBAL SERVICES PRIVATE LIMITED,Startup/Other,2,17.34,17.34,8.2,0,"Spark, AWS, APIs",estimated_only
+REConnect Energy,Startup/Other,2,6.45,6.45,3.0,0,"Machine Learning, SQL, C++",estimated_only
+RANDSTAD INDIA PVT LTD,Startup/Other,2,19.7,19.7,9.0,0,Machine Learning,estimated_only
+Quotient Four Technologies Pvt. Ltd.,Startup/Other,2,9.88,9.88,5.0,0,"SAS, C++, Git",estimated_only
+CONDE NAST (INDIA) PRIVATE LIMITED,Startup/Other,2,17.15,17.15,6.0,0,"Python, Spark, Java, AWS, Machine Learning",estimated_only
+Quinbay Technology,Startup/Other,2,11.72,11.72,3.8,0,"Data Modeling, Excel, Scala, Python",estimated_only
+"Qualcomm Technologies, Inc",Startup/Other,2,9.15,9.15,3.2,0,"Data Modeling, SQL, Agile, Data Visualization",estimated_only
+FINNOVATION TECH SOLUTIONS PRIVATE LIMITED,Startup/Other,2,8.83,8.83,3.8,0,"SQL, Python, APIs, AWS",estimated_only
+Exploro Solutions,Startup/Other,2,15.88,15.88,6.8,0,"Machine Learning, SAS, R, SQL, Python",estimated_only
+STATS PERFORM,Startup/Other,2,10.7,10.7,4.0,0,SQL,estimated_only
+PaveIT Solutions,Startup/Other,2,11.74,11.74,3.8,0,"Spark, SQL, AWS, NoSQL, Azure",estimated_only
+PERSOLKELLY INDIA PRIVATE LIMITED,Startup/Other,2,11.72,11.72,5.0,0,"Machine Learning, SQL, Python, Communication, Excel",estimated_only
+GlobalLogic India Private Limited,Startup/Other,2,13.97,13.97,6.0,0,"Python, ETL, Java, Spark, SQL",estimated_only
+Glints,Startup/Other,2,13.58,13.58,4.8,0,"Agile, Python, Data Modeling, SQL",estimated_only
+"Glassbeam, Inc",Startup/Other,2,11.73,11.73,4.0,0,"Machine Learning, C++, Scala",estimated_only
+Quacquarelli Symonds,Startup/Other,2,6.88,6.88,2.0,0,"Agile, ETL, SQL",estimated_only
+QWEEN NETWORK LLP,Startup/Other,2,22.57,22.57,7.5,0,"Spark, Kafka, SQL, Python, Airflow",estimated_only
+Azuga Telematics,Startup/Other,2,11.56,11.56,4.5,0,"SQL, Python, AWS, Communication",estimated_only
+Autodesk,Startup/Other,2,6.48,6.48,2.8,0,"SQL, Communication, Python, Agile, Power BI",estimated_only
+Pylon Management Consulting Pvt Ltd,Startup/Other,2,12.08,12.08,4.8,0,"SQL, GCP, Java, Communication, Python",estimated_only
+Pure Storage,Startup/Other,2,16.46,16.46,6.2,0,Data Modeling,estimated_only
+Pricewater House Coopers Service Delivery Center Bangalore Private Limited,Startup/Other,2,16.56,16.56,7.2,0,"SQL, Python, Spark, ETL, Azure",estimated_only
+Powerschool India Private Limited,Startup/Other,2,16.24,16.24,5.5,0,"SQL, Data Visualization, Tableau, Power BI, Snowflake",estimated_only
+Portcast,Startup/Other,2,9.79,9.79,3.5,0,"Machine Learning, Data Visualization",estimated_only
+Pluto7,Startup/Other,2,8.92,8.92,4.0,0,"GCP, SAS, Machine Learning, Python, APIs",estimated_only
+GSR Business Services Private Limited.,Startup/Other,2,16.04,16.04,6.5,0,"Power BI, Scala, Python, Spark",estimated_only
+GBT India Private Limited,Startup/Other,2,9.95,9.95,4.8,0,,estimated_only
+Pixxel,Startup/Other,2,9.07,9.07,3.2,0,"SQL, Machine Learning, Python",estimated_only
+Pioneer Manpower Solutions,Startup/Other,2,26.91,26.91,12.2,0,Machine Learning,estimated_only
+Phenom Placement Consultancy,Startup/Other,2,8.2,8.2,4.0,0,"ETL, Data Modeling",estimated_only
+"People First Consultants Pvt Ltd.,",Startup/Other,2,15.92,15.92,6.0,0,"Communication, Agile, SQL",estimated_only
+Travel Centric Technology,Startup/Other,2,12.0,12.0,6.0,0,"Agile, Machine Learning, Python, SQL, Communication",estimated_only
+Transak,Startup/Other,2,10.65,10.65,4.2,0,"Git, NoSQL, MongoDB, AWS",estimated_only
+Toyota Connected India Private Limited,Startup/Other,2,16.47,16.47,7.0,0,"Java, Python, Spark, AWS",estimated_only
+Toolyt,Startup/Other,2,9.52,9.52,4.0,0,Git,estimated_only
+Tiger Analytics India LLP,Consulting,2,20.2,20.2,8.5,0,"Machine Learning, Python, Statistics, R",estimated_only
+Cresc Datasoft Private Limited,Startup/Other,2,4.08,4.08,1.0,0,,estimated_only
+AddWiz Business Consulting,Startup/Other,2,10.02,10.02,4.5,0,"ETL, Communication",estimated_only
+Acesoft Labs (India) Pvt Ltd,Startup/Other,2,14.42,14.42,5.5,0,"Python, Communication",estimated_only
+AceNet,Startup/Other,2,18.43,18.43,6.8,0,"Machine Learning, C++, NLP, SQL, Scala",estimated_only
+Accolite Digital,Startup/Other,2,15.87,15.87,5.8,0,"Airflow, Git, SQL, Python, AWS",estimated_only
+PayU Payments,Startup/Other,2,13.24,13.24,5.5,0,"SQL, Python, Azure, Spark",estimated_only
+Neudesic Technologies,Startup/Other,2,11.62,11.62,4.5,0,"Azure, Power BI, Spark, Scala, SQL",estimated_only
+Hardesen Technologies,Startup/Other,2,19.95,19.95,11.0,0,"APIs, Excel",estimated_only
+HUDSON'S BAY SERVICES PRIVATE LIMITED,Startup/Other,2,11.83,11.83,3.8,0,"Machine Learning, Python",estimated_only
+Gyansys Infotech,Startup/Other,2,17.16,17.16,7.5,0,"ETL, Azure, Databricks",estimated_only
+BGRS,Startup/Other,2,13.48,13.48,4.8,0,"Communication, Git",estimated_only
+BCT Consulting Private Limited,Startup/Other,2,13.84,13.84,5.8,0,"SQL, Python, Spark, ETL, Java",estimated_only
+BCD Travel,Startup/Other,2,10.63,10.63,4.2,0,"Data Visualization, Machine Learning, Excel",estimated_only
+BARTLEBY TECHNOLOGIES PRIVATE LIMITED,Startup/Other,2,15.05,15.05,6.5,0,"Machine Learning, Pandas, Excel, Looker, SQL",estimated_only
+BANGALORE STRATEGIC SOLUTIONS PRIVATE LIMITED,Startup/Other,2,17.6,17.6,8.8,0,"SQL, Azure, APIs, Tableau, Communication",estimated_only
+Onward Technologies Limited,Startup/Other,2,17.66,17.66,7.2,0,"Python, Java, Spark, Scala, AWS",estimated_only
+Odessa,Startup/Other,2,11.58,11.58,4.2,0,"GCP, Machine Learning, NLP, R, Communication",estimated_only
+Groww,Product,2,17.38,17.38,5.2,0,Machine Learning,estimated_only
+Groupon,Startup/Other,2,14.36,14.36,5.5,0,"Machine Learning, NLP, AWS, ETL, SQL",estimated_only
+Grofers,Startup/Other,2,11.58,11.58,4.2,0,"Tableau, Power BI, Statistics, R, Scala",estimated_only
+Greenizon Agritech Consultancy,Startup/Other,2,8.44,8.44,3.0,0,"Data Visualization, Machine Learning, R, SQL, NoSQL",estimated_only
+GGWP INDIA PRIVATE LIMITED,Startup/Other,2,18.16,18.16,7.0,0,"Python, AWS, Docker, Machine Learning, Java",estimated_only
+Black and White Business Solutions Pvt Ltd,Startup/Other,2,5.1,5.1,1.5,0,"Excel, Tableau, SQL, Plotly, Communication",estimated_only
+GreatLearning,Startup/Other,2,11.64,11.64,3.5,0,"Machine Learning, Python, Statistics",estimated_only
+Good Worker,Startup/Other,2,8.28,8.28,3.2,0,"Data Visualization, Git",estimated_only
+Gloify,Startup/Other,2,13.84,13.84,5.2,0,"Python, Spark",estimated_only
+Globals Inc.,Startup/Other,2,8.81,8.81,3.5,0,Statistics,estimated_only
+Northface Consultancy Services Private Limited,Startup/Other,2,14.54,14.54,6.0,0,"Machine Learning, SAS, R, Python, Statistics",estimated_only
+Accion labs India Private Limited,Startup/Other,2,20.4,20.4,8.2,0,"Python, Machine Learning, Java, R, SQL",estimated_only
+Accion Technologies Private Limited,Startup/Other,2,17.81,17.81,7.8,0,"Spark, SQL, Python, AWS, Kafka",estimated_only
+DVSUM INDIA PRIVATE LIMITED,Startup/Other,2,25.36,25.36,14.8,0,"SQL, Communication, Azure, Data Visualization, Python",estimated_only
+DOFORT,Startup/Other,2,20.0,20.0,9.5,0,"GCP, Machine Learning, Communication, Agile, Spark",estimated_only
+DOCS,Startup/Other,2,15.04,15.04,6.5,0,,estimated_only
+Weir Minerals,Startup/Other,2,13.58,13.58,4.8,0,Azure,estimated_only
+WENGER & WATSON BUSINESS SYSTEMS PRIVATE LIMITED,Startup/Other,2,14.63,14.63,5.5,0,"Python, Spark, Scala, SQL, Azure",estimated_only
+WAKEFLO,Startup/Other,2,21.4,21.4,8.2,0,"Machine Learning, Spark, R, Tableau, SQL",estimated_only
+Volks Consulting,Startup/Other,2,14.14,14.14,5.0,0,"ETL, Data Modeling, SQL, Snowflake, R",estimated_only
+Nokia,Startup/Other,2,10.56,10.56,4.2,0,"GCP, Machine Learning, Data Modeling",estimated_only
+ATG BUSINESS SOLUTIONS PRIVATE LIMITED,Startup/Other,2,21.74,21.74,8.5,0,"Azure, SQL, Python, Spark, Java",estimated_only
+ASTER DM HEALTHCARE LIMITED,Startup/Other,2,11.95,11.95,5.0,0,Plotly,estimated_only
+ARA Resources Private Limited,Startup/Other,2,18.14,18.14,8.0,0,"Python, C++, Azure, Agile, R",estimated_only
+Mirus Solutions Pvt Limited,Startup/Other,2,15.81,15.81,10.8,0,SAS,estimated_only
+Metyis,Startup/Other,2,20.8,20.8,13.8,0,"Git, Machine Learning, Agile",estimated_only
+Meraki Konsulting,Startup/Other,2,17.7,17.7,14.2,0,"Python, Scala",estimated_only
+MediaMath,Startup/Other,2,17.93,17.93,8.5,0,"Git, Python, Statistics",estimated_only
+CHAINalytics,Startup/Other,2,13.73,13.73,5.5,0,Machine Learning,estimated_only
+NeenOpal Intelligent Solutions Pvt. Ltd.,Startup/Other,2,10.24,10.24,4.5,0,"Data Modeling, SQL, Azure, Python, AWS",estimated_only
+NXP Semiconductors,Startup/Other,2,16.74,16.74,7.0,0,"R, Agile",estimated_only
+NTS Technology Services Private Limited,Startup/Other,2,13.92,13.92,5.2,0,"Python, GCP, ETL, Airflow",estimated_only
+BetterPlace,Startup/Other,2,8.72,8.72,3.5,0,"Git, Machine Learning, SQL, Python, Agile",estimated_only
+Beroe,Startup/Other,2,16.52,16.52,9.2,0,Power BI,estimated_only
+NAVIKENZ INDIA PRIVATE LIMITED,Startup/Other,2,14.34,14.34,6.5,0,"Python, Databricks, Spark, Snowflake, Azure",estimated_only
+Mu Sigma,Consulting,2,18.72,18.72,7.0,0,"SQL, C++, Azure, NoSQL",estimated_only
+Motlay Innovation Pvt Ltd,Startup/Other,2,17.06,17.06,7.0,0,"Kafka, Python, Data Modeling, Docker, AWS",estimated_only
+IELTSMaterial.com,Startup/Other,2,9.2,9.2,3.0,0,"Data Visualization, Excel, SQL, Python, NoSQL",estimated_only
+Mancer Consulting Services,Startup/Other,2,20.54,20.54,12.8,0,"Machine Learning, Spark, Tableau, SQL, Python",estimated_only
+Hexaware Technologies,MNC/IT Services,2,17.12,17.12,12.8,0,"Databricks, Scala, Spark, NLP, Java",estimated_only
+Hexaconcepts,Startup/Other,2,15.13,15.13,6.0,0,"Machine Learning, Pandas, NLP, Spark, Statistics",estimated_only
+HealthifyMe,Startup/Other,2,8.26,8.26,2.8,0,Data Modeling,estimated_only
+Biofourmis India Private Limited,Startup/Other,2,10.82,10.82,5.2,0,"SQL, APIs, Machine Learning",estimated_only
+Version 1,Startup/Other,2,12.45,12.45,5.0,0,"Agile, Statistics, ETL",estimated_only
+Vedantu Innovations,Startup/Other,2,6.3,6.3,3.0,0,"Python, Power BI, Plotly, SQL",estimated_only
+VOLVO ASSET FINANCE INDIA PRIVATE LIMITED,Startup/Other,2,9.26,9.26,4.0,0,Python,estimated_only
+VIMEO TECHNOLOGIES PRIVATE LIMITED,Startup/Other,2,9.64,9.64,3.8,0,,estimated_only
+DEVON SOFTWARE SERVICES PRIVATE LIMITED,Startup/Other,2,16.06,16.06,6.5,0,"Scala, Spark, AWS, Python",estimated_only
+"DAT Solutions, LLC",Startup/Other,2,6.52,6.52,2.8,0,Excel,estimated_only
+Crisil,Startup/Other,2,16.58,16.58,7.5,0,"Spark, Python, SQL, Git",estimated_only
+AXA Business Services Pvt Ltd,Startup/Other,2,10.76,10.76,3.8,0,"Machine Learning, Git, Python, Spark, Data Modeling",estimated_only
+AWC Software Pvt. Ltd.,Startup/Other,2,12.38,12.38,4.2,0,Spark,estimated_only
+AUREUSTECH SYSTEMS PRIVATE LIMITED,Startup/Other,2,12.39,12.39,4.0,0,"SQL, Python, Spark, Machine Learning, AWS",estimated_only
+CASHFREE HOLIDAY PLANNERS,Startup/Other,2,18.72,18.72,7.5,0,"Power BI, Spark",estimated_only
+MediBuddy,Startup/Other,2,12.22,12.22,4.5,0,SQL,estimated_only
+Wissen Infotech,Startup/Other,2,17.51,17.51,6.5,0,"Spark, ETL, SQL, Python, AWS",estimated_only
+Winning Edge India,Startup/Other,2,14.07,14.07,4.5,0,"AWS, Tableau, Power BI, Git, SQL",estimated_only
+Convergence Infotech Ltd,Startup/Other,2,16.56,16.56,6.0,0,"Machine Learning, Python, TensorFlow, AWS",estimated_only
+Contactx India,Startup/Other,2,13.68,13.68,5.0,0,"ETL, Azure, R, Python, APIs",estimated_only
+Contact X India,Startup/Other,2,20.08,20.08,8.0,0,"SQL, R, Data Visualization, Tableau, Communication",estimated_only
+Whatfix,Startup/Other,2,9.54,9.54,3.0,0,"Machine Learning, Python, R, Tableau, Scala",estimated_only
+ZAGENO Inc,Startup/Other,2,11.52,11.52,4.8,0,"GCP, Machine Learning",estimated_only
+Connexion Group,Startup/Other,2,8.6,8.6,3.5,0,"Python, Data Visualization, SQL, Spark",estimated_only
+Colt Technology Services,Startup/Other,2,26.92,26.92,10.0,0,Machine Learning,estimated_only
+Collabera Technologies Pvt. Ltd.,Startup/Other,2,14.35,14.35,5.0,0,"Scala, SQL, Azure, NoSQL, Agile",estimated_only
+Maven Workforce,Startup/Other,2,17.37,17.37,6.0,0,"Python, Scala, Spark, Machine Learning, Java",estimated_only
+Maven Wave Partners India Pvt. Ltd,Startup/Other,2,18.51,18.51,6.5,0,"GCP, ETL, SQL, Python, Java",estimated_only
+Marlabs Software Pvt. Ltd.,Startup/Other,2,14.09,14.09,5.2,0,"SQL, Excel, Machine Learning",estimated_only
+Marktine,Startup/Other,2,23.78,23.78,7.5,0,"ETL, Spark, Azure, SQL, Scala",estimated_only
+Brandmuscle,Startup/Other,2,15.33,15.33,5.0,0,"Machine Learning, Data Modeling, Azure",estimated_only
+Braintosoul Consulting,Startup/Other,2,14.52,14.52,6.0,0,"Spark, SQL, NoSQL",estimated_only
+Brainsearch Consulting Pvt Ltd,Startup/Other,2,16.26,16.26,9.2,0,"Power BI, Spark, R, Tableau, Python",estimated_only
+Maersk,Startup/Other,2,22.74,22.74,8.0,0,"Power BI, SAS, R, Tableau, Python",estimated_only
+Macrohire LLP,Startup/Other,2,19.47,19.47,7.5,0,"Azure, SQL, Power BI, Data Modeling, ETL",estimated_only
+MPOWER Financing,Startup/Other,2,15.93,15.93,6.2,0,"SQL, Agile",estimated_only
+MI 10 HUMAN RESOURCES,Startup/Other,2,11.86,11.86,4.5,0,"Machine Learning, Spark, NLP, TensorFlow",estimated_only
+MENORAH PERSONNEL MANAGEMENT INDIA PRIVATE LIMITED,Startup/Other,2,23.51,23.51,9.0,0,Spark,estimated_only
+MAVEN HR SOLUTIONS PRIVATE LIMITED,Startup/Other,2,17.03,17.03,5.8,0,"Scala, Spark, Airflow, Python, Tableau",estimated_only
+M/S Global Tech Solutions,Startup/Other,2,20.61,20.61,9.5,0,"Python, R",estimated_only
+Litmass Analytics,Startup/Other,2,6.62,6.62,3.0,0,,estimated_only
+Levi Strauss &amp; Co.,Startup/Other,2,16.17,16.17,6.0,0,,estimated_only
+INTRAEDGE TECHNOLOGIES PRIVATE LIMITED,Startup/Other,2,17.17,17.17,6.8,0,"Spark, SQL, Python, Snowflake, Airflow",estimated_only
+LIVE CONNECTIONS PLACEMENTS PRIVATE LIMITED,Startup/Other,2,21.48,21.48,8.2,0,"Machine Learning, Python, ETL, SQL, Azure",estimated_only
+Knowledge Foundry,Startup/Other,2,8.95,8.95,2.8,0,"Machine Learning, Python, ETL, SQL, AWS",estimated_only
+CGI Information Systems and Management Consultants Private Limited,Startup/Other,2,10.36,10.36,4.8,0,"Azure, Power BI, Spark, Data Modeling, Machine Learning",estimated_only
+Bytes To Bots Consultancy Services Private Limited,Startup/Other,2,13.48,13.48,5.2,0,"APIs, SQL, Python, Docker, Git",estimated_only
+CodeHall Technology,Startup/Other,2,14.36,14.36,7.5,0,"SAS, Spark, R, SQL, MATLAB",estimated_only
+CoStrategix Technologies Pvt. Ltd.,Startup/Other,2,12.3,12.3,6.2,0,"SQL, Azure, ETL, Agile",estimated_only
+"Cloudera, Inc.",Startup/Other,2,20.07,20.07,7.5,0,"Communication, Azure, Docker, R, Java",estimated_only
+open data fabric,Startup/Other,2,16.99,16.99,6.0,0,"Spark, Git, SQL, Python, Communication",estimated_only
+A Konnect,Startup/Other,2,13.92,13.92,6.0,0,"ETL, AWS, Agile, Data Modeling, Python",estimated_only
+netskope,Startup/Other,2,9.66,9.66,4.5,0,Communication,estimated_only
+jobpoint india,Startup/Other,2,11.39,11.39,4.5,0,"Machine Learning, SQL, Python, ETL, Data Modeling",estimated_only
+6Sense,Startup/Other,2,9.09,9.09,2.8,0,"Machine Learning, Spark",estimated_only
+nanobi data and analytics private limited,Startup/Other,2,13.34,13.34,6.5,0,"SAS, SQL, Python, Communication, Excel",estimated_only
+24 7 ai,Startup/Other,2,19.41,19.41,9.0,0,"Machine Learning, Java, Python, Agile, Communication",estimated_only
+4CRisk.ai,Startup/Other,2,13.77,13.77,5.8,0,"SQL, Machine Learning, NoSQL, Spark, Python",estimated_only
+Kloutix Solutions Pvt. Ltd,Startup/Other,2,14.02,14.02,6.0,0,"ETL, Airflow, Communication, SQL, Python",estimated_only
+Bold Business,Startup/Other,2,9.9,9.9,3.8,0,"NLP, APIs, Machine Learning",estimated_only
+Bloom Energy India Pvt Ltd,Startup/Other,2,10.03,10.03,4.2,0,"ETL, SQL",estimated_only
+Z2Plus Placement & Security Agency Pvt. Ltd.,Startup/Other,2,9.26,9.26,3.0,0,"Statistics, Excel, Machine Learning, NLP, Data Modeling",estimated_only
+Synechron,Startup/Other,2,19.72,19.72,8.5,0,"Java, Python, Spark, Azure, AWS",estimated_only
+Suyati Technologies Pvt Ltd,Startup/Other,2,25.28,25.28,12.0,0,"Machine Learning, Spark, SQL, Agile",estimated_only
+Successr HR Tech PVT LTD,Startup/Other,2,17.52,17.52,6.8,0,"Machine Learning, SQL, NoSQL, Data Visualization, Azure",estimated_only
+StateStreet Global Advisor Pvt Ltd,Startup/Other,2,9.9,9.9,4.0,0,"ETL, Git, Agile",estimated_only
+Capital Placement Services,Startup/Other,2,11.05,11.05,4.0,0,"Machine Learning, Agile, Git, Excel",estimated_only
+Calsoft,Startup/Other,2,23.28,23.28,9.0,0,"Machine Learning, C++, Java, SQL, Python",estimated_only
+CROSSROAD ELF DSS PRIVATE LIMITED,Startup/Other,2,8.66,8.66,3.5,0,"ETL, Machine Learning, C++",estimated_only
+Tavant Technologies,Startup/Other,2,17.34,17.34,6.8,0,"Java, Kafka, Machine Learning, Python, AWS",estimated_only
+Talentify,Startup/Other,2,6.62,6.62,2.5,0,"NoSQL, MongoDB, Git, SQL, Python",estimated_only
+Talent Bee Consulting Pvt. Ltd,Startup/Other,2,16.64,16.64,6.0,0,"SQL, Python, Spark, AWS, Machine Learning",estimated_only
+Zepto,Product,2,16.8,16.8,5.8,0,"GCP, SQL, Communication",estimated_only
+Zdaly,Startup/Other,2,14.57,14.57,5.5,0,"NoSQL, Spark, Machine Learning, Data Modeling, Tableau",estimated_only
+Zauba Technologies & Data Services Private Limited,Startup/Other,2,11.62,11.62,4.0,0,"SQL, Spark",estimated_only
+ZOLVE INNOVATIONS PRIVATE LIMITED,Startup/Other,2,13.96,13.96,5.0,0,"Machine Learning, Spark, NumPy",estimated_only
+ZENSARK INDIA PRIVATE LTD,MNC/IT Services,2,10.52,10.52,5.0,0,"SQL, ETL, Python, Power BI",estimated_only
+Indium Software (India) Limited,Startup/Other,2,10.34,10.34,3.5,0,"Communication, SQL, Data Visualization, Power BI, SAS",estimated_only
+b2bsalesarrow,Startup/Other,1,9.49,9.49,4.5,0,"Communication, Excel",estimated_only
+getyourjob,Startup/Other,1,15.21,15.21,7.5,0,Data Modeling,estimated_only
+A1 Technology Pvt Ltd,Startup/Other,1,17.88,17.88,5.5,0,"SQL, NoSQL, Spark, AWS",estimated_only
+zeotap,Startup/Other,1,11.57,11.57,3.5,0,"SQL, NoSQL",estimated_only
+3M India,Startup/Other,1,10.16,10.16,4.0,0,,estimated_only
+7G TECHNOLOGY & IT SOLUTIONS LLP,Startup/Other,1,17.16,17.16,6.0,0,Java,estimated_only
+A2Z Finders,Startup/Other,1,16.55,16.55,7.5,0,"Airflow, Data Modeling, SQL, Python, AWS",estimated_only
+ABCD,Startup/Other,1,11.19,11.19,4.0,0,"Java, Scala, Spark",estimated_only
+ACI Group,Startup/Other,1,13.89,13.89,5.5,0,,estimated_only
+ACL Digital,Startup/Other,1,15.51,15.51,7.5,0,"ETL, Python, Scala, Spark",estimated_only
+lavian llp,Startup/Other,1,9.21,9.21,3.5,0,Excel,estimated_only
+myGate,Startup/Other,1,6.25,6.25,3.0,0,"Data Visualization, SQL, NoSQL",estimated_only
+ALOIS TECHNOLOGIES LLP,Startup/Other,1,15.57,15.57,6.5,0,"Machine Learning, TensorFlow, Git",estimated_only
+AMERICAN EXPRESS GLOBAL BUSINESS TRAVEL,Startup/Other,1,6.87,6.87,2.5,0,,estimated_only
+AMETEK Inc,Startup/Other,1,15.55,15.55,6.5,0,,estimated_only
+Coda Payments,Startup/Other,1,11.56,11.56,4.5,0,"Machine Learning, Git, Statistics",estimated_only
+Cocoslabs,Startup/Other,1,10.53,10.53,3.5,0,"SQL, Python, NoSQL",estimated_only
+CoBot Systems,Startup/Other,1,6.89,6.89,1.5,0,"Machine Learning, Statistics",estimated_only
+red seer consulting,Startup/Other,1,10.06,10.06,3.5,0,,estimated_only
+recruiter360degree,Startup/Other,1,12.42,12.42,3.5,0,"Azure, Scala, Python, Spark",estimated_only
+4bell Technology,Startup/Other,1,16.21,16.21,5.5,0,"Data Modeling, SQL, Scala, Spark",estimated_only
+phData,Startup/Other,1,18.2,18.2,6.0,0,"Java, Python, Spark, AWS",estimated_only
+nuVizz Software Solutions Pvt.,Startup/Other,1,16.99,16.99,7.5,0,"Data Modeling, Machine Learning, Java, R",estimated_only
+Zinnov Management Consulting,Startup/Other,1,26.03,26.03,10.0,0,"GCP, Kafka, Azure, AWS",estimated_only
+Zenius Education,Startup/Other,1,24.26,24.26,12.5,0,"NumPy, TensorFlow, Python",estimated_only
+Zen3 Infosolutions,Startup/Other,1,16.36,16.36,6.5,0,"Scala, Azure, Spark",estimated_only
+Zeksta Technology,Startup/Other,1,10.79,10.79,4.5,0,"Python, Agile",estimated_only
+Zebra Technologies,Startup/Other,1,17.23,17.23,5.5,0,"Machine Learning, Java, Python, Spark",estimated_only
+ZapCom,Startup/Other,1,20.8,20.8,12.5,0,Communication,estimated_only
+Consilio,Startup/Other,1,5.2,5.2,3.0,0,,estimated_only
+Consero Global,Startup/Other,1,10.32,10.32,4.5,0,Excel,estimated_only
+Iron Mountain,Startup/Other,1,7.18,7.18,1.5,0,"Plotly, Tableau, SQL, Communication",estimated_only
+Iris Corporate Solutions Pvt. Ltd.,Startup/Other,1,10.23,10.23,5.0,0,ETL,estimated_only
+Inventech Info Solutions Pvt. Ltd.,Startup/Other,1,8.81,8.81,4.0,0,"SQL, Python, R",estimated_only
+Intuitor SoftTech Services Pvt. Ltd.,Product,1,23.48,23.48,6.0,0,"Machine Learning, Java, Python, Spark",estimated_only
+Intuitive.Cloud,Product,1,20.94,20.94,7.5,0,"Java, Spark",estimated_only
+Intertrust Group,Startup/Other,1,10.2,10.2,5.0,0,Communication,estimated_only
+Interactions,Startup/Other,1,7.09,7.09,3.0,0,Data Modeling,estimated_only
+Intelliswift,Startup/Other,1,24.39,24.39,9.5,0,"SQL, Java, Scala, Spark",estimated_only
+Intelliest Technology,Startup/Other,1,16.31,16.31,7.5,0,"Scala, Azure, Spark, Databricks",estimated_only
+Integreat,Startup/Other,1,14.84,14.84,5.5,0,"NoSQL, MongoDB, SQL, Python, APIs",estimated_only
+Integrated Digital Systems,Startup/Other,1,3.72,3.72,0.5,0,Excel,estimated_only
+Instabase,Startup/Other,1,26.49,26.49,8.5,0,"NLP, ETL, SQL, Docker",estimated_only
+Innovatia,Startup/Other,1,11.56,11.56,5.0,0,"Communication, Power BI, Excel",estimated_only
+Innovary Technologies,Startup/Other,1,6.98,6.98,2.0,0,Communication,estimated_only
+Infoz Software Solution,Startup/Other,1,23.98,23.98,10.0,0,"Java, Python, Docker, AWS",estimated_only
+Infoworks,Startup/Other,1,25.49,25.49,12.0,0,"Java, Agile, Spark, SQL, Scala",estimated_only
+KANINI SOFTWARE SOLUTIONS INDIA PRIVATE LIMITED,Startup/Other,1,10.81,10.81,3.5,0,"Python, Java, Spark, SQL, Scala",estimated_only
+Jumbotail Technologies,Startup/Other,1,10.94,10.94,4.5,0,,estimated_only
+Jubilant Life Sciences Ltd,Startup/Other,1,10.44,10.44,5.0,0,,estimated_only
+Jubilant Generics Limited,Startup/Other,1,10.54,10.54,5.0,0,,estimated_only
+JoulestoWatts Business Solutions Pvt Ltd,Startup/Other,1,15.4,15.4,6.5,0,"Azure, Python, Spark, Databricks",estimated_only
+Jobstop Solutions Private Limited,Startup/Other,1,21.14,21.14,12.5,0,"Power BI, R, Tableau, SQL, Python",estimated_only
+Jobskey Consultancy,Consulting,1,19.21,19.21,7.5,0,"Kafka, SQL, Spark",estimated_only
+Jobscubicle,Startup/Other,1,24.39,24.39,9.5,0,,estimated_only
+Job Delights Consultancy,Startup/Other,1,14.74,14.74,6.0,0,"Azure, SQL, Python, AWS",estimated_only
+Jio,Startup/Other,1,11.21,11.21,4.0,0,"NLP, Machine Learning, TensorFlow, Python",estimated_only
+Jigsaw Academy Education Pvt Ltd,Startup/Other,1,14.22,14.22,6.5,0,"NumPy, Python, Statistics",estimated_only
+Jacobs,Startup/Other,1,26.83,26.83,9.5,0,"Azure, Databricks",estimated_only
+JRD Systems Private Ltd.,Startup/Other,1,17.98,17.98,7.0,0,"SQL, Scala, NoSQL",estimated_only
+JPMorgan Chase,Startup/Other,1,20.58,20.58,8.5,0,"Data Modeling, Agile",estimated_only
+JK Technohub,Startup/Other,1,18.74,18.74,6.5,0,"SQL, Java, Scala, Spark",estimated_only
+JITKARV PRIVATE LIMITED,Startup/Other,1,6.38,6.38,3.0,0,"C++, Java, Communication, Python, Excel",estimated_only
+Blisaura Events Studio Pvt Ltd,Startup/Other,1,9.84,9.84,3.5,0,Statistics,estimated_only
+Blackhawk Network,Startup/Other,1,22.48,22.48,12.5,0,"Machine Learning, MATLAB",estimated_only
+Kaleyra,Startup/Other,1,25.85,25.85,12.5,0,"Java, Azure, SQL, Python, AWS",estimated_only
+Britive,Startup/Other,1,27.04,27.04,12.5,0,"Machine Learning, Python, AWS",estimated_only
+Bristlecone,Startup/Other,1,18.2,18.2,6.5,0,"Machine Learning, NLP, Python",estimated_only
+Briltus Services Private Limited,Startup/Other,1,16.4,16.4,6.0,0,"ETL, SQL, Azure, Databricks",estimated_only
+Brickwork Ratings Private Limited,Startup/Other,1,14.37,14.37,6.5,0,,estimated_only
+Branch Metrics,Startup/Other,1,9.89,9.89,3.5,0,,estimated_only
+Impartus Innovations Private Limited,Startup/Other,1,5.84,5.84,1.5,0,"R, SAS, Excel",estimated_only
+Idyllic Services Pvt Ltd,Startup/Other,1,24.44,24.44,9.5,0,"SQL, Python, Spark",estimated_only
+IdealCrew Services,Startup/Other,1,28.29,28.29,10.5,0,"Scala, Spark",estimated_only
+Icon Pharmaceutical s,Startup/Other,1,10.35,10.35,4.5,0,,estimated_only
+Icon Clinical Research,Startup/Other,1,9.85,9.85,4.5,0,,estimated_only
+Kaizen SRA Technologies Pvt. Ltd.,Startup/Other,1,16.43,16.43,5.5,0,"SQL, MongoDB, NoSQL, Spark",estimated_only
+Kaarlo Training & HR Solutions Pvt. Ltd.,Startup/Other,1,24.26,24.26,9.5,0,Python,estimated_only
+KLOUTIX SOLUTIONS PRIVATE LIMITED,Startup/Other,1,24.49,24.49,9.0,0,"Spark, Snowflake, Airflow, Communication, dbt",estimated_only
+IMERIT TECHNOLOGY SERVICES PRIVATE LIMITED,Startup/Other,1,14.41,14.41,6.0,0,"NLP, Machine Learning, Pandas, Python",estimated_only
+IITjobs Inc.,Startup/Other,1,26.19,26.19,9.0,0,"GCP, ETL, Java, SQL, Python",estimated_only
+LUMINITE SERVICES,Startup/Other,1,24.47,24.47,11.5,0,Spark,estimated_only
+LOGICAL HIRING,Startup/Other,1,11.02,11.02,4.5,0,"Tableau, SQL",estimated_only
+LALITA MANPOWER SOLUTIONS,Startup/Other,1,22.94,22.94,13.5,0,Azure,estimated_only
+KredX India,Startup/Other,1,17.84,17.84,6.5,0,"Machine Learning, SQL, NoSQL",estimated_only
+KnowledgeHut,Startup/Other,1,11.84,11.84,4.0,0,"NoSQL, Spark, SQL, Python, AWS",estimated_only
+Kings Labs Technologies,Startup/Other,1,6.43,6.43,1.5,0,,estimated_only
+Kiash solutions,Startup/Other,1,17.7,17.7,5.5,0,"Python, AWS",estimated_only
+Kenan Management Consultants Private Limited,Startup/Other,1,16.89,16.89,6.0,0,"Spark, Azure, SQL, Scala, Databricks",estimated_only
+Borderless Access,Startup/Other,1,6.06,6.06,2.5,0,"Python, Excel",estimated_only
+Bobble App,Startup/Other,1,9.32,9.32,4.5,0,"SQL, Spark, Excel",estimated_only
+Bluebear Technology Private Limited,Startup/Other,1,13.06,13.06,7.5,0,,estimated_only
+Blue Prism Solutions,Startup/Other,1,21.5,21.5,8.5,0,"Azure, Python",estimated_only
+Blue Prism,Startup/Other,1,11.82,11.82,3.5,0,"Machine Learning, Python",estimated_only
+Blue Ocean Catalyst Private Limited,Startup/Other,1,13.18,13.18,6.0,0,"NoSQL, Java, Spark",estimated_only
+Leading US MNC (analytics),Startup/Other,1,10.13,10.13,4.5,0,"SQL, Spark",estimated_only
+Leading MNC IT (analytics),Startup/Other,1,18.44,18.44,5.5,0,"SQL, Spark",estimated_only
+Lead Data Engineer,Startup/Other,1,14.17,14.17,7.0,0,"SQL, MongoDB, NoSQL",estimated_only
+Lavyuk Consultancy Services Private Limited,Startup/Other,1,23.21,23.21,11.5,0,Excel,estimated_only
+Ibibo,Startup/Other,1,7.55,7.55,3.0,0,"Machine Learning, Spark, Scala, Statistics",estimated_only
+ITOrizon,Startup/Other,1,6.69,6.69,3.0,0,"Machine Learning, C++, Java, Python",estimated_only
+IQLECT,Startup/Other,1,19.82,19.82,6.5,0,"Machine Learning, Python",estimated_only
+INUMELLAS CONSULTANCY SERVICES PRIVATE LIMITED,Startup/Other,1,16.86,16.86,6.5,0,"Scala, SQL, Airflow, Spark",estimated_only
+INTEGRATED PERSONNEL SERVICES LIMITED,Startup/Other,1,17.62,17.62,5.5,0,"Spark, Kafka, Git, SQL, Scala",estimated_only
+INSTAWORK SERVICES INDIA PRIVATE LIMITED,Startup/Other,1,9.61,9.61,4.0,0,SQL,estimated_only
+INNOWHYTE PRIVATE LIMITED,Startup/Other,1,17.22,17.22,8.0,0,"SQL, Azure, AWS",estimated_only
+INNOVATION TRIGGERS MGMT PRIVATE LIMITED,Startup/Other,1,24.42,24.42,10.5,0,"ETL, SQL, Python",estimated_only
+INNOMINDS SOFTWARE SEZ INDIA PRIVATE LIMITED,Startup/Other,1,14.18,14.18,7.5,0,,estimated_only
+INITIATEFIRST INFORMATION SERVICES PRIVATE LIMITED,Startup/Other,1,11.27,11.27,5.0,0,"Azure, SQL, Python",estimated_only
+INFOSERVICES DIGITECH INDIA PRIVATE LIMITED,Startup/Other,1,24.43,24.43,9.5,0,"Machine Learning, Java, Snowflake, Scala, Airflow",estimated_only
+IMSI Staffing Pvt Ltd. (A Teamlease Co.),Startup/Other,1,15.37,15.37,7.0,0,"ETL, SQL",estimated_only
+MATRIX HR TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,11.3,11.3,3.5,0,"Azure, Python, Spark, AWS",estimated_only
+M/S Rahul Akole,Startup/Other,1,5.08,5.08,0.5,0,"SQL, Python, Spark",estimated_only
+M/S NILE,Startup/Other,1,16.61,16.61,6.0,0,"Machine Learning, NLP, Java, SQL, Python",estimated_only
+M/S Maxima Executive Search Pvt Ltd,Startup/Other,1,27.08,27.08,10.5,0,Scala,estimated_only
+M-PANELS RESEARCH SERVICES PRIVATE LIMITED ( M360 Research ),Startup/Other,1,5.77,5.77,3.0,0,Excel,estimated_only
+M-PANELS RESEARCH SERVICES PRIVATE LIMITED,Startup/Other,1,10.44,10.44,5.0,0,Excel,estimated_only
+Lowe's,Startup/Other,1,11.76,11.76,4.5,0,Power BI,estimated_only
+Logward,Startup/Other,1,15.6,15.6,6.5,0,Python,estimated_only
+LogicPlum,Startup/Other,1,14.39,14.39,5.5,0,,estimated_only
+Locus Enterprises,Startup/Other,1,15.51,15.51,5.5,0,,estimated_only
+Lineup technology Services Pvt Ltd,Startup/Other,1,20.26,20.26,14.5,0,Data Modeling,estimated_only
+Liberty Talent Search,Startup/Other,1,11.15,11.15,4.5,0,"Spark, Azure, SQL, Scala, AWS",estimated_only
+Lendingkart Finance Limited,Startup/Other,1,28.15,28.15,8.5,0,,estimated_only
+LendingKart,Startup/Other,1,13.39,13.39,7.0,0,,estimated_only
+Lemon tree staffing,Startup/Other,1,6.39,6.39,3.0,0,,estimated_only
+Leading US MNC into analytics,Startup/Other,1,11.21,11.21,4.5,0,"SAS, SQL",estimated_only
+Hucon,Startup/Other,1,11.5,11.5,4.5,0,"SQL, Spark",estimated_only
+Huawei Technologies,Startup/Other,1,22.41,22.41,9.0,0,,estimated_only
+Manhattan,Startup/Other,1,18.38,18.38,7.0,0,"Machine Learning, Python",estimated_only
+Malayala Manorama,Startup/Other,1,10.46,10.46,4.5,0,"Plotly, SQL, Python",estimated_only
+Magenta Power Pvt Ltd,Startup/Other,1,8.99,8.99,4.0,0,SAS,estimated_only
+MSys Tech India Pvt. Ltd.,Startup/Other,1,16.93,16.93,7.5,0,"Scala, Java, Python, Spark",estimated_only
+MNR Solutions Pvt. Ltd.,Startup/Other,1,16.32,16.32,7.5,0,"Data Visualization, Machine Learning, Spark",estimated_only
+MNR Solutions,Startup/Other,1,15.45,15.45,6.0,0,Machine Learning,estimated_only
+MMS Holdings Inc.,Startup/Other,1,10.82,10.82,5.0,0,Machine Learning,estimated_only
+MM JAIN AGENCIES,Startup/Other,1,25.98,25.98,10.5,0,Python,estimated_only
+MINDERA INDIA PRIVATE LIMITED,Startup/Other,1,16.02,16.02,7.5,0,"Snowflake, Data Modeling, SQL, Python, AWS",estimated_only
+MILLION MINDS INFOTECH PRIVATE LIMITED,Startup/Other,1,21.03,21.03,8.5,0,,estimated_only
+METRO Cash & Carry,Startup/Other,1,16.2,16.2,5.5,0,"Python, Excel",estimated_only
+MEERO,Startup/Other,1,11.1,11.1,3.5,0,,estimated_only
+MCLENE Soft Solutions,Startup/Other,1,10.12,10.12,4.5,0,SQL,estimated_only
+MAVEN WAVE PARTNERS (INDIA)PVT. LTD.,Startup/Other,1,8.23,8.23,3.0,0,"ETL, Communication, Git, SQL, Python",estimated_only
+MarketOne International.,Startup/Other,1,11.45,11.45,4.5,0,SQL,estimated_only
+ManpowerGroup Services India Private Limited,Startup/Other,1,17.39,17.39,6.0,0,Agile,estimated_only
+Manipal Acunova Ltd.,Startup/Other,1,16.08,16.08,5.5,0,"SAS, Excel",estimated_only
+IG Infotech India,Startup/Other,1,10.59,10.59,3.5,0,Agile,estimated_only
+IG Group,Startup/Other,1,15.58,15.58,7.5,0,,estimated_only
+IDrive Software (India) Private Limited,Startup/Other,1,12.8,12.8,6.0,0,,estimated_only
+IDFC FIRST Bank,Startup/Other,1,11.21,11.21,5.0,0,Machine Learning,estimated_only
+IDC TECHNOLOGIES SOLUTIONS INDIA PVT LIMITED,Startup/Other,1,16.71,16.71,5.5,0,Python,estimated_only
+IDC Corporate,Startup/Other,1,6.7,6.7,1.5,0,"Python, Power BI",estimated_only
+ICF Consulting India Pvt Ltd,Startup/Other,1,4.1,4.1,0.5,0,Java,estimated_only
+ICAV Tech Pvt. Ltd.,Startup/Other,1,16.98,16.98,7.5,0,AWS,estimated_only
+IBS Software Services,Startup/Other,1,26.35,26.35,10.0,0,"ETL, NoSQL, Java, Spark, SQL",estimated_only
+IB Business Services,Startup/Other,1,9.96,9.96,3.5,0,,estimated_only
+HyringNinja,Startup/Other,1,10.93,10.93,3.5,0,"ETL, Azure, Spark, AWS",estimated_only
+HyreFox Consultants Pvt Ltd,Startup/Other,1,18.43,18.43,8.5,0,"Data Visualization, SQL, MongoDB, NoSQL",estimated_only
+Huntment,Startup/Other,1,16.86,16.86,5.5,0,"SQL, Python, APIs",estimated_only
+CHAINALYTICS SERVICES PRIVATE LIMITED,Startup/Other,1,15.74,15.74,5.5,0,"Machine Learning, Python, R",estimated_only
+"CDI Solutions, Inc",Startup/Other,1,19.05,19.05,7.5,0,"GCP, Python, Spark",estimated_only
+CBRE Group,Startup/Other,1,10.97,10.97,4.0,0,,estimated_only
+CAREERDOST ENTERPRISE,Startup/Other,1,6.6,6.6,2.5,0,Git,estimated_only
+CAPITALCLOUD INDIA PRIVATE LIMITED,Startup/Other,1,17.82,17.82,7.5,0,"ETL, Agile, Spark, Kafka, Git",estimated_only
+CAE Inc.,Startup/Other,1,9.77,9.77,3.5,0,,estimated_only
+C1X Inc.,Startup/Other,1,9.85,9.85,3.5,0,,estimated_only
+Homlot,Startup/Other,1,11.28,11.28,4.5,0,Spark,estimated_only
+"Hitachi Solutions, Ltd",Startup/Other,1,11.25,11.25,5.0,0,"Power BI, Spark, Scala, Azure, Data Modeling",estimated_only
+Hitachi Ltd.,Startup/Other,1,12.49,12.49,5.0,0,"Data Visualization, Spark, Azure, Data Modeling, SQL",estimated_only
+Medi Assist Insurance TPA Pvt. Ltd,Startup/Other,1,7.93,7.93,3.0,0,"Machine Learning, Python, R",estimated_only
+MedGenome Labs Pvt. Ltd.,Startup/Other,1,10.17,10.17,3.5,0,Excel,estimated_only
+Maxim Integrated,Startup/Other,1,8.82,8.82,4.0,0,,estimated_only
+Mavenir,Startup/Other,1,16.85,16.85,6.5,0,"Machine Learning, NoSQL, Statistics, SQL, Python",estimated_only
+MatchMove India Pvt. Ltd.,Startup/Other,1,11.95,11.95,5.0,0,Docker,estimated_only
+MarketScope,Startup/Other,1,10.58,10.58,4.0,0,"Tableau, Python, Spark",estimated_only
+Bigshyft Hiring for Lambdatest,Startup/Other,1,10.62,10.62,4.5,0,"ETL, AWS",estimated_only
+Bigshyft Hiring for Indium Software,Startup/Other,1,11.57,11.57,4.5,0,"Data Visualization, Tableau, SQL, Power BI",estimated_only
+Bigshyft Hiring for CoinDCX,Startup/Other,1,15.42,15.42,5.5,0,"ETL, Java, Kafka, SQL, Python",estimated_only
+Bigshyft Hiring for AskSid,Startup/Other,1,9.98,9.98,4.0,0,"Machine Learning, Python, Docker",estimated_only
+BigShyft.com,Startup/Other,1,11.77,11.77,4.5,0,"NLP, Machine Learning, SQL, Python",estimated_only
+Mobiotics IT Solution Pvt Ltd,Startup/Other,1,11.74,11.74,3.5,0,"TensorFlow, NoSQL, Kafka, Azure, R",estimated_only
+Mobile Premier League (MPL),Startup/Other,1,10.03,10.03,4.5,0,"Data Modeling, SQL",estimated_only
+Mobile Premier League,Startup/Other,1,25.57,25.57,10.0,0,"Machine Learning, SQL",estimated_only
+Millennium Management LLC,Startup/Other,1,10.08,10.08,3.5,0,"C++, Python",estimated_only
+Micello India Pvt Ltd,Startup/Other,1,26.25,26.25,10.0,0,"NoSQL, Azure, SQL, Python, AWS",estimated_only
+Meyrahkee,Startup/Other,1,11.53,11.53,5.0,0,"GCP, Machine Learning",estimated_only
+Meritfox India,Startup/Other,1,10.39,10.39,5.0,0,"Data Visualization, Tableau",estimated_only
+Mercom Communications,Startup/Other,1,9.9,9.9,4.0,0,Excel,estimated_only
+Megma Services,Startup/Other,1,17.09,17.09,6.5,0,Machine Learning,estimated_only
+Media.net Software Services (India) Pvt Ltd,Startup/Other,1,4.57,4.57,0.5,0,Git,estimated_only
+MediBuddy(PHASORZ TECHNOLOGIES PRIVATE LIMITED),Startup/Other,1,24.34,24.34,13.0,0,Python,estimated_only
+HiringHut Solutions Private Ltd,Startup/Other,1,10.82,10.82,4.0,0,"Agile, Communication, Git, Python, AWS",estimated_only
+Hiring Joint,Startup/Other,1,17.36,17.36,7.5,0,"Data Modeling, Machine Learning",estimated_only
+Hireworks Recruitment Consultants Private limited,Startup/Other,1,5.73,5.73,3.0,0,Communication,estimated_only
+Hire Freeze Manpower Solution,Startup/Other,1,17.65,17.65,6.5,0,"Airflow, Spark, AWS",estimated_only
+Hewlett-Packard (HP),Startup/Other,1,16.89,16.89,8.0,0,"Java, Python, Spark, AWS",estimated_only
+Hewlett Packard (HP),Startup/Other,1,26.88,26.88,14.0,0,"Machine Learning, Python, Statistics, R",estimated_only
+Hero FinCorp,Startup/Other,1,18.28,18.28,6.0,0,"ETL, Power BI, Java, SQL, Python",estimated_only
+Hector and Streak Consulting Pvt Ltd,Startup/Other,1,18.06,18.06,6.5,0,"Kafka, SQL, Java, Spark",estimated_only
+Heart It Out,Startup/Other,1,4.63,4.63,0.5,0,"GCP, Tableau, SQL",estimated_only
+Headstart Manpower Consultants,Startup/Other,1,11.79,11.79,4.5,0,Machine Learning,estimated_only
+Hashtag Talent,Startup/Other,1,14.82,14.82,6.0,0,,estimated_only
+BizAlgo Systems,Startup/Other,1,6.58,6.58,3.0,0,,estimated_only
+BinaryStar SearchX,Startup/Other,1,14.74,14.74,5.5,0,"GCP, ETL, NoSQL, Data Modeling, SQL",estimated_only
+Bigtapp Analytics,Startup/Other,1,11.6,11.6,3.5,0,"ETL, Spark",estimated_only
+Bigshyft Hiring for Nykaa,Product,1,13.4,13.4,4.5,0,"SQL, Java, Spark, AWS",estimated_only
+Bigshyft Hiring for MediBuddy,Startup/Other,1,14.31,14.31,8.0,0,"SQL, Python, NoSQL, MongoDB",estimated_only
+NUSTAR TECHNOLOGIES INDIA PRIVATE LIMITED,Startup/Other,1,16.26,16.26,7.5,0,"Data Modeling, ETL, SQL",estimated_only
+NOODLE ANALYTICS PRIVATE LIMITED,Startup/Other,1,12.88,12.88,5.0,0,Python,estimated_only
+NIVEUS SOLUTIONS PRIVATE LIMITED,Startup/Other,1,17.62,17.62,7.5,0,"Machine Learning, NoSQL, MongoDB, Java, Python",estimated_only
+NIRAMAI HEALTH ANALYTIX PRIVATE LIMITED,Startup/Other,1,7.75,7.75,3.0,0,"Machine Learning, Python",estimated_only
+NEUMATICA TECHNOLOGIES PVT. LTD.,Startup/Other,1,10.77,10.77,4.0,0,,estimated_only
+Beyond Human Resource,Startup/Other,1,15.76,15.76,5.5,0,"SQL, Azure, Spark",estimated_only
+Betterhalf Private Limited,Startup/Other,1,6.9,6.9,1.5,0,"Tableau, Power BI",estimated_only
+Betsol,Startup/Other,1,10.82,10.82,4.0,0,"SQL, Java, NoSQL, AWS",estimated_only
+Best Infosystems Ltd,MNC/IT Services,1,23.67,23.67,12.5,0,"SQL, Agile, NoSQL, AWS",estimated_only
+Bean HR Consulting,Startup/Other,1,10.91,10.91,4.5,0,"GCP, SQL, Spark",estimated_only
+Bangalore Software Services Pvt Ltd.,Startup/Other,1,8.08,8.08,2.0,0,Machine Learning,estimated_only
+N tech IT solutions Pvt Ltd,Startup/Other,1,15.57,15.57,6.5,0,"Tableau, Communication, Power BI",estimated_only
+Myndrix Technologies LLP,Startup/Other,1,10.88,10.88,4.5,0,"NumPy, Pandas, Snowflake, SQL, Python",estimated_only
+Muoro,Startup/Other,1,11.4,11.4,4.5,0,"NoSQL, MongoDB, Azure, Git, SQL",estimated_only
+Mukul Consultants India Pvt. Ltd.,Startup/Other,1,27.49,27.49,8.5,0,"ETL, Spark",estimated_only
+Mouser Electronics,Startup/Other,1,3.88,3.88,0.0,0,Communication,estimated_only
+Netcracker,Startup/Other,1,23.78,23.78,15.0,0,"Data Modeling, Python",estimated_only
+Netcore Solutions Pvt Ltd,Startup/Other,1,10.51,10.51,5.0,0,"Machine Learning, NoSQL, C++, MongoDB, SQL",estimated_only
+Net Connect Pvt Ltd,Startup/Other,1,27.04,27.04,10.0,0,"Data Modeling, Machine Learning, Python",estimated_only
+NeoSoft Technologies,Startup/Other,1,19.8,19.8,6.5,0,"ETL, Scala, Spark, AWS",estimated_only
+Happiest Minds Technologies Pvt.Ltd,Startup/Other,1,18.54,18.54,6.5,0,"Machine Learning, Spark",estimated_only
+HUSYS CONSULTING LIMITED,Startup/Other,1,10.82,10.82,5.0,0,"SQL, Excel",estimated_only
+HR SOLUTIONS,Startup/Other,1,19.49,19.49,8.5,0,"Tableau, Power BI, AWS",estimated_only
+HIRING STUDIO,Startup/Other,1,15.07,15.07,7.5,0,,estimated_only
+HEVO TECHNOLOGIES INDIA PRIVATE LIMITED,Startup/Other,1,6.56,6.56,2.0,0,"SQL, Excel",estimated_only
+HEPTAGON TECHNOLOGIES PVT LTD,Startup/Other,1,18.09,18.09,7.5,0,"Java, Python, Spark, AWS",estimated_only
+HEAL Software Inc,Startup/Other,1,15.72,15.72,7.5,0,"NumPy, SQL, NoSQL, Spark",estimated_only
+HDL CONSULTANT,Startup/Other,1,25.85,25.85,8.5,0,"ETL, Snowflake, Airflow, Data Modeling, Python",estimated_only
+HDFC Bank,Startup/Other,1,10.32,10.32,3.5,0,Python,estimated_only
+HADS COMPANY,Startup/Other,1,16.85,16.85,7.5,0,"Machine Learning, Power BI, NumPy, Spark, Python",estimated_only
+Gsn Games India,Startup/Other,1,10.76,10.76,5.0,0,SAS,estimated_only
+Narayana Health,Startup/Other,1,15.71,15.71,7.5,0,,estimated_only
+NoBroker,Startup/Other,1,7.28,7.28,3.0,0,"NoSQL, MongoDB, Java, Spark, Kafka",estimated_only
+Nirai Consulting Pvt. Ltd.,Startup/Other,1,19.13,19.13,7.5,0,"Kafka, SQL, Spark",estimated_only
+Nineleaps,Startup/Other,1,17.2,17.2,5.5,0,"Python, Spark, AWS",estimated_only
+Nikharv Consultancy,Startup/Other,1,11.79,11.79,4.0,0,"Communication, dbt, SQL, Python, Databricks",estimated_only
+NielsenIQ,Startup/Other,1,10.92,10.92,4.5,0,"SQL, Python, Statistics, R",estimated_only
+Nice Software Solutions Pvt. Ltd,Startup/Other,1,16.74,16.74,6.0,0,"SQL, Python, Spark",estimated_only
+Nfaktor,Startup/Other,1,10.87,10.87,4.5,0,Statistics,estimated_only
+Nexthink,Startup/Other,1,4.69,4.69,1.0,0,"Machine Learning, Java, Python",estimated_only
+NextGrowth Labs,Startup/Other,1,16.61,16.61,6.5,0,"SAS, SQL, Python, Machine Learning",estimated_only
+Newt Global India Private Limited,Startup/Other,1,15.22,15.22,7.5,0,"ETL, Pandas, Airflow, Communication, Azure",estimated_only
+Newstar corporation,Startup/Other,1,17.79,17.79,7.5,0,"Machine Learning, NLP, Communication, TensorFlow, Python",estimated_only
+New Horizons HR Solutions,Startup/Other,1,24.76,24.76,12.5,0,"Machine Learning, Python, Spark, R",estimated_only
+Neustar MarketShare,Startup/Other,1,11.17,11.17,4.0,0,SQL,estimated_only
+Neustar,Startup/Other,1,11.48,11.48,4.0,0,SQL,estimated_only
+Netscribes,Startup/Other,1,6.88,6.88,2.5,0,,estimated_only
+Netobjex,Startup/Other,1,24.74,24.74,12.5,0,"Data Modeling, SQL, NoSQL",estimated_only
+OnJuno,Startup/Other,1,11.11,11.11,3.5,0,"NoSQL, MongoDB, AWS",estimated_only
+Olive Data Centre Private Limited,Startup/Other,1,6.39,6.39,3.0,0,Git,estimated_only
+Ocwen,Startup/Other,1,16.82,16.82,7.5,0,"ETL, SQL",estimated_only
+OceanOfWeb,Startup/Other,1,23.99,23.99,15.0,0,"NoSQL, Agile, Communication, SQL, AWS",estimated_only
+Growthhub Consultants,Startup/Other,1,10.65,10.65,4.5,0,"SAS, SQL, Excel",estimated_only
+Green Agrevolution Pvt. Ltd. (DeHaat),Startup/Other,1,18.18,18.18,6.5,0,"Machine Learning, Python",estimated_only
+Goodera (NextGen PMS PVT LTD),Startup/Other,1,6.1,6.1,2.5,0,"Plotly, SQL, Excel",estimated_only
+GoodWorkLabs Services Pvt Ltd,Startup/Other,1,15.24,15.24,6.5,0,Java,estimated_only
+Golden Opportunities Pvt Ltd,Startup/Other,1,15.47,15.47,5.5,0,"Power BI, Excel",estimated_only
+Goguardian,Startup/Other,1,6.76,6.76,1.5,0,,estimated_only
+OT-SOLUTIONS TECH PRIVATE LIMITED,Startup/Other,1,6.85,6.85,2.0,0,"NoSQL, MongoDB, APIs",estimated_only
+OT Solutions,Startup/Other,1,8.23,8.23,2.5,0,"Machine Learning, Python",estimated_only
+Nuware Systems Pvt Ltd,Startup/Other,1,11.49,11.49,4.5,0,"Machine Learning, SQL, Python, Excel",estimated_only
+Novo Tree Minds,Startup/Other,1,17.39,17.39,5.5,0,"ETL, SQL, Python, AWS",estimated_only
+Nokia Solutions and Networks India (P)Ltd,Startup/Other,1,11.41,11.41,3.5,0,"Python, Java, Spark, R, Scala",estimated_only
+Noesys Software,Startup/Other,1,4.0,4.0,0.5,0,"SQL, Communication",estimated_only
+BT,Startup/Other,1,11.22,11.22,4.5,0,"Agile, Spark",estimated_only
+BRHAM SUPPORT SERVICES INDIA PRIVATE LIMITED,Startup/Other,1,13.1,13.1,5.5,0,,estimated_only
+BPL Medical Technologies Pvt. Ltd.,Startup/Other,1,11.19,11.19,4.5,0,,estimated_only
+BIZ-METRIC INDIA PRIVATE LIMITED,Startup/Other,1,16.42,16.42,7.5,0,"SQL, Spark, AWS",estimated_only
+BHARAT LIGHT AND POWER PRIVATE LIMITED,Startup/Other,1,11.63,11.63,3.5,0,"Machine Learning, Spark, A/B Testing, Statistics, SQL",estimated_only
+BENISON TECHNOLOGIES,Startup/Other,1,23.59,23.59,10.5,0,"Kafka, Agile, Spark",estimated_only
+PEARL CONSULTING,Startup/Other,1,14.7,14.7,7.5,0,"Spark, Scala, Kafka, Communication, SQL",estimated_only
+PATRA INDIA BPO SERVICES PRIVATE LIMITED,Startup/Other,1,15.33,15.33,7.5,0,Excel,estimated_only
+PAGO Analytics,Startup/Other,1,15.18,15.18,6.5,0,"C++, Java, Spark, Azure, Python",estimated_only
+Optimum Solutions,Startup/Other,1,13.91,13.91,6.5,0,"Data Visualization, Communication, Agile",estimated_only
+Optim Hire,Startup/Other,1,11.56,11.56,4.5,0,"Spark, Airflow, Communication, Kafka, SQL",estimated_only
+OpsMx,Startup/Other,1,22.55,22.55,9.5,0,"Machine Learning, NLP, Communication, Python",estimated_only
+Oportun,Startup/Other,1,29.7,29.7,9.5,0,"Machine Learning, Python, Spark",estimated_only
+Open Financial Technologies,Startup/Other,1,26.05,26.05,10.0,0,"GCP, Agile",estimated_only
+Ontrack HR services Pvt Ltd,Startup/Other,1,23.06,23.06,10.5,0,"Azure, Python",estimated_only
+Oncofocus Solutions,Startup/Other,1,7.17,7.17,2.0,0,,estimated_only
+PHYSICSWALLAH PRIVATE LIMITED,Startup/Other,1,11.76,11.76,5.0,0,"NoSQL, MongoDB, Java, SQL, Python",estimated_only
+PES HR Services a div of AMAL INFOSYSTEMS Pvt Ltd,MNC/IT Services,1,12.11,12.11,4.0,0,"Machine Learning, NLP",estimated_only
+BYTEMARK TECHNOLOGY SOLUTIONS INDIA PVT LTD,Startup/Other,1,15.6,15.6,6.0,0,"Plotly, ETL, Excel",estimated_only
+Globals ITeS Pvt Ltd,Startup/Other,1,10.78,10.78,4.0,0,"Power BI, Java, Statistics, Tableau, Python",estimated_only
+Global Work Studio,Startup/Other,1,14.77,14.77,7.5,0,"ETL, SQL",estimated_only
+Global Telecom Setup,Startup/Other,1,18.47,18.47,5.5,0,"Machine Learning, Spark",estimated_only
+Global Talent Acquisition Partners,Startup/Other,1,9.28,9.28,4.0,0,,estimated_only
+Glass Cube consulting private limited,Startup/Other,1,19.12,19.12,7.5,0,Machine Learning,estimated_only
+Glan Management Consultancy,Startup/Other,1,16.45,16.45,5.5,0,"GCP, SQL, Git",estimated_only
+Gensler,Startup/Other,1,10.22,10.22,5.0,0,ETL,estimated_only
+Gelato,Startup/Other,1,17.16,17.16,5.5,0,"ETL, Power BI, Snowflake, SQL, Python",estimated_only
+Gateway Group of Companies,Startup/Other,1,18.2,18.2,5.5,0,"Python, Spark, Azure, SQL, Scala",estimated_only
+Gallop Research,Startup/Other,1,14.62,14.62,8.0,0,"NoSQL, MongoDB, Spark, Scala, AWS",estimated_only
+Gadgeon Smart Systems Pvt Limited,Startup/Other,1,15.73,15.73,7.5,0,"TensorFlow, C++",estimated_only
+BWC International,Startup/Other,1,11.11,11.11,3.5,0,"Spark, Communication, SQL, Python, AWS",estimated_only
+BT Global,Startup/Other,1,17.26,17.26,7.5,0,"Machine Learning, SQL",estimated_only
+Personnel Search Services,Startup/Other,1,23.27,23.27,13.5,0,,estimated_only
+Perint Infosystems India Pvt. Ltd.,MNC/IT Services,1,10.32,10.32,5.0,0,"Azure, Pandas, Python, AWS",estimated_only
+Pepper Cloud,Startup/Other,1,10.38,10.38,4.0,0,,estimated_only
+People10 Technosoft Private Limited,Startup/Other,1,7.33,7.33,3.0,0,"Agile, Statistics",estimated_only
+People Gamut,Startup/Other,1,24.16,24.16,8.5,0,"Scala, Spark, AWS",estimated_only
+Pega,Startup/Other,1,23.59,23.59,8.5,0,"Machine Learning, Java, Python, Statistics",estimated_only
+Peepal Technology Management Consulting (p) Ltd.,Startup/Other,1,25.16,25.16,16.0,0,"GCP, Azure, AWS",estimated_only
+Pattern Effects Labs,Startup/Other,1,10.7,10.7,4.5,0,Statistics,estimated_only
+Pan Asia HR Solution Private Limited,Startup/Other,1,14.66,14.66,6.0,0,Plotly,estimated_only
+Palyon HR Services,Startup/Other,1,11.5,11.5,4.0,0,Spark,estimated_only
+PROTOCOLZONE PRIVATE LIMITED,Startup/Other,1,7.12,7.12,2.5,0,"Pandas, Python, Statistics, R",estimated_only
+PROGRAMMERS.IO INDIA PRIVATE LIMITED,Startup/Other,1,13.64,13.64,6.0,0,"Azure, R",estimated_only
+PROFIT APPS INDIA PRIVATE LIMITED,Startup/Other,1,14.83,14.83,6.5,0,"SQL, Java, Excel",estimated_only
+PRI India,Startup/Other,1,10.22,10.22,4.0,0,Python,estimated_only
+PPN Solutions Pvt Ltd.,Startup/Other,1,22.42,22.42,9.0,0,Communication,estimated_only
+PM Group,Startup/Other,1,16.86,16.86,7.5,0,Power BI,estimated_only
+Postman,Startup/Other,1,16.32,16.32,7.5,0,Python,estimated_only
+PlanSource,Startup/Other,1,15.75,15.75,6.5,0,Machine Learning,estimated_only
+GXX INDIA PRIVATE LIMITED,Startup/Other,1,19.91,19.91,8.5,0,"ETL, SQL, Azure",estimated_only
+GREAT LAKES E-LEARNING SERVICES PRIVATE LIMITED,Startup/Other,1,10.95,10.95,4.5,0,"Machine Learning, Communication",estimated_only
+GLOBALFOUNDRIES Inc,Startup/Other,1,17.59,17.59,7.5,0,Data Modeling,estimated_only
+GLOBAL PHARMA TEK INDIA PRIVATE LIMITED,Startup/Other,1,19.13,19.13,7.5,0,"Scala, SQL, Python, Spark",estimated_only
+GCC SERVICES INDIA PRIVATE LIMITED,Startup/Other,1,10.88,10.88,4.0,0,"Azure, Agile, Spark, AWS",estimated_only
+GAMESKRAFT TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,8.48,8.48,3.0,0,"Kafka, Spark",estimated_only
+GAMA India,Startup/Other,1,11.98,11.98,5.0,0,"Machine Learning, Spark, Python, Statistics",estimated_only
+G2 Crowd,Startup/Other,1,5.62,5.62,3.0,0,,estimated_only
+G S E-COMMERCE PVT LTD,Startup/Other,1,18.53,18.53,5.5,0,"Data Visualization, Tableau, Power BI, Excel",estimated_only
+Futurestep Recruitment Services Private Limited,Startup/Other,1,11.68,11.68,3.5,0,GCP,estimated_only
+CROPIN TECHNOLOGY SOLUTIONS,Startup/Other,1,11.91,11.91,5.0,0,"Machine Learning, Java, Spark, Python, AWS",estimated_only
+Placement Leadership Team,Startup/Other,1,10.05,10.05,3.5,0,,estimated_only
+Pippin Technologies (India) Pvt. Ltd.,Startup/Other,1,17.57,17.57,5.5,0,"Pandas, Python, APIs, Spark",estimated_only
+Photon,Startup/Other,1,18.21,18.21,6.5,0,"ETL, Agile, Spark, Python, AWS",estimated_only
+Aviation Indeed,Startup/Other,1,19.2,19.2,5.5,0,"Kafka, Python, Spark, AWS",estimated_only
+Aveva,Startup/Other,1,14.85,14.85,7.5,0,,estimated_only
+Avesta Computers Pvt. Ltd,Startup/Other,1,15.47,15.47,7.5,0,"Airflow, Python, APIs",estimated_only
+Avanze Technologies India Pvt. Ltd.,Startup/Other,1,13.96,13.96,7.0,0,"Tableau, SQL, Power BI, Excel",estimated_only
+Automation Anywhere,Startup/Other,1,11.58,11.58,5.0,0,"Tableau, Power BI, Statistics",estimated_only
+Authenu,Startup/Other,1,9.69,9.69,4.5,0,Communication,estimated_only
+Q-DAT IT SOLUTIONS PVT. LTD.,Startup/Other,1,11.03,11.03,3.5,0,"Communication, Excel",estimated_only
+Pype,Startup/Other,1,11.33,11.33,3.5,0,Machine Learning,estimated_only
+PureSoftware Pvt Ltd.,Startup/Other,1,15.44,15.44,5.5,0,Communication,estimated_only
+Publicis Groupe,Startup/Other,1,17.29,17.29,5.5,0,Python,estimated_only
+Prometheus Consulting,Startup/Other,1,6.71,6.71,2.5,0,,estimated_only
+Prodapt Solutions Private Limited,Startup/Other,1,16.77,16.77,6.5,0,"Kafka, Airflow, Docker, Spark",estimated_only
+Prize Infotech Private Limited,Startup/Other,1,12.17,12.17,5.0,0,"SQL, Azure, Spark, Databricks",estimated_only
+Prione Business Services,Startup/Other,1,6.76,6.76,1.5,0,,estimated_only
+Precisely,Startup/Other,1,10.28,10.28,4.5,0,"ETL, Agile, R, TensorFlow, Python",estimated_only
+Pramata Knowledge Solutions Private Limited,Startup/Other,1,4.81,4.81,1.0,0,"Machine Learning, Excel",estimated_only
+Fujitsu,Startup/Other,1,16.39,16.39,6.5,0,"Spark, Python, Statistics",estimated_only
+Friday Media Tech India Private Limited,Startup/Other,1,16.04,16.04,6.5,0,"Data Visualization, Git, Python",estimated_only
+Quince,Startup/Other,1,10.67,10.67,4.5,0,ETL,estimated_only
+Quicken Software Development Pvt Ltd,Startup/Other,1,13.76,13.76,6.5,0,"Data Modeling, SQL, Agile",estimated_only
+Qubol,Startup/Other,1,17.4,17.4,6.5,0,Spark,estimated_only
+Quantsys,Startup/Other,1,6.62,6.62,2.0,0,"ETL, SQL, Python, Excel",estimated_only
+Quality Matrix Inc,Startup/Other,1,6.48,6.48,3.0,0,"SQL, Scala, Spark",estimated_only
+Qualitech Solutions & Services,Startup/Other,1,25.28,25.28,12.5,0,"Python, APIs",estimated_only
+Qualfon Advanced Technology Center LLP,Startup/Other,1,17.12,17.12,8.0,0,"Machine Learning, Python, Statistics",estimated_only
+Qoala,Startup/Other,1,7.23,7.23,2.5,0,Machine Learning,estimated_only
+QSC,Startup/Other,1,3.92,3.92,0.5,0,"Data Modeling, ETL",estimated_only
+QS Quacquarelli Symonds,Startup/Other,1,18.26,18.26,5.5,0,"ETL, SQL",estimated_only
+QBurst,Startup/Other,1,10.59,10.59,4.5,0,"Machine Learning, NLP",estimated_only
+Axcess consultancy services,Startup/Other,1,15.25,15.25,6.0,0,"SQL, Java, Spark, AWS",estimated_only
+Avom Consultants,Startup/Other,1,15.84,15.84,6.5,0,"Scala, SQL, Azure, Spark",estimated_only
+"AvionX, Inc.",Startup/Other,1,6.66,6.66,1.5,0,,estimated_only
+RARR Technologies,Startup/Other,1,16.69,16.69,8.0,0,"ETL, Azure",estimated_only
+R3,Startup/Other,1,15.91,15.91,5.5,0,,estimated_only
+R.S.Consultants,Startup/Other,1,14.22,14.22,7.5,0,SQL,estimated_only
+"Quotient, Inc.",Startup/Other,1,6.42,6.42,2.0,0,,estimated_only
+Quinnox,Startup/Other,1,24.89,24.89,9.5,0,"ETL, Azure",estimated_only
+COVENANTMINDS PRIVATE LIMITED,Startup/Other,1,6.59,6.59,3.0,0,"Python, Spark, R",estimated_only
+COVANSIS IT SERVICES LLP,Startup/Other,1,17.66,17.66,6.5,0,"ETL, Python, Spark",estimated_only
+CONSULTTRINITY SERVICES PRIVATE LIMITED,Startup/Other,1,16.56,16.56,6.5,0,"Kafka, Agile, Spark",estimated_only
+COMPUTACENTER,Startup/Other,1,7.25,7.25,2.5,0,ETL,estimated_only
+COGNOTIZ TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,21.08,21.08,5.5,0,"ETL, Kafka, Scala, Spark",estimated_only
+COFFER INTERNET SERVICES PRIVATE LIMITED,Startup/Other,1,10.94,10.94,4.0,0,"Scala, SQL, Java, Python",estimated_only
+COEPD,Startup/Other,1,16.46,16.46,5.5,0,AWS,estimated_only
+CME India Technology And Support Services Pvt Ltd,Startup/Other,1,25.61,25.61,9.5,0,"Python, Java, Agile, Spark, Scala",estimated_only
+CLEAN HARBORS INDIA LLP,Startup/Other,1,18.95,18.95,7.5,0,"Data Modeling, SQL, Azure, Spark",estimated_only
+CINDREBAY SCHOOL OF FASHION & INTERIOR DESIGN,Startup/Other,1,6.38,6.38,2.5,0,,estimated_only
+CIEL HR Services Private Limited,Startup/Other,1,17.49,17.49,7.5,0,"Data Modeling, Java, Python, APIs",estimated_only
+AugmatrixGo,Startup/Other,1,11.89,11.89,4.5,0,"GCP, SQL, NoSQL, Spark",estimated_only
+Attra,Startup/Other,1,23.27,23.27,17.5,0,"ETL, SQL, Spark",estimated_only
+Attain Solutions,Startup/Other,1,9.89,9.89,4.5,0,,estimated_only
+Atos,Startup/Other,1,26.74,26.74,12.5,0,"Machine Learning, Java, Spark, Azure, Python",estimated_only
+Atidiv,Startup/Other,1,10.64,10.64,3.5,0,Git,estimated_only
+Aster DM Healthcare (Digital Health),Startup/Other,1,17.05,17.05,7.5,0,"SQL, Java, MongoDB, NoSQL",estimated_only
+Ashoka,Startup/Other,1,11.1,11.1,4.0,0,"GCP, Communication, Git",estimated_only
+Rapid Value IT Services Pvt Ltd,Startup/Other,1,16.62,16.62,5.5,0,"Data Visualization, Machine Learning, NLP, TensorFlow, Python",estimated_only
+Randstad India Pvt Ltd.,Startup/Other,1,20.0,20.0,17.5,0,"Machine Learning, Spark, Tableau, Python, AWS",estimated_only
+Radial HR Solutions,Startup/Other,1,10.31,10.31,4.0,0,"Agile, Kafka, R, SQL, Python",estimated_only
+Racanaa Innovative Solutions Energy Private Limite,Startup/Other,1,16.2,16.2,7.0,0,Spark,estimated_only
+RWS Moravia,Startup/Other,1,25.94,25.94,9.5,0,"SQL, Excel",estimated_only
+RUMANGO SOFTWARE AND CONSULTING SERVICES PRIVATE L IMITED,Startup/Other,1,17.31,17.31,8.0,0,"Machine Learning, Java",estimated_only
+RSB Global,Startup/Other,1,16.66,16.66,6.5,0,,estimated_only
+RKSV Securities India Pvt. Ltd.,Startup/Other,1,4.89,4.89,0.0,0,"Python, Spark, Airflow, Scala, AWS",estimated_only
+REVONEER CONSULTANCY SERVICES PRIVATE LIMITED,Startup/Other,1,14.49,14.49,7.5,0,"Data Modeling, SQL",estimated_only
+ReSource Pro Operational Solutions Pvt Ltd.,Startup/Other,1,10.29,10.29,4.0,0,"Data Modeling, ETL, Statistics, R",estimated_only
+Aurigo Software Technologies Pvt Ltd,Startup/Other,1,11.88,11.88,5.0,0,"NoSQL, MongoDB, NLP, Spark, Kafka",estimated_only
+Aura Cloud,Startup/Other,1,19.53,19.53,8.5,0,"ETL, Power BI, Java, Agile, Python",estimated_only
+Freshworks,Product,1,21.42,21.42,6.5,0,"NLP, Machine Learning, SQL, NoSQL",estimated_only
+Freshdesk,Startup/Other,1,16.07,16.07,6.0,0,"Data Visualization, Power BI",estimated_only
+Freelancer Divya Chopra,Startup/Other,1,10.81,10.81,4.5,0,"Azure, Docker",estimated_only
+Fourth Frontier Technologies Pvt. Ltd.,Startup/Other,1,14.25,14.25,5.5,0,,estimated_only
+Fospe Software Pvt. Ltd,Startup/Other,1,11.04,11.04,5.0,0,"Java, Spark, R, Tableau, SQL",estimated_only
+Focus Management Consultants Pvt Ltd.,Startup/Other,1,18.68,18.68,7.5,0,"GCP, Java, Azure, SQL, Python",estimated_only
+Focus Edumatics,Startup/Other,1,18.86,18.86,7.5,0,Machine Learning,estimated_only
+Flexera Software,Startup/Other,1,10.03,10.03,4.0,0,"Java, Python",estimated_only
+FleXc,Startup/Other,1,17.13,17.13,7.0,0,"Spark, Scala, Airflow, SQL, Python",estimated_only
+Fivetran,Startup/Other,1,11.25,11.25,3.5,0,"Java, Azure, AWS",estimated_only
+Firstsource Solutions Ltd,Startup/Other,1,6.28,6.28,2.0,0,"Java, Agile, AWS",estimated_only
+Firstsource Solutions Limited,Startup/Other,1,11.67,11.67,4.5,0,"Plotly, Tableau, Power BI, Data Modeling",estimated_only
+August Digital,Startup/Other,1,15.23,15.23,7.0,0,"Git, Python",estimated_only
+Roppen Transportation Services Private Limited,Startup/Other,1,6.96,6.96,2.0,0,"Plotly, SQL, Statistics",estimated_only
+Rolls Royce,Startup/Other,1,10.56,10.56,4.0,0,"Pandas, Azure, Git, Python, Docker",estimated_only
+Rohini IT Consulting LLP,Startup/Other,1,12.04,12.04,5.0,0,"Spark, Scala, Communication, Git, SQL",estimated_only
+Rockwell Automation,Startup/Other,1,16.26,16.26,6.5,0,"Power BI, Excel",estimated_only
+Robas Research,Startup/Other,1,10.03,10.03,3.5,0,,estimated_only
+Rivera Manpower Services,Startup/Other,1,17.14,17.14,6.0,0,"Python, Spark",estimated_only
+Rite Software Solutions And Services LLP,Startup/Other,1,18.87,18.87,5.5,0,"SQL, Spark, AWS",estimated_only
+Retail Kloud9 Technologies India Private Limited,Startup/Other,1,9.54,9.54,4.5,0,"Communication, Agile, Excel",estimated_only
+Resources Valley,Startup/Other,1,10.95,10.95,4.5,0,"ETL, Spark, Azure, SQL, AWS",estimated_only
+Resource Drive Consulting Private Limited,Startup/Other,1,10.03,10.03,5.0,0,,estimated_only
+Rehoboth Academic Services,Startup/Other,1,10.73,10.73,4.5,0,"Statistics, Excel",estimated_only
+Regalix India Pvt Ltd,Startup/Other,1,7.09,7.09,2.0,0,Agile,estimated_only
+Regalix,Startup/Other,1,6.6,6.6,2.5,0,Plotly,estimated_only
+Red Hat,Startup/Other,1,14.91,14.91,5.5,0,Tableau,estimated_only
+"RealWear, Inc",Startup/Other,1,6.37,6.37,2.0,0,,estimated_only
+Reactore Solutions,Startup/Other,1,23.62,23.62,10.5,0,"Machine Learning, Agile",estimated_only
+SPM Jobs,Startup/Other,1,24.99,24.99,9.0,0,"Machine Learning, Communication, Statistics",estimated_only
+SOURCEGRIDS CONSULTING LLP,Startup/Other,1,11.11,11.11,5.0,0,"Machine Learning, Python, Statistics",estimated_only
+SOFTWARE AG BANGALORE TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,10.87,10.87,4.0,0,"Git, Agile",estimated_only
+SNAPMINDS TECHNOLOGIES LLP,Product,1,10.0,10.0,2.5,0,"SAS, Machine Learning, Statistics",estimated_only
+SMARTEK21 PRIVATE LIMITED,Startup/Other,1,17.41,17.41,7.5,0,"Spark, Kafka, Azure, SQL, Scala",estimated_only
+SLICER SOLUTIONS (P) LTD.,Startup/Other,1,6.2,6.2,2.0,0,"ETL, SQL",estimated_only
+SKANDHA IT SERVICES PRIVATE LIMITED,Startup/Other,1,26.19,26.19,10.0,0,"Azure, Power BI, Spark, Databricks",estimated_only
+SKAN,Startup/Other,1,16.27,16.27,7.5,0,Python,estimated_only
+SBM Offshore,Startup/Other,1,14.82,14.82,7.5,0,SQL,estimated_only
+SAVIYNT INDIA PRIVATE LIMITED,Startup/Other,1,11.76,11.76,4.5,0,"Tableau, Azure, AWS",estimated_only
+SANSID SOLUTIONS LLP,Startup/Other,1,10.3,10.3,3.5,0,"Plotly, Power BI, Statistics",estimated_only
+SAM Manpower Career Services LLP,Startup/Other,1,11.06,11.06,4.5,0,"Java, Spark, Airflow, Databricks, Azure",estimated_only
+S-Square Spenta Technologies,Startup/Other,1,6.28,6.28,2.5,0,,estimated_only
+Russell Tobin Associates Staffing Solutions India Pvt Ltd,Startup/Other,1,6.8,6.8,3.0,0,,estimated_only
+Rupeek,Startup/Other,1,9.94,9.94,4.5,0,"Tableau, R",estimated_only
+Royal Daiimond Technologies,Startup/Other,1,16.93,16.93,6.5,0,"Java, Spark",estimated_only
+SWIRE DIGITAL CENTRE PRIVATE LIMITED,Startup/Other,1,11.69,11.69,4.0,0,"SQL, Python, Power BI, AWS",estimated_only
+SUN CONSULTANTS,Startup/Other,1,10.72,10.72,3.5,0,"GCP, SQL, Python, Spark",estimated_only
+First American (India) Pvt Ltd,Startup/Other,1,22.77,22.77,8.5,0,"SQL, C++",estimated_only
+Finpoint,Startup/Other,1,11.28,11.28,4.5,0,"Git, Python",estimated_only
+Finite HR Consulting Private Limited,Startup/Other,1,11.36,11.36,4.0,0,"NLP, SQL, C++",estimated_only
+Financial Software Systems Pvt. Ltd.,Startup/Other,1,24.58,24.58,11.0,0,,estimated_only
+Fidelity,Startup/Other,1,9.47,9.47,5.0,0,,estimated_only
+Falcon Smart IT,Startup/Other,1,9.49,9.49,4.0,0,Excel,estimated_only
+FairMoney,Startup/Other,1,11.36,11.36,5.0,0,"Machine Learning, Python, Statistics",estimated_only
+Fabric,Startup/Other,1,19.44,19.44,6.0,0,"Machine Learning, Python, Spark, AWS",estimated_only
+"F5 Networks, Inc",Startup/Other,1,9.64,9.64,3.5,0,,estimated_only
+Eyeglobal Solutions Private Limited,Startup/Other,1,10.41,10.41,3.5,0,"Python, Spark, AWS",estimated_only
+Exxon Mobil Corporation,Startup/Other,1,23.16,23.16,8.5,0,"Data Modeling, ETL",estimated_only
+STAFFICE GLOBAL PRIVATE LIMITED,Startup/Other,1,16.11,16.11,6.5,0,"Agile, Spark, Scala, Azure, SQL",estimated_only
+SPRP,Startup/Other,1,10.92,10.92,4.5,0,ETL,estimated_only
+SPOTTABL TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,10.55,10.55,5.0,0,"Pandas, Communication, Git, Python, AWS",estimated_only
+Apptio India LLP,Startup/Other,1,7.75,7.75,2.5,0,"Azure, AWS",estimated_only
+Apptio INC,Startup/Other,1,10.33,10.33,3.5,0,"Azure, AWS",estimated_only
+AppsTek Corp,Startup/Other,1,10.53,10.53,5.0,0,"C++, Azure",estimated_only
+Appriffy-Digital IT Hub,Startup/Other,1,10.35,10.35,3.5,0,"Data Visualization, Git, Python",estimated_only
+Apogee Services Private Limited,Startup/Other,1,6.54,6.54,2.5,0,,estimated_only
+Semperfi,Startup/Other,1,15.73,15.73,8.0,0,"SQL, Communication, Java",estimated_only
+Select Source International Private Limited,Startup/Other,1,10.96,10.96,5.0,0,"Machine Learning, MATLAB, Python",estimated_only
+Sebone Technologies,Startup/Other,1,24.64,24.64,8.5,0,"ETL, Spark",estimated_only
+Search Folks,Startup/Other,1,11.36,11.36,4.0,0,"GCP, ETL, SAS, Azure, R",estimated_only
+ScaleIn,Startup/Other,1,14.21,14.21,6.5,0,"SQL, Java, Python",estimated_only
+Saturam Infosystems Private Limited,MNC/IT Services,1,10.58,10.58,3.5,0,"SQL, Airflow",estimated_only
+Sandvine,Startup/Other,1,13.46,13.46,6.5,0,"C++, Python",estimated_only
+Samaira HR Solutions,Startup/Other,1,11.09,11.09,4.0,0,"ETL, Spark, Data Modeling, SQL, Python",estimated_only
+Saffron Careers Private Limited,Startup/Other,1,18.75,18.75,6.0,0,"Machine Learning, Statistics",estimated_only
+Saaki Argus And Averil Consulting,Startup/Other,1,18.34,18.34,15.5,0,,estimated_only
+SYNAPSICA HEALTHCARE PRIVATE LIMITED,Startup/Other,1,11.21,11.21,3.5,0,"ETL, Airflow, Python, AWS",estimated_only
+Signature India Associates,Startup/Other,1,9.26,9.26,5.0,0,SQL,estimated_only
+SightSpectrum Technology Solutions (P) Ltd.,Startup/Other,1,18.09,18.09,6.5,0,"Machine Learning, ETL, Spark, Azure, Databricks",estimated_only
+Shreya Learning Academy hiring for stirista,Startup/Other,1,15.85,15.85,5.5,0,SQL,estimated_only
+Shashwath Solution,Startup/Other,1,12.62,12.62,5.0,0,"Machine Learning, NLP",estimated_only
+Experion Technologies (I) Pvt. Ltd.,Startup/Other,1,15.76,15.76,6.5,0,"Tableau, Python, Machine Learning, AWS",estimated_only
+Exidio Corp.,Startup/Other,1,11.46,11.46,4.0,0,"SQL, Git, Agile",estimated_only
+Excellence and Eminence LLP,Startup/Other,1,22.06,22.06,10.0,0,"Java, Python, Spark, AWS",estimated_only
+Excel HR Services,Startup/Other,1,10.01,10.01,4.0,0,Excel,estimated_only
+Evolvus Solutions,Startup/Other,1,6.74,6.74,3.0,0,Agile,estimated_only
+Evive,Startup/Other,1,7.04,7.04,1.5,0,"NoSQL, Spark, Kafka, Communication, SQL",estimated_only
+Eversana,Startup/Other,1,17.13,17.13,6.5,0,,estimated_only
+Euromonitor,Startup/Other,1,9.5,9.5,5.0,0,Agile,estimated_only
+Etomate Technology LLP,Startup/Other,1,9.9,9.9,4.5,0,Excel,estimated_only
+Armour Corporate Services,Startup/Other,1,16.66,16.66,6.5,0,Data Modeling,estimated_only
+Arminus Software Pvt. Ltd.,Startup/Other,1,17.08,17.08,6.5,0,"GCP, ETL, SQL, Agile",estimated_only
+Aptiv Technical Centre,Startup/Other,1,18.59,18.59,8.5,0,,estimated_only
+Smiths,Startup/Other,1,7.71,7.71,3.0,0,"Data Modeling, Machine Learning, C++",estimated_only
+Smartstream Technologies India Private Limited,Startup/Other,1,6.97,6.97,3.0,0,"SQL, Java, Python",estimated_only
+SmartlyHR ( a unit of Keyquest Technologies Pvt Ltd ),Startup/Other,1,10.98,10.98,3.5,0,"Machine Learning, SQL, Python, R",estimated_only
+Smartdrive Systems India Pvt Ltd.,Startup/Other,1,15.34,15.34,6.5,0,"SQL, Java, MongoDB, NoSQL",estimated_only
+Smartapp,Startup/Other,1,10.99,10.99,5.0,0,"Data Modeling, Agile",estimated_only
+Smart Source,Startup/Other,1,19.36,19.36,8.0,0,Snowflake,estimated_only
+SmallDay IT Services Pvt. Ltd.,Startup/Other,1,10.71,10.71,4.0,0,"Java, Python, AWS",estimated_only
+Skysystems.ai,Startup/Other,1,22.14,22.14,17.0,0,,estimated_only
+Skyleaf Consultants,Startup/Other,1,15.41,15.41,5.5,0,"Communication, Statistics",estimated_only
+Skillmine Technology Consulting Pvt. Ltd.,Startup/Other,1,17.71,17.71,7.5,0,"ETL, Kafka, Python, Spark",estimated_only
+Skill Lync,Startup/Other,1,6.21,6.21,3.0,0,Communication,estimated_only
+SkilFil Consultants,Startup/Other,1,18.77,18.77,6.5,0,"Spark, Communication, Azure, SQL, Python",estimated_only
+Singular,Startup/Other,1,14.5,14.5,5.5,0,,estimated_only
+SimplyFI Softech India Pvt. Ltd.,Startup/Other,1,16.88,16.88,6.0,0,"Machine Learning, Python",estimated_only
+Simply Vyapar Apps Private Limited,Startup/Other,1,10.77,10.77,3.5,0,"Data Visualization, SQL",estimated_only
+Simpl,Startup/Other,1,6.58,6.58,3.0,0,NoSQL,estimated_only
+Ams Human Resources Pvt Ltd,Startup/Other,1,24.7,24.7,8.5,0,Python,estimated_only
+Sonus Networks India Pvt.Ltd,Startup/Other,1,15.72,15.72,5.5,0,C++,estimated_only
+Solytics Partners Private Limited,Startup/Other,1,15.99,15.99,5.5,0,Python,estimated_only
+Solutions Infini Technologies - Kaleyra,Startup/Other,1,18.08,18.08,5.5,0,"NoSQL, MongoDB, Communication, SQL, Python",estimated_only
+Solera Inc.,Startup/Other,1,9.39,9.39,4.5,0,"Tableau, SQL, Power BI",estimated_only
+Equifax Credit Information Services Pvt Ltd,Product,1,12.65,12.65,4.5,0,SAS,estimated_only
+Epergne Solutions,Startup/Other,1,17.16,17.16,6.5,0,"NoSQL, Spark, Communication, Tableau, SQL",estimated_only
+Enrich talents,Startup/Other,1,7.74,7.74,2.0,0,"Spark, Statistics, Excel",estimated_only
+Enhops,Startup/Other,1,15.42,15.42,7.5,0,"Azure, Power BI",estimated_only
+Enfys Technologies,Startup/Other,1,15.76,15.76,7.5,0,"SQL, Java, Python, Spark",estimated_only
+Employers4Employees,Startup/Other,1,25.08,25.08,16.0,0,"SQL, Pandas, Spark",estimated_only
+Emblaze Solutions,Startup/Other,1,17.14,17.14,5.5,0,"Python, Spark, Azure, SQL, Scala",estimated_only
+Embitel,Startup/Other,1,9.84,9.84,3.5,0,Data Visualization,estimated_only
+Elixir Web Solutions,Startup/Other,1,9.9,9.9,4.5,0,"Machine Learning, NLP, Python",estimated_only
+Softtek,Startup/Other,1,10.03,10.03,4.5,0,"Machine Learning, C++, Java, Python",estimated_only
+SnapSeaarch,Product,1,12.42,12.42,4.5,0,"SQL, Python",estimated_only
+St. JohnÃ¢Â?Â?s Research Institute,Startup/Other,1,6.91,6.91,1.5,0,"Machine Learning, Statistics, R",estimated_only
+Sriiom Human Resource Solutions LLP,Startup/Other,1,6.23,6.23,2.0,0,,estimated_only
+Squadcast,Startup/Other,1,17.55,17.55,5.5,0,Machine Learning,estimated_only
+SpotDraft,Startup/Other,1,7.16,7.16,3.0,0,"Machine Learning, Python",estimated_only
+Splenta Systems Pvt Ltd,Startup/Other,1,15.74,15.74,7.5,0,,estimated_only
+Spiceworks,Startup/Other,1,3.8,3.8,1.0,0,"Tableau, Python, AWS",estimated_only
+Spencer N Hills Consulting Pvt Ltd,Startup/Other,1,28.25,28.25,14.0,0,"Machine Learning, Python",estimated_only
+Spectral Consultants -Search and Recruitments Firm,Startup/Other,1,11.19,11.19,5.0,0,"Machine Learning, SQL, Python, R",estimated_only
+Source To Win Consultancy,Startup/Other,1,10.1,10.1,4.5,0,"NoSQL, MongoDB, Spark, SQL, Python",estimated_only
+Apnaklub,Startup/Other,1,6.94,6.94,2.0,0,"GCP, Machine Learning, Communication, SQL, Python",estimated_only
+Apna Recruiter,Startup/Other,1,10.3,10.3,3.5,0,SQL,estimated_only
+Antuit Inc.,Startup/Other,1,17.2,17.2,5.5,0,"Azure, AWS",estimated_only
+Anixter,Startup/Other,1,9.63,9.63,5.0,0,Excel,estimated_only
+Aniruddha Dutta,Startup/Other,1,9.97,9.97,4.5,0,,estimated_only
+Anar App Private Limited,Startup/Other,1,9.51,9.51,4.0,0,Java,estimated_only
+Analyttica Datalab Pvt. Ltd.,Startup/Other,1,4.0,4.0,0.0,0,,estimated_only
+Streamhub,Startup/Other,1,7.48,7.48,2.5,0,"GCP, Machine Learning, NoSQL, MongoDB, Spark",estimated_only
+Stratosphere IT Services Pvt. Ltd.,Startup/Other,1,21.89,21.89,14.5,0,ETL,estimated_only
+Caprus IT Private Limited,Startup/Other,1,18.5,18.5,7.5,0,"Python, Spark",estimated_only
+Capleo Global,Startup/Other,1,17.37,17.37,7.5,0,"SQL, Python, Spark",estimated_only
+CapFloat Financial Services,Startup/Other,1,6.57,6.57,3.0,0,,estimated_only
+Cantik technologies pvt ltd,Startup/Other,1,10.34,10.34,4.5,0,"Data Visualization, Tableau",estimated_only
+Candid Recruitments,Startup/Other,1,22.02,22.02,10.0,0,,estimated_only
+Canalys,Startup/Other,1,6.74,6.74,1.5,0,,estimated_only
+Camp Dresser and McKee (India) Pvt Ltd,Startup/Other,1,15.35,15.35,5.5,0,"Tableau, Python, Machine Learning, AWS",estimated_only
+CSG,Startup/Other,1,9.38,9.38,4.5,0,,estimated_only
+ElasticRun,Startup/Other,1,15.43,15.43,7.5,0,,estimated_only
+Elanco,Startup/Other,1,12.04,12.04,4.0,0,Machine Learning,estimated_only
+EiC Tech Sys,Startup/Other,1,10.25,10.25,4.5,0,Python,estimated_only
+Edureka!,Startup/Other,1,11.85,11.85,3.5,0,Spark,estimated_only
+Stalwart Management Consulting,Startup/Other,1,21.97,21.97,10.0,0,"C++, Git",estimated_only
+St. John’s Research Institute,Startup/Other,1,7.24,7.24,2.0,0,Python,estimated_only
+TEOCO Software,Startup/Other,1,7.05,7.05,3.0,0,"SQL, Python, Statistics, R",estimated_only
+TENSORIOT SOFTWARE SERVICES PRIVATE LIMITED,Startup/Other,1,11.08,11.08,4.5,0,"Python, AWS",estimated_only
+TEKARCH TECHNOLOGY PRIVATE LIMITED,Startup/Other,1,10.84,10.84,3.5,0,"GCP, SQL",estimated_only
+TATA INDUSTRIES LIMITED-TATA INSIGHTS AND QUANTS DIVISON,Startup/Other,1,10.05,10.05,4.5,0,,estimated_only
+TAMCHERRY TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,11.28,11.28,3.5,0,"Machine Learning, Spark, Azure, Python, AWS",estimated_only
+TALENTOLA SOLUTIONS PRIVATE LIMITED,Product,1,20.75,20.75,5.5,0,"NumPy, Pandas, Git, Python, AWS",estimated_only
+TALENTICO CONSULTANCY SERVICES,Startup/Other,1,16.68,16.68,6.5,0,"GCP, SQL, Python, Spark",estimated_only
+TALENTHUT FREELANCE NETWORK LLP,Startup/Other,1,17.99,17.99,6.5,0,"Agile, Spark, Azure, SQL, Databricks",estimated_only
+TALENT MAX HR & MANAGEMENT CONSULTANTS,Startup/Other,1,22.44,22.44,10.5,0,"SQL, Agile",estimated_only
+TAAL Tech India Private Limited,Startup/Other,1,22.21,22.21,12.5,0,Git,estimated_only
+Synergy Innovation,Startup/Other,1,26.69,26.69,14.0,0,"ETL, SQL, Azure, Spark",estimated_only
+Synamedia,Startup/Other,1,6.73,6.73,2.0,0,,estimated_only
+Sutherland,Startup/Other,1,16.73,16.73,8.0,0,"ETL, Azure",estimated_only
+Sunstream,Startup/Other,1,6.46,6.46,2.0,0,"Communication, Excel",estimated_only
+Success Booster,Startup/Other,1,25.13,25.13,15.5,0,"Machine Learning, NLP",estimated_only
+String Bio,Startup/Other,1,12.38,12.38,4.5,0,"Machine Learning, C++",estimated_only
+TLG,Startup/Other,1,14.9,14.9,7.0,0,"GCP, Tableau, Excel",estimated_only
+TIMS SOLUTIONS PRIVATE LIMITED,Startup/Other,1,15.64,15.64,7.5,0,"Plotly, Power BI",estimated_only
+Ecolibrium Energy Pvt. Ltd,Startup/Other,1,21.65,21.65,12.5,0,,estimated_only
+EZETAP MOBILE SOLUTIONS PVT. LTD,Startup/Other,1,15.91,15.91,6.5,0,"SQL, Python",estimated_only
+ETWO Education Technologies India Pvt Ltd.,Startup/Other,1,6.84,6.84,3.0,0,"Machine Learning, Power BI, Tableau, SQL, Python",estimated_only
+ETON SOLUTIONS,Startup/Other,1,10.27,10.27,3.5,0,,estimated_only
+ERM India Private Limited,Startup/Other,1,15.99,15.99,6.0,0,Azure,estimated_only
+EQUINITI ICS India Pvt Ltd,Startup/Other,1,9.62,9.62,3.5,0,,estimated_only
+EQ India,Startup/Other,1,7.1,7.1,3.0,0,,estimated_only
+ENSTRAPP IT SOLUTIONS PRIVATE LIMITED,Startup/Other,1,14.61,14.61,7.0,0,"Machine Learning, Java, APIs, SQL, Docker",estimated_only
+EIGENRISK BUSINESS SOLUTIONS INDIA PRIVATE LIMITED,Startup/Other,1,10.99,10.99,4.5,0,SQL,estimated_only
+EF INFORMATION SYSTEMS PVT LTD,Startup/Other,1,6.6,6.6,2.5,0,Excel,estimated_only
+EDP Software Limited,Startup/Other,1,12.17,12.17,4.5,0,"SQL, Python, Spark",estimated_only
+ECOSYLANTECH SOLUTIONS PRIVATE LIMITED,Startup/Other,1,17.48,17.48,7.5,0,,estimated_only
+ECOLAB DIGITAL CENTER PVT LTD,Product,1,19.64,19.64,8.0,0,"Azure, Machine Learning, SQL, Python",estimated_only
+THEBES IT SOLUTIONS (INDIA) PRIVATE LIMITED,Startup/Other,1,16.6,16.6,6.0,0,"C++, Python, Java, Spark, Scala",estimated_only
+Tech Wynk It Solutions LLP,Startup/Other,1,17.04,17.04,5.5,0,Power BI,estimated_only
+Tata Unistore,Startup/Other,1,10.16,10.16,3.5,0,Agile,estimated_only
+Tarento Technologies Pvt Ltd,Startup/Other,1,16.86,16.86,5.5,0,"ETL, NoSQL, MongoDB, Communication, Python",estimated_only
+Tarams Software Technologies,Startup/Other,1,10.85,10.85,4.0,0,"Data Modeling, Tableau, SQL",estimated_only
+TalPro,Startup/Other,1,17.46,17.46,5.5,0,"NLP, Python, Spark",estimated_only
+Tactopus Learning Solutions Private Limited,Startup/Other,1,9.68,9.68,4.5,0,,estimated_only
+TRICON INFOTECH PVT LTD,Startup/Other,1,28.79,28.79,8.5,0,"Airflow, SQL, Python, dbt",estimated_only
+Amagi Media Labs,Startup/Other,1,12.31,12.31,6.5,0,,estimated_only
+Altysys,Startup/Other,1,10.47,10.47,3.5,0,"ETL, SQL, Airflow, AWS",estimated_only
+Alphacom Systems and Solutions Pvt Ltd,Startup/Other,1,17.13,17.13,8.0,0,"Data Modeling, Communication",estimated_only
+Alloys Consulting Private Limited,Startup/Other,1,24.41,24.41,8.5,0,"ETL, SQL, Git, Spark",estimated_only
+Alliance Pro IT Private Limited,Startup/Other,1,21.67,21.67,9.5,0,"Java, Scala, Spark, AWS",estimated_only
+AllGoVision Technologies Pvt. Ltd,Startup/Other,1,15.06,15.06,5.5,0,"SQL, MongoDB, NoSQL",estimated_only
+Aliqan Services Private Limited,Startup/Other,1,6.6,6.6,3.0,0,SQL,estimated_only
+TOOKITAKI TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,10.19,10.19,3.5,0,,estimated_only
+TM Inputs & Services Pvt. Ltd.,Startup/Other,1,17.93,17.93,5.5,0,Machine Learning,estimated_only
+Technopride Ltd.,Startup/Other,1,18.71,18.71,5.5,0,"SQL, Communication, Python, Spark",estimated_only
+Techasoft,Startup/Other,1,10.62,10.62,4.5,0,"Machine Learning, Python, AWS",estimated_only
+E-Solutions IT Services Pvt Ltd,Startup/Other,1,16.88,16.88,6.5,0,"Agile, Spark, Communication, Azure, Scala",estimated_only
+Dynpro India Pvt. Ltd.,Startup/Other,1,17.83,17.83,7.0,0,"GCP, Spark, Azure, Python, Docker",estimated_only
+Ducen,Startup/Other,1,30.12,30.12,10.0,0,"Machine Learning, SQL, Python, Spark",estimated_only
+Dremio,Startup/Other,1,6.02,6.02,3.0,0,,estimated_only
+Draup,Startup/Other,1,27.41,27.41,8.5,0,"Machine Learning, Python, Spark, AWS",estimated_only
+Doxel,Startup/Other,1,8.57,8.57,4.0,0,,estimated_only
+Diverse Lynx India Pvt. Ltd,Startup/Other,1,15.44,15.44,5.5,0,"MATLAB, Python",estimated_only
+Disha Consultants,Startup/Other,1,7.17,7.17,3.0,0,"Data Visualization, Excel",estimated_only
+"Digital Management, LLC",Startup/Other,1,17.52,17.52,7.0,0,"Git, SQL, Python, Docker, AWS",estimated_only
+Digi Verve Technologies Private Limited,Startup/Other,1,4.3,4.3,1.0,0,"NoSQL, MongoDB, R, Python, Excel",estimated_only
+Diabsolut Inc.,Startup/Other,1,6.69,6.69,3.0,0,"Machine Learning, NoSQL, MongoDB",estimated_only
+Dexndot Solutions (OPC) Pvt LTD,Startup/Other,1,18.83,18.83,7.5,0,"Spark, Snowflake, Azure, Tableau, Python",estimated_only
+Denave India Pvt Ltd.,Startup/Other,1,15.44,15.44,7.5,0,"Data Visualization, Tableau, Power BI, Excel",estimated_only
+TechChefs Software Pvt. Ltd.,Startup/Other,1,15.96,15.96,6.5,0,"ETL, Spark",estimated_only
+Affine,Startup/Other,1,11.81,11.81,4.0,0,"Machine Learning, ETL, Power BI, SQL, Python",estimated_only
+Aelius City HR Solutions (OPC) Private limited,Startup/Other,1,10.73,10.73,5.0,0,"Looker, NoSQL, Power BI, Tableau, SQL",estimated_only
+Advent Global Solution Private Limited,Startup/Other,1,16.76,16.76,7.5,0,"SQL, Scala, Spark",estimated_only
+Advanced Micro Devices,Startup/Other,1,22.86,22.86,9.5,0,Communication,estimated_only
+Thompsons HR Consulting,Startup/Other,1,10.47,10.47,4.5,0,,estimated_only
+The millionvisions,Startup/Other,1,4.37,4.37,0.5,0,"SQL, Java, Python",estimated_only
+The Pathweavers,Startup/Other,1,15.31,15.31,8.0,0,"Data Modeling, SQL, Agile, Spark",estimated_only
+The Glove,Startup/Other,1,14.71,14.71,6.5,0,"ETL, Communication, SQL, Python, AWS",estimated_only
+The Coca-Cola Company (RPSI),Product,1,36.13,36.13,10.0,0,"Azure, Spark, Databricks",estimated_only
+The Briminc,Startup/Other,1,23.84,23.84,14.5,0,"Machine Learning, Java, Python",estimated_only
+Teva Pharmaceuticals,Startup/Other,1,9.19,9.19,3.5,0,,estimated_only
+Teq Analytics,Startup/Other,1,17.1,17.1,5.5,0,"GCP, Machine Learning, ETL, Tableau, Python",estimated_only
+Temenos,Startup/Other,1,10.24,10.24,5.0,0,,estimated_only
+Tekvity Pvt Ltd,Startup/Other,1,22.28,22.28,10.0,0,ETL,estimated_only
+Teksands,Startup/Other,1,14.38,14.38,5.5,0,"ETL, SQL, Azure",estimated_only
+Tecqubes Technologies,Startup/Other,1,10.34,10.34,3.5,0,C++,estimated_only
+Deluxe Entertainment Distribution India Pvt Ltd,Startup/Other,1,5.94,5.94,1.5,0,Excel,estimated_only
+Deloitte,Consulting,1,13.13,13.13,4.5,0,"GCP, SQL, Spark",estimated_only
+Delivery Centric Technology Services Pvt Ltd,Startup/Other,1,11.73,11.73,5.0,0,"Data Modeling, SQL, Git, Spark",estimated_only
+Deep Learning Computer Vision company,Startup/Other,1,10.86,10.86,5.0,0,"Machine Learning, Java, Spark, TensorFlow, Python",estimated_only
+Decision Minds India private Limited,Startup/Other,1,18.01,18.01,6.0,0,"Kafka, SQL, Python, Spark",estimated_only
+DeHaat,Startup/Other,1,14.25,14.25,6.0,0,,estimated_only
+Datamatics Global services Ltd.,Startup/Other,1,9.64,9.64,3.5,0,,estimated_only
+DataTrained,Startup/Other,1,7.82,7.82,3.0,0,"Machine Learning, Spark, Data Modeling, Tableau, Python",estimated_only
+DataPMI Technologies LLP,Startup/Other,1,16.81,16.81,7.5,0,"NoSQL, Azure, SQL, Python, Databricks",estimated_only
+DataDirect Networks Inc.,Startup/Other,1,23.57,23.57,8.5,0,"Machine Learning, Statistics",estimated_only
+Century Real Estate Holdings Pvt. Ltd,Startup/Other,1,10.33,10.33,3.5,0,Excel,estimated_only
+Central Business Solution,Startup/Other,1,16.82,16.82,5.5,0,"SQL, NoSQL",estimated_only
+"Center for Study of Science, Technology and Policy",Startup/Other,1,7.1,7.1,2.5,0,SAS,estimated_only
+Aidetic Software Pvt Ltd,Startup/Other,1,7.29,7.29,3.0,0,"NumPy, TensorFlow, Python, NLP",estimated_only
+Aidetic,Startup/Other,1,7.37,7.37,3.0,0,"Machine Learning, SQL, Python, Docker",estimated_only
+Affine Analytics Pvt Ltd,Startup/Other,1,11.29,11.29,4.0,0,"Spark, Scala, Azure, SQL, Python",estimated_only
+True Beacon,Startup/Other,1,15.56,15.56,6.5,0,"GCP, Java, Spark",estimated_only
+Trinkerr,Startup/Other,1,9.64,9.64,3.5,0,,estimated_only
+Trigent,Startup/Other,1,7.29,7.29,1.5,0,"ETL, Python, Scala, Spark",estimated_only
+Triangle Global,Startup/Other,1,16.69,16.69,7.0,0,"Scala, AWS",estimated_only
+Travix International,Startup/Other,1,10.57,10.57,4.0,0,,estimated_only
+TransOrg Solutions Services (P) Ltd.,Startup/Other,1,18.76,18.76,6.5,0,"Machine Learning, Statistics, R, SQL, Python",estimated_only
+TransOrg Solutions & Services (P) Ltd.,Startup/Other,1,11.57,11.57,4.5,0,"Python, Spark, Kafka, SQL, Scala",estimated_only
+Tradepath Capital,Startup/Other,1,18.31,18.31,6.0,0,"Machine Learning, Python, Statistics",estimated_only
+Toppr,Startup/Other,1,17.3,17.3,5.5,0,"Data Visualization, Tableau, SQL, Python",estimated_only
+TopGear Consultants Pvt Ltd.,Startup/Other,1,16.05,16.05,6.5,0,"ETL, SQL, AWS",estimated_only
+Tookitaki,Startup/Other,1,17.42,17.42,7.5,0,"SQL, Spark",estimated_only
+Tintri,Startup/Other,1,15.26,15.26,8.0,0,"Machine Learning, AWS",estimated_only
+ThoughtFocus Information Technologies Pvt Limited,Startup/Other,1,21.73,21.73,10.5,0,"SQL, Agile",estimated_only
+ThoughtClan Technologies Pvt Ltd.,Startup/Other,1,7.52,7.52,3.0,0,"Machine Learning, NoSQL, MongoDB, Azure, Python",estimated_only
+Alike Thoughts Solutions Pvt. Ltd.,Startup/Other,1,17.77,17.77,6.5,0,"Kafka, SQL, Airflow, Spark",estimated_only
+Akamai,Startup/Other,1,14.12,14.12,5.5,0,Agile,estimated_only
+Utopus Insights,Startup/Other,1,11.58,11.58,4.5,0,"Machine Learning, Git",estimated_only
+Ushur,Startup/Other,1,23.74,23.74,8.5,0,"Java, Python, Spark",estimated_only
+UprightHC Solutions Private Limited,Startup/Other,1,14.49,14.49,6.0,0,"Machine Learning, TensorFlow, Python",estimated_only
+Upaya Social Ventures,Startup/Other,1,5.77,5.77,2.0,0,,estimated_only
+Unocoin,Startup/Other,1,10.41,10.41,4.0,0,"GCP, Power BI, Data Modeling",estimated_only
+Unacademy,Product,1,12.24,12.24,5.0,0,,estimated_only
+UYM CAREERS PVT. LTD.,Startup/Other,1,16.66,16.66,6.0,0,"Git, AWS",estimated_only
+USEFULBI PRIVATE LIMITED,Startup/Other,1,16.6,16.6,7.5,0,"AWS, Azure, SQL, Python, Databricks",estimated_only
+US RECRUITMENT CONSULTANTS,Startup/Other,1,15.43,15.43,7.5,0,"SAS, Java, Python, ETL",estimated_only
+UNEXT LEARNING PRIVATE LIMITED,Startup/Other,1,11.29,11.29,4.5,0,"ETL, Azure, Spark, AWS",estimated_only
+UNBXD Software Pvt Ltd,Startup/Other,1,17.09,17.09,5.5,0,GCP,estimated_only
+Twenty20 Systems,Startup/Other,1,15.7,15.7,5.5,0,"Tableau, Java, AWS",estimated_only
+Ttec Digital Analytics India LLC,Startup/Other,1,20.87,20.87,9.5,0,"SQL, Python, Spark",estimated_only
+Truminds Software Systems Private Limited,Startup/Other,1,14.84,14.84,5.5,0,"C++, Java, Python",estimated_only
+TrueView HR Consulting Pvt. Ltd,Startup/Other,1,17.79,17.79,7.0,0,"Tableau, Python, Machine Learning, AWS",estimated_only
+TrueCover,Startup/Other,1,9.72,9.72,4.0,0,Excel,estimated_only
+Accronic Private Limited,Startup/Other,1,9.81,9.81,4.5,0,Excel,estimated_only
+Accenture Solutions Pvt Ltd,Consulting,1,16.66,16.66,5.5,0,"GCP, Python, Agile",estimated_only
+VALIANCE ANALYTICS PRIVATE LIMITED,Startup/Other,1,17.24,17.24,6.5,0,"Airflow, SQL, Python",estimated_only
+VAAKRUTHI SOFTWARE SOLUTIONS PRIVATE LIMITED,Startup/Other,1,17.55,17.55,7.0,0,"Azure, Databricks",estimated_only
+V2Soft,Startup/Other,1,16.63,16.63,7.5,0,SQL,estimated_only
+Centena International Services Private Limited,Startup/Other,1,11.15,11.15,4.5,0,"Data Modeling, SQL, Power BI",estimated_only
+Caterpillar Inc,Startup/Other,1,11.16,11.16,4.5,0,SQL,estimated_only
+"Catchpoint Systems, Inc",Startup/Other,1,10.41,10.41,4.5,0,,estimated_only
+Cartesian Consulting Private Limited,Startup/Other,1,11.41,11.41,3.5,0,"ETL, SQL",estimated_only
+Careerist management Consultants Pvt. Ltd.,Startup/Other,1,18.56,18.56,7.5,0,"SQL, Power BI",estimated_only
+Career Soft Solutions Pvt. Ltd.,Startup/Other,1,23.91,23.91,8.5,0,"GCP, Python, Spark",estimated_only
+DTDHI HEALTH INDIA PRIVATE LIMITED,Startup/Other,1,16.08,16.08,6.0,0,"NoSQL, MongoDB, Kafka, SQL, Python",estimated_only
+DOCSKIFF-JAGGAER,Startup/Other,1,11.8,11.8,3.5,0,"Python, AWS",estimated_only
+DMI Pvt. Ltd,Startup/Other,1,27.07,27.07,9.5,0,Machine Learning,estimated_only
+DMI,Startup/Other,1,22.67,22.67,9.5,0,"Machine Learning, Python, AWS, R",estimated_only
+V-Align Technologies,Startup/Other,1,6.67,6.67,1.5,0,Statistics,estimated_only
+VERTICURL MARKETING PRIVATE LIMITED,Startup/Other,1,11.2,11.2,4.0,0,"GCP, SQL, Data Modeling",estimated_only
+VANTAGEIQ TECHNOLOGIES (OPC) PRIVATE LIMITED,Startup/Other,1,11.05,11.05,4.5,0,"NoSQL, Spark, SQL, Python, AWS",estimated_only
+DM Healthcare LLC,Startup/Other,1,21.03,21.03,8.5,0,"SQL, Java, NoSQL",estimated_only
+DISYS INDIA PRIVATE LIMITED,Startup/Other,1,15.36,15.36,6.5,0,"Azure, Python, Databricks",estimated_only
+DEVKRAFT TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,10.38,10.38,5.0,0,"SQL, Scala, Spark",estimated_only
+DATA TRAINED EDUCATION PRIVATE LIMITED,Startup/Other,1,4.32,4.32,1.0,0,"Machine Learning, Power BI, NLP, Statistics, Python",estimated_only
+D2 Retro,Startup/Other,1,5.95,5.95,1.5,0,Excel,estimated_only
+D Cube Analytics,Startup/Other,1,21.03,21.03,10.5,0,"Git, Agile",estimated_only
+CygnusPro Software Solutions Pvt. Ltd,Startup/Other,1,26.15,26.15,8.5,0,"Data Modeling, AWS",estimated_only
+Cyberinc,Startup/Other,1,6.59,6.59,2.5,0,"Data Modeling, Tableau",estimated_only
+CustomerXPs Software Pvt Ltd,Startup/Other,1,25.39,25.39,10.5,0,"Machine Learning, Python, Spark",estimated_only
+Cunesoft India Private Limited (a Phlexglobal Company),Startup/Other,1,17.19,17.19,5.5,0,"Machine Learning, NumPy, NLP, Python, Scikit-learn",estimated_only
+Crown Solutions India (P) Ltd,Startup/Other,1,11.46,11.46,4.5,0,,estimated_only
+CriticalRiver Technologies Private Limited,Startup/Other,1,14.11,14.11,7.5,0,"Agile, Communication, Data Modeling, Tableau, SQL",estimated_only
+Adept Consulting,Startup/Other,1,15.41,15.41,8.0,0,"Data Visualization, Spark, Scala, Tableau, Python",estimated_only
+Acuvate Software,Startup/Other,1,15.23,15.23,5.5,0,"Azure, Communication, Power BI, Spark",estimated_only
+Virtuoso Staffing Solutions Pvt Ltd,Startup/Other,1,26.54,26.54,8.5,0,"SQL, Python",estimated_only
+Virtuoso Recruitment Solutions,Startup/Other,1,16.38,16.38,5.5,0,"Data Visualization, Kafka, Plotly, Tableau, SQL",estimated_only
+Virtual Employee Pvt. Ltd,Startup/Other,1,10.29,10.29,5.0,0,"ETL, SQL, Communication, Git",estimated_only
+Vichara Technologies,Startup/Other,1,26.13,26.13,10.5,0,"SQL, Azure, Spark, AWS",estimated_only
+Vibrant Aspirations Private Limited,Startup/Other,1,11.47,11.47,4.5,0,"Azure, SQL, Java, Python",estimated_only
+Vertex Offshore Services Pvt Ltd,Startup/Other,1,16.12,16.12,5.5,0,"Azure, Python, APIs, Agile",estimated_only
+Verisk Analytics,Startup/Other,1,26.78,26.78,9.0,0,"Spark, Data Modeling, SQL, Python, AWS",estimated_only
+VeARC India,Startup/Other,1,11.88,11.88,4.5,0,"Python, Spark, AWS",estimated_only
+Vdart Software Services Private Limited,Startup/Other,1,21.89,21.89,8.5,0,,estimated_only
+Varite,Startup/Other,1,10.25,10.25,3.5,0,"Tableau, Agile",estimated_only
+Vahak,Startup/Other,1,9.71,9.71,4.5,0,"GCP, Data Visualization",estimated_only
+Vacancieshub HRM solutions Pvt Ltd,Startup/Other,1,18.08,18.08,7.5,0,"NoSQL, Spark, Airflow, SQL, Scala",estimated_only
+VRIZE,Startup/Other,1,14.23,14.23,7.5,0,"SQL, Java, Python, AWS",estimated_only
+VME VHIRE SOLUTIONS PRIVATE LIMITED,Startup/Other,1,12.13,12.13,5.0,0,"GCP, SQL, Airflow, Spark",estimated_only
+VIPSA TALENT SOLUTIONS PRIVATE LIMITED,Startup/Other,1,19.0,19.0,5.5,0,"Azure, Spark, Databricks",estimated_only
+VIAPROM Analytics,Startup/Other,1,6.75,6.75,3.0,0,"SAS, SQL, Excel",estimated_only
+WeRecruit Talent,Startup/Other,1,11.31,11.31,3.5,0,"Machine Learning, Spark",estimated_only
+Watson Pharma,Startup/Other,1,9.32,9.32,3.5,0,,estimated_only
+Waterleaf Consultants Pvt. Ltd.,Startup/Other,1,22.06,22.06,13.5,0,"Data Visualization, ETL, Azure, Data Modeling, SQL",estimated_only
+WSNE Consulting Pvt Ltd,Startup/Other,1,16.34,16.34,5.5,0,"Python, R",estimated_only
+WSD Consultant,Startup/Other,1,7.94,7.94,3.0,0,Machine Learning,estimated_only
+WM Global Technology Services India Pvt Ltd,Startup/Other,1,11.37,11.37,5.0,0,"GCP, Spark, Airflow, Azure, SQL",estimated_only
+WIPZO SYSTECH PRIVATE LIMITED,Startup/Other,1,16.12,16.12,5.5,0,"GCP, Java, Spark, Python, AWS",estimated_only
+WINDS E WORLD,Startup/Other,1,28.34,28.34,9.5,0,Python,estimated_only
+WHATS ON INDIA MEDIA PRIVATE LIMITED,Startup/Other,1,6.59,6.59,1.5,0,"Airflow, SQL, Python, Spark",estimated_only
+Vrinda Global Private Limited,Startup/Other,1,10.06,10.06,5.0,0,"NoSQL, Python, Docker",estimated_only
+Vonage,Startup/Other,1,11.7,11.7,3.5,0,"Kafka, Python",estimated_only
+Vokal,Startup/Other,1,10.61,10.61,3.5,0,"Plotly, R, Excel",estimated_only
+Vodafone India Services Pvt.Ltd,Startup/Other,1,18.16,18.16,5.5,0,"Machine Learning, SAS, Spark, R, SQL",estimated_only
+Vivid Edge Corp,Startup/Other,1,20.83,20.83,11.0,0,"Docker, SQL, NoSQL, APIs",estimated_only
+Vitasta Consulting,Startup/Other,1,16.29,16.29,6.5,0,,estimated_only
+Visionet Systems Private Limited.,Startup/Other,1,18.01,18.01,5.5,0,"Spark, Airflow, Git, Scala, APIs",estimated_only
+WidasConcepts India Pvt.Ltd,Startup/Other,1,10.68,10.68,4.5,0,"Java, Git, Spark, Agile",estimated_only
+Wibmo,MNC/IT Services,1,10.74,10.74,3.5,0,"Tableau, Excel",estimated_only
+White Horse Manpower Consultancy Private Limited,Startup/Other,1,16.66,16.66,6.5,0,Python,estimated_only
+White Clarke India,Startup/Other,1,3.84,3.84,0.5,0,Excel,estimated_only
+Credence HR Services,Product,1,19.05,19.05,7.0,0,"SAS, SQL, Python",estimated_only
+Creative Hands HR Consultancy,Startup/Other,1,7.47,7.47,2.0,0,"Machine Learning, Python",estimated_only
+Covalensedigital,Startup/Other,1,9.96,9.96,4.5,0,Excel,estimated_only
+Country Veggie,Startup/Other,1,7.65,7.65,2.0,0,Machine Learning,estimated_only
+Cosmicit Informatics India Private Limited,Startup/Other,1,16.92,16.92,6.5,0,"Spark, Statistics, R",estimated_only
+Corporate1 Consultants,Startup/Other,1,16.0,16.0,5.5,0,"ETL, Spark",estimated_only
+Conviva,Startup/Other,1,15.69,15.69,8.0,0,,estimated_only
+Convergence Infotech,Startup/Other,1,11.87,11.87,5.0,0,AWS,estimated_only
+Convate Consultancy Services Pvt Ltd,Startup/Other,1,26.08,26.08,10.5,0,"Azure, Python, Spark, AWS",estimated_only
+"Continues Intelligence Lab Pvt.Ltd,",Startup/Other,1,21.84,21.84,12.5,0,"Machine Learning, NoSQL, Spark, R, SQL",estimated_only
+Continental Corporation,Startup/Other,1,10.21,10.21,4.5,0,SQL,estimated_only
+Consult ShekharPandey,Startup/Other,1,16.5,16.5,6.5,0,Agile,estimated_only
+AT and T Global Business Services India P. Ltd.,Startup/Other,1,22.64,22.64,9.0,0,"Data Modeling, Machine Learning, SQL",estimated_only
+ASM Technologies,Startup/Other,1,18.4,18.4,5.5,0,"Data Visualization, C++, Python",estimated_only
+ASL HR Solutions Pvt. Ltd,Startup/Other,1,14.68,14.68,8.0,0,Agile,estimated_only
+ARM Treasure Data,Startup/Other,1,16.98,16.98,5.5,0,"SQL, Python, NoSQL, Spark",estimated_only
+AR Consultant,Startup/Other,1,18.68,18.68,6.5,0,"Machine Learning, NLP, Python, R",estimated_only
+Xamplay,Startup/Other,1,11.43,11.43,5.0,0,"Data Visualization, Machine Learning",estimated_only
+XYTIQ TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,16.0,16.0,6.5,0,"Python, Java, Spark, Azure, Scala",estimated_only
+XPHENO PRIVATE LIMITED,Startup/Other,1,18.97,18.97,6.0,0,"ETL, SQL, Python, Spark",estimated_only
+XFORIA TECHNOLOGIES PRIVATE LIMITED,Startup/Other,1,9.38,9.38,3.5,0,,estimated_only
+Wrackle,Startup/Other,1,16.35,16.35,7.0,0,"Machine Learning, Power BI, NLP, Git, Python",estimated_only
+Wonese India Pvt Ltd.,Startup/Other,1,11.71,11.71,3.5,0,"SQL, Scala, Spark",estimated_only
+Wize Careers Consultants,Startup/Other,1,18.32,18.32,6.5,0,"GCP, SQL",estimated_only
+Wissen Technology,Startup/Other,1,16.84,16.84,6.0,0,"GCP, Pandas, SQL, Python, APIs",estimated_only
+Wipfli India LLP,Startup/Other,1,26.85,26.85,10.5,0,"Tableau, Agile, Excel",estimated_only
+Winvest technology consultancy services Pvt Ltd,Startup/Other,1,17.19,17.19,6.5,0,"ETL, NoSQL, Java, Snowflake, SQL",estimated_only
+Windows Consultants Pvt. Ltd.,Startup/Other,1,6.81,6.81,2.5,0,Excel,estimated_only
+Xandr India Private Limited,Startup/Other,1,16.83,16.83,7.0,0,"Java, Spark, Kafka, Azure, SQL",estimated_only
+CliqHR Recruitment Services,Startup/Other,1,25.35,25.35,9.5,0,"GCP, Java, SQL, Python, Docker",estimated_only
+Client of Strivex Consulting Pvt. Ltd,Startup/Other,1,22.77,22.77,9.5,0,"ETL, Python, Spark, AWS",estimated_only
+Client of PeopleLogic,Startup/Other,1,13.34,13.34,7.0,0,,estimated_only
+Client of PEOPLELOGIC BUSINESS SOLUTIONS,Startup/Other,1,3.94,3.94,0.5,0,,estimated_only
+Cleo Communications,Startup/Other,1,14.45,14.45,7.0,0,,estimated_only
+Clear Trail Technologies Pvt Ltd,Startup/Other,1,27.93,27.93,16.5,0,"Machine Learning, Power BI, Spark, Tableau, Python",estimated_only
+Class One Exchange.,Startup/Other,1,14.3,14.3,5.5,0,,estimated_only
+Citicorp Services India Pvt Ltd,Startup/Other,1,5.86,5.86,2.0,0,SAS,estimated_only
+Cirus,Startup/Other,1,10.91,10.91,4.5,0,"Java, Spark, Airflow, SQL, Python",estimated_only
+Cimpress,Startup/Other,1,11.47,11.47,5.0,0,Python,estimated_only
+Choice Consultants,Startup/Other,1,17.86,17.86,6.5,0,"NumPy, SQL, Python, Pandas",estimated_only
+Cervello India Private Limited,Startup/Other,1,16.51,16.51,5.5,0,"Tableau, Python, Machine Learning",estimated_only
+Cerulean Information Technology Pvt. Ltd.,Startup/Other,1,11.52,11.52,4.0,0,"SQL, Python",estimated_only
+Consult KPI,Startup/Other,1,11.37,11.37,4.0,0,Python,estimated_only
+AXA Technology Services India Pvt. Ltd,Startup/Other,1,6.69,6.69,3.0,0,Data Modeling,estimated_only
+Connecting 2 Work,Startup/Other,1,10.9,10.9,5.0,0,"Machine Learning, SQL, Python, NoSQL",estimated_only
+Conduent,Startup/Other,1,6.58,6.58,3.0,0,,estimated_only
+Concentrix Services India Private Limited.,Startup/Other,1,10.15,10.15,3.5,0,,estimated_only
+Commcise,Startup/Other,1,22.86,22.86,9.5,0,,estimated_only
+CoinDCX,Startup/Other,1,12.23,12.23,4.5,0,"Java, Spark, Data Modeling, Scala, Docker",estimated_only
+Cohesity,Startup/Other,1,18.21,18.21,6.5,0,"Machine Learning, Java, Azure, Python, AWS",estimated_only
+Cognizer India Private Limited,Startup/Other,1,12.97,12.97,3.5,0,"Machine Learning, NLP",estimated_only
+Cogniphi Technologies,Startup/Other,1,26.68,26.68,9.5,0,"NoSQL, MongoDB, Spark, Kafka, SQL",estimated_only
+Your Pitchh,Startup/Other,1,3.72,3.72,0.5,0,"C++, Java",estimated_only
+YouGov,Startup/Other,1,10.44,10.44,3.5,0,Excel,estimated_only
+Yocket,Startup/Other,1,6.77,6.77,2.0,0,SQL,estimated_only
+Yespired,Startup/Other,1,17.58,17.58,5.5,0,"Data Visualization, Communication, Tableau, SQL, Excel",estimated_only
+YPR Informatics Private Limited,Startup/Other,1,17.51,17.51,6.5,0,"ETL, Spark, Azure, SQL, Python",estimated_only
+YALLAS TECHNOLOGY SOLUTIONS (OPC) PRIVATE LIMITED,Startup/Other,1,16.0,16.0,5.5,0,"Data Modeling, ETL, SQL, Snowflake",estimated_only
+Xoxoday,Startup/Other,1,23.04,23.04,10.5,0,"SQL, MongoDB, NoSQL",estimated_only
+Xceedance,Startup/Other,1,15.21,15.21,7.5,0,"ETL, NumPy, Pandas, Communication, Python",estimated_only
+AMSI Technologies,Startup/Other,1,21.46,21.46,12.0,0,Git,estimated_only
+zMed Healthcare Technologies,Startup/Other,1,4.6,4.6,1.0,0,Machine Learning,estimated_only
+position2 marketing pvt ltd,Startup/Other,1,16.78,16.78,6.5,0,"Tableau, Power BI, Snowflake, ETL",estimated_only
+webtrace software solution pvt ltd,Startup/Other,1,11.49,11.49,3.5,0,"Python, AWS",estimated_only
+vEnrichU,Startup/Other,1,26.98,26.98,17.5,0,"Spark, AWS",estimated_only
+01MARCOM,Startup/Other,1,22.08,22.08,11.0,0,SQL,estimated_only
+AIM recruits,Startup/Other,1,17.13,17.13,6.0,0,"ETL, NLP, Azure, R, Python",estimated_only
+ADABODE,Startup/Other,1,11.63,11.63,4.0,0,"GCP, Spark, Airflow, SQL, Python",estimated_only
+ACT Fibernet,Startup/Other,1,6.76,6.76,2.0,0,,estimated_only
+Zone IT,Startup/Other,1,10.7,10.7,3.5,0,"Python, Spark, Agile",estimated_only
+Zolostays Property Solutions Pvt. Ltd.,Startup/Other,1,13.99,13.99,7.5,0,,estimated_only
+Zolostays,Startup/Other,1,7.31,7.31,3.0,0,"Spark, AWS",estimated_only
+Zkonsult Innovative Solutions Private Limited,Startup/Other,1,15.17,15.17,6.5,0,"ETL, Python, Power BI",estimated_only
+Zion HR Services,Startup/Other,1,16.6,16.6,6.5,0,"Spark, Azure, SQL, Python, Databricks",estimated_only
+Codecraft Technologies Private Limited,Startup/Other,1,24.29,24.29,11.5,0,"Tableau, SQL, Power BI, Machine Learning",estimated_only
+"CodeCrafts, Inc",Startup/Other,1,6.97,6.97,2.0,0,"SQL, Java, Azure, NoSQL",estimated_only
+Infogain India (P) Ltd.,Startup/Other,1,11.78,11.78,5.0,0,"Java, Spark, Azure, Python, AWS",estimated_only
+Inflexon Point,Startup/Other,1,19.24,19.24,7.5,0,"NLP, Machine Learning, TensorFlow, Scikit-learn",estimated_only
+Infiniti Research,Startup/Other,1,15.37,15.37,6.5,0,Excel,estimated_only
+India Anlage Infotech (I) Pvt. Ltd.,Startup/Other,1,16.91,16.91,7.5,0,SAS,estimated_only
+Incture Technologies Pvt. Ltd.,Startup/Other,1,11.74,11.74,4.5,0,"Azure, SQL, Python, Databricks",estimated_only
+Impelsys India Pvt Ltd,Startup/Other,1,24.22,24.22,10.5,0,"ETL, NoSQL, MongoDB, SQL, AWS",estimated_only
+Broadridge,Startup/Other,1,10.88,10.88,3.5,0,"SQL, Java, Agile, NoSQL",estimated_only
+tact.ai,Startup/Other,1,10.27,10.27,4.5,0,"Communication, Agile",estimated_only
+intelligent industrial internet systems pvt ltd.,Startup/Other,1,10.53,10.53,4.5,0,APIs,estimated_only
+infrabeat technologies Pvt. Ltd.,Startup/Other,1,9.47,9.47,4.0,0,,estimated_only
+infoveave,Startup/Other,1,10.15,10.15,4.5,0,"Communication, Excel",estimated_only
+infallible HR,Startup/Other,1,17.32,17.32,7.0,0,SQL,estimated_only
+iTech,Startup/Other,1,19.51,19.51,5.5,0,Spark,estimated_only
+iFlex (RecruitingPartner),Startup/Other,1,11.14,11.14,4.5,0,"NoSQL, MongoDB, Java, Spark, Scala",estimated_only
+75F,Startup/Other,1,10.24,10.24,5.0,0,,estimated_only
+ANA DATA CONSULTING PRIVATE LIMITED,Startup/Other,1,28.75,28.75,9.5,0,Python,estimated_only

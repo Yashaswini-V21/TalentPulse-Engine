@@ -1,0 +1,5061 @@
+{
+  "skill_frequency": [
+    {
+      "skill": "SQL",
+      "count": 1701,
+      "pct_of_jobs": 31.8,
+      "avg_salary": 15.46,
+      "median_salary": 15.57,
+      "avg_experience": 6.2,
+      "category": "Database"
+    },
+    {
+      "skill": "Python",
+      "count": 1662,
+      "pct_of_jobs": 31.1,
+      "avg_salary": 15.71,
+      "median_salary": 15.99,
+      "avg_experience": 6.2,
+      "category": "Programming"
+    },
+    {
+      "skill": "Spark",
+      "count": 1419,
+      "pct_of_jobs": 26.5,
+      "avg_salary": 16.93,
+      "median_salary": 16.73,
+      "avg_experience": 6.6,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "Machine Learning",
+      "count": 996,
+      "pct_of_jobs": 18.6,
+      "avg_salary": 16.36,
+      "median_salary": 16.36,
+      "avg_experience": 6.4,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "Java",
+      "count": 623,
+      "pct_of_jobs": 11.7,
+      "avg_salary": 16.5,
+      "median_salary": 16.41,
+      "avg_experience": 6.8,
+      "category": "Programming"
+    },
+    {
+      "skill": "AWS",
+      "count": 617,
+      "pct_of_jobs": 11.5,
+      "avg_salary": 16.51,
+      "median_salary": 16.36,
+      "avg_experience": 6.6,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Azure",
+      "count": 534,
+      "pct_of_jobs": 10.0,
+      "avg_salary": 17.26,
+      "median_salary": 16.91,
+      "avg_experience": 7.1,
+      "category": "Cloud"
+    },
+    {
+      "skill": "ETL",
+      "count": 520,
+      "pct_of_jobs": 9.7,
+      "avg_salary": 16.12,
+      "median_salary": 16.08,
+      "avg_experience": 6.5,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "Agile",
+      "count": 479,
+      "pct_of_jobs": 9.0,
+      "avg_salary": 15.49,
+      "median_salary": 15.25,
+      "avg_experience": 6.6,
+      "category": "Soft Skills"
+    },
+    {
+      "skill": "Scala",
+      "count": 362,
+      "pct_of_jobs": 6.8,
+      "avg_salary": 16.56,
+      "median_salary": 16.64,
+      "avg_experience": 6.5,
+      "category": "Programming"
+    },
+    {
+      "skill": "Communication",
+      "count": 333,
+      "pct_of_jobs": 6.2,
+      "avg_salary": 13.84,
+      "median_salary": 12.97,
+      "avg_experience": 5.7,
+      "category": "Soft Skills"
+    },
+    {
+      "skill": "Data Modeling",
+      "count": 325,
+      "pct_of_jobs": 6.1,
+      "avg_salary": 15.73,
+      "median_salary": 15.65,
+      "avg_experience": 6.5,
+      "category": "Analytics"
+    },
+    {
+      "skill": "Tableau",
+      "count": 323,
+      "pct_of_jobs": 6.0,
+      "avg_salary": 14.71,
+      "median_salary": 15.06,
+      "avg_experience": 5.9,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "NoSQL",
+      "count": 317,
+      "pct_of_jobs": 5.9,
+      "avg_salary": 16.41,
+      "median_salary": 16.23,
+      "avg_experience": 6.7,
+      "category": "Database"
+    },
+    {
+      "skill": "Excel",
+      "count": 288,
+      "pct_of_jobs": 5.4,
+      "avg_salary": 11.53,
+      "median_salary": 10.34,
+      "avg_experience": 4.5,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "R",
+      "count": 279,
+      "pct_of_jobs": 5.2,
+      "avg_salary": 15.48,
+      "median_salary": 15.95,
+      "avg_experience": 6.1,
+      "category": "Programming"
+    },
+    {
+      "skill": "Statistics",
+      "count": 260,
+      "pct_of_jobs": 4.9,
+      "avg_salary": 14.41,
+      "median_salary": 12.83,
+      "avg_experience": 5.5,
+      "category": "Analytics"
+    },
+    {
+      "skill": "Power BI",
+      "count": 245,
+      "pct_of_jobs": 4.6,
+      "avg_salary": 14.6,
+      "median_salary": 14.59,
+      "avg_experience": 5.8,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "GCP",
+      "count": 237,
+      "pct_of_jobs": 4.4,
+      "avg_salary": 16.22,
+      "median_salary": 16.34,
+      "avg_experience": 6.6,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Git",
+      "count": 225,
+      "pct_of_jobs": 4.2,
+      "avg_salary": 14.76,
+      "median_salary": 15.02,
+      "avg_experience": 6.1,
+      "category": "DevOps"
+    },
+    {
+      "skill": "Data Visualization",
+      "count": 205,
+      "pct_of_jobs": 3.8,
+      "avg_salary": 14.01,
+      "median_salary": 14.36,
+      "avg_experience": 5.7,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "SAS",
+      "count": 183,
+      "pct_of_jobs": 3.4,
+      "avg_salary": 14.44,
+      "median_salary": 13.65,
+      "avg_experience": 6.0,
+      "category": "Programming"
+    },
+    {
+      "skill": "Kafka",
+      "count": 170,
+      "pct_of_jobs": 3.2,
+      "avg_salary": 17.06,
+      "median_salary": 17.07,
+      "avg_experience": 6.6,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "NLP",
+      "count": 145,
+      "pct_of_jobs": 2.7,
+      "avg_salary": 16.59,
+      "median_salary": 16.65,
+      "avg_experience": 6.4,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "APIs",
+      "count": 127,
+      "pct_of_jobs": 2.4,
+      "avg_salary": 14.93,
+      "median_salary": 15.41,
+      "avg_experience": 6.3,
+      "category": "DevOps"
+    },
+    {
+      "skill": "Databricks",
+      "count": 113,
+      "pct_of_jobs": 2.1,
+      "avg_salary": 18.4,
+      "median_salary": 17.37,
+      "avg_experience": 7.2,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Airflow",
+      "count": 109,
+      "pct_of_jobs": 2.0,
+      "avg_salary": 16.3,
+      "median_salary": 16.32,
+      "avg_experience": 6.3,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "C++",
+      "count": 107,
+      "pct_of_jobs": 2.0,
+      "avg_salary": 15.6,
+      "median_salary": 15.73,
+      "avg_experience": 6.5,
+      "category": "Programming"
+    },
+    {
+      "skill": "MongoDB",
+      "count": 84,
+      "pct_of_jobs": 1.6,
+      "avg_salary": 15.4,
+      "median_salary": 15.78,
+      "avg_experience": 6.5,
+      "category": "Database"
+    },
+    {
+      "skill": "Docker",
+      "count": 73,
+      "pct_of_jobs": 1.4,
+      "avg_salary": 16.25,
+      "median_salary": 16.54,
+      "avg_experience": 6.3,
+      "category": "DevOps"
+    },
+    {
+      "skill": "TensorFlow",
+      "count": 67,
+      "pct_of_jobs": 1.3,
+      "avg_salary": 16.55,
+      "median_salary": 16.46,
+      "avg_experience": 6.5,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "Snowflake",
+      "count": 60,
+      "pct_of_jobs": 1.1,
+      "avg_salary": 18.41,
+      "median_salary": 17.4,
+      "avg_experience": 7.1,
+      "category": "Cloud"
+    },
+    {
+      "skill": "Pandas",
+      "count": 48,
+      "pct_of_jobs": 0.9,
+      "avg_salary": 15.02,
+      "median_salary": 15.82,
+      "avg_experience": 5.9,
+      "category": "Programming"
+    },
+    {
+      "skill": "NumPy",
+      "count": 40,
+      "pct_of_jobs": 0.7,
+      "avg_salary": 15.36,
+      "median_salary": 16.02,
+      "avg_experience": 6.0,
+      "category": "Programming"
+    },
+    {
+      "skill": "MATLAB",
+      "count": 32,
+      "pct_of_jobs": 0.6,
+      "avg_salary": 14.78,
+      "median_salary": 15.76,
+      "avg_experience": 6.4,
+      "category": "Programming"
+    },
+    {
+      "skill": "Plotly",
+      "count": 32,
+      "pct_of_jobs": 0.6,
+      "avg_salary": 10.81,
+      "median_salary": 10.4,
+      "avg_experience": 4.2,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "A/B Testing",
+      "count": 8,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 10.58,
+      "median_salary": 11.1,
+      "avg_experience": 3.4,
+      "category": "Analytics"
+    },
+    {
+      "skill": "Scikit-learn",
+      "count": 8,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 14.22,
+      "median_salary": 14.35,
+      "avg_experience": 5.1,
+      "category": "ML/AI"
+    },
+    {
+      "skill": "Looker",
+      "count": 6,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 14.95,
+      "median_salary": 11.88,
+      "avg_experience": 6.1,
+      "category": "BI Tools"
+    },
+    {
+      "skill": "dbt",
+      "count": 3,
+      "pct_of_jobs": 0.1,
+      "avg_salary": 21.69,
+      "median_salary": 24.49,
+      "avg_experience": 7.2,
+      "category": "Data Engineering"
+    },
+    {
+      "skill": "Google Sheets",
+      "count": 2,
+      "pct_of_jobs": 0.0,
+      "avg_salary": 12.32,
+      "median_salary": 12.32,
+      "avg_experience": 6.0,
+      "category": "BI Tools"
+    }
+  ],
+  "skill_combos": [
+    {
+      "skill_pair": "Databricks + Power BI",
+      "co_occurrences": 7,
+      "avg_salary": 22.75
+    },
+    {
+      "skill_pair": "Data Modeling + Databricks",
+      "co_occurrences": 5,
+      "avg_salary": 21.54
+    },
+    {
+      "skill_pair": "NLP + SAS",
+      "co_occurrences": 8,
+      "avg_salary": 21.51
+    },
+    {
+      "skill_pair": "Git + SAS",
+      "co_occurrences": 9,
+      "avg_salary": 20.99
+    },
+    {
+      "skill_pair": "Azure + NLP",
+      "co_occurrences": 9,
+      "avg_salary": 20.59
+    },
+    {
+      "skill_pair": "Data Modeling + Kafka",
+      "co_occurrences": 7,
+      "avg_salary": 20.41
+    },
+    {
+      "skill_pair": "Airflow + Snowflake",
+      "co_occurrences": 7,
+      "avg_salary": 20.25
+    },
+    {
+      "skill_pair": "R + Scala",
+      "co_occurrences": 10,
+      "avg_salary": 20.14
+    },
+    {
+      "skill_pair": "Databricks + Snowflake",
+      "co_occurrences": 5,
+      "avg_salary": 20.07
+    },
+    {
+      "skill_pair": "GCP + Kafka",
+      "co_occurrences": 6,
+      "avg_salary": 19.83
+    },
+    {
+      "skill_pair": "NLP + Spark",
+      "co_occurrences": 30,
+      "avg_salary": 19.81
+    },
+    {
+      "skill_pair": "Docker + Java",
+      "co_occurrences": 13,
+      "avg_salary": 19.74
+    },
+    {
+      "skill_pair": "Java + Snowflake",
+      "co_occurrences": 11,
+      "avg_salary": 19.68
+    },
+    {
+      "skill_pair": "NLP + R",
+      "co_occurrences": 21,
+      "avg_salary": 19.64
+    },
+    {
+      "skill_pair": "Azure + Excel",
+      "co_occurrences": 6,
+      "avg_salary": 19.35
+    },
+    {
+      "skill_pair": "ETL + MongoDB",
+      "co_occurrences": 5,
+      "avg_salary": 19.31
+    },
+    {
+      "skill_pair": "Spark + TensorFlow",
+      "co_occurrences": 16,
+      "avg_salary": 19.21
+    },
+    {
+      "skill_pair": "ETL + NLP",
+      "co_occurrences": 9,
+      "avg_salary": 19.14
+    },
+    {
+      "skill_pair": "Databricks + ETL",
+      "co_occurrences": 27,
+      "avg_salary": 19.12
+    },
+    {
+      "skill_pair": "Azure + Statistics",
+      "co_occurrences": 5,
+      "avg_salary": 19.11
+    },
+    {
+      "skill_pair": "Agile + MongoDB",
+      "co_occurrences": 9,
+      "avg_salary": 19.07
+    },
+    {
+      "skill_pair": "Python + Snowflake",
+      "co_occurrences": 29,
+      "avg_salary": 19.03
+    },
+    {
+      "skill_pair": "Snowflake + Spark",
+      "co_occurrences": 21,
+      "avg_salary": 18.99
+    },
+    {
+      "skill_pair": "Azure + Tableau",
+      "co_occurrences": 19,
+      "avg_salary": 18.99
+    },
+    {
+      "skill_pair": "APIs + Kafka",
+      "co_occurrences": 11,
+      "avg_salary": 18.91
+    },
+    {
+      "skill_pair": "Airflow + Databricks",
+      "co_occurrences": 7,
+      "avg_salary": 18.85
+    },
+    {
+      "skill_pair": "AWS + Data Modeling",
+      "co_occurrences": 29,
+      "avg_salary": 18.84
+    },
+    {
+      "skill_pair": "Git + Tableau",
+      "co_occurrences": 6,
+      "avg_salary": 18.81
+    },
+    {
+      "skill_pair": "Docker + ETL",
+      "co_occurrences": 6,
+      "avg_salary": 18.76
+    },
+    {
+      "skill_pair": "Azure + Databricks",
+      "co_occurrences": 97,
+      "avg_salary": 18.7
+    }
+  ],
+  "top_companies": [
+    {
+      "company": "Accenture",
+      "tier": "Consulting",
+      "job_count": 226,
+      "avg_salary": 15.82,
+      "median_salary": 16.04,
+      "avg_experience": 6.0,
+      "top_skills": "Python, SQL, Spark, ETL, Machine Learning"
+    },
+    {
+      "company": "IBM",
+      "tier": "MNC/IT Services",
+      "job_count": 115,
+      "avg_salary": 14.71,
+      "median_salary": 14.08,
+      "avg_experience": 6.8,
+      "top_skills": "Python, SQL, Spark, Java, ETL"
+    },
+    {
+      "company": "Huquo Consulting Pvt. Ltd",
+      "tier": "Startup/Other",
+      "job_count": 96,
+      "avg_salary": 14.78,
+      "median_salary": 15.42,
+      "avg_experience": 5.9,
+      "top_skills": "Spark, ETL, SQL, Python, Java"
+    },
+    {
+      "company": "Visa",
+      "tier": "Startup/Other",
+      "job_count": 64,
+      "avg_salary": 15.61,
+      "median_salary": 15.04,
+      "avg_experience": 7.0,
+      "top_skills": "Java, Spark, Python, SQL, Agile"
+    },
+    {
+      "company": "Gojek",
+      "tier": "Startup/Other",
+      "job_count": 57,
+      "avg_salary": 17.62,
+      "median_salary": 16.86,
+      "avg_experience": 7.3,
+      "top_skills": "Machine Learning, SQL, Agile, NoSQL, GCP"
+    },
+    {
+      "company": "Walmart",
+      "tier": "Product",
+      "job_count": 54,
+      "avg_salary": 20.35,
+      "median_salary": 20.0,
+      "avg_experience": 6.5,
+      "top_skills": "Spark, Machine Learning, Python, Agile, Java"
+    },
+    {
+      "company": "Serving Skill",
+      "tier": "Startup/Other",
+      "job_count": 51,
+      "avg_salary": 16.03,
+      "median_salary": 16.31,
+      "avg_experience": 6.4,
+      "top_skills": "SQL, Spark, Azure, Python, Java"
+    },
+    {
+      "company": "CHANGE LEADERS CONSULTING",
+      "tier": "Startup/Other",
+      "job_count": 47,
+      "avg_salary": 14.54,
+      "median_salary": 14.54,
+      "avg_experience": 5.5,
+      "top_skills": "SQL, Python, Spark, Machine Learning, Statistics"
+    },
+    {
+      "company": "TalentStack",
+      "tier": "Startup/Other",
+      "job_count": 42,
+      "avg_salary": 13.64,
+      "median_salary": 10.9,
+      "avg_experience": 5.6,
+      "top_skills": "Python, SQL, R, Java, Tableau"
+    },
+    {
+      "company": "Shell",
+      "tier": "Startup/Other",
+      "job_count": 41,
+      "avg_salary": 17.44,
+      "median_salary": 17.0,
+      "avg_experience": 7.7,
+      "top_skills": "Azure, Power BI, Spark, R, SQL"
+    },
+    {
+      "company": "Uber",
+      "tier": "Product",
+      "job_count": 40,
+      "avg_salary": 16.9,
+      "median_salary": 13.74,
+      "avg_experience": 5.5,
+      "top_skills": "Machine Learning, Scala, SQL, Data Modeling, Agile"
+    },
+    {
+      "company": "Microsoft",
+      "tier": "Product",
+      "job_count": 40,
+      "avg_salary": 22.79,
+      "median_salary": 21.84,
+      "avg_experience": 7.7,
+      "top_skills": "Machine Learning, Python, Spark, C++, Azure"
+    },
+    {
+      "company": "Genpact",
+      "tier": "Startup/Other",
+      "job_count": 33,
+      "avg_salary": 18.11,
+      "median_salary": 16.77,
+      "avg_experience": 7.1,
+      "top_skills": "AWS, SQL, Python, ETL, Spark"
+    },
+    {
+      "company": "Flipkart",
+      "tier": "Product",
+      "job_count": 31,
+      "avg_salary": 14.34,
+      "median_salary": 13.39,
+      "avg_experience": 4.7,
+      "top_skills": "SQL, Python, SAS, Excel, Machine Learning"
+    },
+    {
+      "company": "Multi Recruit",
+      "tier": "Startup/Other",
+      "job_count": 31,
+      "avg_salary": 16.47,
+      "median_salary": 16.29,
+      "avg_experience": 7.5,
+      "top_skills": "Machine Learning, Spark, Python, Agile, SQL"
+    },
+    {
+      "company": "Krazy Mantra HR Solutions Pvt. Ltd",
+      "tier": "Startup/Other",
+      "job_count": 31,
+      "avg_salary": 19.42,
+      "median_salary": 18.42,
+      "avg_experience": 8.0,
+      "top_skills": "Python, Spark, ETL, SQL, AWS"
+    },
+    {
+      "company": "Career Infosystem",
+      "tier": "MNC/IT Services",
+      "job_count": 29,
+      "avg_salary": 15.31,
+      "median_salary": 15.33,
+      "avg_experience": 6.5,
+      "top_skills": "Spark, Python, SQL, Java, AWS"
+    },
+    {
+      "company": "Orcapod Consulting Services Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 28,
+      "avg_salary": 19.04,
+      "median_salary": 17.81,
+      "avg_experience": 8.1,
+      "top_skills": "SQL, Python, Spark, AWS, ETL"
+    },
+    {
+      "company": "Myntra",
+      "tier": "Product",
+      "job_count": 23,
+      "avg_salary": 11.12,
+      "median_salary": 9.11,
+      "avg_experience": 3.2,
+      "top_skills": "Excel, Python, Data Visualization, Communication, SQL"
+    },
+    {
+      "company": "TALENT500 TECH (INDIA) PRIVATE LIMITED",
+      "tier": "Startup/Other",
+      "job_count": 23,
+      "avg_salary": 15.41,
+      "median_salary": 14.26,
+      "avg_experience": 6.3,
+      "top_skills": "Java, Python, SQL, Spark, Machine Learning"
+    },
+    {
+      "company": "PwC",
+      "tier": "Consulting",
+      "job_count": 22,
+      "avg_salary": 19.51,
+      "median_salary": 19.6,
+      "avg_experience": 8.0,
+      "top_skills": "SQL, Spark, GCP, AWS, Azure"
+    },
+    {
+      "company": "NTT DATA",
+      "tier": "Startup/Other",
+      "job_count": 22,
+      "avg_salary": 12.84,
+      "median_salary": 11.17,
+      "avg_experience": 5.1,
+      "top_skills": "Azure, SQL, Spark, Python, NoSQL"
+    },
+    {
+      "company": "PayPal",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 14.85,
+      "median_salary": 15.73,
+      "avg_experience": 6.0,
+      "top_skills": "Machine Learning, Git, ETL, Agile, Data Modeling"
+    },
+    {
+      "company": "Diverse Lynx",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 10.97,
+      "median_salary": 11.03,
+      "avg_experience": 4.5,
+      "top_skills": "SQL, Spark, Python, Machine Learning, R"
+    },
+    {
+      "company": "Applied Materials",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 16.89,
+      "median_salary": 16.76,
+      "avg_experience": 6.5,
+      "top_skills": "Tableau, R, SQL, Machine Learning, Statistics"
+    },
+    {
+      "company": "Dell Technologies",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 19.41,
+      "median_salary": 17.36,
+      "avg_experience": 8.0,
+      "top_skills": "SQL, Spark, Java, Python, Kafka"
+    },
+    {
+      "company": "VEGA Intellisoft Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 21,
+      "avg_salary": 15.5,
+      "median_salary": 15.52,
+      "avg_experience": 6.6,
+      "top_skills": "Python, Spark, SQL, Azure, ETL"
+    },
+    {
+      "company": "Anicalls",
+      "tier": "Startup/Other",
+      "job_count": 20,
+      "avg_salary": 16.23,
+      "median_salary": 16.24,
+      "avg_experience": 7.3,
+      "top_skills": "Python, Spark, SQL, Tableau, ETL"
+    },
+    {
+      "company": "Thomson Reuters",
+      "tier": "Startup/Other",
+      "job_count": 19,
+      "avg_salary": 10.31,
+      "median_salary": 10.87,
+      "avg_experience": 3.5,
+      "top_skills": "Machine Learning, Agile, Data Modeling, SQL, NoSQL"
+    },
+    {
+      "company": "CareerXperts Consulting",
+      "tier": "Startup/Other",
+      "job_count": 19,
+      "avg_salary": 16.08,
+      "median_salary": 16.33,
+      "avg_experience": 6.7,
+      "top_skills": "Machine Learning, Spark, SQL, Agile, Git"
+    },
+    {
+      "company": "PayU",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 11.71,
+      "median_salary": 11.04,
+      "avg_experience": 4.5,
+      "top_skills": "Machine Learning, Agile, SQL, Python, SAS"
+    },
+    {
+      "company": "Bloom Consulting Services",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 12.82,
+      "median_salary": 11.23,
+      "avg_experience": 4.9,
+      "top_skills": "SQL, Data Modeling, Machine Learning, Spark, Data Visualization"
+    },
+    {
+      "company": "Xpheno",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 17.38,
+      "median_salary": 16.44,
+      "avg_experience": 7.1,
+      "top_skills": "SQL, Spark, GCP, Machine Learning, Excel"
+    },
+    {
+      "company": "Dell International Services IndiaPrivate Limited",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 17.66,
+      "median_salary": 16.36,
+      "avg_experience": 6.9,
+      "top_skills": "Spark, SQL, Python, Java, Power BI"
+    },
+    {
+      "company": "DXC Technology",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 17.12,
+      "median_salary": 17.2,
+      "avg_experience": 7.2,
+      "top_skills": "Azure, SQL, Data Modeling, Databricks, Spark"
+    },
+    {
+      "company": "Capco",
+      "tier": "Startup/Other",
+      "job_count": 18,
+      "avg_salary": 16.6,
+      "median_salary": 15.1,
+      "avg_experience": 6.9,
+      "top_skills": "SQL, Agile, Spark, Scala, Python"
+    },
+    {
+      "company": "Cargill",
+      "tier": "Startup/Other",
+      "job_count": 17,
+      "avg_salary": 14.87,
+      "median_salary": 11.06,
+      "avg_experience": 6.1,
+      "top_skills": "Spark, Agile, Power BI, Data Modeling, Data Visualization"
+    },
+    {
+      "company": "Schneider Electric",
+      "tier": "Startup/Other",
+      "job_count": 17,
+      "avg_salary": 11.32,
+      "median_salary": 10.76,
+      "avg_experience": 4.6,
+      "top_skills": "SQL, Machine Learning, Spark, ETL, Statistics"
+    },
+    {
+      "company": "Hucon Solutions",
+      "tier": "Startup/Other",
+      "job_count": 17,
+      "avg_salary": 18.61,
+      "median_salary": 17.6,
+      "avg_experience": 7.7,
+      "top_skills": "SQL, R, Tableau, Power BI, AWS"
+    },
+    {
+      "company": "Symphoni HR Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 16.52,
+      "median_salary": 16.73,
+      "avg_experience": 6.6,
+      "top_skills": "Python, SQL, Spark, Java, ETL"
+    },
+    {
+      "company": "Aspire Recruitment Solutions",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 13.02,
+      "median_salary": 11.38,
+      "avg_experience": 5.2,
+      "top_skills": "Spark, Python, Java, AWS, SQL"
+    },
+    {
+      "company": "Mount Talent Consulting Private Limited",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 15.46,
+      "median_salary": 16.94,
+      "avg_experience": 5.8,
+      "top_skills": "Spark, Python, SQL, Azure, Machine Learning"
+    },
+    {
+      "company": "Target",
+      "tier": "Product",
+      "job_count": 16,
+      "avg_salary": 19.68,
+      "median_salary": 21.54,
+      "avg_experience": 6.6,
+      "top_skills": "Machine Learning, Agile, Spark, SQL, Statistics"
+    },
+    {
+      "company": "Meesho",
+      "tier": "Product",
+      "job_count": 16,
+      "avg_salary": 20.18,
+      "median_salary": 19.6,
+      "avg_experience": 8.6,
+      "top_skills": "SQL, Spark, Machine Learning, R, AWS"
+    },
+    {
+      "company": "GSK India",
+      "tier": "Startup/Other",
+      "job_count": 16,
+      "avg_salary": 13.87,
+      "median_salary": 14.61,
+      "avg_experience": 5.5,
+      "top_skills": "Agile, GCP, Machine Learning, Git, ETL"
+    },
+    {
+      "company": "C42 Engineering India Pvt. Ltd.",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 17.61,
+      "median_salary": 16.7,
+      "avg_experience": 6.2,
+      "top_skills": "Machine Learning, SQL, Agile, NoSQL, Git"
+    },
+    {
+      "company": "cliqhr.com",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 18.19,
+      "median_salary": 16.78,
+      "avg_experience": 7.6,
+      "top_skills": "SQL, Spark, Communication, Python, Tableau"
+    },
+    {
+      "company": "Corner Tree Consulting",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 19.64,
+      "median_salary": 18.28,
+      "avg_experience": 9.2,
+      "top_skills": "Python, Azure, Machine Learning, Scala, Spark"
+    },
+    {
+      "company": "Eli Lilly and Company",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 13.36,
+      "median_salary": 11.82,
+      "avg_experience": 5.4,
+      "top_skills": "Agile, Statistics, NLP, Data Visualization, Python"
+    },
+    {
+      "company": "TEKISHUB CONSULTING SERVICES PRIVATE LIMITED",
+      "tier": "Startup/Other",
+      "job_count": 15,
+      "avg_salary": 16.78,
+      "median_salary": 16.37,
+      "avg_experience": 6.4,
+      "top_skills": "AWS, SQL, Spark, Python, Azure"
+    }
+  ],
+  "tier_summary": [
+    {
+      "tier": "Consulting",
+      "total_jobs": 310,
+      "avg_salary": 15.89,
+      "median_salary": 16.02,
+      "unique_companies": 14
+    },
+    {
+      "tier": "MNC/IT Services",
+      "total_jobs": 252,
+      "avg_salary": 15.01,
+      "median_salary": 14.98,
+      "unique_companies": 27
+    },
+    {
+      "tier": "Product",
+      "total_jobs": 334,
+      "avg_salary": 18.33,
+      "median_salary": 18.7,
+      "unique_companies": 41
+    },
+    {
+      "tier": "Startup/Other",
+      "total_jobs": 4451,
+      "avg_salary": 14.84,
+      "median_salary": 15.09,
+      "unique_companies": 1478
+    }
+  ],
+  "salary_bands": [
+    {
+      "exp_band": "0-1 yr (Fresher)",
+      "job_count": 68,
+      "min_salary": 3.0,
+      "max_salary": 5.08,
+      "avg_salary": 4.18,
+      "median_salary": 4.14,
+      "pct_of_total": 1.3
+    },
+    {
+      "exp_band": "1-3 yrs (Junior)",
+      "job_count": 600,
+      "min_salary": 2.5,
+      "max_salary": 11.0,
+      "avg_salary": 7.09,
+      "median_salary": 6.93,
+      "pct_of_total": 11.2
+    },
+    {
+      "exp_band": "3-5 yrs (Mid)",
+      "job_count": 1616,
+      "min_salary": 3.25,
+      "max_salary": 15.0,
+      "avg_salary": 10.96,
+      "median_salary": 10.91,
+      "pct_of_total": 30.2
+    },
+    {
+      "exp_band": "5-8 yrs (Senior)",
+      "job_count": 2076,
+      "min_salary": 5.5,
+      "max_salary": 24.89,
+      "avg_salary": 16.64,
+      "median_salary": 16.6,
+      "pct_of_total": 38.8
+    },
+    {
+      "exp_band": "8+ yrs (Lead)",
+      "job_count": 987,
+      "min_salary": 11.5,
+      "max_salary": 50.0,
+      "avg_salary": 24.39,
+      "median_salary": 24.18,
+      "pct_of_total": 18.5
+    }
+  ],
+  "tier_skill_matrix": [
+    {
+      "tier": "Startup/Other",
+      "skill": "SQL",
+      "count": 1472,
+      "pct_in_tier": 33.1
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Python",
+      "count": 1415,
+      "pct_in_tier": 31.8
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Spark",
+      "count": 1206,
+      "pct_in_tier": 27.1
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Machine Learning",
+      "count": 816,
+      "pct_in_tier": 18.3
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "AWS",
+      "count": 551,
+      "pct_in_tier": 12.4
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Java",
+      "count": 508,
+      "pct_in_tier": 11.4
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Azure",
+      "count": 465,
+      "pct_in_tier": 10.4
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "ETL",
+      "count": 447,
+      "pct_in_tier": 10.0
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Agile",
+      "count": 389,
+      "pct_in_tier": 8.7
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Scala",
+      "count": 305,
+      "pct_in_tier": 6.9
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "NoSQL",
+      "count": 280,
+      "pct_in_tier": 6.3
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Communication",
+      "count": 277,
+      "pct_in_tier": 6.2
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Data Modeling",
+      "count": 269,
+      "pct_in_tier": 6.0
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Tableau",
+      "count": 259,
+      "pct_in_tier": 5.8
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "R",
+      "count": 241,
+      "pct_in_tier": 5.4
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Statistics",
+      "count": 230,
+      "pct_in_tier": 5.2
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Excel",
+      "count": 230,
+      "pct_in_tier": 5.2
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Power BI",
+      "count": 198,
+      "pct_in_tier": 4.4
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "Git",
+      "count": 194,
+      "pct_in_tier": 4.4
+    },
+    {
+      "tier": "Startup/Other",
+      "skill": "GCP",
+      "count": 187,
+      "pct_in_tier": 4.2
+    },
+    {
+      "tier": "Product",
+      "skill": "Machine Learning",
+      "count": 111,
+      "pct_in_tier": 33.2
+    },
+    {
+      "tier": "Product",
+      "skill": "Python",
+      "count": 93,
+      "pct_in_tier": 27.8
+    },
+    {
+      "tier": "Product",
+      "skill": "Spark",
+      "count": 84,
+      "pct_in_tier": 25.1
+    },
+    {
+      "tier": "Product",
+      "skill": "SQL",
+      "count": 79,
+      "pct_in_tier": 23.7
+    },
+    {
+      "tier": "Product",
+      "skill": "Java",
+      "count": 41,
+      "pct_in_tier": 12.3
+    },
+    {
+      "tier": "Product",
+      "skill": "Agile",
+      "count": 31,
+      "pct_in_tier": 9.3
+    },
+    {
+      "tier": "Product",
+      "skill": "Scala",
+      "count": 27,
+      "pct_in_tier": 8.1
+    },
+    {
+      "tier": "Product",
+      "skill": "Excel",
+      "count": 27,
+      "pct_in_tier": 8.1
+    },
+    {
+      "tier": "Product",
+      "skill": "Tableau",
+      "count": 23,
+      "pct_in_tier": 6.9
+    },
+    {
+      "tier": "Product",
+      "skill": "Azure",
+      "count": 20,
+      "pct_in_tier": 6.0
+    },
+    {
+      "tier": "Product",
+      "skill": "NoSQL",
+      "count": 20,
+      "pct_in_tier": 6.0
+    },
+    {
+      "tier": "Product",
+      "skill": "Statistics",
+      "count": 19,
+      "pct_in_tier": 5.7
+    },
+    {
+      "tier": "Product",
+      "skill": "C++",
+      "count": 18,
+      "pct_in_tier": 5.4
+    },
+    {
+      "tier": "Product",
+      "skill": "Data Modeling",
+      "count": 18,
+      "pct_in_tier": 5.4
+    },
+    {
+      "tier": "Product",
+      "skill": "SAS",
+      "count": 17,
+      "pct_in_tier": 5.1
+    },
+    {
+      "tier": "Product",
+      "skill": "R",
+      "count": 16,
+      "pct_in_tier": 4.8
+    },
+    {
+      "tier": "Product",
+      "skill": "AWS",
+      "count": 16,
+      "pct_in_tier": 4.8
+    },
+    {
+      "tier": "Product",
+      "skill": "GCP",
+      "count": 15,
+      "pct_in_tier": 4.5
+    },
+    {
+      "tier": "Product",
+      "skill": "Power BI",
+      "count": 15,
+      "pct_in_tier": 4.5
+    },
+    {
+      "tier": "Product",
+      "skill": "Communication",
+      "count": 14,
+      "pct_in_tier": 4.2
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Python",
+      "count": 90,
+      "pct_in_tier": 35.7
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "SQL",
+      "count": 83,
+      "pct_in_tier": 32.9
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Spark",
+      "count": 74,
+      "pct_in_tier": 29.4
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Java",
+      "count": 61,
+      "pct_in_tier": 24.2
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "ETL",
+      "count": 38,
+      "pct_in_tier": 15.1
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Machine Learning",
+      "count": 30,
+      "pct_in_tier": 11.9
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "AWS",
+      "count": 30,
+      "pct_in_tier": 11.9
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Agile",
+      "count": 30,
+      "pct_in_tier": 11.9
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Azure",
+      "count": 20,
+      "pct_in_tier": 7.9
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Data Modeling",
+      "count": 19,
+      "pct_in_tier": 7.5
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Scala",
+      "count": 18,
+      "pct_in_tier": 7.1
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Communication",
+      "count": 17,
+      "pct_in_tier": 6.7
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "GCP",
+      "count": 16,
+      "pct_in_tier": 6.3
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Tableau",
+      "count": 15,
+      "pct_in_tier": 6.0
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "APIs",
+      "count": 12,
+      "pct_in_tier": 4.8
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Power BI",
+      "count": 10,
+      "pct_in_tier": 4.0
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "Git",
+      "count": 10,
+      "pct_in_tier": 4.0
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "NLP",
+      "count": 9,
+      "pct_in_tier": 3.6
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "NoSQL",
+      "count": 8,
+      "pct_in_tier": 3.2
+    },
+    {
+      "tier": "MNC/IT Services",
+      "skill": "R",
+      "count": 7,
+      "pct_in_tier": 2.8
+    },
+    {
+      "tier": "Consulting",
+      "skill": "SQL",
+      "count": 67,
+      "pct_in_tier": 21.6
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Python",
+      "count": 64,
+      "pct_in_tier": 20.6
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Spark",
+      "count": 55,
+      "pct_in_tier": 17.7
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Machine Learning",
+      "count": 39,
+      "pct_in_tier": 12.6
+    },
+    {
+      "tier": "Consulting",
+      "skill": "ETL",
+      "count": 30,
+      "pct_in_tier": 9.7
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Azure",
+      "count": 29,
+      "pct_in_tier": 9.4
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Agile",
+      "count": 29,
+      "pct_in_tier": 9.4
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Excel",
+      "count": 26,
+      "pct_in_tier": 8.4
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Data Visualization",
+      "count": 26,
+      "pct_in_tier": 8.4
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Tableau",
+      "count": 26,
+      "pct_in_tier": 8.4
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Communication",
+      "count": 25,
+      "pct_in_tier": 8.1
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Power BI",
+      "count": 22,
+      "pct_in_tier": 7.1
+    },
+    {
+      "tier": "Consulting",
+      "skill": "AWS",
+      "count": 20,
+      "pct_in_tier": 6.5
+    },
+    {
+      "tier": "Consulting",
+      "skill": "GCP",
+      "count": 19,
+      "pct_in_tier": 6.1
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Data Modeling",
+      "count": 19,
+      "pct_in_tier": 6.1
+    },
+    {
+      "tier": "Consulting",
+      "skill": "SAS",
+      "count": 18,
+      "pct_in_tier": 5.8
+    },
+    {
+      "tier": "Consulting",
+      "skill": "APIs",
+      "count": 17,
+      "pct_in_tier": 5.5
+    },
+    {
+      "tier": "Consulting",
+      "skill": "R",
+      "count": 15,
+      "pct_in_tier": 4.8
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Git",
+      "count": 15,
+      "pct_in_tier": 4.8
+    },
+    {
+      "tier": "Consulting",
+      "skill": "Java",
+      "count": 13,
+      "pct_in_tier": 4.2
+    }
+  ],
+  "stats": {
+    "total_jobs": 5347,
+    "unique_companies": 1560,
+    "avg_salary": 15.1,
+    "median_salary": 15.2,
+    "max_salary": 50.0,
+    "min_salary": 2.5,
+    "skills_extracted": 41,
+    "skill_pairs": 380
+  },
+  "exp_distribution": {
+    "5-8 yrs (Senior)": 2076,
+    "3-5 yrs (Mid)": 1616,
+    "8+ yrs (Lead)": 987,
+    "1-3 yrs (Junior)": 600,
+    "0-1 yr (Fresher)": 68
+  },
+  "tier_distribution": {
+    "Startup/Other": 4451,
+    "Product": 334,
+    "Consulting": 310,
+    "MNC/IT Services": 252
+  },
+  "exp_salary_scatter": [
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.71,
+      "tier": "Startup/Other",
+      "company": "The Glove",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 19.59,
+      "tier": "Product",
+      "company": "Walmart",
+      "job_title": "Software Engineer III (Data Engineering)"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 23.12,
+      "tier": "Startup/Other",
+      "company": "Krazy Mantra HR Solutions Pvt. Ltd",
+      "job_title": "Tech Lead/Architect ( Contractual )"
+    },
+    {
+      "exp_mid": 12.5,
+      "salary_lpa": 25.73,
+      "tier": "Startup/Other",
+      "company": "Concerto.ai",
+      "job_title": "Sr Lead Architect - Python"
+    },
+    {
+      "exp_mid": 12.0,
+      "salary_lpa": 23.47,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Data Science Manager"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 6.77,
+      "tier": "Startup/Other",
+      "company": "Yocket",
+      "job_title": "Product Analyst"
+    },
+    {
+      "exp_mid": 14.5,
+      "salary_lpa": 25.62,
+      "tier": "Startup/Other",
+      "company": "Multi Recruit",
+      "job_title": "Sr. Application Tech Lead"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 19.81,
+      "tier": "Product",
+      "company": "Walmart",
+      "job_title": "Data Scientist (Marketplace)"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 8.11,
+      "tier": "Product",
+      "company": "Snaphunt",
+      "job_title": "Product Analyst"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 22.44,
+      "tier": "Startup/Other",
+      "company": "Hucon Solutions",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.6,
+      "tier": "Startup/Other",
+      "company": "cliqhr.com",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.04,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Pharma ERP"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.77,
+      "tier": "Startup/Other",
+      "company": "Genpact",
+      "job_title": "Cloud Data Engineer Role at Genpact"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 21.93,
+      "tier": "Product",
+      "company": "Walmart",
+      "job_title": "Staff Data Scientist"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 9.58,
+      "tier": "Startup/Other",
+      "company": "Deutsche Bank",
+      "job_title": "Reference Data Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 9.46,
+      "tier": "Startup/Other",
+      "company": "IHS Markit",
+      "job_title": "Operations Analysis Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.74,
+      "tier": "MNC/IT Services",
+      "company": "Wibmo",
+      "job_title": "Analyst - Data"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.06,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Senior Devops Engineer - Key role in Machine Learning and AI Startup"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.06,
+      "tier": "Startup/Other",
+      "company": "Sequoia Consulting Group",
+      "job_title": "Lead Data Engineer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 9.49,
+      "tier": "Startup/Other",
+      "company": "Advito",
+      "job_title": "Analyst, Consulting"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 11.85,
+      "tier": "Startup/Other",
+      "company": "Edureka!",
+      "job_title": "Graduate Program in Big Data Engineering"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 25.27,
+      "tier": "Startup/Other",
+      "company": "Master Mind Consultancy",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 6.6,
+      "tier": "Startup/Other",
+      "company": "Thomson Reuters",
+      "job_title": "Analyst"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.1,
+      "tier": "Startup/Other",
+      "company": "Source To Win Consultancy",
+      "job_title": "Big Data Engineer - Nifi"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 28.72,
+      "tier": "Consulting",
+      "company": "TIGER ANALYTICS INDIA CONSULTING PRIVATE LIMITED",
+      "job_title": "Program Lead - Technology Consulting"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 18.36,
+      "tier": "Startup/Other",
+      "company": "Western Digital",
+      "job_title": "Principal Engineer - Data Science"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.67,
+      "tier": "Startup/Other",
+      "company": "Diverse Lynx",
+      "job_title": "Python Developers"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 15.4,
+      "tier": "Startup/Other",
+      "company": "JoulestoWatts Business Solutions Pvt Ltd",
+      "job_title": "Azure Data Bricks"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.69,
+      "tier": "Startup/Other",
+      "company": "Anicalls",
+      "job_title": "Senior Data Visualization Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.17,
+      "tier": "Startup/Other",
+      "company": "Gojek",
+      "job_title": "Senior Software Engineer (Backend) - Data Platform"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 18.55,
+      "tier": "Startup/Other",
+      "company": "Huquo Consulting Pvt. Ltd",
+      "job_title": "Cloud Engineer - DevOps/DevSecOps"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.15,
+      "tier": "Startup/Other",
+      "company": "SKYONNTECHNOLOGIES PRIVATE LIMITED",
+      "job_title": "Immediate Opening_GCP(Google Cloud Platform)Data Engineer_CMML5"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 7.24,
+      "tier": "Startup/Other",
+      "company": "St. John\u2019s Research Institute",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 19.49,
+      "tier": "Startup/Other",
+      "company": "HR SOLUTIONS",
+      "job_title": "Sr. Business Systems Analyst / Data Analyst"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.19,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Data Scientist: Artificial Intelligence"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.98,
+      "tier": "Startup/Other",
+      "company": "ICAV Tech Pvt. Ltd.",
+      "job_title": "Chief Technology Officer"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 25.63,
+      "tier": "Startup/Other",
+      "company": "Catalyst",
+      "job_title": "Manager - Machine Learning - Ensemble Modeling/Classification"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 25.43,
+      "tier": "Startup/Other",
+      "company": "SRS Infoway",
+      "job_title": "Azure Data Factory Developer"
+    },
+    {
+      "exp_mid": 13.0,
+      "salary_lpa": 24.4,
+      "tier": "Startup/Other",
+      "company": "SDNA Global",
+      "job_title": "Senior Manager Data Engineer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 10.0,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Senior Business Intelligence Analyst"
+    },
+    {
+      "exp_mid": 15.5,
+      "salary_lpa": 25.13,
+      "tier": "Startup/Other",
+      "company": "Success Booster",
+      "job_title": "Senior Data Science Manager"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 12.29,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Informatica Big Data Edition Application Developer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 18.28,
+      "tier": "Startup/Other",
+      "company": "Hero FinCorp",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.97,
+      "tier": "Startup/Other",
+      "company": "Mandiant",
+      "job_title": "Senior Software Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.56,
+      "tier": "Startup/Other",
+      "company": "Serving Skill",
+      "job_title": "Azure Data Engineer - Spark/ Python/DataLake"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.01,
+      "tier": "Startup/Other",
+      "company": "Sutherland Global Services Inc",
+      "job_title": "Associate Mgr - Data Analytics"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 21.7,
+      "tier": "Product",
+      "company": "Target",
+      "job_title": "Sr Fulfillment Optimization Manager"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 7.05,
+      "tier": "Startup/Other",
+      "company": "newscorp",
+      "job_title": "Cyber Security Awareness & Training Analyst"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.38,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Data Scientist: Artificial Intelligence"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 14.49,
+      "tier": "Startup/Other",
+      "company": "REVONEER CONSULTANCY SERVICES PRIVATE LIMITED",
+      "job_title": "Data Modeller"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.6,
+      "tier": "Startup/Other",
+      "company": "Altimax Business Solutions",
+      "job_title": "Azure Data Engineer - ETL/ DataLake"
+    },
+    {
+      "exp_mid": 10.0,
+      "salary_lpa": 21.83,
+      "tier": "Startup/Other",
+      "company": "Dell International Services IndiaPrivate Limited",
+      "job_title": "Software Principal Engineer"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 17.64,
+      "tier": "Startup/Other",
+      "company": "Corner Tree Consulting",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 12.08,
+      "tier": "Startup/Other",
+      "company": "Artifex HR",
+      "job_title": "Data Engineer - Azure Databricks"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 22.16,
+      "tier": "Product",
+      "company": "Flipkart",
+      "job_title": "Senior Data Scientist"
+    },
+    {
+      "exp_mid": 13.0,
+      "salary_lpa": 23.1,
+      "tier": "Startup/Other",
+      "company": "Ally - eXecutive.com",
+      "job_title": "Manager Data Science"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.32,
+      "tier": "Startup/Other",
+      "company": "Powerschool India Private Limited",
+      "job_title": "Software Engineer - Data Visualization"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.75,
+      "tier": "Startup/Other",
+      "company": "Shell",
+      "job_title": "Data Architect"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.82,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Business Analyst"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.98,
+      "tier": "Startup/Other",
+      "company": "Vmware",
+      "job_title": "Web Marketing Audience and Insight Analyst"
+    },
+    {
+      "exp_mid": 11.5,
+      "salary_lpa": 24.83,
+      "tier": "MNC/IT Services",
+      "company": "HCL Technologies",
+      "job_title": "Senior Data Engineer at HCL"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 29.12,
+      "tier": "Product",
+      "company": "Kennametal",
+      "job_title": "Analyst EHS"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 26.09,
+      "tier": "Startup/Other",
+      "company": "CBA Services Private Limited",
+      "job_title": "Insights Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 11.45,
+      "tier": "Startup/Other",
+      "company": "ACZ Global Private Limited",
+      "job_title": "Data Science Associate/Senior Associate"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.48,
+      "tier": "Startup/Other",
+      "company": "GSK India",
+      "job_title": "Scrum Master"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.1,
+      "tier": "Startup/Other",
+      "company": "Ayla Networks",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.2,
+      "tier": "Startup/Other",
+      "company": "Torry Harris Business Solutions",
+      "job_title": "Big Data Engineer"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 5.96,
+      "tier": "Startup/Other",
+      "company": "CaaStle",
+      "job_title": "Software Engineer-BI"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 24.68,
+      "tier": "Startup/Other",
+      "company": "KARYA CONSULTANTS PRIVATE LIMITED",
+      "job_title": "Principal - Data Architect"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 25.7,
+      "tier": "Startup/Other",
+      "company": "Pioneer Manpower Solutions",
+      "job_title": "Product Manager- Artificial Intelligence/ Machine Learning-(AI-ML)"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.47,
+      "tier": "Startup/Other",
+      "company": "Cimpress",
+      "job_title": "Python Developer (Fully Remote/WFH )"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 14.39,
+      "tier": "Startup/Other",
+      "company": "Visa",
+      "job_title": "Staff Data Engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.91,
+      "tier": "Startup/Other",
+      "company": "Diverse Lynx",
+      "job_title": "Lead Consultant - Business Analyst"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.14,
+      "tier": "Startup/Other",
+      "company": "iFlex (RecruitingPartner)",
+      "job_title": "Data Engineer - Java / Scala"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.96,
+      "tier": "Startup/Other",
+      "company": "Krazy Mantra HR Solutions Pvt. Ltd",
+      "job_title": "Data Engineer with Singlestore (Memsql) (Hiring For MNC)"
+    },
+    {
+      "exp_mid": 13.0,
+      "salary_lpa": 25.81,
+      "tier": "Startup/Other",
+      "company": "TRH Consultancy Services",
+      "job_title": "Python Data Engineer"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 31.97,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Apache Spark Advanced Application Engineer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.29,
+      "tier": "Startup/Other",
+      "company": "Xpheno",
+      "job_title": "Senior Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.29,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Data Management"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.71,
+      "tier": "Startup/Other",
+      "company": "Eli Lilly and Company",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 23.35,
+      "tier": "Startup/Other",
+      "company": "Genpact",
+      "job_title": "Informatica MDM Consultant"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.73,
+      "tier": "Startup/Other",
+      "company": "Hevo.io",
+      "job_title": "Business Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 13.85,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Manager Analytics"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 17.43,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Data Scientist/consultant - Machine Learning/statistical Modeling"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 8.93,
+      "tier": "Product",
+      "company": "CRED",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 18.51,
+      "tier": "Startup/Other",
+      "company": "Grab",
+      "job_title": "Senior Data Engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.79,
+      "tier": "Startup/Other",
+      "company": "Innominds Software Pvt Ltd",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.28,
+      "tier": "Startup/Other",
+      "company": "Search Advisers Services ( GUJ ) Pvt. Ltd.",
+      "job_title": "Data Analyst / Business Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 12.42,
+      "tier": "Startup/Other",
+      "company": "CHANGE LEADERS CONSULTING",
+      "job_title": "Sr. Associate - Data Scientist"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 9.28,
+      "tier": "MNC/IT Services",
+      "company": "Capgemini",
+      "job_title": "Hyperion Test Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.84,
+      "tier": "Startup/Other",
+      "company": "Anlage Infotech (I) Pvt. Ltd.",
+      "job_title": "Business Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.62,
+      "tier": "Startup/Other",
+      "company": "NIVEUS SOLUTIONS PRIVATE LIMITED",
+      "job_title": "Opening For Customer Engineer- Data Vertical- Technical role"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 15.16,
+      "tier": "Startup/Other",
+      "company": "Gojek",
+      "job_title": "Senior Data Analyst - Logistics"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.85,
+      "tier": "Startup/Other",
+      "company": "Tarams Software Technologies",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.1,
+      "tier": "Startup/Other",
+      "company": "Hucon Solutions",
+      "job_title": "Need immediate joiners - Data Engineer With Singlestore"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.33,
+      "tier": "MNC/IT Services",
+      "company": "Career Infosystem",
+      "job_title": "Azure Data Engineer - Data Modeling/Warehousing"
+    },
+    {
+      "exp_mid": 1.5,
+      "salary_lpa": 6.48,
+      "tier": "Startup/Other",
+      "company": "Compile Inc",
+      "job_title": "Software engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.32,
+      "tier": "Startup/Other",
+      "company": "Impetus",
+      "job_title": "Big Data Engineer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 16.45,
+      "tier": "Startup/Other",
+      "company": "KARYA CONSULTANTS PRIVATE LIMITED",
+      "job_title": "Consultant - Data Engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.81,
+      "tier": "Startup/Other",
+      "company": "NVIDIA",
+      "job_title": "Site Reliability Engineer, GFN"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.46,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Assistant Manager/ Manager - Business Analyst/sas - Consulting Firm"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.59,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Analyst-Catastrophe Underwriting"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 13.86,
+      "tier": "Startup/Other",
+      "company": "Pegasus Knowledge Solutions India Private Limited",
+      "job_title": "Sr. Data Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.27,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "ACN - Applied Intelligence - CS&S - LS Analytics - 07"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.11,
+      "tier": "Startup/Other",
+      "company": "VEGA Intellisoft Private Limited",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.22,
+      "tier": "Startup/Other",
+      "company": "AllianceData",
+      "job_title": "Campaign Measurement Optimization Analyst, 1"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.32,
+      "tier": "Startup/Other",
+      "company": "CRESCENDO GLOBAL LEADERSHIP HIRING INDIA PRIVATE L IMITED",
+      "job_title": "Big Data Engineer - Spark- Bangalore /Gurugram/Mumbai-(4-11 years)"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.42,
+      "tier": "Startup/Other",
+      "company": "ITC Infotech",
+      "job_title": "Datawarehouse Project Lead"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 24.89,
+      "tier": "Startup/Other",
+      "company": "AKANA SERVICES PRIVATE LIMITED",
+      "job_title": "Cloud Data Engineer"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.49,
+      "tier": "Startup/Other",
+      "company": "Becton Dickinson India Pvt Ltd",
+      "job_title": "Lead Solution Analyst"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.96,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "ACN - Applied Intelligence - CS&S - LS Analytics - 09"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 8.86,
+      "tier": "Product",
+      "company": "Myntra",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 9.86,
+      "tier": "Startup/Other",
+      "company": "Huquo Consulting Pvt. Ltd",
+      "job_title": "Senior Business Analyst - Model Validation"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.21,
+      "tier": "Startup/Other",
+      "company": "Jio",
+      "job_title": "Data Science Engineer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.89,
+      "tier": "Startup/Other",
+      "company": "BrightTALK",
+      "job_title": "Senior Data Engineer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.44,
+      "tier": "Startup/Other",
+      "company": "Diverse Lynx India Pvt. Ltd",
+      "job_title": "Hiring!! Python Developer !! 4+ Years"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 19.21,
+      "tier": "Startup/Other",
+      "company": "VEGA Intellisoft Private Limited",
+      "job_title": "Technical Business Analyst"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 19.04,
+      "tier": "Startup/Other",
+      "company": "GGWP INDIA PRIVATE LIMITED",
+      "job_title": "Sr. DevOps Engineer"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 6.55,
+      "tier": "Startup/Other",
+      "company": "CloudThat Technologies Pvt. Ltd.",
+      "job_title": "Credit Control Analyst"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.0,
+      "tier": "Startup/Other",
+      "company": "NR Consulting",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.33,
+      "tier": "Startup/Other",
+      "company": "Scoop Technologies Pvt Ltd",
+      "job_title": "Data Engineer | Hadoop Developer | Bangalore"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.01,
+      "tier": "Startup/Other",
+      "company": "Gojek",
+      "job_title": "Senior Data Scientist"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 20.31,
+      "tier": "Product",
+      "company": "Walmart",
+      "job_title": "Senior Software Engineer"
+    },
+    {
+      "exp_mid": 11.0,
+      "salary_lpa": 20.67,
+      "tier": "Startup/Other",
+      "company": "Talent Zone Consultant",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 12.5,
+      "salary_lpa": 19.95,
+      "tier": "Startup/Other",
+      "company": "milestone internet marketing pvt ltd",
+      "job_title": "Software Team Lead"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 21.77,
+      "tier": "Product",
+      "company": "Walmart",
+      "job_title": "Software Engineer III (data engineering)"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 11.56,
+      "tier": "Startup/Other",
+      "company": "VMULTIPLY SOLUTIONS",
+      "job_title": "Computer Vision - Data scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.22,
+      "tier": "Startup/Other",
+      "company": "CHANGE LEADERS CONSULTING",
+      "job_title": "Data Engineer ( Work From Home )"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.12,
+      "tier": "Startup/Other",
+      "company": "Nokia",
+      "job_title": "Solution Designer, Virtual Platform"
+    },
+    {
+      "exp_mid": 13.5,
+      "salary_lpa": 19.69,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Data Elite - Data Fabric Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 15.57,
+      "tier": "Startup/Other",
+      "company": "CHAINalytics",
+      "job_title": "Data Scientist - Supply Chain Analytics"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 15.59,
+      "tier": "Startup/Other",
+      "company": "Corner Tree Consulting",
+      "job_title": "Data Engineer - Java/Scala/Python"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.12,
+      "tier": "Startup/Other",
+      "company": "Applied Materials",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 19.04,
+      "tier": "Startup/Other",
+      "company": "Orcapod Consulting Services Private Limited",
+      "job_title": "Gcp Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 19.98,
+      "tier": "Consulting",
+      "company": "PwC",
+      "job_title": "Azure Data Engineer - Senior Associate 1"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.73,
+      "tier": "Startup/Other",
+      "company": "Aelius City HR Solutions (OPC) Private limited",
+      "job_title": "Immediate Opening For Data Engineer - Bangalore"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 14.31,
+      "tier": "Startup/Other",
+      "company": "Shiras HR Advisory & Services",
+      "job_title": "Technical Lead 3"
+    },
+    {
+      "exp_mid": 0.5,
+      "salary_lpa": 4.11,
+      "tier": "Startup/Other",
+      "company": "TresVista Financial",
+      "job_title": "Analyst - Procurement - SEP"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.67,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Pharma ERP"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.03,
+      "tier": "Startup/Other",
+      "company": "Scienaptic Systems",
+      "job_title": "Data Scientist - Credit Risk"
+    },
+    {
+      "exp_mid": 17.5,
+      "salary_lpa": 28.85,
+      "tier": "Consulting",
+      "company": "PwC",
+      "job_title": "Azure - Senior Manager"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.27,
+      "tier": "Startup/Other",
+      "company": "Jupiter.money",
+      "job_title": "Senior Platform Engineer- Machine Learning Platform"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 12.42,
+      "tier": "Startup/Other",
+      "company": "Aspire Recruitment Solutions",
+      "job_title": "Microsoft SQL Server (Software Engineer, Senior Software Engineer)"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 19.35,
+      "tier": "Startup/Other",
+      "company": "Roposo",
+      "job_title": "SDE IV - Data Engineer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.46,
+      "tier": "Startup/Other",
+      "company": "Benchire",
+      "job_title": "Senior Product Designer"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.79,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Marketing Data Analyst"
+    },
+    {
+      "exp_mid": 13.0,
+      "salary_lpa": 26.74,
+      "tier": "Startup/Other",
+      "company": "Impetus",
+      "job_title": "Exciting opportunity For Big Data Architects/Leads"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 21.27,
+      "tier": "Product",
+      "company": "Solarwinds India Pvt Ltd",
+      "job_title": "Senior Engineer (back end/full stack)"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 22.97,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Cloud Engineer(Security)-Client Engineering"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.52,
+      "tier": "Startup/Other",
+      "company": "Betsol Software India Private Limited",
+      "job_title": "Senior Advance Application Engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 12.48,
+      "tier": "Startup/Other",
+      "company": "Huquo Consulting Pvt. Ltd",
+      "job_title": "Senior Business Analyst/ Data Engineer - Python/AWS/SQL"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.97,
+      "tier": "Startup/Other",
+      "company": "Betsol Software India Private Limited",
+      "job_title": "Senior Software Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.11,
+      "tier": "Startup/Other",
+      "company": "Vmware",
+      "job_title": "Senior Digital Marketing Analyst (Web Analytics)"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.64,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Senior Business Analyst- Analytics"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.6,
+      "tier": "Startup/Other",
+      "company": "Seven Consultancy (HR Solution)",
+      "job_title": "Senior Business Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.56,
+      "tier": "Startup/Other",
+      "company": "epiFi Technologies",
+      "job_title": "Senior Analyst"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.02,
+      "tier": "Startup/Other",
+      "company": "LOGICAL HIRING",
+      "job_title": "Analyst and Sr. Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.39,
+      "tier": "Startup/Other",
+      "company": "Lowes Services India Private limited",
+      "job_title": "Finance analytics_SR Analyst"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 6.98,
+      "tier": "Startup/Other",
+      "company": "CareerXperts Consulting",
+      "job_title": "Spark Backend Data Engineer AI/ML US Startup"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 7.65,
+      "tier": "Startup/Other",
+      "company": "Country Veggie",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 8.99,
+      "tier": "Startup/Other",
+      "company": "Magenta Power Pvt Ltd",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.71,
+      "tier": "Product",
+      "company": "Meesho",
+      "job_title": "Senior Product Manager - Monetization"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 26.55,
+      "tier": "Startup/Other",
+      "company": "Global Employees",
+      "job_title": "Senior Data Scientist - Machine Learning"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.63,
+      "tier": "Consulting",
+      "company": "Boston Consulting Group",
+      "job_title": "Senior Data Engineer - Gamma"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 20.58,
+      "tier": "Startup/Other",
+      "company": "Philips",
+      "job_title": "Scientist I"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 16.66,
+      "tier": "Startup/Other",
+      "company": "cliqhr.com",
+      "job_title": "Business Data Analyst - IT Risk Reporting"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.04,
+      "tier": "Startup/Other",
+      "company": "GBT India Private Limited",
+      "job_title": "Analyst"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 14.3,
+      "tier": "Startup/Other",
+      "company": "Class One Exchange.",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.59,
+      "tier": "Startup/Other",
+      "company": "C42 Engineering India Pvt. Ltd.",
+      "job_title": "Android Engineer - Driver Platform"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.51,
+      "tier": "Startup/Other",
+      "company": "Netcore Solutions Pvt Ltd",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 1.5,
+      "salary_lpa": 6.89,
+      "tier": "Startup/Other",
+      "company": "CoBot Systems",
+      "job_title": "Decision Scientist-Operations Research and Decision Analysis"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.13,
+      "tier": "Startup/Other",
+      "company": "Capco",
+      "job_title": "Scala data engineer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.67,
+      "tier": "Startup/Other",
+      "company": "Visa",
+      "job_title": "Senior Data Engineer"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 25.81,
+      "tier": "Startup/Other",
+      "company": "Informatica",
+      "job_title": "Principal Consultant"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 23.69,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Data Engineering Application Lead"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 9.89,
+      "tier": "MNC/IT Services",
+      "company": "DocsApp",
+      "job_title": "Lead Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.23,
+      "tier": "Startup/Other",
+      "company": "Anlage Infotech (I) Pvt. Ltd.",
+      "job_title": "Business analyst + data Analysis"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 18.59,
+      "tier": "Startup/Other",
+      "company": "TIGI HR Solution",
+      "job_title": "NLP Data scientist"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 13.62,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Consultant FRC Analytics"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 7.01,
+      "tier": "Startup/Other",
+      "company": "Thomson Reuters",
+      "job_title": "Senior Customer Security Analyst"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 21.42,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Data Engineering Application Lead"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.91,
+      "tier": "Startup/Other",
+      "company": "SAGE IT, INC",
+      "job_title": "Python, SQL , Datamodelling"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 15.83,
+      "tier": "Startup/Other",
+      "company": "Sony",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 13.5,
+      "salary_lpa": 25.64,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Cloud Data Architecture Data Architect"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 14.27,
+      "tier": "Startup/Other",
+      "company": "iQuanti",
+      "job_title": "Senior Software Engineer / Lead Engineer"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 16.77,
+      "tier": "Startup/Other",
+      "company": "Corner Tree Consulting",
+      "job_title": "Data Engineer - Java/Scala/Python"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 28.97,
+      "tier": "Product",
+      "company": "Snaphunt",
+      "job_title": "Data Engineering Lead"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.79,
+      "tier": "Startup/Other",
+      "company": "HackerEarth",
+      "job_title": "Sales Analyst - US Shift"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.26,
+      "tier": "Product",
+      "company": "Meesho",
+      "job_title": "Senior Product Manager- Shopping Experience (Payments )"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.67,
+      "tier": "Startup/Other",
+      "company": "Serving Skill",
+      "job_title": "Kafka Developer - Big Data/Spark"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 7.14,
+      "tier": "Startup/Other",
+      "company": "Twilio",
+      "job_title": "Software Engineer ( L4 ) RT Reporting"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 7.5,
+      "tier": "Startup/Other",
+      "company": "Tide Software",
+      "job_title": "Data Warehouse Engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.32,
+      "tier": "Startup/Other",
+      "company": "Consero Global",
+      "job_title": "Analyst"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 26.15,
+      "tier": "Startup/Other",
+      "company": "CygnusPro Software Solutions Pvt. Ltd",
+      "job_title": "Data Modeler"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 8.71,
+      "tier": "Startup/Other",
+      "company": "Eli Lilly and Company",
+      "job_title": "Sr. Associate Consultant - Analytics"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 18.01,
+      "tier": "Startup/Other",
+      "company": "TetriQ Solutions",
+      "job_title": "Big Data Engineer"
+    },
+    {
+      "exp_mid": 15.0,
+      "salary_lpa": 25.67,
+      "tier": "Startup/Other",
+      "company": "Ericsson",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 28.68,
+      "tier": "Startup/Other",
+      "company": "DXC Technology",
+      "job_title": "Big Data Spark/Scala Developer"
+    },
+    {
+      "exp_mid": 10.0,
+      "salary_lpa": 27.04,
+      "tier": "Startup/Other",
+      "company": "Net Connect Pvt Ltd",
+      "job_title": "Data Architect"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.32,
+      "tier": "Startup/Other",
+      "company": "Aspire Recruitment Solutions",
+      "job_title": "Data Architecture Principles (Software Engineer)"
+    },
+    {
+      "exp_mid": 14.0,
+      "salary_lpa": 28.25,
+      "tier": "Startup/Other",
+      "company": "Spencer N Hills Consulting Pvt Ltd",
+      "job_title": "Senior Data Scientist - Global Product Organisation."
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.05,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Analyst-Clinical Data Management (CDM)"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.43,
+      "tier": "Startup/Other",
+      "company": "Tredence Analytics Solutions Private Limited",
+      "job_title": "Azure Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.51,
+      "tier": "Startup/Other",
+      "company": "Altimax Business Solutions",
+      "job_title": "Azure Data Engineer - ETL/DataLake"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.84,
+      "tier": "Startup/Other",
+      "company": "Orcapod Consulting Services Private Limited",
+      "job_title": "Urgent Requirement For Big Data ,Python,Spark For Big4 Company"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 16.83,
+      "tier": "Startup/Other",
+      "company": "Visa",
+      "job_title": "Principal Engineer, Data Platform (Data-as-a-Service)"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 9.51,
+      "tier": "Startup/Other",
+      "company": "Serving Skill",
+      "job_title": "Java Full Stack Developer - Hibernate/ Spring"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 14.68,
+      "tier": "Startup/Other",
+      "company": "ASL HR Solutions Pvt. Ltd",
+      "job_title": "Business Analyst FICO"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 9.79,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Business Analyst"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 6.54,
+      "tier": "Startup/Other",
+      "company": "Apogee Services Private Limited",
+      "job_title": "MIS Analyst"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 8.02,
+      "tier": "Product",
+      "company": "Myntra",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 11.11,
+      "tier": "Startup/Other",
+      "company": "BCD Meetings & Events",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.81,
+      "tier": "Startup/Other",
+      "company": "KANINI SOFTWARE SOLUTIONS INDIA PRIVATE LIMITED",
+      "job_title": "Opportunities For Data Engineer"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.53,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Analyst Analytics Solutions"
+    },
+    {
+      "exp_mid": 15.0,
+      "salary_lpa": 23.27,
+      "tier": "Startup/Other",
+      "company": "UPL",
+      "job_title": "Platform Manager"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 22.51,
+      "tier": "Startup/Other",
+      "company": "Vdart Digital Private Limited",
+      "job_title": "Cloud Data Engineer (Azure)"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.66,
+      "tier": "Startup/Other",
+      "company": "Maxdata Solutions",
+      "job_title": "Sr Data Engineer"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 14.77,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Data Engineer: Data Integration"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 9.8,
+      "tier": "Startup/Other",
+      "company": "Novo Nordisk India",
+      "job_title": "Senior Research Ontologist"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.41,
+      "tier": "Startup/Other",
+      "company": "Andor Tech (India) Pvt Ltd",
+      "job_title": "Big data Engineer"
+    },
+    {
+      "exp_mid": 10.0,
+      "salary_lpa": 28.39,
+      "tier": "Startup/Other",
+      "company": "Orcapod Consulting Services Private Limited",
+      "job_title": "Immediate opening For Data Engineer role"
+    },
+    {
+      "exp_mid": 1.0,
+      "salary_lpa": 4.07,
+      "tier": "Startup/Other",
+      "company": "Nutanix India Technologies Private Limited",
+      "job_title": "Analyst , Revenue Operations"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.5,
+      "tier": "Startup/Other",
+      "company": "sybill",
+      "job_title": "Applied ML engineer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.4,
+      "tier": "Startup/Other",
+      "company": "Dell International Services IndiaPrivate Limited",
+      "job_title": "Analyst, Data Engineering (I5)"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.15,
+      "tier": "Startup/Other",
+      "company": "TRH Consultancy Services",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 11.2,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.76,
+      "tier": "Startup/Other",
+      "company": "Pythian",
+      "job_title": "Cloud Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.93,
+      "tier": "Startup/Other",
+      "company": "Allegis Services India Pvt. Ltd.",
+      "job_title": "Business analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 11.99,
+      "tier": "Startup/Other",
+      "company": "Mandiant",
+      "job_title": "Research Scientist"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 12.46,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Data Engineering Application Developer"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 29.34,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Data Consulting Data Platform Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.18,
+      "tier": "Startup/Other",
+      "company": "A Konnect",
+      "job_title": "Sr. Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 13.91,
+      "tier": "Startup/Other",
+      "company": "Zebra Technologies India Pvt Ltd",
+      "job_title": "Enterprise Systems Analyst A (IN), Senior"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 9.52,
+      "tier": "Startup/Other",
+      "company": "TECHNODYSIS PRIVATE LIMITED",
+      "job_title": "R Skill Developer"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.47,
+      "tier": "Startup/Other",
+      "company": "krtrimaIQ AI Solutions",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.56,
+      "tier": "Startup/Other",
+      "company": "Innovatia",
+      "job_title": "Business Intelligence Analyst"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 20.1,
+      "tier": "Startup/Other",
+      "company": "Dell International Services IndiaPrivate Limited",
+      "job_title": "Software Principal Engineer"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 5.0,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Business Analyst"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 17.34,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Data Analytics"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 6.1,
+      "tier": "Startup/Other",
+      "company": "Goodera (NextGen PMS PVT LTD)",
+      "job_title": "Implementation Analyst"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 19.04,
+      "tier": "Startup/Other",
+      "company": "AgreeYa",
+      "job_title": "Data Scientist 1"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 23.42,
+      "tier": "Startup/Other",
+      "company": "Wells Fargo",
+      "job_title": "Senior Data Engineer"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.2,
+      "tier": "Startup/Other",
+      "company": "UnitedLex",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.52,
+      "tier": "Startup/Other",
+      "company": "CommerceIQ",
+      "job_title": "Lead Data Scientist"
+    },
+    {
+      "exp_mid": 10.0,
+      "salary_lpa": 22.83,
+      "tier": "Startup/Other",
+      "company": "Shell",
+      "job_title": "Senior Data Analyst - Collibra"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.1,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 9.25,
+      "tier": "Startup/Other",
+      "company": "Bloom Consulting Services",
+      "job_title": "SERVICES DELIVERY MANAGER"
+    },
+    {
+      "exp_mid": 0.5,
+      "salary_lpa": 4.31,
+      "tier": "Startup/Other",
+      "company": "TresVista Financial",
+      "job_title": "Analyst - Data Intelligence Group"
+    },
+    {
+      "exp_mid": 15.0,
+      "salary_lpa": 23.78,
+      "tier": "Startup/Other",
+      "company": "Netcracker",
+      "job_title": "Business Analyst - Telecom Data Migration"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 24.39,
+      "tier": "Startup/Other",
+      "company": "Jobscubicle",
+      "job_title": "BUSINESS ANALYST/SENIOR BUSINESS ANALYST"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.39,
+      "tier": "Startup/Other",
+      "company": "jupiter",
+      "job_title": "Senior Platform Engineer- Machine Learning Platform"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 22.43,
+      "tier": "Product",
+      "company": "Razorpay",
+      "job_title": "Lead Data Solution Engineer"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 16.51,
+      "tier": "Startup/Other",
+      "company": "Huquo Consulting Pvt. Ltd",
+      "job_title": "Senior Business Analyst - BPMN/ UML"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 27.46,
+      "tier": "Startup/Other",
+      "company": "FutureSoft (India)",
+      "job_title": "Cloud Data Engineer - Azure"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.99,
+      "tier": "Startup/Other",
+      "company": "Balbix",
+      "job_title": "Senior Data Engineer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 14.07,
+      "tier": "Startup/Other",
+      "company": "Ness",
+      "job_title": "Lead Technical"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 18.35,
+      "tier": "Startup/Other",
+      "company": "Marktine",
+      "job_title": "Machine Learning Engineer - Python"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 9.28,
+      "tier": "Startup/Other",
+      "company": "Info Corporate Service",
+      "job_title": "Product Quality Analyst - Functional Testing"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.4,
+      "tier": "Startup/Other",
+      "company": "TalentStack",
+      "job_title": "Data Analyst - SQL/Python"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.9,
+      "tier": "Startup/Other",
+      "company": "Databricks",
+      "job_title": "Resident Solutions Architect"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.66,
+      "tier": "Startup/Other",
+      "company": "KRISHPAR TECHNOLOGIES PRIVATE LIMITED",
+      "job_title": "Lead-Data Scientist"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.2,
+      "tier": "Startup/Other",
+      "company": "Nineleaps",
+      "job_title": "Big Data Developer"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.75,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Internal Audit Data Science Specialist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 13.12,
+      "tier": "MNC/IT Services",
+      "company": "Career Infosystem",
+      "job_title": "Data Engineer/data Science Consultant"
+    },
+    {
+      "exp_mid": 12.5,
+      "salary_lpa": 23.31,
+      "tier": "Startup/Other",
+      "company": "Superior Group",
+      "job_title": "Mean - Stack Developer - SE - 2"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.36,
+      "tier": "Startup/Other",
+      "company": "Zen3 Infosolutions",
+      "job_title": "Urgent opening For Data Engineer - 15 Days NP"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.79,
+      "tier": "Startup/Other",
+      "company": "Serving Skill",
+      "job_title": "Java Full Stack Developer - Hibernate / Spring"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 30.45,
+      "tier": "Product",
+      "company": "Walmart",
+      "job_title": "Data Scientist - IN3"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 26.95,
+      "tier": "Startup/Other",
+      "company": "Colt Technology Services",
+      "job_title": "Senior Consultant, Lead Enterprise Architect"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.58,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Data Visualization"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 6.93,
+      "tier": "Startup/Other",
+      "company": "Jobs Territory",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.99,
+      "tier": "Startup/Other",
+      "company": "ACS Global Tech Solutions Pvt. Ltd.",
+      "job_title": "Azure Developer"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.27,
+      "tier": "Startup/Other",
+      "company": "Jobs Accuracy",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 18.9,
+      "tier": "Startup/Other",
+      "company": "Krazy Mantra HR Solutions Pvt. Ltd",
+      "job_title": "Sr Data Engineer (Chennai , Hyd, Bangalore , Kolkata)"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 9.52,
+      "tier": "Startup/Other",
+      "company": "Riversand Technologies, Inc.",
+      "job_title": "Business Analyst"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 29.21,
+      "tier": "Startup/Other",
+      "company": "Marktine",
+      "job_title": "Senior Database Engineer / Architect - SQL / Scala / Spark"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.71,
+      "tier": "Startup/Other",
+      "company": "Huquo Consulting Pvt. Ltd",
+      "job_title": "Senior Data Engineer - ETL/ Big Data/ Hadoop"
+    },
+    {
+      "exp_mid": 18.0,
+      "salary_lpa": 20.39,
+      "tier": "Startup/Other",
+      "company": "Acara Solutions Inc",
+      "job_title": "Director Data Modeling"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 16.86,
+      "tier": "Startup/Other",
+      "company": "Visa",
+      "job_title": "Lead Data Engineer"
+    },
+    {
+      "exp_mid": 1.5,
+      "salary_lpa": 7.05,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Business Transformation Consultant: Big Data"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.32,
+      "tier": "Startup/Other",
+      "company": "MNR Solutions Pvt. Ltd.",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 8.35,
+      "tier": "Product",
+      "company": "Amazon",
+      "job_title": "Business Analyst"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.28,
+      "tier": "Startup/Other",
+      "company": "SDNA Global",
+      "job_title": "Hiring GCP Data Engineer For leading IT Service Giant."
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.72,
+      "tier": "Startup/Other",
+      "company": "Aspire Recruitment Solutions",
+      "job_title": "Data Engineering (Software Engineer, Senior Software Engineer"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.74,
+      "tier": "Startup/Other",
+      "company": "CHANGE LEADERS CONSULTING",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 1.0,
+      "salary_lpa": 4.37,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Business Analyst Position @ Bangalore"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 19.36,
+      "tier": "Startup/Other",
+      "company": "Smart Source",
+      "job_title": "Urgently Hiring For Data Engineer For Top MNC Company"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 15.72,
+      "tier": "Startup/Other",
+      "company": "FutureSoft (India)",
+      "job_title": "Guidewire Data Business Analyst"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.85,
+      "tier": "Startup/Other",
+      "company": "REConnect Energy",
+      "job_title": "Research Analyst (Machine Learning)"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.03,
+      "tier": "Startup/Other",
+      "company": "Resource Drive Consulting Private Limited",
+      "job_title": "Business Planning Analyst- Resource Optimization, Support & Enablement"
+    },
+    {
+      "exp_mid": 17.0,
+      "salary_lpa": 20.82,
+      "tier": "MNC/IT Services",
+      "company": "HCL Technologies",
+      "job_title": "HCL Technologies - GCP Architect"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.46,
+      "tier": "Startup/Other",
+      "company": "Gojek",
+      "job_title": "Principal Data Modeler"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.67,
+      "tier": "Startup/Other",
+      "company": "Anicalls",
+      "job_title": "Azure Data Lead Analyst"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.43,
+      "tier": "Startup/Other",
+      "company": "Genpact",
+      "job_title": "Hyperion Consultant"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 9.64,
+      "tier": "Startup/Other",
+      "company": "Trinkerr",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 18.71,
+      "tier": "Startup/Other",
+      "company": "Technopride Ltd.",
+      "job_title": "Data Engineer role"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.66,
+      "tier": "Startup/Other",
+      "company": "Ashkom Media India Private Limited",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 14.33,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Data Engineering Application Developer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 16.02,
+      "tier": "Startup/Other",
+      "company": "Xpheno",
+      "job_title": "Big data Senior Engineer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.81,
+      "tier": "Startup/Other",
+      "company": "Symphoni HR Private Limited",
+      "job_title": "Azure Data Factory Developer"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 26.04,
+      "tier": "Startup/Other",
+      "company": "Telamon HR Solutions",
+      "job_title": "Big Data Java engineer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 12.93,
+      "tier": "Product",
+      "company": "Microsoft",
+      "job_title": "Senior ML Engineer"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 17.06,
+      "tier": "Startup/Other",
+      "company": "Gojek",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.74,
+      "tier": "Startup/Other",
+      "company": "Weir Minerals",
+      "job_title": "IIoT Networking/System Administrator"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.65,
+      "tier": "Startup/Other",
+      "company": "CRESCENDO GLOBAL LEADERSHIP HIRING INDIA PRIVATE L IMITED",
+      "job_title": "Big Data Engineer - Spark, Hadoop and Scala - 4 -10 years"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.73,
+      "tier": "Startup/Other",
+      "company": "open data fabric",
+      "job_title": "Python - Backend Developers"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 5.98,
+      "tier": "Startup/Other",
+      "company": "TekFortune Inc.",
+      "job_title": "Golang Developer"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 18.0,
+      "tier": "Startup/Other",
+      "company": "Genpact",
+      "job_title": "AWS Cloud Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 21.31,
+      "tier": "Product",
+      "company": "Microsoft",
+      "job_title": "Senior Data & Applied Scientist"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 12.24,
+      "tier": "Startup/Other",
+      "company": "Yo HR Consultancy",
+      "job_title": "Data Engineer - Azure / PySpark"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 19.17,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Snowflake Data Warehouse Application Lead"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 20.09,
+      "tier": "Product",
+      "company": "Solarwinds India Pvt Ltd",
+      "job_title": "Software Engineer (back end/full stack)"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 22.42,
+      "tier": "Product",
+      "company": "Microsoft",
+      "job_title": "Senior Data Engineer"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 12.2,
+      "tier": "Startup/Other",
+      "company": "GreatLearning",
+      "job_title": "Senior Data Scientist - AI"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.73,
+      "tier": "Startup/Other",
+      "company": "Serving Skill",
+      "job_title": "Business Analyst - SQL/Cognos"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 14.98,
+      "tier": "Startup/Other",
+      "company": "Thomson Reuters",
+      "job_title": "Senior Data Analyst"
+    },
+    {
+      "exp_mid": 11.5,
+      "salary_lpa": 19.65,
+      "tier": "Startup/Other",
+      "company": "Genpact",
+      "job_title": "Oracle EPM Architect (Pcmcs/Planning & Essbase)"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 22.55,
+      "tier": "Startup/Other",
+      "company": "OpsMx",
+      "job_title": "Data Scientist - NLP with Python"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.16,
+      "tier": "Startup/Other",
+      "company": "Delhivery",
+      "job_title": "Lead Data Management"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.54,
+      "tier": "Startup/Other",
+      "company": "jobpoint india",
+      "job_title": "Data Engineer ( Python + SQL + ETL )"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 23.59,
+      "tier": "Startup/Other",
+      "company": "BENISON TECHNOLOGIES",
+      "job_title": "Lead Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.47,
+      "tier": "Startup/Other",
+      "company": "SKILLVENTORY",
+      "job_title": "Data Analyst with leading Indian MNC"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.48,
+      "tier": "Startup/Other",
+      "company": "jupiter",
+      "job_title": "Senior Software Engineer , Data Science"
+    },
+    {
+      "exp_mid": 10.0,
+      "salary_lpa": 22.02,
+      "tier": "Startup/Other",
+      "company": "Candid Recruitments",
+      "job_title": "Data Plane Development Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 20.94,
+      "tier": "Product",
+      "company": "Intuitive.Cloud",
+      "job_title": "Sr. Cloud Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.83,
+      "tier": "Startup/Other",
+      "company": "ACZ Global Private Limited",
+      "job_title": "Data Engineer - ETL"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 18.78,
+      "tier": "Product",
+      "company": "Meesho",
+      "job_title": "Senior Product Manager"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 9.55,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Research , web Analytics"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 24.87,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Microsoft Azure Data Services Application Developer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 22.8,
+      "tier": "Product",
+      "company": "Target",
+      "job_title": "Audit Analyst"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.56,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Digital Marketing Analytics"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 7.13,
+      "tier": "Startup/Other",
+      "company": "Tookitaki Holding PTE LTD",
+      "job_title": "Applied Data Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 12.67,
+      "tier": "Startup/Other",
+      "company": "Optum",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.42,
+      "tier": "Startup/Other",
+      "company": "KWALEE INDIA PRIVATE LIMITED",
+      "job_title": "Product Manager"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.73,
+      "tier": "Startup/Other",
+      "company": "Huquo Consulting Pvt. Ltd",
+      "job_title": "Python Developer - Django/ Flask"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.83,
+      "tier": "Startup/Other",
+      "company": "BCD Travel",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 16.03,
+      "tier": "Startup/Other",
+      "company": "Exploro Solutions",
+      "job_title": "Data Engineer - ETL/Data Storage/Data Modeling"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 14.61,
+      "tier": "Startup/Other",
+      "company": "CHANGE LEADERS CONSULTING",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 26.69,
+      "tier": "Consulting",
+      "company": "EXL",
+      "job_title": "Delivery Manager, AI Solutions (NLP)"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 12.38,
+      "tier": "Startup/Other",
+      "company": "Thomson Reuters",
+      "job_title": "Sr. Data Engineer"
+    },
+    {
+      "exp_mid": 11.0,
+      "salary_lpa": 22.35,
+      "tier": "Startup/Other",
+      "company": "Symmetrical Global Search Pvt Ltd",
+      "job_title": "Data Scientist Predictive Modelling"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.73,
+      "tier": "Startup/Other",
+      "company": "krtrimaIQ AI Solutions",
+      "job_title": "Sr Data Scientist"
+    },
+    {
+      "exp_mid": 13.0,
+      "salary_lpa": 32.05,
+      "tier": "Product",
+      "company": "Swiggy",
+      "job_title": "AVP/VP - Search & Personalization"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 12.68,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Data Engineer: Enterprise Content Management"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 16.33,
+      "tier": "Startup/Other",
+      "company": "Vision Beyond Resources India Private Limited",
+      "job_title": "Business Analyst - Utilities"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.76,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Analyst-Clinical Data Management (CDM)"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.98,
+      "tier": "Startup/Other",
+      "company": "Eli Lilly and Company",
+      "job_title": "Clinical Data Analyst"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.02,
+      "tier": "Startup/Other",
+      "company": "PayPal",
+      "job_title": "AdTech Product Manager"
+    },
+    {
+      "exp_mid": 12.5,
+      "salary_lpa": 25.29,
+      "tier": "Startup/Other",
+      "company": "Ericsson Global Services",
+      "job_title": "Senior Data Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.92,
+      "tier": "Startup/Other",
+      "company": "IHS Markit",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.79,
+      "tier": "Startup/Other",
+      "company": "ALLEGIS GLOBAL SOLUTION",
+      "job_title": "Program Analyst"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 24.89,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Data Engineer: Big Data"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 16.37,
+      "tier": "Startup/Other",
+      "company": "Morgan Stanley",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.98,
+      "tier": "Startup/Other",
+      "company": "Collabera Technologies Pvt. Ltd.",
+      "job_title": "IT Projects Business Analyst"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.58,
+      "tier": "Startup/Other",
+      "company": "Automation Anywhere",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.82,
+      "tier": "Startup/Other",
+      "company": "Seven Consultancy",
+      "job_title": "Sr. Business Analyst"
+    },
+    {
+      "exp_mid": 12.0,
+      "salary_lpa": 22.94,
+      "tier": "Startup/Other",
+      "company": "Talpro",
+      "job_title": "Development Manager - Big Data/ Business Intelligence"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 24.89,
+      "tier": "Startup/Other",
+      "company": "Anlage Infotech (I) Pvt. Ltd.",
+      "job_title": "Data Engineer - IT Giant Bangalore/Immediate -15 days Joiner only"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.79,
+      "tier": "Startup/Other",
+      "company": "Nikharv Consultancy",
+      "job_title": "Data Science"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 18.86,
+      "tier": "Startup/Other",
+      "company": "Focus Edumatics",
+      "job_title": "Team Lead AI"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 14.87,
+      "tier": "Product",
+      "company": "Microsoft",
+      "job_title": "Data & Applied Scientist II"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 27.07,
+      "tier": "Startup/Other",
+      "company": "DMI Pvt. Ltd",
+      "job_title": "Technical/ Solution AIML Architect- Immediate/15 DAYS"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.51,
+      "tier": "MNC/IT Services",
+      "company": "Oracle",
+      "job_title": "Java( Microservices/Docker/Kafka) :Product development : Bangalore"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 15.94,
+      "tier": "MNC/IT Services",
+      "company": "Tech Mahindra",
+      "job_title": "Azure Data Engineer"
+    },
+    {
+      "exp_mid": 12.0,
+      "salary_lpa": 22.72,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Application Architect: Google Cloud Migration"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.34,
+      "tier": "Startup/Other",
+      "company": "Tecqubes Technologies",
+      "job_title": "System Analyst - C++"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.48,
+      "tier": "Startup/Other",
+      "company": "Seven Consultancy (HR Solution)",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.28,
+      "tier": "Startup/Other",
+      "company": "Visa",
+      "job_title": "Staff Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 20.52,
+      "tier": "Product",
+      "company": "Amazon",
+      "job_title": "Business Intelligence Engineer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.01,
+      "tier": "Startup/Other",
+      "company": "DataToBiz",
+      "job_title": "Data Engineer - ETL/Python/Airflow"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.86,
+      "tier": "Startup/Other",
+      "company": "Tarento Technologies Pvt Ltd",
+      "job_title": "Python Developer"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 20.1,
+      "tier": "Product",
+      "company": "Snaphunt",
+      "job_title": "ETL Data Engineer"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 14.62,
+      "tier": "Startup/Other",
+      "company": "Gallop Research",
+      "job_title": "AWS / Big Data Specialist - Hadoop/ PySpark/ Scala"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 14.49,
+      "tier": "Product",
+      "company": "CRED",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 7.0,
+      "tier": "Startup/Other",
+      "company": "Digit Insurance",
+      "job_title": "API Integration Engineer"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.77,
+      "tier": "Startup/Other",
+      "company": "Yo HR Consultancy",
+      "job_title": "Data Scientist - Machine Learning/ Deep Learning"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.92,
+      "tier": "Startup/Other",
+      "company": "SPRP",
+      "job_title": "Data Engineers | Permanent with leading product based MNC | Bangalore"
+    },
+    {
+      "exp_mid": 18.5,
+      "salary_lpa": 24.67,
+      "tier": "Startup/Other",
+      "company": "Incline Infotech",
+      "job_title": "Associate Director \u2013 Data and Insights Practice"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 13.96,
+      "tier": "Product",
+      "company": "Swiggy",
+      "job_title": "Data Scientist II- Merchandise & Discovery"
+    },
+    {
+      "exp_mid": 20.5,
+      "salary_lpa": 23.15,
+      "tier": "MNC/IT Services",
+      "company": "Hexaware Technologies",
+      "job_title": "Data Science Manager (NLP/NLG) MLOps Azure Databricks MLFlow Azure AI"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 7.25,
+      "tier": "Startup/Other",
+      "company": "COMPUTACENTER",
+      "job_title": "Technical Analyst"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 20.43,
+      "tier": "Startup/Other",
+      "company": "Xebia IT Architects",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 18.55,
+      "tier": "Startup/Other",
+      "company": "Multi Recruit",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.39,
+      "tier": "Startup/Other",
+      "company": "EDU ANGELS INDIA PVT LTD",
+      "job_title": "Sr. Data Engineer (Pyspark AWS)"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 19.63,
+      "tier": "Startup/Other",
+      "company": "Parallel Wireless",
+      "job_title": "Data Engineer - AIML"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.93,
+      "tier": "Startup/Other",
+      "company": "HyringNinja",
+      "job_title": "Data Engineer (Azure)"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.99,
+      "tier": "Startup/Other",
+      "company": "PayU",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 12.97,
+      "tier": "Startup/Other",
+      "company": "KWALEE INDIA PRIVATE LIMITED",
+      "job_title": "Analyst (Research)"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 17.14,
+      "tier": "Startup/Other",
+      "company": "Motlay Innovation Pvt Ltd",
+      "job_title": "SDE- Level 3- (Python Backend Developer)"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 12.45,
+      "tier": "Startup/Other",
+      "company": "ZOLVE INNOVATIONS PRIVATE LIMITED",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.94,
+      "tier": "Startup/Other",
+      "company": "Jumbotail Technologies",
+      "job_title": "Product Manager"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 18.48,
+      "tier": "Startup/Other",
+      "company": "TEKION",
+      "job_title": "Database Architect"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 19.13,
+      "tier": "Startup/Other",
+      "company": "JobsTV India",
+      "job_title": "Gcp Data Engineer"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 16.99,
+      "tier": "Startup/Other",
+      "company": "Hotstar",
+      "job_title": "Engineering Manager - Data Engineering"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.08,
+      "tier": "Startup/Other",
+      "company": "Millennium Management LLC",
+      "job_title": "Python Developer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.9,
+      "tier": "Startup/Other",
+      "company": "Dell Technologies",
+      "job_title": "Advisor, Product Management-IT (PDM)"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.7,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Procurement management"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 12.37,
+      "tier": "MNC/IT Services",
+      "company": "Virtusa",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 1.5,
+      "salary_lpa": 8.24,
+      "tier": "Startup/Other",
+      "company": "Gojek",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 11.49,
+      "tier": "Startup/Other",
+      "company": "Seven Consultancy (HR Solution)",
+      "job_title": "Junior AI Data Scientist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.11,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Application Hosting Operations"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.57,
+      "tier": "Startup/Other",
+      "company": "Master Mind Consultancy",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 14.8,
+      "tier": "Startup/Other",
+      "company": "First Meridian Business Services Private Limited",
+      "job_title": "Sr. Consultant/Managing Consultant-IT- Permanent Hiring."
+    },
+    {
+      "exp_mid": 15.0,
+      "salary_lpa": 25.46,
+      "tier": "Startup/Other",
+      "company": "Ness",
+      "job_title": "Looking For Senior Data Engineering Manager-Bangalore"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.27,
+      "tier": "Startup/Other",
+      "company": "Bloom Consulting Services",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 16.73,
+      "tier": "Startup/Other",
+      "company": "Sutherland",
+      "job_title": "Hiring For Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.17,
+      "tier": "Startup/Other",
+      "company": "CRESCENDO GLOBAL LEADERSHIP HIRING INDIA PRIVATE L IMITED",
+      "job_title": "Azure Data Engineer - Python & Pyspark - 3 To 11 years"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 6.21,
+      "tier": "Startup/Other",
+      "company": "DXC Technology",
+      "job_title": "Associate Professional Business Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.77,
+      "tier": "Startup/Other",
+      "company": "experionglobal",
+      "job_title": "Associate Data Scientist"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 8.43,
+      "tier": "Product",
+      "company": "Myntra",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 25.78,
+      "tier": "Product",
+      "company": "Target",
+      "job_title": "Principal Data Scientist - Digital Marketing"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.01,
+      "tier": "Startup/Other",
+      "company": "Huquo Consulting Pvt. Ltd",
+      "job_title": "Data Quality Analyst - Informatica"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.29,
+      "tier": "Startup/Other",
+      "company": "Refinitiv",
+      "job_title": "Senior Analyst"
+    },
+    {
+      "exp_mid": 12.5,
+      "salary_lpa": 15.2,
+      "tier": "MNC/IT Services",
+      "company": "Sapiens International",
+      "job_title": "Sr Data Engineer"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.21,
+      "tier": "Startup/Other",
+      "company": "Skill Lync",
+      "job_title": "Data Analyst I - Analytics Reporting"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.95,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Analyst-Data Visualization"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.82,
+      "tier": "Startup/Other",
+      "company": "Orcapod Consulting Services Private Limited",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 14.38,
+      "tier": "Startup/Other",
+      "company": "Anicalls",
+      "job_title": "Sr. Tableau Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 19.67,
+      "tier": "Startup/Other",
+      "company": "Micron Tech",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 10.0,
+      "salary_lpa": 25.57,
+      "tier": "Startup/Other",
+      "company": "Mobile Premier League",
+      "job_title": "Principal Data Scientist"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.8,
+      "tier": "Startup/Other",
+      "company": "Growel Softech Pvt. Ltd.",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 9.5,
+      "salary_lpa": 22.87,
+      "tier": "Startup/Other",
+      "company": "Rakuten, Inc.",
+      "job_title": "Principal Data Scientist"
+    },
+    {
+      "exp_mid": 12.5,
+      "salary_lpa": 22.85,
+      "tier": "Startup/Other",
+      "company": "Krazy Mantra HR Solutions Pvt. Ltd",
+      "job_title": "Data Scientist Rapidminer (PAN India)"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 22.7,
+      "tier": "Startup/Other",
+      "company": "DataCore Software",
+      "job_title": "Sales Operations Analyst"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.57,
+      "tier": "Startup/Other",
+      "company": "Genpact",
+      "job_title": "Big Data Developer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 12.52,
+      "tier": "Product",
+      "company": "Flipkart",
+      "job_title": "Senior Business Analyst"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 17.18,
+      "tier": "Startup/Other",
+      "company": "Vision Excel Career Solutions",
+      "job_title": "Bigdata Developer / Lead / Architect"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.71,
+      "tier": "Startup/Other",
+      "company": "NAVIKENZ INDIA PRIVATE LIMITED",
+      "job_title": "Databricks Developer"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 16.21,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Senior Consultant_big Data/java"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.98,
+      "tier": "Startup/Other",
+      "company": "CARDINAL HEALTH INTERNATIONAL INDIA PRIVATE LIMITE",
+      "job_title": "Cloud Engineer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 14.74,
+      "tier": "Startup/Other",
+      "company": "Job Delights Consultancy",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 14.5,
+      "salary_lpa": 23.97,
+      "tier": "Startup/Other",
+      "company": "Suyati Technologies Pvt Ltd",
+      "job_title": "Data Science Practice Manager"
+    },
+    {
+      "exp_mid": 2.5,
+      "salary_lpa": 6.8,
+      "tier": "Startup/Other",
+      "company": "Balbix",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.81,
+      "tier": "Startup/Other",
+      "company": "DataPMI Technologies LLP",
+      "job_title": "Data Scientist"
+    },
+    {
+      "exp_mid": 10.0,
+      "salary_lpa": 26.25,
+      "tier": "Startup/Other",
+      "company": "Micello India Pvt Ltd",
+      "job_title": "Lead Python Data Scientist"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.62,
+      "tier": "Startup/Other",
+      "company": "SKILLVENTORY",
+      "job_title": "Data Analyst"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.24,
+      "tier": "Startup/Other",
+      "company": "VEGA Intellisoft Private Limited",
+      "job_title": "OBIEE - Business Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.8,
+      "tier": "Startup/Other",
+      "company": "Anicalls",
+      "job_title": "Sr. SAP Hana Data Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.86,
+      "tier": "Startup/Other",
+      "company": "Visa",
+      "job_title": "Lead Data Engineer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.04,
+      "tier": "Startup/Other",
+      "company": "Carbynetech India",
+      "job_title": "Azure Data Enginner"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 9.11,
+      "tier": "Startup/Other",
+      "company": "Sony Corporation of America",
+      "job_title": "Security Analyst- IAM"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.19,
+      "tier": "Startup/Other",
+      "company": "Thomson Reuters",
+      "job_title": "Senior Data Analyst"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 19.79,
+      "tier": "Consulting",
+      "company": "PwC",
+      "job_title": "Data & Analytics Tech - Big Data - Senior Manager"
+    },
+    {
+      "exp_mid": 10.5,
+      "salary_lpa": 21.92,
+      "tier": "Startup/Other",
+      "company": "Nike India",
+      "job_title": "Lead Software Engineer"
+    },
+    {
+      "exp_mid": 13.0,
+      "salary_lpa": 29.44,
+      "tier": "Product",
+      "company": "Microsoft",
+      "job_title": "Senior Data Scientist"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 19.56,
+      "tier": "Startup/Other",
+      "company": "JobsTV India",
+      "job_title": "AWS Data Engineer"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 10.39,
+      "tier": "Startup/Other",
+      "company": "Meritfox India",
+      "job_title": "Senior Analyst & Associate Alteryx and Tableau"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.37,
+      "tier": "Startup/Other",
+      "company": "Aidetic",
+      "job_title": "Data Engineer (ML OPs)"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 15.87,
+      "tier": "Startup/Other",
+      "company": "Encora",
+      "job_title": "Madison Logic - SQL Developer"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 7.09,
+      "tier": "Startup/Other",
+      "company": "Interactions",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 28.15,
+      "tier": "Startup/Other",
+      "company": "Wells Fargo",
+      "job_title": "Senior Software Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.31,
+      "tier": "Startup/Other",
+      "company": "IQVIA RDS India Pvt Ltd",
+      "job_title": "Big Data Developer"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 15.71,
+      "tier": "Product",
+      "company": "Flipkart",
+      "job_title": "Senior Analyst"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 17.35,
+      "tier": "Startup/Other",
+      "company": "BizViz Technologies Pvt. Ltd.",
+      "job_title": "BDB Big Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 18.68,
+      "tier": "Startup/Other",
+      "company": "PayPal",
+      "job_title": "Machine Learning Engineer 2"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.39,
+      "tier": "Startup/Other",
+      "company": "E&Y",
+      "job_title": "Big Data Engineer - Manager"
+    },
+    {
+      "exp_mid": 0.5,
+      "salary_lpa": 4.15,
+      "tier": "Startup/Other",
+      "company": "TresVista Financial",
+      "job_title": "Analyst - Process Support Services"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 12.21,
+      "tier": "Startup/Other",
+      "company": "Aspire Recruitment Solutions",
+      "job_title": "AWS Big Data (Software Engineer, Senior Software Engineer )"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 27.02,
+      "tier": "Startup/Other",
+      "company": "Unknown",
+      "job_title": "Lead Data Scientist"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.97,
+      "tier": "Product",
+      "company": "Walmart",
+      "job_title": "Senior Analyst - Talent Acquisition"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 15.99,
+      "tier": "Startup/Other",
+      "company": "Jobs Accuracy",
+      "job_title": "Senior Data Analyst"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.5,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Digital Marketing Analytics"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 15.55,
+      "tier": "Startup/Other",
+      "company": "K12 Techno Services",
+      "job_title": "MIS Data Analyst (Sales Analytics) - Bangalore"
+    },
+    {
+      "exp_mid": 12.0,
+      "salary_lpa": 21.03,
+      "tier": "Startup/Other",
+      "company": "Zetwerk Manufacturing Businesses",
+      "job_title": "Product Manager - 2"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 18.96,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Senior Analyst-Record To Report"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.92,
+      "tier": "Startup/Other",
+      "company": "SKYONNTECHNOLOGIES PRIVATE LIMITED",
+      "job_title": "AWS Data Engineer"
+    },
+    {
+      "exp_mid": 3.0,
+      "salary_lpa": 6.93,
+      "tier": "Startup/Other",
+      "company": "Educational Initiatives",
+      "job_title": "Data Analyst-Business"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 17.99,
+      "tier": "Startup/Other",
+      "company": "INTRAEDGE TECHNOLOGIES PRIVATE LIMITED",
+      "job_title": "Big Data Engineer"
+    },
+    {
+      "exp_mid": 3.5,
+      "salary_lpa": 10.33,
+      "tier": "Startup/Other",
+      "company": "Century Real Estate Holdings Pvt. Ltd",
+      "job_title": "MIS Analyst - CRM"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 9.3,
+      "tier": "Startup/Other",
+      "company": "Shell",
+      "job_title": "Senior Analyst - Market Risk"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.82,
+      "tier": "Consulting",
+      "company": "Accenture",
+      "job_title": "Clinical Data Management Scientist"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.69,
+      "tier": "Startup/Other",
+      "company": "Multi Recruit",
+      "job_title": "SDE2 Data Scientist"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.19,
+      "tier": "Startup/Other",
+      "company": "Winvest technology consultancy services Pvt Ltd",
+      "job_title": "Data Engineers"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 11.69,
+      "tier": "Startup/Other",
+      "company": "Tesco",
+      "job_title": "Sr. Analyst - Applied Data Scientist"
+    },
+    {
+      "exp_mid": 5.5,
+      "salary_lpa": 16.71,
+      "tier": "Startup/Other",
+      "company": "IDC TECHNOLOGIES SOLUTIONS INDIA PVT LIMITED",
+      "job_title": "Python developer & Data Analyst"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 12.36,
+      "tier": "Startup/Other",
+      "company": "CareerXperts Consulting",
+      "job_title": "ML Engineer/Statistician/Data Scientist Pre - IPO Unicorn"
+    },
+    {
+      "exp_mid": 8.0,
+      "salary_lpa": 15.69,
+      "tier": "Startup/Other",
+      "company": "Conviva",
+      "job_title": "Senior Data Analyst"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 13.66,
+      "tier": "Startup/Other",
+      "company": "Shell",
+      "job_title": "Application Support Analyst- Workday"
+    },
+    {
+      "exp_mid": 8.5,
+      "salary_lpa": 19.47,
+      "tier": "Startup/Other",
+      "company": "Kyndryl",
+      "job_title": "Infrastructure Architect - Network Communication Services"
+    },
+    {
+      "exp_mid": 2.0,
+      "salary_lpa": 6.2,
+      "tier": "Startup/Other",
+      "company": "SLICER SOLUTIONS (P) LTD.",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.02,
+      "tier": "Startup/Other",
+      "company": "MINDERA INDIA PRIVATE LIMITED",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 17.31,
+      "tier": "Startup/Other",
+      "company": "Edge Executive Search Pvt. Ltd.",
+      "job_title": "Data Scientist- Leading Information Services"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 16.34,
+      "tier": "Startup/Other",
+      "company": "Luxoft",
+      "job_title": "Market Data Engineer (Capital Markets)"
+    },
+    {
+      "exp_mid": 6.0,
+      "salary_lpa": 20.99,
+      "tier": "Product",
+      "company": "Microsoft",
+      "job_title": "Senior Machine Learning Engineer"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 13.39,
+      "tier": "Startup/Other",
+      "company": "LendingKart",
+      "job_title": "Lead Product Designer"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 10.95,
+      "tier": "Startup/Other",
+      "company": "GREAT LAKES E-LEARNING SERVICES PRIVATE LIMITED",
+      "job_title": "Senior Data Scientist"
+    },
+    {
+      "exp_mid": 12.5,
+      "salary_lpa": 28.91,
+      "tier": "MNC/IT Services",
+      "company": "IBM",
+      "job_title": "Data Engineer: Big Data"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 17.24,
+      "tier": "Startup/Other",
+      "company": "EPAM Systems",
+      "job_title": "Senior Software Engineer - Big Data"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 12.34,
+      "tier": "Product",
+      "company": "Flipkart",
+      "job_title": "Data Engineer II"
+    },
+    {
+      "exp_mid": 9.0,
+      "salary_lpa": 24.88,
+      "tier": "Startup/Other",
+      "company": "Orcapod Consulting Services Private Limited",
+      "job_title": "Immediate Opening For Data Engineer"
+    },
+    {
+      "exp_mid": 4.0,
+      "salary_lpa": 10.84,
+      "tier": "Startup/Other",
+      "company": "Cardinal Health",
+      "job_title": "Analyst, Data Management and Governance"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 11.25,
+      "tier": "Startup/Other",
+      "company": "Hitachi Solutions, Ltd",
+      "job_title": "Azure Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 14.89,
+      "tier": "Startup/Other",
+      "company": "UST",
+      "job_title": "Data Engineer"
+    },
+    {
+      "exp_mid": 7.0,
+      "salary_lpa": 15.25,
+      "tier": "Startup/Other",
+      "company": "Symphoni HR Private Limited",
+      "job_title": "Data Integration Engineer (Data Engineer)"
+    },
+    {
+      "exp_mid": 5.0,
+      "salary_lpa": 9.57,
+      "tier": "Startup/Other",
+      "company": "Benchire",
+      "job_title": "Research Analyst/Market Analytics Role - Automotive/Autonomous Cars"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 15.36,
+      "tier": "Startup/Other",
+      "company": "DISYS INDIA PRIVATE LIMITED",
+      "job_title": "Azure Python Data Engineer"
+    },
+    {
+      "exp_mid": 6.5,
+      "salary_lpa": 15.78,
+      "tier": "Startup/Other",
+      "company": "TEKISHUB CONSULTING SERVICES PRIVATE LIMITED",
+      "job_title": "Data Engineer-AWS"
+    },
+    {
+      "exp_mid": 7.5,
+      "salary_lpa": 15.18,
+      "tier": "Startup/Other",
+      "company": "Genpact",
+      "job_title": "Genpact Hiring For AWS Developers - PAN India"
+    },
+    {
+      "exp_mid": 1.0,
+      "salary_lpa": 4.24,
+      "tier": "Startup/Other",
+      "company": "Cresc Datasoft Private Limited",
+      "job_title": "Analyst Supply Chain Management"
+    },
+    {
+      "exp_mid": 4.5,
+      "salary_lpa": 12.59,
+      "tier": "Startup/Other",
+      "company": "Core Edge Solutions",
+      "job_title": "Python Backend Engineer"
+    }
+  ]
+}
