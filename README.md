@@ -108,17 +108,37 @@
   <tr>
     <td align="center" width="50%">
       <img src="assets/command_center.png" width="100%" alt="Command Center" style="border-radius:12px;"/>
-      <br/><sub><b>🎛️ Command Center</b> — Telemetry &amp; Data Trust Layer</sub>
+      <br/><sub><b>🎛️ Command Center</b> — Hero Telemetry &amp; Data Trust Layer</sub>
     </td>
     <td align="center" width="50%">
       <img src="assets/salary.png" width="100%" alt="Salary Intelligence" style="border-radius:12px;"/>
-      <br/><sub><b>💰 Salary Intelligence</b> — Experiential Pay Estimator</sub>
+      <br/><sub><b>💰 Salary Intelligence</b> — Interactive Pay Simulator</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/skill_radar.png" width="100%" alt="Skill Demand Radar" style="border-radius:12px;"/>
+      <br/><sub><b>🎯 Skill Demand Radar</b> — Category-Segmented Prevalence</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/war_room.png" width="100%" alt="Company War Room" style="border-radius:12px;"/>
+      <br/><sub><b>🏢 Company War Room</b> — 1,500+ Employer Matrix</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/synergy.png" width="100%" alt="Skill Synergy Map" style="border-radius:12px;"/>
+      <br/><sub><b>🔗 Skill Synergy Map</b> — Co-occurrence Correlation</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/pathfinder.png" width="100%" alt="Career Pathfinder" style="border-radius:12px;"/>
+      <br/><sub><b>🗺️ Career Pathfinder</b> — Auto-Generated ROI Roadmap</sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="assets/pathfinder.png" width="70%" alt="Career Pathfinder" style="border-radius:12px;"/>
-      <br/><sub><b>🗺️ Career Pathfinder</b> — Auto-Generated ROI Roadmap</sub>
+      <img src="assets/market_pulse.png" width="70%" alt="Market Pulse Report" style="border-radius:12px;"/>
+      <br/><sub><b>📰 Market Pulse Report</b> — Data Freshness &amp; 2019 vs 2024 Comparison</sub>
     </td>
   </tr>
 </table>
