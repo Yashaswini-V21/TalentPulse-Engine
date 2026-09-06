@@ -12,8 +12,8 @@
 
 <!-- ── STATUS BADGES ─────────────────────────────────────────────────── -->
 
-<a href="https://github.com/Yashaswini-V21/TalentPulse-Engine" target="_blank">
-  <img src="https://img.shields.io/badge/🚀%20Status-Portfolio%20Ready-7C3AED?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+<a href="https://talentpulse-engine.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/🚀%20Live%20Demo-View%20Dashboard-7C3AED?style=for-the-badge&logoColor=white" alt="Live Demo"/>
 </a>
 &nbsp;
 <a href="https://github.com/Yashaswini-V21/TalentPulse-Engine" target="_blank">
@@ -45,7 +45,7 @@
 <!-- ── HERO SCREENSHOT ────────────────────────────────────────────────── -->
 
 <div align="center">
-  <a href="#" target="_blank">
+  <a href="https://talentpulse-engine.vercel.app" target="_blank">
     <img src="assets/command_center.png" alt="TalentPulse — Command Center Dashboard" width="92%" style="border-radius:18px; box-shadow:0 24px 64px rgba(0,0,0,0.55);"/>
   </a>
 </div>
