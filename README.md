@@ -54,9 +54,9 @@
 
 <!-- ── STATS ROW ──────────────────────────────────────────────────────── -->
 
-| &nbsp;&nbsp;📋 **5,347**&nbsp;&nbsp; | &nbsp;&nbsp;🧠 **40+**&nbsp;&nbsp; | &nbsp;&nbsp;🏢 **1,500+**&nbsp;&nbsp; | &nbsp;&nbsp;🛡️ **0.6%**&nbsp;&nbsp; | &nbsp;&nbsp;📊 **7**&nbsp;&nbsp; | &nbsp;&nbsp;💰 **15.3%**&nbsp;&nbsp; |
+| &nbsp;&nbsp;📋 **5,347**&nbsp;&nbsp; | &nbsp;&nbsp;🧠 **40+**&nbsp;&nbsp; | &nbsp;&nbsp;🏢 **1,500+**&nbsp;&nbsp; | &nbsp;&nbsp;🛡️ **0.6%**&nbsp;&nbsp; | &nbsp;&nbsp;📊 **7**&nbsp;&nbsp; | &nbsp;&nbsp;💰 **99.4%**&nbsp;&nbsp; |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Job descriptions | Canonical tech skills | Hiring companies | Actually disclosed salaries | Premium modules | Spark + Python ROI jump |
+| Job descriptions | Canonical tech skills | Hiring companies | Actually disclosed salaries | Premium modules | Transparent salary modeling |
 
 <br/>
 
@@ -77,7 +77,7 @@
 ## 🔍 Key Findings (from real data)
 
 - **Cloud Multiplier (Model-Based):** The salary estimation model assigns 1.15×–1.25× premiums for Cloud tools (Snowflake, Databricks, dbt), sourced from AmbitionBox/Glassdoor benchmarks. Note: 0 of 33 disclosed salaries in this dataset included cloud skills, so this is a model assumption.
-- **The "Dirty Data" Truth:** Only **33 out of 5,347 (0.6%)** job descriptions possessed explicitly disclosed salaries, proving most online trackers rely massively on imputation.
+- **The "Dirty Data" Truth:** Only **33 out of 5,347 (0.6%)** job descriptions possessed explicitly disclosed salaries, showing that salary disclosure is extremely sparse in this dataset.
 - **Product Tier Premia (Model-Based):** The model applies a 1.25× multiplier for Product-tier companies vs 1.10× for Consulting-tier (based on external benchmarks). 0 of 33 disclosed salaries came from either tier, so this is an assumption, not an observed finding.
 - **Top Tech Target:** General programming capability (**Python**) combined with heavy data manipulation (**SQL**) retains absolute market dominance across 31% of total listings.
 
