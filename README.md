@@ -66,7 +66,7 @@
 
 ## 📌 Business Questions Answered
 
-- What specific data skills drive the highest salary bumps in the market?
+- What skill patterns are associated with higher modeled compensation in this dataset?
 - How much of the job market data online is actually factual versus blindly modeled?
 - What is the precise tech-stack difference between Product-tier and Consulting-tier companies?
 - Which technologies have the strongest co-occurrence frequency (e.g. AWS + Snowflake)?
@@ -153,7 +153,7 @@
 | 🎯 Skill Demand Radar | Visual prevalence mapping mapping DBs vs Analytics vs Programming toolkits |
 | 💰 Salary Intelligence | Simulator projecting lifetime LPA trajectory across 5 experience tiers |
 | 🏢 Company War Room | Target searching across 1,500+ active hiring entities instantly |
-| 🔗 Skill Synergy Map | Co-occurrence correlation proving which software combinations yield maximum rate bumps |
+| 🔗 Skill Synergy Map | Co-occurrence patterns showing which software combinations appear together most frequently |
 | 🗺️ Career Pathfinder | Checkbox assessment that calculates the single missing tool driving the most ROI |
 | 📰 Market Pulse | Automated, export-ready executive briefings |
 
