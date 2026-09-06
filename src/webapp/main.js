@@ -173,9 +173,9 @@ function renderOverview(container, d) {
         </div>
         
         <div style="text-align: right; border-left: 1px solid var(--border-light); padding-left: 3rem;">
-          <div class="stat-label mb-2">CURRENT MARKET AVERAGE</div>
+          <div class="stat-label mb-2">MODEL-ESTIMATED AVG</div>
           <div class="stat-value gradient" style="font-size: 4rem; line-height: 1;">₹${(d.stats.avg_salary).toFixed(1)}L</div>
-          <div class="badge badge-live mt-3" style="padding: 0.4rem 1rem;">Updated 2024 Market Sync</div>
+          <div class="badge badge-warning mt-3" style="padding: 0.4rem 1rem;">Includes Estimated Salaries</div>
         </div>
       </div>
 
@@ -208,7 +208,7 @@ function renderOverview(container, d) {
         
         <div class="insight-box purple mt-3" style="border-left-width: 2px;">
           <h4>🎯 Analyst Career Multiplier</h4>
-          <p>Product companies pay average salary ₹${d.tier_summary.find(t => t.tier === 'Product')?.avg_salary || '15.6'}L. Targeting Product over Consulting adds roughly 15.3% immediate compensation increment.</p>
+          <p>In this dataset, Product-tier companies show an average estimated salary of ₹${d.tier_summary.find(t => t.tier === 'Product')?.avg_salary || '15.6'}L — approximately 15.3% higher than Consulting-tier for comparable skill profiles.</p>
         </div>
       </div>
 
@@ -419,7 +419,7 @@ function renderSalary(container, d) {
 
         <div class="insight-box cyan mt-3" style="border-left-width: 2px;">
           <h4>⚡ Cloud & Big Data Influence</h4>
-          <p>Proficiency in dbt, Databricks, or Snowflake shifts base expectation upwards by avg <strong>₹2.5L to ₹4.8L LPA</strong>.</p>
+          <p>In this dataset, proficiency in dbt, Databricks, or Snowflake was associated with an estimated salary uplift of <strong>₹2.5L to ₹4.8L LPA</strong>.</p>
         </div>
       </div>
     </div>

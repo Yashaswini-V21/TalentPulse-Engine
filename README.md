@@ -76,12 +76,12 @@
 
 ## 🔍 Key Findings (from real data)
 
-- **Cloud Multiplier effect:** Proficiency in Cloud Database architectures (Snowflake, Databricks) pushes mid-level bounds up significantly by an average of **₹2.5L to ₹4.8L LPA**.
-- **The "Dirty Data" Truth:** Only **33 out of 5,347 (0.6%)** job descriptions possessed explicitly disclosed salaries, proving most online trackers rely massively on imputation blocks.
-- **Product Tier Premia:** Product companies pay roughly **15.3% higher** average start compensation than Consulting firms for identical toolkits.
+- **Cloud Multiplier effect:** In this dataset, proficiency in Cloud Database architectures (Snowflake, Databricks) was associated with an estimated salary uplift of **₹2.5L to ₹4.8L LPA**.
+- **The "Dirty Data" Truth:** Only **33 out of 5,347 (0.6%)** job descriptions possessed explicitly disclosed salaries, proving most online trackers rely massively on imputation.
+- **Product Tier Premia:** Within this dataset, Product-tier companies showed approximately **15.3% higher** estimated starting compensation than Consulting-tier firms for comparable skill profiles.
 - **Top Tech Target:** General programming capability (**Python**) combined with heavy data manipulation (**SQL**) retains absolute market dominance across 31% of total listings.
 
-> **Data Honesty:** Every metric displayed traces strictly to the custom python NLP pipeline. Estimated salaries are heavily audited and never disguised as observed data, ensuring flawless portfolio transparency.
+> **Data Honesty:** Every metric displayed traces strictly to the custom Python NLP pipeline. Only 0.6% of salaries are observed (disclosed); all remaining salary figures are model-estimated and clearly labelled. Estimated salaries are never disguised as observed data.
 
 ---
 
