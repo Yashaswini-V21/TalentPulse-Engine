@@ -76,12 +76,12 @@
 
 ## 🔍 Key Findings (from real data)
 
-- **Cloud Multiplier effect:** In this dataset, proficiency in Cloud Database architectures (Snowflake, Databricks) was associated with an estimated salary uplift of **₹2.5L to ₹4.8L LPA**.
+- **Cloud Multiplier (Model-Based):** The salary estimation model assigns 1.15×–1.25× premiums for Cloud tools (Snowflake, Databricks, dbt), sourced from AmbitionBox/Glassdoor benchmarks. Note: 0 of 33 disclosed salaries in this dataset included cloud skills, so this is a model assumption.
 - **The "Dirty Data" Truth:** Only **33 out of 5,347 (0.6%)** job descriptions possessed explicitly disclosed salaries, proving most online trackers rely massively on imputation.
-- **Product Tier Premia:** Within this dataset, Product-tier companies showed approximately **15.3% higher** estimated starting compensation than Consulting-tier firms for comparable skill profiles.
+- **Product Tier Premia (Model-Based):** The model applies a 1.25× multiplier for Product-tier companies vs 1.10× for Consulting-tier (based on external benchmarks). 0 of 33 disclosed salaries came from either tier, so this is an assumption, not an observed finding.
 - **Top Tech Target:** General programming capability (**Python**) combined with heavy data manipulation (**SQL**) retains absolute market dominance across 31% of total listings.
 
-> **Data Honesty:** Every metric displayed traces strictly to the custom Python NLP pipeline. Only 0.6% of salaries are observed (disclosed); all remaining salary figures are model-estimated and clearly labelled. Estimated salaries are never disguised as observed data.
+> **Data Honesty:** Every metric displayed traces strictly to the custom Python NLP pipeline. Only 0.6% of salaries are observed (disclosed); all remaining salary figures are model-estimated using external benchmarks and clearly labelled. Salary model parameters (skill premiums, tier multipliers) are transparent assumptions, not disguised as observed data.
 
 ---
 

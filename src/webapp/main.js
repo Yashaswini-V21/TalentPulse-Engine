@@ -208,7 +208,7 @@ function renderOverview(container, d) {
         
         <div class="insight-box purple mt-3" style="border-left-width: 2px;">
           <h4>🎯 Analyst Career Multiplier</h4>
-          <p>In this dataset, Product-tier companies show an average estimated salary of ₹${d.tier_summary.find(t => t.tier === 'Product')?.avg_salary || '15.6'}L — approximately 15.3% higher than Consulting-tier for comparable skill profiles.</p>
+          <p>The salary estimation model applies a 1.25× multiplier for Product-tier companies vs 1.10× for Consulting-tier (based on AmbitionBox/Glassdoor benchmarks). Note: 0 of 33 disclosed salaries came from either tier, so this is a model assumption, not an observed finding.</p>
         </div>
       </div>
 
@@ -419,7 +419,7 @@ function renderSalary(container, d) {
 
         <div class="insight-box cyan mt-3" style="border-left-width: 2px;">
           <h4>⚡ Cloud & Big Data Influence</h4>
-          <p>In this dataset, proficiency in dbt, Databricks, or Snowflake was associated with an estimated salary uplift of <strong>₹2.5L to ₹4.8L LPA</strong>.</p>
+          <p>The estimation model assigns 1.15×–1.25× skill premiums for cloud tools (Snowflake, Databricks, dbt). These are based on external market benchmarks, not observed salaries in this dataset (0 of 33 disclosed salaries included cloud skills).</p>
         </div>
       </div>
     </div>
